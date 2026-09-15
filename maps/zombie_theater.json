@@ -2,16 +2,17 @@
  "zone": "zombie_theater",
  "glb": "zombie_theater.glb",
  "stats": {
-  "surfaces": 9141,
-  "tris": 338378,
+  "surfaces": 8283,
+  "tris": 333728,
   "surface_errors": 0,
   "smodels": 3280,
   "smodel_unresolved": 37,
   "smodel_nomesh": 9,
+  "surface_nodraw": 858,
   "unique_models": 236,
-  "materials": 1090,
-  "textures": 396,
-  "bytes": 29947404,
+  "materials": 1089,
+  "textures": 395,
+  "bytes": 29664876,
   "mins": [
    -8192.0,
    -11232.0,
@@ -23,7 +24,7 @@
    5344.0
   ],
   "xmodel_material_unresolved": 0,
-  "textured_materials": 1077,
+  "textured_materials": 1076,
   "missing_color_maps": 7
  },
  "materials": [
@@ -927,7 +928,6 @@
   "mc/t5_foliage_tree_aspen_leaf01",
   "mc/t5_foliage_tree_standard_gobo",
   "mc/zombie_door_wood2_noscorch",
-  "wc/caulk_shadow",
   "wc/chalk_weapon_bowie_knife",
   "wc/chalk_weapon_explosives",
   "wc/chalk_weapon_ithaca",

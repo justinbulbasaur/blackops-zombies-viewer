@@ -4,16 +4,17 @@
    "name": "zombie_pentagon",
    "glb": "zombie_pentagon.opt.glb",
    "stats": {
-    "surfaces": 6591,
-    "tris": 181318,
+    "surfaces": 6558,
+    "tris": 180345,
     "surface_errors": 0,
     "smodels": 8133,
     "smodel_unresolved": 1,
     "smodel_nomesh": 4,
+    "surface_nodraw": 33,
     "unique_models": 360,
-    "materials": 868,
-    "textures": 536,
-    "bytes": 27237408,
+    "materials": 867,
+    "textures": 535,
+    "bytes": 27176800,
     "mins": [
      -129624.0,
      -130384.0,
@@ -25,7 +26,7 @@
      75104.0
     ],
     "xmodel_material_unresolved": 0,
-    "textured_materials": 856,
+    "textured_materials": 855,
     "missing_color_maps": 11
    },
    "parts": [
@@ -37,16 +38,17 @@
    "name": "zombie_theater",
    "glb": "zombie_theater.opt.glb",
    "stats": {
-    "surfaces": 9141,
-    "tris": 338378,
+    "surfaces": 8283,
+    "tris": 333728,
     "surface_errors": 0,
     "smodels": 3280,
     "smodel_unresolved": 37,
     "smodel_nomesh": 9,
+    "surface_nodraw": 858,
     "unique_models": 236,
-    "materials": 1090,
-    "textures": 396,
-    "bytes": 29947404,
+    "materials": 1089,
+    "textures": 395,
+    "bytes": 29664876,
     "mins": [
      -8192.0,
      -11232.0,
@@ -58,7 +60,7 @@
      5344.0
     ],
     "xmodel_material_unresolved": 0,
-    "textured_materials": 1077,
+    "textured_materials": 1076,
     "missing_color_maps": 7
    }
   },

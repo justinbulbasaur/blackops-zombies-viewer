@@ -2,16 +2,17 @@
  "zone": "zombie_pentagon",
  "glb": "zombie_pentagon.glb",
  "stats": {
-  "surfaces": 6591,
-  "tris": 181318,
+  "surfaces": 6558,
+  "tris": 180345,
   "surface_errors": 0,
   "smodels": 8133,
   "smodel_unresolved": 1,
   "smodel_nomesh": 4,
+  "surface_nodraw": 33,
   "unique_models": 360,
-  "materials": 868,
-  "textures": 536,
-  "bytes": 27237408,
+  "materials": 867,
+  "textures": 535,
+  "bytes": 27176800,
   "mins": [
    -129624.0,
    -130384.0,
@@ -23,7 +24,7 @@
    75104.0
   ],
   "xmodel_material_unresolved": 0,
-  "textured_materials": 856,
+  "textured_materials": 855,
   "missing_color_maps": 11
  },
  "materials": [
@@ -678,7 +679,6 @@
   "mc/t5_foliage_tree_standard_gobo",
   "wc/$opaque",
   "wc/ao_decal_ramp",
-  "wc/caulk_shadow",
   "wc/ch_hotspot01",
   "wc/chalk_weapon_bowie_knife",
   "wc/chalk_weapon_explosives",
