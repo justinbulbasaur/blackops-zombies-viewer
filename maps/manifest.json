@@ -14,7 +14,7 @@
     "unique_models": 360,
     "materials": 867,
     "textures": 535,
-    "bytes": 27176800,
+    "bytes": 27177124,
     "mins": [
      -129624.0,
      -130384.0,
@@ -27,7 +27,11 @@
     ],
     "xmodel_material_unresolved": 0,
     "textured_materials": 855,
-    "missing_color_maps": 11
+    "missing_color_maps": 11,
+    "blend_converted": {
+     "mul": 7,
+     "add": 12
+    }
    },
    "parts": [
     "zombie_pentagon.opt.glb.part0",
@@ -48,7 +52,7 @@
     "unique_models": 236,
     "materials": 1089,
     "textures": 395,
-    "bytes": 29664876,
+    "bytes": 29665308,
     "mins": [
      -8192.0,
      -11232.0,
@@ -61,7 +65,11 @@
     ],
     "xmodel_material_unresolved": 0,
     "textured_materials": 1076,
-    "missing_color_maps": 7
+    "missing_color_maps": 7,
+    "blend_converted": {
+     "mul": 13,
+     "add": 14
+    }
    }
   },
   {
@@ -77,7 +85,7 @@
     "unique_models": 305,
     "materials": 696,
     "textures": 503,
-    "bytes": 20751916,
+    "bytes": 20752236,
     "mins": [
      -18784.0,
      -17816.0,
@@ -90,7 +98,11 @@
     ],
     "xmodel_material_unresolved": 0,
     "textured_materials": 691,
-    "missing_color_maps": 5
+    "missing_color_maps": 5,
+    "blend_converted": {
+     "mul": 21,
+     "add": 1
+    }
    },
    "parts": [
     "zombietron.opt.glb.part0",

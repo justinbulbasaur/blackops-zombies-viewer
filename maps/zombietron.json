@@ -11,7 +11,7 @@
   "unique_models": 305,
   "materials": 696,
   "textures": 503,
-  "bytes": 20751916,
+  "bytes": 20752236,
   "mins": [
    -18784.0,
    -17816.0,
@@ -24,7 +24,11 @@
   ],
   "xmodel_material_unresolved": 0,
   "textured_materials": 691,
-  "missing_color_maps": 5
+  "missing_color_maps": 5,
+  "blend_converted": {
+   "mul": 21,
+   "add": 1
+  }
  },
  "materials": [
   "*114n_79n(wc/rus_metal_panel02:wc/rus_dec_snow_grunge)",

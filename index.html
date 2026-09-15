@@ -87,6 +87,11 @@ let current = null;
 const qs = new URLSearchParams(location.search);
 window.__setCam = (x, y, z, yawDeg, pitchDeg, fov) => { camera.position.set(x, y, z); yaw = yawDeg * Math.PI / 180; pitch = pitchDeg * Math.PI / 180; if (fov) { camera.fov = fov; camera.updateProjectionMatrix(); } };
 window.__ready = false;
+window.__pick = (px, py) => {   // debug: object under viewport pixel -> {node, material, distance}
+  const rc = new THREE.Raycaster(); rc.setFromCamera(new THREE.Vector2(px / innerWidth * 2 - 1, -(py / innerHeight) * 2 + 1), camera);
+  const hits = current ? rc.intersectObject(current, true) : [];
+  return hits.slice(0, 3).map(h => ({ node: h.object.name, material: h.object.material?.name, hasMap: !!h.object.material?.map, distance: +h.distance.toFixed(2) }));
+};
 document.getElementById('load').onclick = async () => {
   if (current) { scene.remove(current); current = null; }
   const entry = manifest.maps.find(m => m.name === sel.value);
