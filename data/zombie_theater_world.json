@@ -1,0 +1,7724 @@
+{
+ "name": "maps/zombie_theater.d3dbsp",
+ "primaryLightCount": 90,
+ "lightTypes": {
+  "none": 1,
+  "dir": 1,
+  "spot": 76,
+  "omni": 12
+ },
+ "lightDefs": [
+  {
+   "name": "white_light",
+   "samplerState": 114,
+   "lmapLookupStart": 0,
+   "image": {
+    "name": "whitesquare",
+    "format": 134,
+    "w": 8,
+    "h": 8,
+    "mipmap": 4,
+    "streamed": true
+   }
+  }
+ ],
+ "path": {
+  "nodeCount": 1568,
+  "nodesLoaded": 1696,
+  "chainNodeCount": 0,
+  "visBytes": 307132,
+  "nodeTreeCount": 689,
+  "links": 15978,
+  "nodeTypes": {
+   "1": 1460,
+   "18": 54,
+   "17": 54
+  }
+ },
+ "clipmap": {
+  "planeCount": 12771,
+  "numStaticModels": 2679,
+  "numMaterials": 1024,
+  "numBrushSides": 16605,
+  "numNodes": 5453,
+  "numLeafs": 5899,
+  "leafbrushNodesCount": 11576,
+  "numLeafBrushes": 17569,
+  "vertCount": 43512,
+  "numBrushVerts": 75977,
+  "nuinds": 81282,
+  "triCount": 65791,
+  "borderCount": 10854,
+  "partitionCount": 10426,
+  "aabbTreeCount": 24512,
+  "numSubModels": 445,
+  "numBrushes": 9310,
+  "numClusters": 1,
+  "clusterBytes": 336,
+  "dynEntCount": [
+   398,
+   0,
+   142,
+   0
+  ],
+  "num_constraints": 13,
+  "max_ropes": 38
+ },
+ "mapEnts": {
+  "numEntityChars": 319095,
+  "entities": 2794
+ },
+ "destructibles": [],
+ "primaryLights": [
+  {
+   "type": 0,
+   "typeName": "none",
+   "canUseShadowMap": 0,
+   "exponent": 0,
+   "priority": 0,
+   "cullDist": 0,
+   "color": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "dir": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "radius": 0.0,
+   "cosHalfFovOuter": 0.0,
+   "cosHalfFovInner": 0.0,
+   "cosHalfFovExpanded": 0.0,
+   "rotationLimit": 0.0,
+   "translationLimit": 0.0,
+   "mipDistance": 0.0,
+   "diffuseColor": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "specularColor": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "attenuation": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "falloff": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "angle": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "aAbB": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cookieControl0": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cookieControl1": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cookieControl2": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "defName": null
+  },
+  {
+   "type": 1,
+   "typeName": "dir",
+   "canUseShadowMap": 0,
+   "exponent": 0,
+   "priority": 0,
+   "cullDist": 0,
+   "color": [
+    12.999999046325684,
+    12.048779487609863,
+    9.829268455505371
+   ],
+   "dir": [
+    0.17899030447006226,
+    -0.6325382590293884,
+    0.753563404083252
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "radius": 0.0,
+   "cosHalfFovOuter": 0.0,
+   "cosHalfFovInner": 0.0,
+   "cosHalfFovExpanded": 0.0,
+   "rotationLimit": 0.0,
+   "translationLimit": 0.0,
+   "mipDistance": 0.0,
+   "diffuseColor": [
+    12.999999046325684,
+    12.048779487609863,
+    9.829268455505371,
+    0.0
+   ],
+   "specularColor": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "attenuation": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "falloff": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "angle": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "aAbB": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cookieControl0": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cookieControl1": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cookieControl2": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "defName": null
+  },
+  {
+   "type": 2,
+   "typeName": "spot",
+   "canUseShadowMap": 1,
+   "exponent": 0,
+   "priority": 0,
+   "cullDist": 1000,
+   "color": [
+    10.08665657043457,
+    6.931157112121582,
+    4.442071437835693
+   ],
+   "dir": [
+    -0.7125929594039917,
+    -0.49438267946243286,
+    0.49779221415519714
+   ],
+   "origin": [
+    -2800.5,
+    236.5,
+    133.0
+   ],
+   "radius": 200.0,
+   "cosHalfFovOuter": 0.834817111492157,
+   "cosHalfFovInner": 0.8761128187179565,
+   "cosHalfFovExpanded": 0.834817111492157,
+   "rotationLimit": 1.0,
+   "translationLimit": 0.0,
+   "mipDistance": 200.0,
+   "diffuseColor": [
+    10.08665657043457,
+    6.931157112121582,
+    4.442071437835693,
+    0.0
+   ],
+   "specularColor": [
+    10.08665657043457,
+    6.931157112121582,
+    4.442071437835693,
+    0.0
+   ],
+   "attenuation": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "falloff": [
+    0.0,
+    200.0,
+    0.0,
+    0.0
+   ],
+   "angle": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "aAbB": [
+    0.52734375,
+    0.70703125,
+    0.52734375,
+    0.70703125
+   ],
+   "cookieControl0": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "cookieControl1": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cookieControl2": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "defName": "white_light"
+  },
+  {
+   "type": 2,
+   "typeName": "spot",
+   "canUseShadowMap": 1,
+   "exponent": 0,
+   "priority": 0,
+   "cullDist": 1000,
+   "color": [
+    5.906191349029541,
+    4.507861137390137,
+    2.3455097675323486
+   ],
+   "dir": [
+    -0.03555028885602951,
+    0.08887572586536407,
+    0.9954080581665039
+   ],
+   "origin": [
+    -1701.0,
+    1258.0,
+    264.0
+   ],
+   "radius": 200.0,
+   "cosHalfFovOuter": 0.7071067690849304,
+   "cosHalfFovInner": 0.7803300619125366,
+   "cosHalfFovExpanded": 0.7071067690849304,
+   "rotationLimit": 1.0,
+   "translationLimit": 0.0,
+   "mipDistance": 200.0,
+   "diffuseColor": [
+    5.906191349029541,
+    4.507861137390137,
+    2.3455097675323486,
+    0.0
+   ],
+   "specularColor": [
+    5.906191349029541,
+    4.507861137390137,
+    2.3455097675323486,
+    0.0
+   ],
+   "attenuation": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "falloff": [
+    0.0,
+    200.0,
+    0.0,
+    0.0
+   ],
+   "angle": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "aAbB": [
+    0.75,
+    1.0,
+    0.75,
+    1.0
+   ],
+   "cookieControl0": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "cookieControl1": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cookieControl2": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "defName": "white_light"
+  },
+  {
+   "type": 2,
+   "typeName": "spot",
+   "canUseShadowMap": 1,
+   "exponent": 0,
+   "priority": 0,
+   "cullDist": 1000,
+   "color": [
+    2.553133010864258,
+    2.152942419052124,
+    1.6257933378219604
+   ],
+   "dir": [
+    0.4648570716381073,
+    -0.3439473509788513,
+    -0.8158481121063232
+   ],
+   "origin": [
+    -1628.0,
+    877.2999877929688,
+    171.5
+   ],
+   "radius": 200.0,
+   "cosHalfFovOuter": 0.6427876353263855,
+   "cosHalfFovInner": 0.7320907115936279,
+   "cosHalfFovExpanded": 0.6427876353263855,
+   "rotationLimit": 1.0,
+   "translationLimit": 0.0,
+   "mipDistance": 200.0,
+   "diffuseColor": [
+    2.553133010864258,
+    2.152942419052124,
+    1.6257933378219604,
+    0.0
+   ],
+   "specularColor": [
+    2.553133010864258,
+    2.152942419052124,
+    1.6257933378219604,
+    0.0
+   ],
+   "attenuation": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "falloff": [
+    0.0,
+    200.0,
+    0.0,
+    0.0
+   ],
+   "angle": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "aAbB": [
+    0.75,
+    1.0,
+    0.75,
+    1.0
+   ],
+   "cookieControl0": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "cookieControl1": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cookieControl2": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "defName": "white_light"
+  },
+  {
+   "type": 2,
+   "typeName": "spot",
+   "canUseShadowMap": 1,
+   "exponent": 0,
+   "priority": 0,
+   "cullDist": 1000,
+   "color": [
+    9.449906349182129,
+    7.212577819824219,
+    3.7528154850006104
+   ],
+   "dir": [
+    -0.14057353138923645,
+    0.10933497548103333,
+    0.9840147495269775
+   ],
+   "origin": [
+    -1409.0,
+    1514.0,
+    270.0
+   ],
+   "radius": 200.0,
+   "cosHalfFovOuter": 0.7071067690849304,
+   "cosHalfFovInner": 0.7803300619125366,
+   "cosHalfFovExpanded": 0.7071067690849304,
+   "rotationLimit": 1.0,
+   "translationLimit": 0.0,
+   "mipDistance": 200.0,
+   "diffuseColor": [
+    9.449906349182129,
+    7.212577819824219,
+    3.7528154850006104,
+    0.0
+   ],
+   "specularColor": [
+    9.449906349182129,
+    7.212577819824219,
+    3.7528154850006104,
+    0.0
+   ],
+   "attenuation": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "falloff": [
+    0.0,
+    200.0,
+    0.0,
+    0.0
+   ],
+   "angle": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "aAbB": [
+    0.75,
+    1.0,
+    0.75,
+    1.0
+   ],
+   "cookieControl0": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "cookieControl1": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cookieControl2": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "defName": "white_light"
+  },
+  {
+   "type": 2,
+   "typeName": "spot",
+   "canUseShadowMap": 1,
+   "exponent": 0,
+   "priority": 0,
+   "cullDist": 1000,
+   "color": [
+    1.964501976966858,
+    1.5210509300231934,
+    0.5003167390823364
+   ],
+   "dir": [
+    -0.8152461647987366,
+    -0.5188596248626709,
+    0.2572125494480133
+   ],
+   "origin": [
+    -1133.800048828125,
+    -1370.5,
+    266.79998779296875
+   ],
+   "radius": 550.0,
+   "cosHalfFovOuter": 0.7071067690849304,
+   "cosHalfFovInner": 0.7803300619125366,
+   "cosHalfFovExpanded": 0.7071067690849304,
+   "rotationLimit": 1.0,
+   "translationLimit": 0.0,
+   "mipDistance": 550.0,
+   "diffuseColor": [
+    1.964501976966858,
+    1.5210509300231934,
+    0.5003167390823364,
+    0.0
+   ],
+   "specularColor": [
+    1.964501976966858,
+    1.5210509300231934,
+    0.5003167390823364,
+    0.0
+   ],
+   "attenuation": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "falloff": [
+    0.0,
+    550.0,
+    0.0,
+    0.0
+   ],
+   "angle": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "aAbB": [
+    0.75,
+    1.0,
+    0.75,
+    1.0
+   ],
+   "cookieControl0": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "cookieControl1": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cookieControl2": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "defName": "white_light"
+  },
+  {
+   "type": 2,
+   "typeName": "spot",
+   "canUseShadowMap": 1,
+   "exponent": 0,
+   "priority": 0,
+   "cullDist": 1000,
+   "color": [
+    7.087430000305176,
+    5.409433364868164,
+    2.8146116733551025
+   ],
+   "dir": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "origin": [
+    -1005.0,
+    1376.0,
+    284.0
+   ],
+   "radius": 550.0,
+   "cosHalfFovOuter": 0.4999999701976776,
+   "cosHalfFovInner": 0.625,
+   "cosHalfFovExpanded": 0.4999999701976776,
+   "rotationLimit": 1.0,
+   "translationLimit": 0.0,
+   "mipDistance": 550.0,
+   "diffuseColor": [
+    7.087430000305176,
+    5.409433364868164,
+    2.8146116733551025,
+    0.0
+   ],
+   "specularColor": [
+    7.087430000305176,
+    5.409433364868164,
+    2.8146116733551025,
+    0.0
+   ],
+   "attenuation": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "falloff": [
+    0.0,
+    550.0,
+    0.0,
+    0.0
+   ],
+   "angle": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "aAbB": [
+    0.5,
+    1.0,
+    0.5,
+    1.0
+   ],
+   "cookieControl0": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "cookieControl1": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cookieControl2": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "defName": "white_light"
+  },
+  {
+   "type": 2,
+   "typeName": "spot",
+   "canUseShadowMap": 1,
+   "exponent": 0,
+   "priority": 0,
+   "cullDist": 1000,
+   "color": [
+    1.627603530883789,
+    8.240228652954102,
+    5.613414764404297
+   ],
+   "dir": [
+    -0.008153678849339485,
+    -0.9974667429924011,
+    0.07066521793603897
+   ],
+   "origin": [
+    -915.0,
+    598.0,
+    -2.5
+   ],
+   "radius": 600.0,
+   "cosHalfFovOuter": 0.7071067690849304,
+   "cosHalfFovInner": 0.7803300619125366,
+   "cosHalfFovExpanded": 0.7071067690849304,
+   "rotationLimit": 1.0,
+   "translationLimit": 0.0,
+   "mipDistance": 600.0,
+   "diffuseColor": [
+    1.627603530883789,
+    8.240228652954102,
+    5.613414764404297,
+    0.0
+   ],
+   "specularColor": [
+    1.627603530883789,
+    8.240228652954102,
+    5.613414764404297,
+    0.0
+   ],
+   "attenuation": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "falloff": [
+    0.0,
+    600.0,
+    0.0,
+    0.0
+   ],
+   "angle": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "aAbB": [
+    0.75,
+    1.0,
+    0.75,
+    1.0
+   ],
+   "cookieControl0": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "cookieControl1": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cookieControl2": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "defName": "white_light"
+  },
+  {
+   "type": 2,
+   "typeName": "spot",
+   "canUseShadowMap": 1,
+   "exponent": 1,
+   "priority": 0,
+   "cullDist": 1000,
+   "color": [
+    7.717495918273926,
+    4.620647430419922,
+    2.0012669563293457
+   ],
+   "dir": [
+    0.9309877753257751,
+    0.36420124769210815,
+    -0.024883294478058815
+   ],
+   "origin": [
+    -878.0,
+    1190.5999755859375,
+    234.10000610351562
+   ],
+   "radius": 800.0,
+   "cosHalfFovOuter": 0.9537169337272644,
+   "cosHalfFovInner": 0.9652876853942871,
+   "cosHalfFovExpanded": 0.9537169337272644,
+   "rotationLimit": 1.0,
+   "translationLimit": 0.0,
+   "mipDistance": 800.0,
+   "diffuseColor": [
+    7.717495918273926,
+    4.620647430419922,
+    2.0012669563293457,
+    0.0
+   ],
+   "specularColor": [
+    7.717495918273926,
+    4.620647430419922,
+    2.0012669563293457,
+    0.0
+   ],
+   "attenuation": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "falloff": [
+    0.0,
+    800.0,
+    0.0,
+    0.0
+   ],
+   "angle": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "aAbB": [
+    0.75,
+    1.0,
+    0.75,
+    1.0
+   ],
+   "cookieControl0": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "cookieControl1": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cookieControl2": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "defName": "white_light"
+  },
+  {
+   "type": 2,
+   "typeName": "spot",
+   "canUseShadowMap": 1,
+   "exponent": 0,
+   "priority": 0,
+   "cullDist": 1000,
+   "color": [
+    0.22740891575813293,
+    4.7249531745910645,
+    3.6062889099121094
+   ],
+   "dir": [
+    0.9642943739891052,
+    0.024803901091217995,
+    0.26366889476776123
+   ],
+   "origin": [
+    -794.0999755859375,
+    -26.5,
+    193.60000610351562
+   ],
+   "radius": 800.0,
+   "cosHalfFovOuter": 0.4999999701976776,
+   "cosHalfFovInner": 0.625,
+   "cosHalfFovExpanded": 0.4999999701976776,
+   "rotationLimit": 1.0,
+   "translationLimit": 0.0,
+   "mipDistance": 800.0,
+   "diffuseColor": [
+    0.22740891575813293,
+    4.7249531745910645,
+    3.6062889099121094,
+    0.0
+   ],
+   "specularColor": [
+    0.22740891575813293,
+    4.7249531745910645,
+    3.6062889099121094,
+    0.0
+   ],
+   "attenuation": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "falloff": [
+    0.0,
+    800.0,
+    0.0,
+    0.0
+   ],
+   "angle": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "aAbB": [
+    0.75,
+    1.0,
+    0.75,
+    1.0
+   ],
+   "cookieControl0": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "cookieControl1": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cookieControl2": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "defName": "white_light"
+  },
+  {
+   "type": 2,
+   "typeName": "spot",
+   "canUseShadowMap": 1,
+   "exponent": 0,
+   "priority": 0,
+   "cullDist": 1000,
+   "color": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "dir": [
+    -0.8548176884651184,
+    -0.005342631135135889,
+    0.5189010500907898
+   ],
+   "origin": [
+    -758.0,
+    253.6999969482422,
+    244.5
+   ],
+   "radius": 400.0,
+   "cosHalfFovOuter": 0.4999999701976776,
+   "cosHalfFovInner": 0.625,
+   "cosHalfFovExpanded": 0.4999999701976776,
+   "rotationLimit": 1.0,
+   "translationLimit": 0.0,
+   "mipDistance": 400.0,
+   "diffuseColor": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "specularColor": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "attenuation": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "falloff": [
+    0.0,
+    400.0,
+    0.0,
+    0.0
+   ],
+   "angle": [
+    0.0,
+    1.5707963705062866,
+    0.0,
+    1.0
+   ],
+   "aAbB": [
+    0.75,
+    1.0,
+    0.19921875,
+    0.5
+   ],
+   "cookieControl0": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "cookieControl1": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cookieControl2": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "defName": "white_light"
+  },
+  {
+   "type": 2,
+   "typeName": "spot",
+   "canUseShadowMap": 1,
+   "exponent": 0,
+   "priority": 0,
+   "cullDist": 1000,
+   "color": [
+    8.0,
+    6.9052605628967285,
+    5.1007771492004395
+   ],
+   "dir": [
+    -0.5717763304710388,
+    -0.8004868626594543,
+    -0.17970113456249237
+   ],
+   "origin": [
+    -737.0,
+    -1048.0,
+    113.0
+   ],
+   "radius": 400.0,
+   "cosHalfFovOuter": 0.7071067690849304,
+   "cosHalfFovInner": 0.7803300619125366,
+   "cosHalfFovExpanded": 0.7071067690849304,
+   "rotationLimit": 1.0,
+   "translationLimit": 0.0,
+   "mipDistance": 400.0,
+   "diffuseColor": [
+    8.0,
+    6.9052605628967285,
+    5.1007771492004395,
+    0.0
+   ],
+   "specularColor": [
+    8.0,
+    6.9052605628967285,
+    5.1007771492004395,
+    0.0
+   ],
+   "attenuation": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "falloff": [
+    0.0,
+    400.0,
+    0.0,
+    0.0
+   ],
+   "angle": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "aAbB": [
+    0.75,
+    1.0,
+    0.75,
+    1.0
+   ],
+   "cookieControl0": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "cookieControl1": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cookieControl2": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "defName": "white_light"
+  },
+  {
+   "type": 2,
+   "typeName": "spot",
+   "canUseShadowMap": 1,
+   "exponent": 1,
+   "priority": 0,
+   "cullDist": 1000,
+   "color": [
+    10.0,
+    8.631575584411621,
+    6.37597131729126
+   ],
+   "dir": [
+    -0.8864813446998596,
+    -0.4627625346183777,
+    0.0012801304692402482
+   ],
+   "origin": [
+    -736.0,
+    -736.7000122070312,
+    379.1000061035156
+   ],
+   "radius": 800.0,
+   "cosHalfFovOuter": 0.834817111492157,
+   "cosHalfFovInner": 0.8761128187179565,
+   "cosHalfFovExpanded": 0.834817111492157,
+   "rotationLimit": 1.0,
+   "translationLimit": 0.0,
+   "mipDistance": 800.0,
+   "diffuseColor": [
+    10.0,
+    8.631575584411621,
+    6.37597131729126,
+    0.0
+   ],
+   "specularColor": [
+    10.0,
+    8.631575584411621,
+    6.37597131729126,
+    0.0
+   ],
+   "attenuation": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "falloff": [
+    0.0,
+    800.0,
+    800.0,
+    400.0
+   ],
+   "angle": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "aAbB": [
+    0.52734375,
+    0.70703125,
+    0.52734375,
+    0.70703125
+   ],
+   "cookieControl0": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "cookieControl1": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cookieControl2": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "defName": "white_light"
+  },
+  {
+   "type": 2,
+   "typeName": "spot",
+   "canUseShadowMap": 1,
+   "exponent": 0,
+   "priority": 0,
+   "cullDist": 1000,
+   "color": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "dir": [
+    -0.8548175692558289,
+    -0.005342528223991394,
+    0.5189010500907898
+   ],
+   "origin": [
+    -732.0,
+    901.7000122070312,
+    368.5
+   ],
+   "radius": 400.0,
+   "cosHalfFovOuter": 0.4999999701976776,
+   "cosHalfFovInner": 0.625,
+   "cosHalfFovExpanded": 0.4999999701976776,
+   "rotationLimit": 1.0,
+   "translationLimit": 0.0,
+   "mipDistance": 400.0,
+   "diffuseColor": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "specularColor": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "attenuation": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "falloff": [
+    0.0,
+    400.0,
+    0.0,
+    0.0
+   ],
+   "angle": [
+    0.0,
+    1.5707963705062866,
+    0.0,
+    1.0
+   ],
+   "aAbB": [
+    0.75,
+    1.0,
+    0.19921875,
+    0.5
+   ],
+   "cookieControl0": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "cookieControl1": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cookieControl2": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "defName": "white_light"
+  },
+  {
+   "type": 2,
+   "typeName": "spot",
+   "canUseShadowMap": 1,
+   "exponent": 0,
+   "priority": 0,
+   "cullDist": 1000,
+   "color": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "dir": [
+    -0.8548176884651184,
+    -0.005342529155313969,
+    0.5189010500907898
+   ],
+   "origin": [
+    -730.0,
+    571.7000122070312,
+    244.5
+   ],
+   "radius": 400.0,
+   "cosHalfFovOuter": 0.4999999701976776,
+   "cosHalfFovInner": 0.625,
+   "cosHalfFovExpanded": 0.4999999701976776,
+   "rotationLimit": 1.0,
+   "translationLimit": 0.0,
+   "mipDistance": 400.0,
+   "diffuseColor": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "specularColor": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "attenuation": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "falloff": [
+    0.0,
+    400.0,
+    0.0,
+    0.0
+   ],
+   "angle": [
+    0.0,
+    1.5707963705062866,
+    0.0,
+    1.0
+   ],
+   "aAbB": [
+    0.75,
+    1.0,
+    0.19921875,
+    0.5
+   ],
+   "cookieControl0": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "cookieControl1": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cookieControl2": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "defName": "white_light"
+  },
+  {
+   "type": 2,
+   "typeName": "spot",
+   "canUseShadowMap": 1,
+   "exponent": 0,
+   "priority": 0,
+   "cullDist": 1000,
+   "color": [
+    5.0,
+    4.9112548828125,
+    4.3568315505981445
+   ],
+   "dir": [
+    0.16104844212532043,
+    -0.3757797181606293,
+    0.9126078486442566
+   ],
+   "origin": [
+    -553.0,
+    -704.0,
+    160.0
+   ],
+   "radius": 150.0,
+   "cosHalfFovOuter": 0.7071067690849304,
+   "cosHalfFovInner": 0.7803300619125366,
+   "cosHalfFovExpanded": 0.7071067690849304,
+   "rotationLimit": 1.0,
+   "translationLimit": 0.0,
+   "mipDistance": 150.0,
+   "diffuseColor": [
+    5.0,
+    4.9112548828125,
+    4.3568315505981445,
+    0.0
+   ],
+   "specularColor": [
+    5.0,
+    4.9112548828125,
+    4.3568315505981445,
+    0.0
+   ],
+   "attenuation": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "falloff": [
+    0.0,
+    150.0,
+    0.0,
+    0.0
+   ],
+   "angle": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "aAbB": [
+    0.75,
+    1.0,
+    0.75,
+    1.0
+   ],
+   "cookieControl0": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "cookieControl1": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cookieControl2": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "defName": "white_light"
+  },
+  {
+   "type": 2,
+   "typeName": "spot",
+   "canUseShadowMap": 1,
+   "exponent": 0,
+   "priority": 255,
+   "cullDist": 1000,
+   "color": [
+    8.0,
+    8.0,
+    8.0
+   ],
+   "dir": [
+    -0.27554047107696533,
+    0.5572728514671326,
+    0.7832779288291931
+   ],
+   "origin": [
+    -532.0,
+    1357.0,
+    189.5
+   ],
+   "radius": 230.0,
+   "cosHalfFovOuter": 0.9063077569007874,
+   "cosHalfFovInner": 0.9297308325767517,
+   "cosHalfFovExpanded": 0.9063077569007874,
+   "rotationLimit": 1.0,
+   "translationLimit": 0.0,
+   "mipDistance": 230.0,
+   "diffuseColor": [
+    8.0,
+    8.0,
+    8.0,
+    0.0
+   ],
+   "specularColor": [
+    8.0,
+    8.0,
+    8.0,
+    0.0
+   ],
+   "attenuation": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "falloff": [
+    0.0,
+    230.0,
+    0.0,
+    0.0
+   ],
+   "angle": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "aAbB": [
+    0.5,
+    1.0,
+    0.5,
+    1.0
+   ],
+   "cookieControl0": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "cookieControl1": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cookieControl2": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "defName": "white_light"
+  },
+  {
+   "type": 2,
+   "typeName": "spot",
+   "canUseShadowMap": 1,
+   "exponent": 0,
+   "priority": 0,
+   "cullDist": 1000,
+   "color": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "dir": [
+    0.7369744777679443,
+    -0.0036097075790166855,
+    0.6759108901023865
+   ],
+   "origin": [
+    -504.5,
+    900.7999877929688,
+    813.0
+   ],
+   "radius": 550.0,
+   "cosHalfFovOuter": 0.9351131319999695,
+   "cosHalfFovInner": 0.9513348340988159,
+   "cosHalfFovExpanded": 0.9351131319999695,
+   "rotationLimit": 1.0,
+   "translationLimit": 0.0,
+   "mipDistance": 550.0,
+   "diffuseColor": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "specularColor": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "attenuation": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "falloff": [
+    0.0,
+    550.0,
+    0.0,
+    0.0
+   ],
+   "angle": [
+    0.0,
+    1.5707963705062866,
+    0.0,
+    0.0
+   ],
+   "aAbB": [
+    0.52734375,
+    0.70703125,
+    0.140625,
+    0.3515625
+   ],
+   "cookieControl0": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "cookieControl1": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cookieControl2": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "defName": "white_light"
+  },
+  {
+   "type": 2,
+   "typeName": "spot",
+   "canUseShadowMap": 1,
+   "exponent": 0,
+   "priority": 0,
+   "cullDist": 1000,
+   "color": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "dir": [
+    0.7447881698608398,
+    0.002190561732277274,
+    0.66729736328125
+   ],
+   "origin": [
+    -478.0,
+    253.8000030517578,
+    828.5
+   ],
+   "radius": 550.0,
+   "cosHalfFovOuter": 0.9351131319999695,
+   "cosHalfFovInner": 0.9513348340988159,
+   "cosHalfFovExpanded": 0.9351131319999695,
+   "rotationLimit": 1.0,
+   "translationLimit": 0.0,
+   "mipDistance": 550.0,
+   "diffuseColor": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "specularColor": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "attenuation": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "falloff": [
+    0.0,
+    550.0,
+    0.0,
+    0.0
+   ],
+   "angle": [
+    0.0,
+    1.5707963705062866,
+    0.0,
+    0.0
+   ],
+   "aAbB": [
+    0.52734375,
+    0.70703125,
+    0.140625,
+    0.3515625
+   ],
+   "cookieControl0": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "cookieControl1": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cookieControl2": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "defName": "white_light"
+  },
+  {
+   "type": 2,
+   "typeName": "spot",
+   "canUseShadowMap": 1,
+   "exponent": 0,
+   "priority": 0,
+   "cullDist": 1000,
+   "color": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "dir": [
+    0.7703261375427246,
+    0.0675773173570633,
+    0.6340590715408325
+   ],
+   "origin": [
+    -446.0,
+    595.7999877929688,
+    807.5
+   ],
+   "radius": 550.0,
+   "cosHalfFovOuter": 0.9351131319999695,
+   "cosHalfFovInner": 0.9513348340988159,
+   "cosHalfFovExpanded": 0.9351131319999695,
+   "rotationLimit": 1.0,
+   "translationLimit": 0.0,
+   "mipDistance": 550.0,
+   "diffuseColor": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "specularColor": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "attenuation": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "falloff": [
+    0.0,
+    550.0,
+    0.0,
+    0.0
+   ],
+   "angle": [
+    0.0,
+    1.5707963705062866,
+    0.0,
+    0.0
+   ],
+   "aAbB": [
+    0.52734375,
+    0.70703125,
+    0.140625,
+    0.3515625
+   ],
+   "cookieControl0": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "cookieControl1": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cookieControl2": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "defName": "white_light"
+  },
+  {
+   "type": 2,
+   "typeName": "spot",
+   "canUseShadowMap": 1,
+   "exponent": 0,
+   "priority": 0,
+   "cullDist": 1000,
+   "color": [
+    0.4624446630477905,
+    3.429530143737793,
+    5.267005443572998
+   ],
+   "dir": [
+    0.7697274088859558,
+    0.6198179125785828,
+    0.1527923345565796
+   ],
+   "origin": [
+    -384.0,
+    769.5,
+    12.0
+   ],
+   "radius": 350.0,
+   "cosHalfFovOuter": 0.4999999701976776,
+   "cosHalfFovInner": 0.625,
+   "cosHalfFovExpanded": 0.4999999701976776,
+   "rotationLimit": 1.0,
+   "translationLimit": 0.0,
+   "mipDistance": 350.0,
+   "diffuseColor": [
+    0.4624446630477905,
+    3.429530143737793,
+    5.267005443572998,
+    0.0
+   ],
+   "specularColor": [
+    0.4624446630477905,
+    3.429530143737793,
+    5.267005443572998,
+    0.0
+   ],
+   "attenuation": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "falloff": [
+    0.0,
+    350.0,
+    0.0,
+    0.0
+   ],
+   "angle": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "aAbB": [
+    0.75,
+    1.0,
+    0.75,
+    1.0
+   ],
+   "cookieControl0": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "cookieControl1": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cookieControl2": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "defName": "white_light"
+  },
+  {
+   "type": 2,
+   "typeName": "spot",
+   "canUseShadowMap": 1,
+   "exponent": 0,
+   "priority": 0,
+   "cullDist": 1000,
+   "color": [
+    7.4408793449401855,
+    4.991688251495361,
+    1.9071792364120483
+   ],
+   "dir": [
+    0.0,
+    -0.9486832618713379,
+    -0.3162277638912201
+   ],
+   "origin": [
+    -361.0,
+    -1360.0,
+    232.0
+   ],
+   "radius": 200.0,
+   "cosHalfFovOuter": 0.5735764503479004,
+   "cosHalfFovInner": 0.6801823377609253,
+   "cosHalfFovExpanded": 0.5735764503479004,
+   "rotationLimit": 1.0,
+   "translationLimit": 0.0,
+   "mipDistance": 200.0,
+   "diffuseColor": [
+    7.4408793449401855,
+    4.991688251495361,
+    1.9071792364120483,
+    0.0
+   ],
+   "specularColor": [
+    7.4408793449401855,
+    4.991688251495361,
+    1.9071792364120483,
+    0.0
+   ],
+   "attenuation": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "falloff": [
+    0.0,
+    200.0,
+    0.0,
+    0.0
+   ],
+   "angle": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "aAbB": [
+    0.75,
+    1.0,
+    0.75,
+    1.0
+   ],
+   "cookieControl0": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "cookieControl1": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cookieControl2": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "defName": "white_light"
+  },
+  {
+   "type": 2,
+   "typeName": "spot",
+   "canUseShadowMap": 1,
+   "exponent": 0,
+   "priority": 0,
+   "cullDist": 1000,
+   "color": [
+    7.4408793449401855,
+    4.991688251495361,
+    1.9071792364120483
+   ],
+   "dir": [
+    0.20852030813694,
+    0.9168760180473328,
+    0.3403787314891815
+   ],
+   "origin": [
+    -361.0,
+    -1328.0,
+    240.0
+   ],
+   "radius": 200.0,
+   "cosHalfFovOuter": 0.5735764503479004,
+   "cosHalfFovInner": 0.6801823377609253,
+   "cosHalfFovExpanded": 0.5735764503479004,
+   "rotationLimit": 1.0,
+   "translationLimit": 0.0,
+   "mipDistance": 200.0,
+   "diffuseColor": [
+    7.4408793449401855,
+    4.991688251495361,
+    1.9071792364120483,
+    0.0
+   ],
+   "specularColor": [
+    7.4408793449401855,
+    4.991688251495361,
+    1.9071792364120483,
+    0.0
+   ],
+   "attenuation": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "falloff": [
+    0.0,
+    200.0,
+    0.0,
+    0.0
+   ],
+   "angle": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "aAbB": [
+    0.75,
+    1.0,
+    0.75,
+    1.0
+   ],
+   "cookieControl0": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "cookieControl1": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cookieControl2": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "defName": "white_light"
+  },
+  {
+   "type": 2,
+   "typeName": "spot",
+   "canUseShadowMap": 1,
+   "exponent": 0,
+   "priority": 0,
+   "cullDist": 1000,
+   "color": [
+    5.106266021728516,
+    4.305884838104248,
+    3.251586675643921
+   ],
+   "dir": [
+    0.32433730363845825,
+    -0.03174348175525665,
+    0.9454087018966675
+   ],
+   "origin": [
+    -329.3999938964844,
+    -985.0999755859375,
+    516.7999877929688
+   ],
+   "radius": 390.0,
+   "cosHalfFovOuter": 0.834817111492157,
+   "cosHalfFovInner": 0.8761128187179565,
+   "cosHalfFovExpanded": 0.834817111492157,
+   "rotationLimit": 1.0,
+   "translationLimit": 0.0,
+   "mipDistance": 390.0,
+   "diffuseColor": [
+    5.106266021728516,
+    4.305884838104248,
+    3.251586675643921,
+    0.0
+   ],
+   "specularColor": [
+    5.106266021728516,
+    4.305884838104248,
+    3.251586675643921,
+    0.0
+   ],
+   "attenuation": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "falloff": [
+    0.0,
+    390.0,
+    0.0,
+    390.0
+   ],
+   "angle": [
+    0.0,
+    1.5707963705062866,
+    0.0,
+    0.0
+   ],
+   "aAbB": [
+    0.52734375,
+    0.70703125,
+    0.140625,
+    0.3515625
+   ],
+   "cookieControl0": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "cookieControl1": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cookieControl2": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "defName": "white_light"
+  },
+  {
+   "type": 2,
+   "typeName": "spot",
+   "canUseShadowMap": 1,
+   "exponent": 0,
+   "priority": 0,
+   "cullDist": 1000,
+   "color": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "dir": [
+    0.15816745162010193,
+    -0.3598518371582031,
+    0.9195051789283752
+   ],
+   "origin": [
+    -320.8999938964844,
+    1640.0999755859375,
+    425.0
+   ],
+   "radius": 750.0,
+   "cosHalfFovOuter": 0.9063077569007874,
+   "cosHalfFovInner": 0.9297308325767517,
+   "cosHalfFovExpanded": 0.9063077569007874,
+   "rotationLimit": 1.0,
+   "translationLimit": 0.0,
+   "mipDistance": 750.0,
+   "diffuseColor": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "specularColor": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "attenuation": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "falloff": [
+    0.0,
+    750.0,
+    0.0,
+    750.0
+   ],
+   "angle": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "aAbB": [
+    0.75,
+    1.0,
+    0.75,
+    1.0
+   ],
+   "cookieControl0": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "cookieControl1": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cookieControl2": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "defName": "white_light"
+  },
+  {
+   "type": 2,
+   "typeName": "spot",
+   "canUseShadowMap": 1,
+   "exponent": 0,
+   "priority": 0,
+   "cullDist": 1000,
+   "color": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "dir": [
+    0.736189603805542,
+    0.644736111164093,
+    -0.2057672142982483
+   ],
+   "origin": [
+    -198.89999389648438,
+    1182.0999755859375,
+    132.5
+   ],
+   "radius": 100.0,
+   "cosHalfFovOuter": 0.9762960076332092,
+   "cosHalfFovInner": 0.9822220206260681,
+   "cosHalfFovExpanded": 0.9762960076332092,
+   "rotationLimit": 1.0,
+   "translationLimit": 0.0,
+   "mipDistance": 100.0,
+   "diffuseColor": [
+    10.0,
+    10.0,
+    10.0,
+    0.0
+   ],
+   "specularColor": [
+    10.0,
+    10.0,
+    10.0,
+    0.0
+   ],
+   "attenuation": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "falloff": [
+    0.0,
+    100.0,
+    0.0,
+    0.0
+   ],
+   "angle": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "aAbB": [
+    0.75,
+    1.0,
+    1.0,
+    1.00006103515625
+   ],
+   "cookieControl0": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "cookieControl1": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cookieControl2": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "defName": "white_light"
+  },
+  {
+   "type": 2,
+   "typeName": "spot",
+   "canUseShadowMap": 1,
+   "exponent": 0,
+   "priority": 0,
+   "cullDist": 1000,
+   "color": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "dir": [
+    0.04756668210029602,
+    -0.5816723704338074,
+    0.8120312094688416
+   ],
+   "origin": [
+    -174.89999389648438,
+    -869.5999755859375,
+    517.2999877929688
+   ],
+   "radius": 600.0,
+   "cosHalfFovOuter": 0.9351131319999695,
+   "cosHalfFovInner": 0.9513348340988159,
+   "cosHalfFovExpanded": 0.9351131319999695,
+   "rotationLimit": 1.0,
+   "translationLimit": 0.0,
+   "mipDistance": 600.0,
+   "diffuseColor": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "specularColor": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "attenuation": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "falloff": [
+    0.0,
+    600.0,
+    0.0,
+    0.0
+   ],
+   "angle": [
+    0.0,
+    1.5707963705062866,
+    0.0,
+    0.0
+   ],
+   "aAbB": [
+    0.52734375,
+    0.70703125,
+    0.140625,
+    0.3515625
+   ],
+   "cookieControl0": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "cookieControl1": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cookieControl2": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "defName": "white_light"
+  },
+  {
+   "type": 2,
+   "typeName": "spot",
+   "canUseShadowMap": 1,
+   "exponent": 0,
+   "priority": 0,
+   "cullDist": 1000,
+   "color": [
+    24.58083724975586,
+    22.902189254760742,
+    19.7506046295166
+   ],
+   "dir": [
+    0.2370622158050537,
+    -0.9188609719276428,
+    0.3154298961162567
+   ],
+   "origin": [
+    -152.0,
+    -1903.5,
+    178.0
+   ],
+   "radius": 320.0,
+   "cosHalfFovOuter": 0.7660444378852844,
+   "cosHalfFovInner": 0.8245333433151245,
+   "cosHalfFovExpanded": 0.7660444378852844,
+   "rotationLimit": 1.0,
+   "translationLimit": 0.0,
+   "mipDistance": 320.0,
+   "diffuseColor": [
+    24.58083724975586,
+    22.902189254760742,
+    19.7506046295166,
+    0.0
+   ],
+   "specularColor": [
+    24.58083724975586,
+    22.902189254760742,
+    19.7506046295166,
+    0.0
+   ],
+   "attenuation": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "falloff": [
+    0.0,
+    320.0,
+    0.0,
+    160.0
+   ],
+   "angle": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "aAbB": [
+    0.75,
+    1.0,
+    0.75,
+    1.0
+   ],
+   "cookieControl0": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "cookieControl1": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cookieControl2": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "defName": "white_light"
+  },
+  {
+   "type": 2,
+   "typeName": "spot",
+   "canUseShadowMap": 1,
+   "exponent": 0,
+   "priority": 0,
+   "cullDist": 1000,
+   "color": [
+    4.034662246704102,
+    3.622964382171631,
+    3.162689685821533
+   ],
+   "dir": [
+    -0.14984415471553802,
+    -0.9351176023483276,
+    -0.3210946023464203
+   ],
+   "origin": [
+    -14.300000190734863,
+    -1171.0,
+    303.5
+   ],
+   "radius": 200.0,
+   "cosHalfFovOuter": 0.7071067690849304,
+   "cosHalfFovInner": 0.7803300619125366,
+   "cosHalfFovExpanded": 0.7071067690849304,
+   "rotationLimit": 1.0,
+   "translationLimit": 0.0,
+   "mipDistance": 200.0,
+   "diffuseColor": [
+    4.034662246704102,
+    3.622964382171631,
+    3.162689685821533,
+    0.0
+   ],
+   "specularColor": [
+    4.034662246704102,
+    3.622964382171631,
+    3.162689685821533,
+    0.0
+   ],
+   "attenuation": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "falloff": [
+    0.0,
+    200.0,
+    0.0,
+    0.0
+   ],
+   "angle": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "aAbB": [
+    0.75,
+    1.0,
+    0.75,
+    1.0
+   ],
+   "cookieControl0": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "cookieControl1": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cookieControl2": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "defName": "white_light"
+  },
+  {
+   "type": 2,
+   "typeName": "spot",
+   "canUseShadowMap": 1,
+   "exponent": 0,
+   "priority": 0,
+   "cullDist": 1000,
+   "color": [
+    10.0,
+    10.0,
+    10.0
+   ],
+   "dir": [
+    0.00011871292372234166,
+    -0.9590815305709839,
+    -0.2831302583217621
+   ],
+   "origin": [
+    -0.8999999761581421,
+    576.0999755859375,
+    16.5
+   ],
+   "radius": 850.0,
+   "cosHalfFovOuter": 0.9542015194892883,
+   "cosHalfFovInner": 0.9656511545181274,
+   "cosHalfFovExpanded": 0.9542015194892883,
+   "rotationLimit": 1.0,
+   "translationLimit": 0.0,
+   "mipDistance": 850.0,
+   "diffuseColor": [
+    10.0,
+    10.0,
+    10.0,
+    0.0
+   ],
+   "specularColor": [
+    10.0,
+    10.0,
+    10.0,
+    0.0
+   ],
+   "attenuation": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "falloff": [
+    0.0,
+    850.0,
+    0.0,
+    0.0
+   ],
+   "angle": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "aAbB": [
+    0.52734375,
+    0.70703125,
+    0.70703125,
+    1.0
+   ],
+   "cookieControl0": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "cookieControl1": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cookieControl2": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "defName": "white_light"
+  },
+  {
+   "type": 2,
+   "typeName": "spot",
+   "canUseShadowMap": 1,
+   "exponent": 0,
+   "priority": 0,
+   "cullDist": 1000,
+   "color": [
+    2.7392945289611816,
+    0.9284073114395142,
+    0.08196254074573517
+   ],
+   "dir": [
+    -0.024892782792448997,
+    -0.21158865094184875,
+    0.9770417213439941
+   ],
+   "origin": [
+    1.0,
+    -367.5,
+    172.0
+   ],
+   "radius": 350.0,
+   "cosHalfFovOuter": 0.6427876353263855,
+   "cosHalfFovInner": 0.7320907115936279,
+   "cosHalfFovExpanded": 0.6427876353263855,
+   "rotationLimit": 1.0,
+   "translationLimit": 0.0,
+   "mipDistance": 350.0,
+   "diffuseColor": [
+    2.7392945289611816,
+    0.9284073114395142,
+    0.08196254074573517,
+    0.0
+   ],
+   "specularColor": [
+    2.7392945289611816,
+    0.9284073114395142,
+    0.08196254074573517,
+    0.0
+   ],
+   "attenuation": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "falloff": [
+    0.0,
+    350.0,
+    0.0,
+    0.0
+   ],
+   "angle": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "aAbB": [
+    0.75,
+    1.0,
+    0.75,
+    1.0
+   ],
+   "cookieControl0": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "cookieControl1": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cookieControl2": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "defName": "white_light"
+  },
+  {
+   "type": 2,
+   "typeName": "spot",
+   "canUseShadowMap": 1,
+   "exponent": 0,
+   "priority": 255,
+   "cullDist": 1000,
+   "color": [
+    0.002428216626867652,
+    3.834566354751587,
+    7.858007907867432
+   ],
+   "dir": [
+    0.767808198928833,
+    -0.6142465472221375,
+    -0.18213124573230743
+   ],
+   "origin": [
+    4.0,
+    -763.0,
+    93.5
+   ],
+   "radius": 400.0,
+   "cosHalfFovOuter": 0.8660253882408142,
+   "cosHalfFovInner": 0.8995190262794495,
+   "cosHalfFovExpanded": 0.8660253882408142,
+   "rotationLimit": 1.0,
+   "translationLimit": 0.0,
+   "mipDistance": 400.0,
+   "diffuseColor": [
+    0.002428216626867652,
+    3.834566354751587,
+    7.858007907867432,
+    0.0
+   ],
+   "specularColor": [
+    0.002428216626867652,
+    3.834566354751587,
+    7.858007907867432,
+    0.0
+   ],
+   "attenuation": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "falloff": [
+    0.0,
+    400.0,
+    0.0,
+    0.0
+   ],
+   "angle": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "aAbB": [
+    0.5,
+    1.0,
+    0.5,
+    1.0
+   ],
+   "cookieControl0": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "cookieControl1": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cookieControl2": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "defName": "white_light"
+  },
+  {
+   "type": 2,
+   "typeName": "spot",
+   "canUseShadowMap": 1,
+   "exponent": 0,
+   "priority": 0,
+   "cullDist": 1000,
+   "color": [
+    0.1697525680065155,
+    4.517697811126709,
+    2.5851502418518066
+   ],
+   "dir": [
+    -0.7642097473144531,
+    -0.4795726239681244,
+    0.4312695860862732
+   ],
+   "origin": [
+    74.19999694824219,
+    1701.699951171875,
+    136.0
+   ],
+   "radius": 500.0,
+   "cosHalfFovOuter": 0.9063077569007874,
+   "cosHalfFovInner": 0.9297308325767517,
+   "cosHalfFovExpanded": 0.9063077569007874,
+   "rotationLimit": 1.0,
+   "translationLimit": 0.0,
+   "mipDistance": 500.0,
+   "diffuseColor": [
+    0.1697525680065155,
+    4.517697811126709,
+    2.5851502418518066,
+    0.0
+   ],
+   "specularColor": [
+    0.1697525680065155,
+    4.517697811126709,
+    2.5851502418518066,
+    0.0
+   ],
+   "attenuation": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "falloff": [
+    0.0,
+    500.0,
+    0.0,
+    0.0
+   ],
+   "angle": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "aAbB": [
+    0.046875,
+    1.0,
+    0.046875,
+    1.0
+   ],
+   "cookieControl0": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "cookieControl1": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cookieControl2": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "defName": "white_light"
+  },
+  {
+   "type": 2,
+   "typeName": "spot",
+   "canUseShadowMap": 1,
+   "exponent": 0,
+   "priority": 0,
+   "cullDist": 1000,
+   "color": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "dir": [
+    0.056420110166072845,
+    0.8005647659301758,
+    0.5965842604637146
+   ],
+   "origin": [
+    109.5,
+    -1313.5,
+    523.5
+   ],
+   "radius": 500.0,
+   "cosHalfFovOuter": 0.7745966911315918,
+   "cosHalfFovInner": 0.8309475183486938,
+   "cosHalfFovExpanded": 0.7745966911315918,
+   "rotationLimit": 1.0,
+   "translationLimit": 0.0,
+   "mipDistance": 500.0,
+   "diffuseColor": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "specularColor": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "attenuation": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "falloff": [
+    0.0,
+    500.0,
+    0.0,
+    250.0
+   ],
+   "angle": [
+    0.0,
+    1.1344640254974365,
+    0.0,
+    0.0
+   ],
+   "aAbB": [
+    0.52734375,
+    0.70703125,
+    0.140625,
+    0.3515625
+   ],
+   "cookieControl0": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "cookieControl1": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cookieControl2": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "defName": "white_light"
+  },
+  {
+   "type": 2,
+   "typeName": "spot",
+   "canUseShadowMap": 1,
+   "exponent": 0,
+   "priority": 0,
+   "cullDist": 1000,
+   "color": [
+    23.852914810180664,
+    21.973941802978516,
+    18.69049644470215
+   ],
+   "dir": [
+    -0.1728113442659378,
+    -0.9315922260284424,
+    0.31980031728744507
+   ],
+   "origin": [
+    138.0,
+    -1904.0,
+    178.0
+   ],
+   "radius": 320.0,
+   "cosHalfFovOuter": 0.5773502588272095,
+   "cosHalfFovInner": 0.6830127239227295,
+   "cosHalfFovExpanded": 0.5773502588272095,
+   "rotationLimit": 1.0,
+   "translationLimit": 0.0,
+   "mipDistance": 320.0,
+   "diffuseColor": [
+    23.852914810180664,
+    21.973941802978516,
+    18.69049644470215,
+    0.0
+   ],
+   "specularColor": [
+    23.852914810180664,
+    21.973941802978516,
+    18.69049644470215,
+    0.0
+   ],
+   "attenuation": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "falloff": [
+    0.0,
+    320.0,
+    0.0,
+    160.0
+   ],
+   "angle": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "aAbB": [
+    0.52734375,
+    0.70703125,
+    0.52734375,
+    0.70703125
+   ],
+   "cookieControl0": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "cookieControl1": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cookieControl2": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "defName": "white_light"
+  },
+  {
+   "type": 2,
+   "typeName": "spot",
+   "canUseShadowMap": 0,
+   "exponent": 0,
+   "priority": 0,
+   "cullDist": 1000,
+   "color": [
+    8.0,
+    8.0,
+    8.0
+   ],
+   "dir": [
+    0.5368634462356567,
+    -0.6526889204978943,
+    0.5345789790153503
+   ],
+   "origin": [
+    198.0,
+    273.79998779296875,
+    705.5
+   ],
+   "radius": 500.0,
+   "cosHalfFovOuter": 0.4999999701976776,
+   "cosHalfFovInner": 0.625,
+   "cosHalfFovExpanded": 0.4999999701976776,
+   "rotationLimit": 1.0,
+   "translationLimit": 0.0,
+   "mipDistance": 500.0,
+   "diffuseColor": [
+    8.0,
+    8.0,
+    8.0,
+    0.0
+   ],
+   "specularColor": [
+    8.0,
+    8.0,
+    8.0,
+    0.0
+   ],
+   "attenuation": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "falloff": [
+    0.0,
+    500.0,
+    0.0,
+    0.0
+   ],
+   "angle": [
+    0.0,
+    1.5707963705062866,
+    0.0,
+    1.0
+   ],
+   "aAbB": [
+    0.75,
+    1.0,
+    0.19921875,
+    0.5
+   ],
+   "cookieControl0": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "cookieControl1": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cookieControl2": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "defName": "white_light"
+  },
+  {
+   "type": 2,
+   "typeName": "spot",
+   "canUseShadowMap": 1,
+   "exponent": 1,
+   "priority": 0,
+   "cullDist": 1000,
+   "color": [
+    7.717495918273926,
+    4.620647430419922,
+    2.0012669563293457
+   ],
+   "dir": [
+    0.7993700504302979,
+    -0.48180249333381653,
+    -0.3589898347854614
+   ],
+   "origin": [
+    270.5,
+    -751.4000244140625,
+    125.0999984741211
+   ],
+   "radius": 300.0,
+   "cosHalfFovOuter": 0.4999999701976776,
+   "cosHalfFovInner": 0.625,
+   "cosHalfFovExpanded": 0.4999999701976776,
+   "rotationLimit": 1.0,
+   "translationLimit": 0.0,
+   "mipDistance": 300.0,
+   "diffuseColor": [
+    7.717495918273926,
+    4.620647430419922,
+    2.0012669563293457,
+    0.0
+   ],
+   "specularColor": [
+    7.717495918273926,
+    4.620647430419922,
+    2.0012669563293457,
+    0.0
+   ],
+   "attenuation": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "falloff": [
+    0.0,
+    300.0,
+    0.0,
+    0.0
+   ],
+   "angle": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "aAbB": [
+    0.046875,
+    1.0,
+    0.046875,
+    1.0
+   ],
+   "cookieControl0": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "cookieControl1": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cookieControl2": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "defName": "white_light"
+  },
+  {
+   "type": 2,
+   "typeName": "spot",
+   "canUseShadowMap": 1,
+   "exponent": 0,
+   "priority": 0,
+   "cullDist": 1000,
+   "color": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "dir": [
+    -0.49471497535705566,
+    -0.02062777802348137,
+    0.8688104152679443
+   ],
+   "origin": [
+    311.6000061035156,
+    -1128.9000244140625,
+    514.7999877929688
+   ],
+   "radius": 400.0,
+   "cosHalfFovOuter": 0.8891264796257019,
+   "cosHalfFovInner": 0.9168448448181152,
+   "cosHalfFovExpanded": 0.8891264796257019,
+   "rotationLimit": 1.0,
+   "translationLimit": 0.0,
+   "mipDistance": 400.0,
+   "diffuseColor": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "specularColor": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "attenuation": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "falloff": [
+    0.0,
+    400.0,
+    0.0,
+    0.0
+   ],
+   "angle": [
+    0.0,
+    1.5707963705062866,
+    0.0,
+    0.0
+   ],
+   "aAbB": [
+    0.52734375,
+    0.70703125,
+    0.17578125,
+    0.70703125
+   ],
+   "cookieControl0": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "cookieControl1": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cookieControl2": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "defName": "white_light"
+  },
+  {
+   "type": 2,
+   "typeName": "spot",
+   "canUseShadowMap": 0,
+   "exponent": 0,
+   "priority": 0,
+   "cullDist": 1000,
+   "color": [
+    8.0,
+    6.9052605628967285,
+    5.1007771492004395
+   ],
+   "dir": [
+    0.0,
+    0.0029404456727206707,
+    -0.9999956488609314
+   ],
+   "origin": [
+    316.1000061035156,
+    -639.9000244140625,
+    425.29998779296875
+   ],
+   "radius": 400.0,
+   "cosHalfFovOuter": 0.7071067690849304,
+   "cosHalfFovInner": 0.7803300619125366,
+   "cosHalfFovExpanded": 0.7071067690849304,
+   "rotationLimit": 1.0,
+   "translationLimit": 0.0,
+   "mipDistance": 400.0,
+   "diffuseColor": [
+    8.0,
+    6.9052605628967285,
+    5.1007771492004395,
+    0.0
+   ],
+   "specularColor": [
+    8.0,
+    6.9052605628967285,
+    5.1007771492004395,
+    0.0
+   ],
+   "attenuation": [
+    1.0,
+    0.009999999776482582,
+    9.999999747378752e-05,
+    0.0
+   ],
+   "falloff": [
+    0.0,
+    400.0,
+    0.0,
+    0.0
+   ],
+   "angle": [
+    0.0,
+    1.5707963705062866,
+    0.0,
+    1.0
+   ],
+   "aAbB": [
+    0.046875,
+    1.0,
+    0.046875,
+    1.0
+   ],
+   "cookieControl0": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "cookieControl1": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cookieControl2": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "defName": "white_light"
+  },
+  {
+   "type": 2,
+   "typeName": "spot",
+   "canUseShadowMap": 1,
+   "exponent": 0,
+   "priority": 0,
+   "cullDist": 1000,
+   "color": [
+    4.0,
+    4.0,
+    4.0
+   ],
+   "dir": [
+    0.17514124512672424,
+    0.15819208323955536,
+    0.9717513918876648
+   ],
+   "origin": [
+    374.0,
+    1544.0,
+    389.5
+   ],
+   "radius": 512.0,
+   "cosHalfFovOuter": 0.9396926164627075,
+   "cosHalfFovInner": 0.954769492149353,
+   "cosHalfFovExpanded": 0.9396926164627075,
+   "rotationLimit": 1.0,
+   "translationLimit": 0.0,
+   "mipDistance": 512.0,
+   "diffuseColor": [
+    4.0,
+    4.0,
+    4.0,
+    0.0
+   ],
+   "specularColor": [
+    4.0,
+    4.0,
+    4.0,
+    0.0
+   ],
+   "attenuation": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "falloff": [
+    0.0,
+    512.0,
+    0.0,
+    256.0
+   ],
+   "angle": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "aAbB": [
+    0.75,
+    1.0,
+    0.75,
+    1.0
+   ],
+   "cookieControl0": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "cookieControl1": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cookieControl2": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "defName": "white_light"
+  },
+  {
+   "type": 2,
+   "typeName": "spot",
+   "canUseShadowMap": 1,
+   "exponent": 0,
+   "priority": 0,
+   "cullDist": 1000,
+   "color": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "dir": [
+    -0.6916635632514954,
+    -0.0011111738858744502,
+    0.7222189903259277
+   ],
+   "origin": [
+    519.5,
+    889.2999877929688,
+    778.5
+   ],
+   "radius": 550.0,
+   "cosHalfFovOuter": 0.834817111492157,
+   "cosHalfFovInner": 0.8761128187179565,
+   "cosHalfFovExpanded": 0.834817111492157,
+   "rotationLimit": 1.0,
+   "translationLimit": 0.0,
+   "mipDistance": 550.0,
+   "diffuseColor": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "specularColor": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "attenuation": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "falloff": [
+    0.0,
+    550.0,
+    0.0,
+    0.0
+   ],
+   "angle": [
+    0.0,
+    1.5707963705062866,
+    0.0,
+    0.0
+   ],
+   "aAbB": [
+    0.52734375,
+    0.70703125,
+    0.140625,
+    0.3515625
+   ],
+   "cookieControl0": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "cookieControl1": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cookieControl2": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "defName": "white_light"
+  },
+  {
+   "type": 2,
+   "typeName": "spot",
+   "canUseShadowMap": 1,
+   "exponent": 0,
+   "priority": 0,
+   "cullDist": 1000,
+   "color": [
+    4.607910633087158,
+    3.119805097579956,
+    1.1727548837661743
+   ],
+   "dir": [
+    -0.3522081971168518,
+    -0.5534700155258179,
+    -0.7547318935394287
+   ],
+   "origin": [
+    535.0,
+    -712.0,
+    312.0
+   ],
+   "radius": 200.0,
+   "cosHalfFovOuter": 0.8660253882408142,
+   "cosHalfFovInner": 0.8995190262794495,
+   "cosHalfFovExpanded": 0.8660253882408142,
+   "rotationLimit": 1.0,
+   "translationLimit": 0.0,
+   "mipDistance": 200.0,
+   "diffuseColor": [
+    4.607910633087158,
+    3.119805097579956,
+    1.1727548837661743,
+    0.0
+   ],
+   "specularColor": [
+    4.607910633087158,
+    3.119805097579956,
+    1.1727548837661743,
+    0.0
+   ],
+   "attenuation": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "falloff": [
+    0.0,
+    200.0,
+    0.0,
+    0.0
+   ],
+   "angle": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "aAbB": [
+    0.75,
+    1.0,
+    0.75,
+    1.0
+   ],
+   "cookieControl0": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "cookieControl1": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cookieControl2": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "defName": "white_light"
+  },
+  {
+   "type": 2,
+   "typeName": "spot",
+   "canUseShadowMap": 1,
+   "exponent": 0,
+   "priority": 0,
+   "cullDist": 1000,
+   "color": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "dir": [
+    -0.8590983748435974,
+    0.021272912621498108,
+    0.5113680958747864
+   ],
+   "origin": [
+    542.5,
+    -9.800000190734863,
+    737.0
+   ],
+   "radius": 550.0,
+   "cosHalfFovOuter": 0.834817111492157,
+   "cosHalfFovInner": 0.8761128187179565,
+   "cosHalfFovExpanded": 0.834817111492157,
+   "rotationLimit": 1.0,
+   "translationLimit": 0.0,
+   "mipDistance": 550.0,
+   "diffuseColor": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "specularColor": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "attenuation": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "falloff": [
+    0.0,
+    550.0,
+    0.0,
+    0.0
+   ],
+   "angle": [
+    0.0,
+    1.5707963705062866,
+    0.0,
+    0.0
+   ],
+   "aAbB": [
+    0.52734375,
+    0.70703125,
+    0.140625,
+    0.3515625
+   ],
+   "cookieControl0": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "cookieControl1": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cookieControl2": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "defName": "white_light"
+  },
+  {
+   "type": 2,
+   "typeName": "spot",
+   "canUseShadowMap": 1,
+   "exponent": 0,
+   "priority": 0,
+   "cullDist": 1000,
+   "color": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "dir": [
+    0.8632960319519043,
+    0.020977335050702095,
+    0.5042616724967957
+   ],
+   "origin": [
+    734.5,
+    894.2000122070312,
+    305.0
+   ],
+   "radius": 300.0,
+   "cosHalfFovOuter": 0.4999999701976776,
+   "cosHalfFovInner": 0.625,
+   "cosHalfFovExpanded": 0.4999999701976776,
+   "rotationLimit": 1.0,
+   "translationLimit": 0.0,
+   "mipDistance": 300.0,
+   "diffuseColor": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "specularColor": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "attenuation": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "falloff": [
+    0.0,
+    300.0,
+    0.0,
+    0.0
+   ],
+   "angle": [
+    0.0,
+    1.5707963705062866,
+    0.0,
+    1.0
+   ],
+   "aAbB": [
+    0.75,
+    1.0,
+    0.19921875,
+    0.5
+   ],
+   "cookieControl0": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "cookieControl1": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cookieControl2": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "defName": "white_light"
+  },
+  {
+   "type": 2,
+   "typeName": "spot",
+   "canUseShadowMap": 1,
+   "exponent": 0,
+   "priority": 0,
+   "cullDist": 1000,
+   "color": [
+    8.0,
+    8.0,
+    8.0
+   ],
+   "dir": [
+    0.8275458812713623,
+    0.0421886146068573,
+    0.5598104596138
+   ],
+   "origin": [
+    742.5,
+    -9.800000190734863,
+    377.0
+   ],
+   "radius": 400.0,
+   "cosHalfFovOuter": 0.4999999701976776,
+   "cosHalfFovInner": 0.625,
+   "cosHalfFovExpanded": 0.4999999701976776,
+   "rotationLimit": 1.0,
+   "translationLimit": 0.0,
+   "mipDistance": 400.0,
+   "diffuseColor": [
+    8.0,
+    8.0,
+    8.0,
+    0.0
+   ],
+   "specularColor": [
+    8.0,
+    8.0,
+    8.0,
+    0.0
+   ],
+   "attenuation": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "falloff": [
+    0.0,
+    400.0,
+    0.0,
+    0.0
+   ],
+   "angle": [
+    0.0,
+    1.5707963705062866,
+    0.0,
+    1.0
+   ],
+   "aAbB": [
+    0.75,
+    1.0,
+    0.75,
+    1.0
+   ],
+   "cookieControl0": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "cookieControl1": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cookieControl2": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "defName": "white_light"
+  },
+  {
+   "type": 2,
+   "typeName": "spot",
+   "canUseShadowMap": 1,
+   "exponent": 1,
+   "priority": 0,
+   "cullDist": 1000,
+   "color": [
+    0.1697525680065155,
+    4.517697811126709,
+    2.5851502418518066
+   ],
+   "dir": [
+    0.597577691078186,
+    -0.7907865047454834,
+    -0.13250494003295898
+   ],
+   "origin": [
+    770.7000122070312,
+    -1230.699951171875,
+    352.29998779296875
+   ],
+   "radius": 550.0,
+   "cosHalfFovOuter": 0.9396926164627075,
+   "cosHalfFovInner": 0.954769492149353,
+   "cosHalfFovExpanded": 0.9396926164627075,
+   "rotationLimit": 1.0,
+   "translationLimit": 0.0,
+   "mipDistance": 550.0,
+   "diffuseColor": [
+    0.1697525680065155,
+    4.517697811126709,
+    2.5851502418518066,
+    0.0
+   ],
+   "specularColor": [
+    0.1697525680065155,
+    4.517697811126709,
+    2.5851502418518066,
+    0.0
+   ],
+   "attenuation": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "falloff": [
+    0.0,
+    550.0,
+    0.0,
+    0.0
+   ],
+   "angle": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "aAbB": [
+    0.75,
+    1.0,
+    0.75,
+    1.0
+   ],
+   "cookieControl0": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "cookieControl1": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cookieControl2": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "defName": "white_light"
+  },
+  {
+   "type": 2,
+   "typeName": "spot",
+   "canUseShadowMap": 1,
+   "exponent": 1,
+   "priority": 0,
+   "cullDist": 1000,
+   "color": [
+    7.659399032592773,
+    6.458827018737793,
+    4.877379894256592
+   ],
+   "dir": [
+    -0.4645537734031677,
+    -0.46633094549179077,
+    0.7528116106987
+   ],
+   "origin": [
+    825.2999877929688,
+    -874.5,
+    577.0999755859375
+   ],
+   "radius": 400.0,
+   "cosHalfFovOuter": 0.5102735757827759,
+   "cosHalfFovInner": 0.6327052116394043,
+   "cosHalfFovExpanded": 0.5102735757827759,
+   "rotationLimit": 1.0,
+   "translationLimit": 0.0,
+   "mipDistance": 400.0,
+   "diffuseColor": [
+    7.659399032592773,
+    6.458827018737793,
+    4.877379894256592,
+    0.0
+   ],
+   "specularColor": [
+    7.659399032592773,
+    6.458827018737793,
+    4.877379894256592,
+    0.0
+   ],
+   "attenuation": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "falloff": [
+    0.0,
+    400.0,
+    0.0,
+    200.0
+   ],
+   "angle": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "aAbB": [
+    0.03515625,
+    0.70703125,
+    0.03515625,
+    0.70703125
+   ],
+   "cookieControl0": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "cookieControl1": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cookieControl2": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "defName": "white_light"
+  },
+  {
+   "type": 2,
+   "typeName": "spot",
+   "canUseShadowMap": 1,
+   "exponent": 0,
+   "priority": 0,
+   "cullDist": 1000,
+   "color": [
+    0.9357675313949585,
+    5.155832767486572,
+    4.991688251495361
+   ],
+   "dir": [
+    0.6960177421569824,
+    -0.5220133066177368,
+    -0.49301257729530334
+   ],
+   "origin": [
+    871.0,
+    751.0,
+    -62.5
+   ],
+   "radius": 350.0,
+   "cosHalfFovOuter": 0.4999999701976776,
+   "cosHalfFovInner": 0.625,
+   "cosHalfFovExpanded": 0.4999999701976776,
+   "rotationLimit": 1.0,
+   "translationLimit": 0.0,
+   "mipDistance": 350.0,
+   "diffuseColor": [
+    0.9357675313949585,
+    5.155832767486572,
+    4.991688251495361,
+    0.0
+   ],
+   "specularColor": [
+    0.9357675313949585,
+    5.155832767486572,
+    4.991688251495361,
+    0.0
+   ],
+   "attenuation": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "falloff": [
+    0.0,
+    350.0,
+    0.0,
+    175.0
+   ],
+   "angle": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "aAbB": [
+    0.046875,
+    1.0,
+    0.046875,
+    1.0
+   ],
+   "cookieControl0": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "cookieControl1": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cookieControl2": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "defName": "white_light"
+  },
+  {
+   "type": 2,
+   "typeName": "spot",
+   "canUseShadowMap": 1,
+   "exponent": 0,
+   "priority": 0,
+   "cullDist": 1000,
+   "color": [
+    4.7249531745910645,
+    3.6062889099121094,
+    1.8764077425003052
+   ],
+   "dir": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "origin": [
+    896.0,
+    1536.0,
+    118.0
+   ],
+   "radius": 200.0,
+   "cosHalfFovOuter": 0.7071067690849304,
+   "cosHalfFovInner": 0.7803300619125366,
+   "cosHalfFovExpanded": 0.7071067690849304,
+   "rotationLimit": 1.0,
+   "translationLimit": 0.0,
+   "mipDistance": 200.0,
+   "diffuseColor": [
+    4.7249531745910645,
+    3.6062889099121094,
+    1.8764077425003052,
+    0.0
+   ],
+   "specularColor": [
+    4.7249531745910645,
+    3.6062889099121094,
+    1.8764077425003052,
+    0.0
+   ],
+   "attenuation": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "falloff": [
+    0.0,
+    200.0,
+    0.0,
+    0.0
+   ],
+   "angle": [
+    0.0,
+    1.5707963705062866,
+    0.0,
+    1.0
+   ],
+   "aAbB": [
+    0.75,
+    1.0,
+    0.25,
+    1.0
+   ],
+   "cookieControl0": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "cookieControl1": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cookieControl2": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "defName": "white_light"
+  },
+  {
+   "type": 2,
+   "typeName": "spot",
+   "canUseShadowMap": 1,
+   "exponent": 0,
+   "priority": 0,
+   "cullDist": 1000,
+   "color": [
+    7.858007907867432,
+    6.9052605628967285,
+    2.735316753387451
+   ],
+   "dir": [
+    0.0,
+    0.0,
+    -1.0
+   ],
+   "origin": [
+    896.0,
+    1536.0,
+    134.0
+   ],
+   "radius": 200.0,
+   "cosHalfFovOuter": 0.4999999701976776,
+   "cosHalfFovInner": 0.625,
+   "cosHalfFovExpanded": 0.4999999701976776,
+   "rotationLimit": 1.0,
+   "translationLimit": 0.0,
+   "mipDistance": 200.0,
+   "diffuseColor": [
+    7.858007907867432,
+    6.9052605628967285,
+    2.735316753387451,
+    0.0
+   ],
+   "specularColor": [
+    7.858007907867432,
+    6.9052605628967285,
+    2.735316753387451,
+    0.0
+   ],
+   "attenuation": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "falloff": [
+    0.0,
+    200.0,
+    0.0,
+    0.0
+   ],
+   "angle": [
+    0.0,
+    1.5707963705062866,
+    0.0,
+    1.0
+   ],
+   "aAbB": [
+    0.046875,
+    1.0,
+    0.046875,
+    1.0
+   ],
+   "cookieControl0": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "cookieControl1": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cookieControl2": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "defName": "white_light"
+  },
+  {
+   "type": 2,
+   "typeName": "spot",
+   "canUseShadowMap": 1,
+   "exponent": 1,
+   "priority": 0,
+   "cullDist": 1000,
+   "color": [
+    0.3056342303752899,
+    5.493485450744629,
+    6.5822858810424805
+   ],
+   "dir": [
+    0.42536425590515137,
+    0.9011173248291016,
+    -0.08398111164569855
+   ],
+   "origin": [
+    914.7999877929688,
+    495.5,
+    247.0
+   ],
+   "radius": 750.0,
+   "cosHalfFovOuter": 0.7071067690849304,
+   "cosHalfFovInner": 0.7803300619125366,
+   "cosHalfFovExpanded": 0.7071067690849304,
+   "rotationLimit": 1.0,
+   "translationLimit": 0.0,
+   "mipDistance": 750.0,
+   "diffuseColor": [
+    0.3056342303752899,
+    5.493485450744629,
+    6.5822858810424805,
+    0.0
+   ],
+   "specularColor": [
+    0.3056342303752899,
+    5.493485450744629,
+    6.5822858810424805,
+    0.0
+   ],
+   "attenuation": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "falloff": [
+    0.0,
+    750.0,
+    0.0,
+    375.0
+   ],
+   "angle": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "aAbB": [
+    0.75,
+    1.0,
+    0.75,
+    1.0
+   ],
+   "cookieControl0": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "cookieControl1": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cookieControl2": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "defName": "white_light"
+  },
+  {
+   "type": 2,
+   "typeName": "spot",
+   "canUseShadowMap": 1,
+   "exponent": 0,
+   "priority": 0,
+   "cullDist": 1000,
+   "color": [
+    1.843164324760437,
+    1.2479220628738403,
+    0.4691019356250763
+   ],
+   "dir": [
+    0.40155625343322754,
+    -0.0023491454776376486,
+    -0.9158313870429993
+   ],
+   "origin": [
+    1016.5,
+    512.2999877929688,
+    236.0
+   ],
+   "radius": 200.0,
+   "cosHalfFovOuter": 0.7660444378852844,
+   "cosHalfFovInner": 0.8245333433151245,
+   "cosHalfFovExpanded": 0.7660444378852844,
+   "rotationLimit": 1.0,
+   "translationLimit": 0.0,
+   "mipDistance": 200.0,
+   "diffuseColor": [
+    1.843164324760437,
+    1.2479220628738403,
+    0.4691019356250763,
+    0.0
+   ],
+   "specularColor": [
+    1.843164324760437,
+    1.2479220628738403,
+    0.4691019356250763,
+    0.0
+   ],
+   "attenuation": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "falloff": [
+    0.0,
+    200.0,
+    0.0,
+    0.0
+   ],
+   "angle": [
+    0.0,
+    1.5707963705062866,
+    0.0,
+    1.0
+   ],
+   "aAbB": [
+    0.75,
+    1.0,
+    0.25,
+    1.0
+   ],
+   "cookieControl0": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "cookieControl1": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cookieControl2": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "defName": "white_light"
+  },
+  {
+   "type": 2,
+   "typeName": "spot",
+   "canUseShadowMap": 1,
+   "exponent": 1,
+   "priority": 0,
+   "cullDist": 1000,
+   "color": [
+    0.5184263586997986,
+    5.493485450744629,
+    4.023092746734619
+   ],
+   "dir": [
+    0.8267384171485901,
+    -0.5613741874694824,
+    -0.03691418841481209
+   ],
+   "origin": [
+    1045.800048828125,
+    860.7000122070312,
+    43.29999923706055
+   ],
+   "radius": 800.0,
+   "cosHalfFovOuter": 0.8660253882408142,
+   "cosHalfFovInner": 0.8995190262794495,
+   "cosHalfFovExpanded": 0.8660253882408142,
+   "rotationLimit": 1.0,
+   "translationLimit": 0.0,
+   "mipDistance": 800.0,
+   "diffuseColor": [
+    0.5184263586997986,
+    5.493485450744629,
+    4.023092746734619,
+    0.0
+   ],
+   "specularColor": [
+    0.5184263586997986,
+    5.493485450744629,
+    4.023092746734619,
+    0.0
+   ],
+   "attenuation": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "falloff": [
+    0.0,
+    800.0,
+    0.0,
+    0.0
+   ],
+   "angle": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "aAbB": [
+    0.75,
+    1.0,
+    0.75,
+    1.0
+   ],
+   "cookieControl0": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "cookieControl1": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cookieControl2": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "defName": "white_light"
+  },
+  {
+   "type": 2,
+   "typeName": "spot",
+   "canUseShadowMap": 1,
+   "exponent": 0,
+   "priority": 0,
+   "cullDist": 1000,
+   "color": [
+    4.7249531745910645,
+    3.6062889099121094,
+    1.8764077425003052
+   ],
+   "dir": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "origin": [
+    1152.0,
+    1183.0,
+    104.0
+   ],
+   "radius": 200.0,
+   "cosHalfFovOuter": 0.7071067690849304,
+   "cosHalfFovInner": 0.7803300619125366,
+   "cosHalfFovExpanded": 0.7071067690849304,
+   "rotationLimit": 1.0,
+   "translationLimit": 0.0,
+   "mipDistance": 200.0,
+   "diffuseColor": [
+    4.7249531745910645,
+    3.6062889099121094,
+    1.8764077425003052,
+    0.0
+   ],
+   "specularColor": [
+    4.7249531745910645,
+    3.6062889099121094,
+    1.8764077425003052,
+    0.0
+   ],
+   "attenuation": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "falloff": [
+    0.0,
+    200.0,
+    0.0,
+    0.0
+   ],
+   "angle": [
+    0.0,
+    1.5707963705062866,
+    0.0,
+    1.0
+   ],
+   "aAbB": [
+    0.75,
+    1.0,
+    0.25,
+    1.0
+   ],
+   "cookieControl0": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "cookieControl1": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cookieControl2": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "defName": "white_light"
+  },
+  {
+   "type": 2,
+   "typeName": "spot",
+   "canUseShadowMap": 1,
+   "exponent": 0,
+   "priority": 0,
+   "cullDist": 1000,
+   "color": [
+    7.858007907867432,
+    6.9052605628967285,
+    2.735316753387451
+   ],
+   "dir": [
+    0.0,
+    0.0,
+    -1.0
+   ],
+   "origin": [
+    1152.0,
+    1183.0,
+    134.0
+   ],
+   "radius": 200.0,
+   "cosHalfFovOuter": 0.4999999701976776,
+   "cosHalfFovInner": 0.625,
+   "cosHalfFovExpanded": 0.4999999701976776,
+   "rotationLimit": 1.0,
+   "translationLimit": 0.0,
+   "mipDistance": 200.0,
+   "diffuseColor": [
+    7.858007907867432,
+    6.9052605628967285,
+    2.735316753387451,
+    0.0
+   ],
+   "specularColor": [
+    7.858007907867432,
+    6.9052605628967285,
+    2.735316753387451,
+    0.0
+   ],
+   "attenuation": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "falloff": [
+    0.0,
+    200.0,
+    0.0,
+    0.0
+   ],
+   "angle": [
+    0.0,
+    1.5707963705062866,
+    0.0,
+    1.0
+   ],
+   "aAbB": [
+    0.046875,
+    1.0,
+    0.046875,
+    1.0
+   ],
+   "cookieControl0": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "cookieControl1": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cookieControl2": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "defName": "white_light"
+  },
+  {
+   "type": 2,
+   "typeName": "spot",
+   "canUseShadowMap": 1,
+   "exponent": 0,
+   "priority": 0,
+   "cullDist": 1000,
+   "color": [
+    1.843164324760437,
+    1.2479220628738403,
+    0.4691019356250763
+   ],
+   "dir": [
+    0.009402167983353138,
+    -0.39956775307655334,
+    -0.916655421257019
+   ],
+   "origin": [
+    1244.300048828125,
+    735.0,
+    146.0
+   ],
+   "radius": 200.0,
+   "cosHalfFovOuter": 0.7660444378852844,
+   "cosHalfFovInner": 0.8245333433151245,
+   "cosHalfFovExpanded": 0.7660444378852844,
+   "rotationLimit": 1.0,
+   "translationLimit": 0.0,
+   "mipDistance": 200.0,
+   "diffuseColor": [
+    1.843164324760437,
+    1.2479220628738403,
+    0.4691019356250763,
+    0.0
+   ],
+   "specularColor": [
+    1.843164324760437,
+    1.2479220628738403,
+    0.4691019356250763,
+    0.0
+   ],
+   "attenuation": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "falloff": [
+    0.0,
+    200.0,
+    0.0,
+    0.0
+   ],
+   "angle": [
+    0.0,
+    1.5707963705062866,
+    0.0,
+    1.0
+   ],
+   "aAbB": [
+    0.75,
+    1.0,
+    0.25,
+    1.0
+   ],
+   "cookieControl0": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "cookieControl1": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cookieControl2": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "defName": "white_light"
+  },
+  {
+   "type": 2,
+   "typeName": "spot",
+   "canUseShadowMap": 1,
+   "exponent": 0,
+   "priority": 0,
+   "cullDist": 1000,
+   "color": [
+    9.574249267578125,
+    8.07353401184082,
+    6.096724987030029
+   ],
+   "dir": [
+    0.6632893681526184,
+    -0.4717910587787628,
+    0.5809133052825928
+   ],
+   "origin": [
+    1248.5,
+    274.20001220703125,
+    385.6000061035156
+   ],
+   "radius": 300.0,
+   "cosHalfFovOuter": 0.8891264796257019,
+   "cosHalfFovInner": 0.9168448448181152,
+   "cosHalfFovExpanded": 0.8891264796257019,
+   "rotationLimit": 1.0,
+   "translationLimit": 0.0,
+   "mipDistance": 300.0,
+   "diffuseColor": [
+    9.574249267578125,
+    8.07353401184082,
+    6.096724987030029,
+    0.0
+   ],
+   "specularColor": [
+    9.574249267578125,
+    8.07353401184082,
+    6.096724987030029,
+    0.0
+   ],
+   "attenuation": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "falloff": [
+    0.0,
+    300.0,
+    0.0,
+    150.0
+   ],
+   "angle": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "aAbB": [
+    0.52734375,
+    0.70703125,
+    0.52734375,
+    0.70703125
+   ],
+   "cookieControl0": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "cookieControl1": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cookieControl2": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "defName": "white_light"
+  },
+  {
+   "type": 2,
+   "typeName": "spot",
+   "canUseShadowMap": 1,
+   "exponent": 0,
+   "priority": 0,
+   "cullDist": 1000,
+   "color": [
+    9.911012649536133,
+    6.938710689544678,
+    4.793208122253418
+   ],
+   "dir": [
+    -0.0030314980540424585,
+    -0.3953072428703308,
+    -0.9185439348220825
+   ],
+   "origin": [
+    1256.5,
+    -392.8999938964844,
+    359.5
+   ],
+   "radius": 250.0,
+   "cosHalfFovOuter": 0.9063077569007874,
+   "cosHalfFovInner": 0.9297308325767517,
+   "cosHalfFovExpanded": 0.9063077569007874,
+   "rotationLimit": 1.0,
+   "translationLimit": 0.0,
+   "mipDistance": 250.0,
+   "diffuseColor": [
+    9.911012649536133,
+    6.938710689544678,
+    4.793208122253418,
+    0.0
+   ],
+   "specularColor": [
+    9.911012649536133,
+    6.938710689544678,
+    4.793208122253418,
+    0.0
+   ],
+   "attenuation": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "falloff": [
+    0.0,
+    250.0,
+    0.0,
+    0.0
+   ],
+   "angle": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "aAbB": [
+    0.75,
+    1.0,
+    0.75,
+    1.0
+   ],
+   "cookieControl0": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "cookieControl1": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cookieControl2": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "defName": "white_light"
+  },
+  {
+   "type": 2,
+   "typeName": "spot",
+   "canUseShadowMap": 0,
+   "exponent": 1,
+   "priority": 0,
+   "cullDist": 1000,
+   "color": [
+    3.8296995162963867,
+    3.2294135093688965,
+    2.438689947128296
+   ],
+   "dir": [
+    -0.9429904222488403,
+    0.0,
+    0.3328201472759247
+   ],
+   "origin": [
+    1303.0,
+    -628.0,
+    520.0
+   ],
+   "radius": 200.0,
+   "cosHalfFovOuter": 0.7071067690849304,
+   "cosHalfFovInner": 0.7803300619125366,
+   "cosHalfFovExpanded": 0.7071067690849304,
+   "rotationLimit": 1.0,
+   "translationLimit": 0.0,
+   "mipDistance": 200.0,
+   "diffuseColor": [
+    3.8296995162963867,
+    3.2294135093688965,
+    2.438689947128296,
+    0.0
+   ],
+   "specularColor": [
+    3.8296995162963867,
+    3.2294135093688965,
+    2.438689947128296,
+    0.0
+   ],
+   "attenuation": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "falloff": [
+    0.0,
+    200.0,
+    0.0,
+    0.0
+   ],
+   "angle": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "aAbB": [
+    0.75,
+    1.0,
+    0.75,
+    1.0
+   ],
+   "cookieControl0": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "cookieControl1": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cookieControl2": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "defName": "white_light"
+  },
+  {
+   "type": 2,
+   "typeName": "spot",
+   "canUseShadowMap": 1,
+   "exponent": 0,
+   "priority": 0,
+   "cullDist": 1000,
+   "color": [
+    5.106266021728516,
+    4.305884838104248,
+    3.251586675643921
+   ],
+   "dir": [
+    0.7092024683952332,
+    0.08290121704339981,
+    0.7001137137413025
+   ],
+   "origin": [
+    1318.5,
+    1513.300048828125,
+    258.1000061035156
+   ],
+   "radius": 500.0,
+   "cosHalfFovOuter": 0.834817111492157,
+   "cosHalfFovInner": 0.8761128187179565,
+   "cosHalfFovExpanded": 0.834817111492157,
+   "rotationLimit": 1.0,
+   "translationLimit": 0.0,
+   "mipDistance": 500.0,
+   "diffuseColor": [
+    5.106266021728516,
+    4.305884838104248,
+    3.251586675643921,
+    0.0
+   ],
+   "specularColor": [
+    5.106266021728516,
+    4.305884838104248,
+    3.251586675643921,
+    0.0
+   ],
+   "attenuation": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "falloff": [
+    0.0,
+    500.0,
+    0.0,
+    0.0
+   ],
+   "angle": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "aAbB": [
+    0.52734375,
+    0.70703125,
+    0.52734375,
+    0.70703125
+   ],
+   "cookieControl0": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "cookieControl1": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cookieControl2": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "defName": "white_light"
+  },
+  {
+   "type": 2,
+   "typeName": "spot",
+   "canUseShadowMap": 1,
+   "exponent": 0,
+   "priority": 0,
+   "cullDist": 1000,
+   "color": [
+    2.0,
+    2.0,
+    2.0
+   ],
+   "dir": [
+    0.011830178089439869,
+    0.9996500611305237,
+    0.023660356178879738
+   ],
+   "origin": [
+    1345.0,
+    2644.5,
+    -306.0
+   ],
+   "radius": 512.0,
+   "cosHalfFovOuter": 0.9396926164627075,
+   "cosHalfFovInner": 0.954769492149353,
+   "cosHalfFovExpanded": 0.9396926164627075,
+   "rotationLimit": 1.0,
+   "translationLimit": 0.0,
+   "mipDistance": 512.0,
+   "diffuseColor": [
+    2.0,
+    2.0,
+    2.0,
+    0.0
+   ],
+   "specularColor": [
+    2.0,
+    2.0,
+    2.0,
+    0.0
+   ],
+   "attenuation": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "falloff": [
+    0.0,
+    512.0,
+    0.0,
+    256.0
+   ],
+   "angle": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "aAbB": [
+    0.75,
+    1.0,
+    0.75,
+    1.0
+   ],
+   "cookieControl0": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "cookieControl1": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cookieControl2": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "defName": "white_light"
+  },
+  {
+   "type": 2,
+   "typeName": "spot",
+   "canUseShadowMap": 1,
+   "exponent": 0,
+   "priority": 0,
+   "cullDist": 1000,
+   "color": [
+    8.38798713684082,
+    7.991020679473877,
+    6.795421600341797
+   ],
+   "dir": [
+    -0.6303154826164246,
+    -0.5978566408157349,
+    0.4952474534511566
+   ],
+   "origin": [
+    1357.199951171875,
+    -133.1999969482422,
+    270.70001220703125
+   ],
+   "radius": 450.0,
+   "cosHalfFovOuter": 0.7660444378852844,
+   "cosHalfFovInner": 0.8245333433151245,
+   "cosHalfFovExpanded": 0.7660444378852844,
+   "rotationLimit": 1.0,
+   "translationLimit": 0.0,
+   "mipDistance": 450.0,
+   "diffuseColor": [
+    8.38798713684082,
+    7.991020679473877,
+    6.795421600341797,
+    0.0
+   ],
+   "specularColor": [
+    8.38798713684082,
+    7.991020679473877,
+    6.795421600341797,
+    0.0
+   ],
+   "attenuation": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "falloff": [
+    0.0,
+    450.0,
+    0.0,
+    0.0
+   ],
+   "angle": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "aAbB": [
+    0.75,
+    1.0,
+    0.75,
+    1.0
+   ],
+   "cookieControl0": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "cookieControl1": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cookieControl2": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "defName": "white_light"
+  },
+  {
+   "type": 2,
+   "typeName": "spot",
+   "canUseShadowMap": 1,
+   "exponent": 0,
+   "priority": 0,
+   "cullDist": 1000,
+   "color": [
+    6.3828325271606445,
+    5.3823561668396,
+    4.064483165740967
+   ],
+   "dir": [
+    0.6065611243247986,
+    -0.2433866709470749,
+    0.7568662166595459
+   ],
+   "origin": [
+    1408.5,
+    1612.300048828125,
+    146.10000610351562
+   ],
+   "radius": 270.0,
+   "cosHalfFovOuter": 0.9351131319999695,
+   "cosHalfFovInner": 0.9513348340988159,
+   "cosHalfFovExpanded": 0.9351131319999695,
+   "rotationLimit": 1.0,
+   "translationLimit": 0.0,
+   "mipDistance": 270.0,
+   "diffuseColor": [
+    6.3828325271606445,
+    5.3823561668396,
+    4.064483165740967,
+    0.0
+   ],
+   "specularColor": [
+    6.3828325271606445,
+    5.3823561668396,
+    4.064483165740967,
+    0.0
+   ],
+   "attenuation": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "falloff": [
+    0.0,
+    270.0,
+    0.0,
+    0.0
+   ],
+   "angle": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "aAbB": [
+    0.52734375,
+    0.70703125,
+    0.52734375,
+    0.70703125
+   ],
+   "cookieControl0": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "cookieControl1": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cookieControl2": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "defName": "white_light"
+  },
+  {
+   "type": 2,
+   "typeName": "spot",
+   "canUseShadowMap": 1,
+   "exponent": 1,
+   "priority": 0,
+   "cullDist": 1000,
+   "color": [
+    6.279764652252197,
+    10.542298316955566,
+    11.681560516357422
+   ],
+   "dir": [
+    0.29816433787345886,
+    0.9311202168464661,
+    -0.21003130078315735
+   ],
+   "origin": [
+    1420.5,
+    -603.5999755859375,
+    293.6000061035156
+   ],
+   "radius": 500.0,
+   "cosHalfFovOuter": 0.6427876353263855,
+   "cosHalfFovInner": 0.7320907115936279,
+   "cosHalfFovExpanded": 0.6427876353263855,
+   "rotationLimit": 1.0,
+   "translationLimit": 0.0,
+   "mipDistance": 500.0,
+   "diffuseColor": [
+    6.279764652252197,
+    10.542298316955566,
+    11.681560516357422,
+    0.0
+   ],
+   "specularColor": [
+    6.279764652252197,
+    10.542298316955566,
+    11.681560516357422,
+    0.0
+   ],
+   "attenuation": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "falloff": [
+    0.0,
+    500.0,
+    0.0,
+    0.0
+   ],
+   "angle": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "aAbB": [
+    0.75,
+    1.0,
+    0.75,
+    1.0
+   ],
+   "cookieControl0": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "cookieControl1": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cookieControl2": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "defName": "white_light"
+  },
+  {
+   "type": 2,
+   "typeName": "spot",
+   "canUseShadowMap": 0,
+   "exponent": 1,
+   "priority": 0,
+   "cullDist": 1000,
+   "color": [
+    6.3828325271606445,
+    5.3823561668396,
+    4.064483165740967
+   ],
+   "dir": [
+    0.0018934651743620634,
+    -0.7951259613037109,
+    0.6064413189888
+   ],
+   "origin": [
+    1535.300048828125,
+    275.5,
+    440.1000061035156
+   ],
+   "radius": 300.0,
+   "cosHalfFovOuter": 0.7071067690849304,
+   "cosHalfFovInner": 0.7803300619125366,
+   "cosHalfFovExpanded": 0.7071067690849304,
+   "rotationLimit": 1.0,
+   "translationLimit": 0.0,
+   "mipDistance": 300.0,
+   "diffuseColor": [
+    6.3828325271606445,
+    5.3823561668396,
+    4.064483165740967,
+    0.0
+   ],
+   "specularColor": [
+    6.3828325271606445,
+    5.3823561668396,
+    4.064483165740967,
+    0.0
+   ],
+   "attenuation": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "falloff": [
+    0.0,
+    300.0,
+    0.0,
+    300.0
+   ],
+   "angle": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "aAbB": [
+    0.75,
+    1.0,
+    0.75,
+    1.0
+   ],
+   "cookieControl0": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "cookieControl1": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cookieControl2": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "defName": "white_light"
+  },
+  {
+   "type": 2,
+   "typeName": "spot",
+   "canUseShadowMap": 1,
+   "exponent": 0,
+   "priority": 0,
+   "cullDist": 1000,
+   "color": [
+    7.858007907867432,
+    3.9281702041625977,
+    0.7444721460342407
+   ],
+   "dir": [
+    0.6394010782241821,
+    -0.7662527561187744,
+    0.06342584639787674
+   ],
+   "origin": [
+    1544.5,
+    -243.0,
+    49.5
+   ],
+   "radius": 400.0,
+   "cosHalfFovOuter": 0.4999999701976776,
+   "cosHalfFovInner": 0.625,
+   "cosHalfFovExpanded": 0.4999999701976776,
+   "rotationLimit": 1.0,
+   "translationLimit": 0.0,
+   "mipDistance": 400.0,
+   "diffuseColor": [
+    7.858007907867432,
+    3.9281702041625977,
+    0.7444721460342407,
+    0.0
+   ],
+   "specularColor": [
+    7.858007907867432,
+    3.9281702041625977,
+    0.7444721460342407,
+    0.0
+   ],
+   "attenuation": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "falloff": [
+    0.0,
+    400.0,
+    0.0,
+    200.0
+   ],
+   "angle": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "aAbB": [
+    0.75,
+    1.0,
+    0.75,
+    1.0
+   ],
+   "cookieControl0": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "cookieControl1": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cookieControl2": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "defName": "white_light"
+  },
+  {
+   "type": 2,
+   "typeName": "spot",
+   "canUseShadowMap": 1,
+   "exponent": 0,
+   "priority": 0,
+   "cullDist": 1000,
+   "color": [
+    5.106266021728516,
+    4.305884838104248,
+    3.251586675643921
+   ],
+   "dir": [
+    0.8548412919044495,
+    0.15854142606258392,
+    0.4940757155418396
+   ],
+   "origin": [
+    1546.0,
+    1338.300048828125,
+    180.10000610351562
+   ],
+   "radius": 400.0,
+   "cosHalfFovOuter": 0.7745966911315918,
+   "cosHalfFovInner": 0.8309475183486938,
+   "cosHalfFovExpanded": 0.7745966911315918,
+   "rotationLimit": 1.0,
+   "translationLimit": 0.0,
+   "mipDistance": 400.0,
+   "diffuseColor": [
+    5.106266021728516,
+    4.305884838104248,
+    3.251586675643921,
+    0.0
+   ],
+   "specularColor": [
+    5.106266021728516,
+    4.305884838104248,
+    3.251586675643921,
+    0.0
+   ],
+   "attenuation": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "falloff": [
+    0.0,
+    400.0,
+    0.0,
+    0.0
+   ],
+   "angle": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "aAbB": [
+    0.52734375,
+    0.70703125,
+    0.52734375,
+    0.70703125
+   ],
+   "cookieControl0": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "cookieControl1": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cookieControl2": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "defName": "white_light"
+  },
+  {
+   "type": 2,
+   "typeName": "spot",
+   "canUseShadowMap": 1,
+   "exponent": 0,
+   "priority": 0,
+   "cullDist": 1000,
+   "color": [
+    9.911012649536133,
+    6.938710689544678,
+    4.793208122253418
+   ],
+   "dir": [
+    0.6470566391944885,
+    -0.3953898847103119,
+    -0.6519083380699158
+   ],
+   "origin": [
+    1584.5999755859375,
+    -392.8999938964844,
+    345.1000061035156
+   ],
+   "radius": 250.0,
+   "cosHalfFovOuter": 0.9063077569007874,
+   "cosHalfFovInner": 0.9297308325767517,
+   "cosHalfFovExpanded": 0.9063077569007874,
+   "rotationLimit": 1.0,
+   "translationLimit": 0.0,
+   "mipDistance": 250.0,
+   "diffuseColor": [
+    9.911012649536133,
+    6.938710689544678,
+    4.793208122253418,
+    0.0
+   ],
+   "specularColor": [
+    9.911012649536133,
+    6.938710689544678,
+    4.793208122253418,
+    0.0
+   ],
+   "attenuation": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "falloff": [
+    0.0,
+    250.0,
+    0.0,
+    0.0
+   ],
+   "angle": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "aAbB": [
+    0.75,
+    1.0,
+    0.75,
+    1.0
+   ],
+   "cookieControl0": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "cookieControl1": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cookieControl2": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "defName": "white_light"
+  },
+  {
+   "type": 2,
+   "typeName": "spot",
+   "canUseShadowMap": 1,
+   "exponent": 0,
+   "priority": 0,
+   "cullDist": 1000,
+   "color": [
+    1.843164324760437,
+    1.2479220628738403,
+    0.4691019356250763
+   ],
+   "dir": [
+    -0.01175755076110363,
+    0.4091627597808838,
+    -0.9123856425285339
+   ],
+   "origin": [
+    1617.0,
+    -2.0,
+    232.0
+   ],
+   "radius": 400.0,
+   "cosHalfFovOuter": 0.7660444378852844,
+   "cosHalfFovInner": 0.8245333433151245,
+   "cosHalfFovExpanded": 0.7660444378852844,
+   "rotationLimit": 1.0,
+   "translationLimit": 0.0,
+   "mipDistance": 400.0,
+   "diffuseColor": [
+    1.843164324760437,
+    1.2479220628738403,
+    0.4691019356250763,
+    0.0
+   ],
+   "specularColor": [
+    1.843164324760437,
+    1.2479220628738403,
+    0.4691019356250763,
+    0.0
+   ],
+   "attenuation": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "falloff": [
+    0.0,
+    400.0,
+    0.0,
+    0.0
+   ],
+   "angle": [
+    0.0,
+    1.5707963705062866,
+    0.0,
+    1.0
+   ],
+   "aAbB": [
+    0.75,
+    1.0,
+    0.25,
+    1.0
+   ],
+   "cookieControl0": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "cookieControl1": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cookieControl2": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "defName": "white_light"
+  },
+  {
+   "type": 2,
+   "typeName": "spot",
+   "canUseShadowMap": 1,
+   "exponent": 0,
+   "priority": 0,
+   "cullDist": 1000,
+   "color": [
+    9.911012649536133,
+    6.938710689544678,
+    4.793208122253418
+   ],
+   "dir": [
+    -0.21983516216278076,
+    0.32810860872268677,
+    -0.9187040328979492
+   ],
+   "origin": [
+    1626.699951171875,
+    -752.2000122070312,
+    397.5
+   ],
+   "radius": 200.0,
+   "cosHalfFovOuter": 0.9063077569007874,
+   "cosHalfFovInner": 0.9297308325767517,
+   "cosHalfFovExpanded": 0.9063077569007874,
+   "rotationLimit": 1.0,
+   "translationLimit": 0.0,
+   "mipDistance": 200.0,
+   "diffuseColor": [
+    9.911012649536133,
+    6.938710689544678,
+    4.793208122253418,
+    0.0
+   ],
+   "specularColor": [
+    9.911012649536133,
+    6.938710689544678,
+    4.793208122253418,
+    0.0
+   ],
+   "attenuation": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "falloff": [
+    0.0,
+    200.0,
+    0.0,
+    0.0
+   ],
+   "angle": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "aAbB": [
+    0.75,
+    1.0,
+    0.75,
+    1.0
+   ],
+   "cookieControl0": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "cookieControl1": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cookieControl2": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "defName": "white_light"
+  },
+  {
+   "type": 2,
+   "typeName": "spot",
+   "canUseShadowMap": 1,
+   "exponent": 0,
+   "priority": 0,
+   "cullDist": 1000,
+   "color": [
+    6.64616584777832,
+    6.33038854598999,
+    5.379549980163574
+   ],
+   "dir": [
+    -0.409163236618042,
+    -0.011757547967135906,
+    -0.9123854637145996
+   ],
+   "origin": [
+    1671.0,
+    -176.0,
+    366.0
+   ],
+   "radius": 400.0,
+   "cosHalfFovOuter": 0.7660444378852844,
+   "cosHalfFovInner": 0.8245333433151245,
+   "cosHalfFovExpanded": 0.7660444378852844,
+   "rotationLimit": 1.0,
+   "translationLimit": 0.0,
+   "mipDistance": 400.0,
+   "diffuseColor": [
+    6.64616584777832,
+    6.33038854598999,
+    5.379549980163574,
+    0.0
+   ],
+   "specularColor": [
+    6.64616584777832,
+    6.33038854598999,
+    5.379549980163574,
+    0.0
+   ],
+   "attenuation": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "falloff": [
+    0.0,
+    400.0,
+    0.0,
+    0.0
+   ],
+   "angle": [
+    0.0,
+    1.5707963705062866,
+    0.0,
+    1.0
+   ],
+   "aAbB": [
+    0.75,
+    1.0,
+    0.25,
+    1.0
+   ],
+   "cookieControl0": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "cookieControl1": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cookieControl2": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "defName": "white_light"
+  },
+  {
+   "type": 2,
+   "typeName": "spot",
+   "canUseShadowMap": 1,
+   "exponent": 0,
+   "priority": 0,
+   "cullDist": 1000,
+   "color": [
+    9.574249267578125,
+    8.07353401184082,
+    6.096724987030029
+   ],
+   "dir": [
+    0.6486126780509949,
+    0.25223827362060547,
+    0.7181069254875183
+   ],
+   "origin": [
+    1698.5,
+    275.0,
+    471.0
+   ],
+   "radius": 360.0,
+   "cosHalfFovOuter": 0.834817111492157,
+   "cosHalfFovInner": 0.8761128187179565,
+   "cosHalfFovExpanded": 0.834817111492157,
+   "rotationLimit": 1.0,
+   "translationLimit": 0.0,
+   "mipDistance": 360.0,
+   "diffuseColor": [
+    9.574249267578125,
+    8.07353401184082,
+    6.096724987030029,
+    0.0
+   ],
+   "specularColor": [
+    9.574249267578125,
+    8.07353401184082,
+    6.096724987030029,
+    0.0
+   ],
+   "attenuation": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "falloff": [
+    0.0,
+    360.0,
+    0.0,
+    180.0
+   ],
+   "angle": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "aAbB": [
+    0.52734375,
+    0.70703125,
+    0.52734375,
+    0.70703125
+   ],
+   "cookieControl0": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "cookieControl1": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cookieControl2": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "defName": "white_light"
+  },
+  {
+   "type": 2,
+   "typeName": "spot",
+   "canUseShadowMap": 1,
+   "exponent": 0,
+   "priority": 0,
+   "cullDist": 1000,
+   "color": [
+    4.93765115737915,
+    0.4624446630477905,
+    0.12796980142593384
+   ],
+   "dir": [
+    -0.11298736929893494,
+    0.8307895064353943,
+    0.5449979305267334
+   ],
+   "origin": [
+    1699.5,
+    1522.0,
+    86.0
+   ],
+   "radius": 350.0,
+   "cosHalfFovOuter": 0.7071067690849304,
+   "cosHalfFovInner": 0.7803300619125366,
+   "cosHalfFovExpanded": 0.7071067690849304,
+   "rotationLimit": 1.0,
+   "translationLimit": 0.0,
+   "mipDistance": 350.0,
+   "diffuseColor": [
+    4.93765115737915,
+    0.4624446630477905,
+    0.12796980142593384,
+    0.0
+   ],
+   "specularColor": [
+    4.93765115737915,
+    0.4624446630477905,
+    0.12796980142593384,
+    0.0
+   ],
+   "attenuation": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "falloff": [
+    0.0,
+    350.0,
+    0.0,
+    0.0
+   ],
+   "angle": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "aAbB": [
+    0.75,
+    1.0,
+    0.75,
+    1.0
+   ],
+   "cookieControl0": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "cookieControl1": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cookieControl2": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "defName": "white_light"
+  },
+  {
+   "type": 2,
+   "typeName": "spot",
+   "canUseShadowMap": 1,
+   "exponent": 1,
+   "priority": 0,
+   "cullDist": 1000,
+   "color": [
+    5.963228702545166,
+    6.64616584777832,
+    7.787558078765869
+   ],
+   "dir": [
+    -0.11349493265151978,
+    0.8818262219429016,
+    0.45771336555480957
+   ],
+   "origin": [
+    1806.800048828125,
+    895.7000122070312,
+    386.79998779296875
+   ],
+   "radius": 500.0,
+   "cosHalfFovOuter": 0.7660444378852844,
+   "cosHalfFovInner": 0.8245333433151245,
+   "cosHalfFovExpanded": 0.7660444378852844,
+   "rotationLimit": 1.0,
+   "translationLimit": 0.0,
+   "mipDistance": 500.0,
+   "diffuseColor": [
+    5.963228702545166,
+    6.64616584777832,
+    7.787558078765869,
+    0.0
+   ],
+   "specularColor": [
+    5.963228702545166,
+    6.64616584777832,
+    7.787558078765869,
+    0.0
+   ],
+   "attenuation": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "falloff": [
+    0.0,
+    500.0,
+    0.0,
+    250.0
+   ],
+   "angle": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "aAbB": [
+    0.046875,
+    1.0,
+    0.046875,
+    1.0
+   ],
+   "cookieControl0": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "cookieControl1": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cookieControl2": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "defName": "white_light"
+  },
+  {
+   "type": 2,
+   "typeName": "spot",
+   "canUseShadowMap": 1,
+   "exponent": 0,
+   "priority": 0,
+   "cullDist": 1000,
+   "color": [
+    6.3828325271606445,
+    5.3823561668396,
+    4.064483165740967
+   ],
+   "dir": [
+    0.5466563701629639,
+    0.40298551321029663,
+    0.7340092062950134
+   ],
+   "origin": [
+    1853.0,
+    501.1000061035156,
+    340.8999938964844
+   ],
+   "radius": 750.0,
+   "cosHalfFovOuter": 0.9133175611495972,
+   "cosHalfFovInner": 0.9349881410598755,
+   "cosHalfFovExpanded": 0.9133175611495972,
+   "rotationLimit": 1.0,
+   "translationLimit": 0.0,
+   "mipDistance": 750.0,
+   "diffuseColor": [
+    6.3828325271606445,
+    5.3823561668396,
+    4.064483165740967,
+    0.0
+   ],
+   "specularColor": [
+    6.3828325271606445,
+    5.3823561668396,
+    4.064483165740967,
+    0.0
+   ],
+   "attenuation": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "falloff": [
+    0.0,
+    750.0,
+    0.0,
+    375.0
+   ],
+   "angle": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "aAbB": [
+    0.52734375,
+    0.70703125,
+    0.52734375,
+    0.70703125
+   ],
+   "cookieControl0": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "cookieControl1": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cookieControl2": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "defName": "white_light"
+  },
+  {
+   "type": 2,
+   "typeName": "spot",
+   "canUseShadowMap": 1,
+   "exponent": 0,
+   "priority": 0,
+   "cullDist": 1000,
+   "color": [
+    1.843164324760437,
+    1.2479220628738403,
+    0.4691019356250763
+   ],
+   "dir": [
+    -0.39958542585372925,
+    0.0,
+    -0.9166959524154663
+   ],
+   "origin": [
+    1857.0,
+    288.0,
+    101.0
+   ],
+   "radius": 200.0,
+   "cosHalfFovOuter": 0.7660444378852844,
+   "cosHalfFovInner": 0.8245333433151245,
+   "cosHalfFovExpanded": 0.7660444378852844,
+   "rotationLimit": 1.0,
+   "translationLimit": 0.0,
+   "mipDistance": 200.0,
+   "diffuseColor": [
+    1.843164324760437,
+    1.2479220628738403,
+    0.4691019356250763,
+    0.0
+   ],
+   "specularColor": [
+    1.843164324760437,
+    1.2479220628738403,
+    0.4691019356250763,
+    0.0
+   ],
+   "attenuation": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "falloff": [
+    0.0,
+    200.0,
+    0.0,
+    0.0
+   ],
+   "angle": [
+    0.0,
+    1.5707963705062866,
+    0.0,
+    1.0
+   ],
+   "aAbB": [
+    0.75,
+    1.0,
+    0.25,
+    1.0
+   ],
+   "cookieControl0": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "cookieControl1": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cookieControl2": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "defName": "white_light"
+  },
+  {
+   "type": 2,
+   "typeName": "spot",
+   "canUseShadowMap": 1,
+   "exponent": 1,
+   "priority": 0,
+   "cullDist": 1000,
+   "color": [
+    5.1007771492004395,
+    3.132585048675537,
+    1.130108118057251
+   ],
+   "dir": [
+    0.8276744484901428,
+    -0.48040005564689636,
+    0.2901221513748169
+   ],
+   "origin": [
+    1948.699951171875,
+    -757.7000122070312,
+    447.79998779296875
+   ],
+   "radius": 600.0,
+   "cosHalfFovOuter": 0.7745966911315918,
+   "cosHalfFovInner": 0.8309475183486938,
+   "cosHalfFovExpanded": 0.7745966911315918,
+   "rotationLimit": 1.0,
+   "translationLimit": 0.0,
+   "mipDistance": 600.0,
+   "diffuseColor": [
+    5.1007771492004395,
+    3.132585048675537,
+    1.130108118057251,
+    0.0
+   ],
+   "specularColor": [
+    5.1007771492004395,
+    3.132585048675537,
+    1.130108118057251,
+    0.0
+   ],
+   "attenuation": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "falloff": [
+    0.0,
+    600.0,
+    0.0,
+    300.0
+   ],
+   "angle": [
+    0.0,
+    1.5707963705062866,
+    0.0,
+    0.0
+   ],
+   "aAbB": [
+    0.52734375,
+    0.70703125,
+    0.52734375,
+    0.70703125
+   ],
+   "cookieControl0": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "cookieControl1": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cookieControl2": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "defName": "white_light"
+  },
+  {
+   "type": 3,
+   "typeName": "omni",
+   "canUseShadowMap": 1,
+   "exponent": 0,
+   "priority": 0,
+   "cullDist": 1000,
+   "color": [
+    3.929003953933716,
+    3.4526302814483643,
+    1.3676583766937256
+   ],
+   "dir": [
+    0.0,
+    0.9979690909385681,
+    0.06370015442371368
+   ],
+   "origin": [
+    -1405.0,
+    1476.5,
+    120.0
+   ],
+   "radius": 200.0,
+   "cosHalfFovOuter": 0.7071067690849304,
+   "cosHalfFovInner": 0.9659258127212524,
+   "cosHalfFovExpanded": 0.7071067690849304,
+   "rotationLimit": 1.0,
+   "translationLimit": 0.0,
+   "mipDistance": 200.0,
+   "diffuseColor": [
+    3.929003953933716,
+    3.4526302814483643,
+    1.3676583766937256,
+    0.0
+   ],
+   "specularColor": [
+    3.929003953933716,
+    3.4526302814483643,
+    1.3676583766937256,
+    0.0
+   ],
+   "attenuation": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "falloff": [
+    0.0,
+    200.0,
+    0.0,
+    0.0
+   ],
+   "angle": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "aAbB": [
+    0.75,
+    1.0,
+    0.75,
+    1.0
+   ],
+   "cookieControl0": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "cookieControl1": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cookieControl2": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "defName": "white_light"
+  },
+  {
+   "type": 3,
+   "typeName": "omni",
+   "canUseShadowMap": 1,
+   "exponent": 0,
+   "priority": 0,
+   "cullDist": 1000,
+   "color": [
+    2.3624765872955322,
+    1.8031444549560547,
+    0.9382038712501526
+   ],
+   "dir": [
+    -0.800000011920929,
+    0.0,
+    0.6000000238418579
+   ],
+   "origin": [
+    -1329.0,
+    -384.0,
+    208.0
+   ],
+   "radius": 120.0,
+   "cosHalfFovOuter": 0.7071067690849304,
+   "cosHalfFovInner": 0.8660253882408142,
+   "cosHalfFovExpanded": 0.7071067690849304,
+   "rotationLimit": 1.0,
+   "translationLimit": 0.0,
+   "mipDistance": 120.0,
+   "diffuseColor": [
+    2.3624765872955322,
+    1.8031444549560547,
+    0.9382038712501526,
+    0.0
+   ],
+   "specularColor": [
+    2.3624765872955322,
+    1.8031444549560547,
+    0.9382038712501526,
+    0.0
+   ],
+   "attenuation": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "falloff": [
+    0.0,
+    120.0,
+    0.0,
+    0.0
+   ],
+   "angle": [
+    0.0,
+    1.5707963705062866,
+    0.0,
+    1.0
+   ],
+   "aAbB": [
+    0.75,
+    1.0,
+    0.25,
+    1.0
+   ],
+   "cookieControl0": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "cookieControl1": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cookieControl2": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "defName": "white_light"
+  },
+  {
+   "type": 3,
+   "typeName": "omni",
+   "canUseShadowMap": 1,
+   "exponent": 0,
+   "priority": 0,
+   "cullDist": 1000,
+   "color": [
+    3.2158255577087402,
+    6.206584453582764,
+    7.509487152099609
+   ],
+   "dir": [
+    -0.9955424666404724,
+    0.0,
+    0.09431454539299011
+   ],
+   "origin": [
+    -1183.5,
+    -829.0,
+    112.5
+   ],
+   "radius": 200.0,
+   "cosHalfFovOuter": 0.7071067690849304,
+   "cosHalfFovInner": 0.8660253882408142,
+   "cosHalfFovExpanded": 0.7071067690849304,
+   "rotationLimit": 1.0,
+   "translationLimit": 0.0,
+   "mipDistance": 200.0,
+   "diffuseColor": [
+    3.2158255577087402,
+    6.206584453582764,
+    7.509487152099609,
+    0.0
+   ],
+   "specularColor": [
+    3.2158255577087402,
+    6.206584453582764,
+    7.509487152099609,
+    0.0
+   ],
+   "attenuation": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "falloff": [
+    0.0,
+    200.0,
+    0.0,
+    0.0
+   ],
+   "angle": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "aAbB": [
+    0.75,
+    1.0,
+    0.75,
+    1.0
+   ],
+   "cookieControl0": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "cookieControl1": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cookieControl2": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "defName": "white_light"
+  },
+  {
+   "type": 3,
+   "typeName": "omni",
+   "canUseShadowMap": 1,
+   "exponent": 0,
+   "priority": 0,
+   "cullDist": 1000,
+   "color": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "dir": [
+    0.3054393231868744,
+    -0.18729813396930695,
+    -0.9336092472076416
+   ],
+   "origin": [
+    -956.0,
+    -615.5,
+    82.4000015258789
+   ],
+   "radius": 150.0,
+   "cosHalfFovOuter": 0.4999999701976776,
+   "cosHalfFovInner": 0.9961947202682495,
+   "cosHalfFovExpanded": 0.4999999701976776,
+   "rotationLimit": 1.0,
+   "translationLimit": 0.0,
+   "mipDistance": 150.0,
+   "diffuseColor": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "specularColor": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "attenuation": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "falloff": [
+    0.0,
+    150.0,
+    0.0,
+    0.0
+   ],
+   "angle": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "aAbB": [
+    0.5,
+    1.0,
+    0.5,
+    1.0
+   ],
+   "cookieControl0": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "cookieControl1": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cookieControl2": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "defName": "white_light"
+  },
+  {
+   "type": 3,
+   "typeName": "omni",
+   "canUseShadowMap": 1,
+   "exponent": 0,
+   "priority": 0,
+   "cullDist": 1000,
+   "color": [
+    5.608816146850586,
+    0.42288532853126526,
+    0.37332162261009216
+   ],
+   "dir": [
+    0.4230419993400574,
+    0.8204454183578491,
+    0.3845837116241455
+   ],
+   "origin": [
+    -756.5,
+    1847.4000244140625,
+    88.0
+   ],
+   "radius": 400.0,
+   "cosHalfFovOuter": 0.7071067690849304,
+   "cosHalfFovInner": 0.8660253882408142,
+   "cosHalfFovExpanded": 0.7071067690849304,
+   "rotationLimit": 1.0,
+   "translationLimit": 0.0,
+   "mipDistance": 400.0,
+   "diffuseColor": [
+    5.608816146850586,
+    0.42288532853126526,
+    0.37332162261009216,
+    0.0
+   ],
+   "specularColor": [
+    5.608816146850586,
+    0.42288532853126526,
+    0.37332162261009216,
+    0.0
+   ],
+   "attenuation": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "falloff": [
+    0.0,
+    400.0,
+    0.0,
+    0.0
+   ],
+   "angle": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "aAbB": [
+    0.75,
+    1.0,
+    0.75,
+    1.0
+   ],
+   "cookieControl0": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "cookieControl1": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cookieControl2": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "defName": "white_light"
+  },
+  {
+   "type": 3,
+   "typeName": "omni",
+   "canUseShadowMap": 1,
+   "exponent": 0,
+   "priority": 0,
+   "cullDist": 1000,
+   "color": [
+    6.455619812011719,
+    1.6124534606933594,
+    0.0448431596159935
+   ],
+   "dir": [
+    -0.860061764717102,
+    0.40990179777145386,
+    -0.30376651883125305
+   ],
+   "origin": [
+    -337.0,
+    -376.0,
+    24.0
+   ],
+   "radius": 300.0,
+   "cosHalfFovOuter": 0.7071067690849304,
+   "cosHalfFovInner": 0.8660253882408142,
+   "cosHalfFovExpanded": 0.7071067690849304,
+   "rotationLimit": 1.0,
+   "translationLimit": 0.0,
+   "mipDistance": 300.0,
+   "diffuseColor": [
+    6.455619812011719,
+    1.6124534606933594,
+    0.0448431596159935,
+    0.0
+   ],
+   "specularColor": [
+    6.455619812011719,
+    1.6124534606933594,
+    0.0448431596159935,
+    0.0
+   ],
+   "attenuation": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "falloff": [
+    0.0,
+    300.0,
+    0.0,
+    0.0
+   ],
+   "angle": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "aAbB": [
+    0.75,
+    1.0,
+    0.75,
+    1.0
+   ],
+   "cookieControl0": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "cookieControl1": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cookieControl2": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "defName": "white_light"
+  },
+  {
+   "type": 3,
+   "typeName": "omni",
+   "canUseShadowMap": 1,
+   "exponent": 0,
+   "priority": 255,
+   "cullDist": 1000,
+   "color": [
+    4.234369277954102,
+    3.4334282875061035,
+    1.1348319053649902
+   ],
+   "dir": [
+    -0.5829142928123474,
+    0.787895143032074,
+    -0.1985751986503601
+   ],
+   "origin": [
+    -87.5,
+    217.0,
+    0.0
+   ],
+   "radius": 230.0,
+   "cosHalfFovOuter": 0.8660253882408142,
+   "cosHalfFovInner": 0.9961947202682495,
+   "cosHalfFovExpanded": 0.8660253882408142,
+   "rotationLimit": 1.0,
+   "translationLimit": 0.0,
+   "mipDistance": 230.0,
+   "diffuseColor": [
+    4.234369277954102,
+    3.4334282875061035,
+    1.1348319053649902,
+    0.0
+   ],
+   "specularColor": [
+    4.234369277954102,
+    3.4334282875061035,
+    1.1348319053649902,
+    0.0
+   ],
+   "attenuation": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "falloff": [
+    0.0,
+    230.0,
+    0.0,
+    0.0
+   ],
+   "angle": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "aAbB": [
+    0.5,
+    1.0,
+    0.5,
+    1.0
+   ],
+   "cookieControl0": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "cookieControl1": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cookieControl2": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "defName": "white_light"
+  },
+  {
+   "type": 3,
+   "typeName": "omni",
+   "canUseShadowMap": 1,
+   "exponent": 0,
+   "priority": 0,
+   "cullDist": 1000,
+   "color": [
+    6.455619812011719,
+    0.4624446630477905,
+    0.34988152980804443
+   ],
+   "dir": [
+    -0.05915192887187004,
+    0.9937524199485779,
+    0.09464308619499207
+   ],
+   "origin": [
+    284.0,
+    2145.0,
+    44.0
+   ],
+   "radius": 200.0,
+   "cosHalfFovOuter": 0.7071067690849304,
+   "cosHalfFovInner": 0.8660253882408142,
+   "cosHalfFovExpanded": 0.7071067690849304,
+   "rotationLimit": 1.0,
+   "translationLimit": 0.0,
+   "mipDistance": 200.0,
+   "diffuseColor": [
+    6.455619812011719,
+    0.4624446630477905,
+    0.34988152980804443,
+    0.0
+   ],
+   "specularColor": [
+    6.455619812011719,
+    0.4624446630477905,
+    0.34988152980804443,
+    0.0
+   ],
+   "attenuation": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "falloff": [
+    0.0,
+    200.0,
+    0.0,
+    0.0
+   ],
+   "angle": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "aAbB": [
+    0.75,
+    1.0,
+    0.75,
+    1.0
+   ],
+   "cookieControl0": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "cookieControl1": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cookieControl2": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "defName": "white_light"
+  },
+  {
+   "type": 3,
+   "typeName": "omni",
+   "canUseShadowMap": 1,
+   "exponent": 0,
+   "priority": 0,
+   "cullDist": 1000,
+   "color": [
+    5.963228702545166,
+    2.0332131385803223,
+    0.20149481296539307
+   ],
+   "dir": [
+    0.31457772850990295,
+    -0.850396990776062,
+    -0.4217415750026703
+   ],
+   "origin": [
+    603.5,
+    1317.0,
+    6.5
+   ],
+   "radius": 200.0,
+   "cosHalfFovOuter": 0.7071067690849304,
+   "cosHalfFovInner": 0.8660253882408142,
+   "cosHalfFovExpanded": 0.7071067690849304,
+   "rotationLimit": 1.0,
+   "translationLimit": 0.0,
+   "mipDistance": 200.0,
+   "diffuseColor": [
+    5.963228702545166,
+    2.0332131385803223,
+    0.20149481296539307,
+    0.0
+   ],
+   "specularColor": [
+    5.963228702545166,
+    2.0332131385803223,
+    0.20149481296539307,
+    0.0
+   ],
+   "attenuation": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "falloff": [
+    0.0,
+    200.0,
+    0.0,
+    0.0
+   ],
+   "angle": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "aAbB": [
+    0.75,
+    1.0,
+    0.75,
+    1.0
+   ],
+   "cookieControl0": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "cookieControl1": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cookieControl2": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "defName": "white_light"
+  },
+  {
+   "type": 3,
+   "typeName": "omni",
+   "canUseShadowMap": 1,
+   "exponent": 0,
+   "priority": 0,
+   "cullDist": 1000,
+   "color": [
+    4.7249531745910645,
+    3.6062889099121094,
+    1.8764077425003052
+   ],
+   "dir": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "origin": [
+    1407.0,
+    988.0,
+    104.0
+   ],
+   "radius": 200.0,
+   "cosHalfFovOuter": 0.7071067690849304,
+   "cosHalfFovInner": 0.8660253882408142,
+   "cosHalfFovExpanded": 0.7071067690849304,
+   "rotationLimit": 1.0,
+   "translationLimit": 0.0,
+   "mipDistance": 200.0,
+   "diffuseColor": [
+    4.7249531745910645,
+    3.6062889099121094,
+    1.8764077425003052,
+    0.0
+   ],
+   "specularColor": [
+    4.7249531745910645,
+    3.6062889099121094,
+    1.8764077425003052,
+    0.0
+   ],
+   "attenuation": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "falloff": [
+    0.0,
+    200.0,
+    0.0,
+    0.0
+   ],
+   "angle": [
+    0.0,
+    1.5707963705062866,
+    0.0,
+    1.0
+   ],
+   "aAbB": [
+    0.75,
+    1.0,
+    0.25,
+    1.0
+   ],
+   "cookieControl0": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "cookieControl1": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cookieControl2": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "defName": "white_light"
+  },
+  {
+   "type": 3,
+   "typeName": "omni",
+   "canUseShadowMap": 1,
+   "exponent": 0,
+   "priority": 0,
+   "cullDist": 1000,
+   "color": [
+    11.869478225708008,
+    15.0,
+    14.08028793334961
+   ],
+   "dir": [
+    0.044891517609357834,
+    0.3159089684486389,
+    0.9477269053459167
+   ],
+   "origin": [
+    1510.0,
+    -2242.5,
+    241.5
+   ],
+   "radius": 200.0,
+   "cosHalfFovOuter": 0.7071067690849304,
+   "cosHalfFovInner": 0.8660253882408142,
+   "cosHalfFovExpanded": 0.7071067690849304,
+   "rotationLimit": 1.0,
+   "translationLimit": 0.0,
+   "mipDistance": 200.0,
+   "diffuseColor": [
+    11.869478225708008,
+    15.0,
+    14.08028793334961,
+    0.0
+   ],
+   "specularColor": [
+    11.869478225708008,
+    15.0,
+    14.08028793334961,
+    0.0
+   ],
+   "attenuation": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "falloff": [
+    0.0,
+    200.0,
+    0.0,
+    0.0
+   ],
+   "angle": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "aAbB": [
+    0.75,
+    1.0,
+    0.75,
+    1.0
+   ],
+   "cookieControl0": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "cookieControl1": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cookieControl2": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "defName": "white_light"
+  },
+  {
+   "type": 3,
+   "typeName": "omni",
+   "canUseShadowMap": 1,
+   "exponent": 0,
+   "priority": 0,
+   "cullDist": 1000,
+   "color": [
+    1.130108118057251,
+    5.784445762634277,
+    5.784445762634277
+   ],
+   "dir": [
+    -0.08209627121686935,
+    -0.8495179414749146,
+    0.5211328864097595
+   ],
+   "origin": [
+    2139.0,
+    433.0,
+    84.0
+   ],
+   "radius": 250.0,
+   "cosHalfFovOuter": 0.7071067690849304,
+   "cosHalfFovInner": 0.8660253882408142,
+   "cosHalfFovExpanded": 0.7071067690849304,
+   "rotationLimit": 1.0,
+   "translationLimit": 0.0,
+   "mipDistance": 250.0,
+   "diffuseColor": [
+    1.130108118057251,
+    5.784445762634277,
+    5.784445762634277,
+    0.0
+   ],
+   "specularColor": [
+    1.130108118057251,
+    5.784445762634277,
+    5.784445762634277,
+    0.0
+   ],
+   "attenuation": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "falloff": [
+    0.0,
+    250.0,
+    0.0,
+    125.0
+   ],
+   "angle": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "aAbB": [
+    0.75,
+    1.0,
+    0.75,
+    1.0
+   ],
+   "cookieControl0": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "cookieControl1": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cookieControl2": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "defName": "white_light"
+  }
+ ]
+}

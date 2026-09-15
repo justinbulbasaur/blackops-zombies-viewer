@@ -1,0 +1,8904 @@
+[
+ {
+  "index": 389,
+  "report": {
+   "index": 389,
+   "pos": 15303310,
+   "end": 15307291,
+   "how": "found base=0x9d37d5 (7 votes)",
+   "next_type": "RAWFILE",
+   "next_name": "aitype/zombie_quad.gsc",
+   "next_hdr": 12,
+   "ok": true,
+   "virtual_base": 10303445,
+   "base_confidence": "exact",
+   "unresolved_inside": [],
+   "unresolved_unwalked": 24,
+   "unresolved_other": 0,
+   "weapDef": "inline",
+   "stub": false
+  },
+  "summary": {
+   "name": "ak47_zm",
+   "displayName": "WEAPON_AK47",
+   "altWeapon": "",
+   "ammo": "",
+   "clip": "",
+   "weapType": "bullet",
+   "weapClass": "rifle",
+   "fireType": "fullauto",
+   "inventoryType": "primary",
+   "penetrateType": "medium",
+   "impactType": "bullet_large",
+   "flags": {
+    "bRifleBullet": true,
+    "armorPiercing": false,
+    "bBoltAction": false,
+    "aimDownSight": true,
+    "bDualWield": false,
+    "sharedAmmo": false,
+    "unlimitedAmmo": false,
+    "bClipOnly": false,
+    "bNoPartialReload": false,
+    "bSegmentedReload": false,
+    "bRechamberWhileAds": true,
+    "bReloadWhileAds": false,
+    "doGibbing": false
+   },
+   "ammoClip": {
+    "iClipSize": 30,
+    "iStartAmmo": 4,
+    "iMaxAmmo": 8,
+    "shotCount": 1,
+    "iReloadAmmoAdd": 0,
+    "iReloadStartAdd": 0,
+    "iDropAmmoMin": 1,
+    "iDropAmmoMax": 30
+   },
+   "timesVariant": {
+    "iReloadTime": 2500,
+    "iReloadEmptyTime": 3250,
+    "iReloadQuickTime": 0,
+    "iReloadQuickEmptyTime": 0,
+    "iAdsTransInTime": 250,
+    "iAdsTransOutTime": 250,
+    "iAltRaiseTime": 600
+   },
+   "timesWeapDef": {
+    "iFireDelay": 0,
+    "iMeleeDelay": 250,
+    "meleeChargeDelay": 0,
+    "iDetonateDelay": 0,
+    "iSpinUpTime": 1000,
+    "iSpinDownTime": 1000,
+    "spinRate": 1.0,
+    "iFireTime": 80,
+    "iLastFireTime": 0,
+    "iRechamberTime": 100,
+    "iRechamberBoltTime": 0,
+    "iHoldFireTime": 0,
+    "iDetonateTime": 0,
+    "iMeleeTime": 700,
+    "meleeChargeTime": 0,
+    "iReloadTimeRight": 0,
+    "iReloadTimeLeft": 0,
+    "reloadShowRocketTime": 0,
+    "iReloadEmptyTimeLeft": 0,
+    "iReloadAddTime": 1750,
+    "iReloadEmptyAddTime": 1750,
+    "iReloadQuickAddTime": 0,
+    "iReloadQuickEmptyAddTime": 0,
+    "iReloadStartTime": 0,
+    "iReloadStartAddTime": 0,
+    "iReloadEndTime": 0,
+    "iDropTime": 600,
+    "iRaiseTime": 950,
+    "iAltDropTime": 0,
+    "quickDropTime": 250,
+    "quickRaiseTime": 750,
+    "iFirstRaiseTime": 1400,
+    "iEmptyRaiseTime": 950,
+    "iEmptyDropTime": 600,
+    "sprintInTime": 300,
+    "sprintLoopTime": 700,
+    "sprintOutTime": 300,
+    "fuseTime": 0,
+    "aiFuseTime": 0,
+    "iJamFireTime": 50,
+    "iPositionReloadTransTime": 450
+   },
+   "damage": {
+    "damage": 40,
+    "minDamage": 30,
+    "playerDamage": 100,
+    "minPlayerDamage": 0,
+    "iMeleeDamage": 25,
+    "iDamageType": 0,
+    "damageDuration": 0.0,
+    "damageInterval": 0.0,
+    "fMaxDamageRange": 1500.0,
+    "fMinDamageRange": 2000.0,
+    "iExplosionRadius": 0,
+    "iExplosionRadiusMin": 0,
+    "iExplosionInnerDamage": 0,
+    "iExplosionOuterDamage": 0,
+    "damageConeAngle": 180.0,
+    "meleeChargeRange": 0.0
+   },
+   "locationDamageMultipliers": {
+    "none": 1.0,
+    "helmet": 1.399999976158142,
+    "head": 1.399999976158142,
+    "neck": 1.0,
+    "torso_upper": 1.0,
+    "torso_lower": 1.0,
+    "right_arm_upper": 1.0,
+    "left_arm_upper": 1.0,
+    "right_arm_lower": 1.0,
+    "left_arm_lower": 1.0,
+    "right_hand": 1.0,
+    "left_hand": 1.0,
+    "right_leg_upper": 1.0,
+    "left_leg_upper": 1.0,
+    "right_leg_lower": 1.0,
+    "left_leg_lower": 1.0,
+    "right_foot": 1.0,
+    "left_foot": 1.0,
+    "gun": 0.0
+   },
+   "spread": {
+    "fHipSpreadStandMin": 3.0,
+    "fHipSpreadDuckedMin": 2.5,
+    "fHipSpreadProneMin": 2.0,
+    "hipSpreadStandMax": 7.0,
+    "hipSpreadDuckedMax": 6.0,
+    "hipSpreadProneMax": 5.0,
+    "fHipSpreadDecayRate": 4.0,
+    "fHipSpreadFireAdd": 0.6000000238418579,
+    "fHipSpreadTurnAdd": 0.0,
+    "fHipSpreadMoveAdd": 5.0,
+    "fHipSpreadDuckedDecay": 1.0499999523162842,
+    "fHipSpreadProneDecay": 1.100000023841858,
+    "fAdsSpread": 0.0,
+    "adsViewErrorMin": 0.0,
+    "adsViewErrorMax": 0.0,
+    "accuracy": 0.0,
+    "aiSpread": 0.0,
+    "playerSpread": 0.0,
+    "autoAimRange": 0.0,
+    "aimAssistRange": 1000.0,
+    "aimPadding": 0.0,
+    "enemyCrosshairRange": 1000.0,
+    "horizViewJitter": 0.0,
+    "vertViewJitter": 0.0
+   },
+   "gunKickAds": {
+    "adsGunKickReducedKickBullets": 0,
+    "adsGunKickReducedKickPercent": 75.0,
+    "fAdsGunKickPitchMin": 5.0,
+    "fAdsGunKickPitchMax": 15.0,
+    "fAdsGunKickYawMin": -5.0,
+    "fAdsGunKickYawMax": 10.0,
+    "fAdsGunKickAccel": 800.0,
+    "fAdsGunKickSpeedMax": 2000.0,
+    "fAdsGunKickSpeedDecay": 32.0,
+    "fAdsGunKickStaticDecay": 40.0
+   },
+   "gunKickHip": {
+    "hipGunKickReducedKickBullets": 0,
+    "hipGunKickReducedKickPercent": 0.0,
+    "fHipGunKickPitchMin": 5.0,
+    "fHipGunKickPitchMax": -15.0,
+    "fHipGunKickYawMin": 5.0,
+    "fHipGunKickYawMax": -5.0,
+    "fHipGunKickAccel": 800.0,
+    "fHipGunKickSpeedMax": 2000.0,
+    "fHipGunKickSpeedDecay": 16.0,
+    "fHipGunKickStaticDecay": 20.0
+   },
+   "viewKick": {
+    "fAdsViewKickPitchMin": -30.0,
+    "fAdsViewKickPitchMax": 60.0,
+    "fAdsViewKickYawMin": 60.0,
+    "fAdsViewKickYawMax": -60.0,
+    "fAdsViewScatterMin": 0.0,
+    "fAdsViewScatterMax": 0.0,
+    "fHipViewKickPitchMin": -30.0,
+    "fHipViewKickPitchMax": 60.0,
+    "fHipViewKickYawMin": 60.0,
+    "fHipViewKickYawMax": -60.0,
+    "fHipViewScatterMin": 0.0,
+    "fHipViewScatterMax": 0.0,
+    "fAdsViewKickCenterSpeed": 1500.0,
+    "fHipViewKickCenterSpeed": 1500.0
+   },
+   "sway": {
+    "swayMaxAngle": 4.0,
+    "swayLerpSpeed": 4.0,
+    "swayPitchScale": -1.0,
+    "swayYawScale": -1.0,
+    "swayHorizScale": 0.30000001192092896,
+    "swayVertScale": 0.10000000149011612,
+    "swayShellShockScale": 5.0,
+    "adsSwayMaxAngle": 0.8500000238418579,
+    "adsSwayLerpSpeed": 6.0,
+    "adsSwayPitchScale": 0.10000000149011612,
+    "adsSwayYawScale": 0.10000000149011612,
+    "fAdsSwayHorizScale": 0.14000000059604645,
+    "fAdsSwayVertScale": 0.25
+   },
+   "idleBob": {
+    "fAdsIdleAmount": 2.0,
+    "fHipIdleAmount": 15.0,
+    "adsIdleSpeed": 0.800000011920929,
+    "hipIdleSpeed": 5.0,
+    "fIdleCrouchFactor": 1.0,
+    "fIdleProneFactor": 0.4000000059604645,
+    "fGunMaxPitch": 8.0,
+    "fGunMaxYaw": 25.0,
+    "fAdsBobFactor": 0.699999988079071,
+    "fAdsViewBobMult": 0.20000000298023224,
+    "fDuckedSprintCycleScale": 0.0,
+    "fSprintCycleScale": 0.800000011920929,
+    "fDtpCycleScale": 1.0,
+    "fPosMoveRate": 6.0,
+    "fPosProneMoveRate": 25.0,
+    "fPosRotRate": 6.0,
+    "fPosProneRotRate": 30.0
+   },
+   "viewOffsets": {
+    "vStandMove": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vStandRot": [
+     2.0,
+     0.0,
+     -2.0
+    ],
+    "vDuckedOfs": [
+     -1.0,
+     0.800000011920929,
+     -0.20000000298023224
+    ],
+    "vDuckedMove": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vDuckedRot": [
+     2.0,
+     0.0,
+     -2.0
+    ],
+    "vProneOfs": [
+     -2.0,
+     0.0,
+     0.0
+    ],
+    "vProneMove": [
+     -160.0,
+     3.0,
+     -120.0
+    ],
+    "vProneRot": [
+     0.0,
+     300.0,
+     -300.0
+    ],
+    "vStrafeMove": [
+     0.0,
+     0.5,
+     0.0
+    ],
+    "vStrafeRot": [
+     0.0,
+     0.0,
+     3.0
+    ],
+    "vSprintOfs": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vSprintRot": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vSprintBob": [
+     0.0,
+     0.0
+    ],
+    "vDuckedSprintOfs": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vDuckedSprintRot": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vDuckedSprintBob": [
+     0.0,
+     0.0
+    ],
+    "vLowReadyOfs": [
+     2.0,
+     -5.0,
+     -1.0
+    ],
+    "vLowReadyRot": [
+     20.0,
+     46.599998474121094,
+     -29.600000381469727
+    ],
+    "vDtpOfs": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vDtpRot": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vDtpBob": [
+     0.0,
+     0.0
+    ],
+    "vMantleOfs": [
+     0.0,
+     -3.0,
+     3.0
+    ],
+    "vMantleRot": [
+     5.0,
+     5.0,
+     0.0
+    ],
+    "vSlideOfs": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vSlideRot": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   },
+   "ads": {
+    "fAdsZoomFov1": 50.0,
+    "fAdsZoomFov2": 50.0,
+    "fAdsZoomFov3": 50.0,
+    "fAdsZoomInFrac": 0.5,
+    "fAdsZoomOutFrac": 0.4000000059604645,
+    "fAimAssistRangeAds": 1500.0,
+    "fOverlayAlphaScale": 1.0,
+    "adsMoveSpeedScale": 1.0,
+    "moveSpeedScale": 0.949999988079071,
+    "sprintDurationScale": 1.0,
+    "fAdsAimPitch": 0.0,
+    "fAdsCrosshairInFrac": 1.0,
+    "fAdsCrosshairOutFrac": 0.20000000298023224,
+    "adsDofStart": 0.0,
+    "adsDofEnd": 15.0,
+    "hipDofStart": 0.0,
+    "hipDofEnd": 0.0,
+    "overlayWidth": 480.0,
+    "overlayHeight": 480.0
+   },
+   "projectile": {
+    "iProjectileSpeed": 0,
+    "iProjectileSpeedUp": 0,
+    "iProjectileSpeedRelativeUp": 0,
+    "iProjectileSpeedForward": 0,
+    "iProjectileActivateDist": 0,
+    "projLifetime": 0.0,
+    "timeToAccelerate": 0.0,
+    "projectileCurvature": 0.0,
+    "projIgnitionDelay": 0,
+    "vProjectileColor": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "maxSteeringAccel": 0.0,
+    "lowAmmoWarningThreshold": 0.33000001311302185,
+    "stickiness": 0,
+    "rotateType": 0,
+    "parallelBounce": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "perpendicularBounce": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "projExplosion": "grenade",
+    "projectileModel": null
+   },
+   "tracer": {
+    "tracerFrequency": 2,
+    "tracerWidth": 10.0,
+    "tracerLength": 0.0
+   },
+   "overheat": {
+    "overheatWeapon": 0,
+    "overheatRate": 1.0,
+    "cooldownRate": 30.0,
+    "overheatEndVal": 25.0,
+    "coolWhileFiring": 0
+   },
+   "aiParams": {
+    "fightDist": 720.0,
+    "maxDist": 590.0,
+    "leftArc": 0.0,
+    "rightArc": 0.0,
+    "topArc": 0.0,
+    "bottomArc": 0.0,
+    "minTurnSpeed": [
+     0.0,
+     0.0
+    ],
+    "maxTurnSpeed": [
+     0.0,
+     0.0
+    ],
+    "pitchConvergenceTime": 0.0,
+    "yawConvergenceTime": 0.0,
+    "suppressTime": 0.0,
+    "maxRange": 0.0,
+    "fAnimHorRotateInc": 0.0,
+    "fPlayerPositionDist": 0.0,
+    "aiVsAiAccuracyGraphName": "assault_rifle.accu",
+    "aiVsPlayerAccuracyGraphName": "assault_rifle.accu",
+    "aiVsAiAccuracyGraphKnots": [
+     [
+      0.0,
+      1.0
+     ],
+     [
+      0.060499999672174454,
+      1.0
+     ],
+     [
+      0.06549999862909317,
+      0.3560999929904938
+     ],
+     [
+      0.13920000195503235,
+      0.03240000084042549
+     ],
+     [
+      0.7426000237464905,
+      0.0
+     ],
+     [
+      1.0,
+      0.0
+     ]
+    ],
+    "aiVsPlayerAccuracyGraphKnots": [
+     [
+      0.0,
+      0.699999988079071
+     ],
+     [
+      0.12600000202655792,
+      0.4000000059604645
+     ],
+     [
+      0.3000999987125397,
+      0.25
+     ],
+     [
+      0.5011000037193298,
+      0.125
+     ],
+     [
+      0.7501000165939331,
+      0.07999999821186066
+     ],
+     [
+      1.0,
+      0.05000000074505806
+     ]
+    ]
+   },
+   "sounds": {
+    "pickupSound": "wpn_weap_pickup_npc",
+    "pickupSoundPlayer": "wpn_weap_pickup_plr",
+    "ammoPickupSound": "wpn_ammo_pickup_npc",
+    "ammoPickupSoundPlayer": "wpn_ammo_pickup_plr",
+    "fireSound": "wpn_ak47_fire_npc",
+    "fireSoundPlayer": "wpn_ak47_fire_plr",
+    "emptyFireSound": "wpn_ak47_dryfire_npc",
+    "emptyFireSoundPlayer": "wpn_ak47_dryfire_plr",
+    "altSwitchSound": "wpn_weap_raise_npc",
+    "altSwitchSoundPlayer": "wpn_weap_raise_plr",
+    "raiseSound": "wpn_ak47_raise_npc",
+    "raiseSoundPlayer": "wpn_ak47_raise_plr",
+    "firstRaiseSound": "wpn_ak47_1straise_npc",
+    "firstRaiseSoundPlayer": "wpn_ak47_1straise_plr"
+   },
+   "bounceSound": null,
+   "rumble": {
+    "fireRumble": "assault_fire",
+    "meleeImpactRumble": "",
+    "reloadRumble": ""
+   },
+   "fx": {
+    "viewFlashEffect": ",weapon/muzzleflashes/fx_rifle1_flash_base",
+    "worldFlashEffect": ",weapon/muzzleflashes/fx_rifle1_flash_base",
+    "viewShellEjectEffect": ",weapon/shellejects/fx_rifle",
+    "worldShellEjectEffect": ",weapon/shellejects/fx_rifle",
+    "viewLastShotEjectEffect": ",weapon/shellejects/fx_rifle",
+    "worldLastShotEjectEffect": ",weapon/shellejects/fx_rifle"
+   },
+   "models": {
+    "gunXModel": [
+     "t5_weapon_ak47_viewmodel"
+    ],
+    "worldModel": [
+     "t5_weapon_ak47_world"
+    ],
+    "handXModel": ",viewhands_usmc",
+    "worldClipModel": null,
+    "rocketModel": null,
+    "mountedModel": null,
+    "additionalMeleeModel": null
+   },
+   "materials": {
+    "hudIcon": ",hud_icon_ak47",
+    "killIcon": ",hud_icon_ak47",
+    "ammoCounterIcon": ",hud_icon_ak47",
+    "reticleSide": ",reticle_side_small"
+   },
+   "strings": {
+    "szOverlayName": "",
+    "szModeName": "",
+    "parentWeaponName": "ak47",
+    "szSharedAmmoCapName": "",
+    "szSpawnedGrenadeWeaponName": "",
+    "szDualWieldWeaponName": "",
+    "szUseHintString": "",
+    "dropHintString": "",
+    "szScript": "",
+    "standMountedWeapdef": "",
+    "crouchMountedWeapdef": "",
+    "proneMountedWeapdef": "",
+    "flameTableFirstPerson": "",
+    "flameTableThirdPerson": ""
+   },
+   "notetrackSoundMap": [],
+   "hideTags": [
+    "tag_flame_unit",
+    "tag_flamer_bracket",
+    "tag_flamer_button",
+    "tag_flamer_bottle",
+    "tag_flamer_ring",
+    "tag_dual_clip",
+    "tag_extended_clip",
+    "tag_bouncing_grenade_launcher",
+    "j_bouncing_grenade_ammo",
+    "tag_suppressor",
+    "tag_nsp3a",
+    "tag_cobra_mounted",
+    "tag_masterkey",
+    "tag_brass2",
+    "tag_ammo2",
+    "tag_pump2",
+    "tag_aimpoint",
+    "tag_scope_pka",
+    "tag_short_sight"
+   ],
+   "xanims": {
+    "CAMERA_MANTLE": "t5_viewmodel_camera_mantle"
+   },
+   "ikLeftHand": {
+    "ikLeftHandOffset": [
+     1.75,
+     0.0,
+     0.0
+    ],
+    "ikLeftHandRotation": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "ikLeftHandProneOffset": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "ikLeftHandProneRotation": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "ikLeftHandUiViewerOffset": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "ikLeftHandUiViewerRotation": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   }
+  }
+ },
+ {
+  "index": 419,
+  "report": {
+   "index": 419,
+   "pos": 17127011,
+   "end": 17130380,
+   "how": "found base=0xb46c14 (2 votes)",
+   "next_type": "RAWFILE",
+   "next_name": "character/character_sp_zombie_dog.gsc",
+   "next_hdr": 12,
+   "ok": true,
+   "virtual_base": 11824148,
+   "base_confidence": "exact",
+   "unresolved_inside": [],
+   "unresolved_unwalked": 0,
+   "unresolved_other": 0,
+   "weapDef": "inline",
+   "stub": false
+  },
+  "summary": {
+   "name": "zombie_bullet_crouch",
+   "displayName": "",
+   "altWeapon": "",
+   "ammo": "",
+   "clip": "",
+   "weapType": "bullet",
+   "weapClass": "turret",
+   "fireType": "fullauto",
+   "inventoryType": "primary",
+   "penetrateType": "large",
+   "impactType": "bullet_ap",
+   "flags": {
+    "bRifleBullet": true,
+    "armorPiercing": false,
+    "bBoltAction": false,
+    "aimDownSight": true,
+    "bDualWield": false,
+    "sharedAmmo": false,
+    "unlimitedAmmo": true,
+    "bClipOnly": false,
+    "bNoPartialReload": false,
+    "bSegmentedReload": false,
+    "bRechamberWhileAds": false,
+    "bReloadWhileAds": false,
+    "doGibbing": true
+   },
+   "ammoClip": {
+    "iClipSize": 10,
+    "iStartAmmo": 0,
+    "iMaxAmmo": 100,
+    "shotCount": 0,
+    "iReloadAmmoAdd": 0,
+    "iReloadStartAdd": 0,
+    "iDropAmmoMin": 0,
+    "iDropAmmoMax": 0
+   },
+   "timesVariant": {
+    "iReloadTime": 50,
+    "iReloadEmptyTime": 0,
+    "iReloadQuickTime": 0,
+    "iReloadQuickEmptyTime": 0,
+    "iAdsTransInTime": 150,
+    "iAdsTransOutTime": 150,
+    "iAltRaiseTime": 0
+   },
+   "timesWeapDef": {
+    "iFireDelay": 0,
+    "iMeleeDelay": 0,
+    "meleeChargeDelay": 0,
+    "iDetonateDelay": 0,
+    "iSpinUpTime": 1000,
+    "iSpinDownTime": 1000,
+    "spinRate": 1.0,
+    "iFireTime": 100,
+    "iLastFireTime": 0,
+    "iRechamberTime": 0,
+    "iRechamberBoltTime": 100000,
+    "iHoldFireTime": 0,
+    "iDetonateTime": 0,
+    "iMeleeTime": 0,
+    "meleeChargeTime": 0,
+    "iReloadTimeRight": 0,
+    "iReloadTimeLeft": 0,
+    "reloadShowRocketTime": 0,
+    "iReloadEmptyTimeLeft": 0,
+    "iReloadAddTime": 0,
+    "iReloadEmptyAddTime": 0,
+    "iReloadQuickAddTime": 0,
+    "iReloadQuickEmptyAddTime": 0,
+    "iReloadStartTime": 0,
+    "iReloadStartAddTime": 0,
+    "iReloadEndTime": 0,
+    "iDropTime": 0,
+    "iRaiseTime": 0,
+    "iAltDropTime": 0,
+    "quickDropTime": 0,
+    "quickRaiseTime": 0,
+    "iFirstRaiseTime": 0,
+    "iEmptyRaiseTime": 0,
+    "iEmptyDropTime": 0,
+    "sprintInTime": 0,
+    "sprintLoopTime": 0,
+    "sprintOutTime": 0,
+    "fuseTime": 0,
+    "aiFuseTime": 0,
+    "iJamFireTime": 0,
+    "iPositionReloadTransTime": 0
+   },
+   "damage": {
+    "damage": 300,
+    "minDamage": 250,
+    "playerDamage": 40,
+    "minPlayerDamage": 30,
+    "iMeleeDamage": 0,
+    "iDamageType": 0,
+    "damageDuration": 0.0,
+    "damageInterval": 0.0,
+    "fMaxDamageRange": 1800.0,
+    "fMinDamageRange": 3000.0,
+    "iExplosionRadius": 0,
+    "iExplosionRadiusMin": 0,
+    "iExplosionInnerDamage": 0,
+    "iExplosionOuterDamage": 0,
+    "damageConeAngle": 180.0,
+    "meleeChargeRange": 0.0
+   },
+   "locationDamageMultipliers": {
+    "none": 1.0,
+    "helmet": 4.0,
+    "head": 4.0,
+    "neck": 4.0,
+    "torso_upper": 2.0,
+    "torso_lower": 2.0,
+    "right_arm_upper": 1.0,
+    "left_arm_upper": 1.0,
+    "right_arm_lower": 1.0,
+    "left_arm_lower": 1.0,
+    "right_hand": 1.0,
+    "left_hand": 1.0,
+    "right_leg_upper": 1.0,
+    "left_leg_upper": 1.0,
+    "right_leg_lower": 1.0,
+    "left_leg_lower": 1.0,
+    "right_foot": 1.0,
+    "left_foot": 1.0,
+    "gun": 0.0
+   },
+   "spread": {
+    "fHipSpreadStandMin": 0.0,
+    "fHipSpreadDuckedMin": 0.0,
+    "fHipSpreadProneMin": 0.0,
+    "hipSpreadStandMax": 0.0,
+    "hipSpreadDuckedMax": 0.0,
+    "hipSpreadProneMax": 0.0,
+    "fHipSpreadDecayRate": 0.0,
+    "fHipSpreadFireAdd": 0.0,
+    "fHipSpreadTurnAdd": 0.0,
+    "fHipSpreadMoveAdd": 0.0,
+    "fHipSpreadDuckedDecay": 0.0,
+    "fHipSpreadProneDecay": 0.0,
+    "fAdsSpread": 0.0,
+    "adsViewErrorMin": 0.0,
+    "adsViewErrorMax": 0.0,
+    "accuracy": 0.3799999952316284,
+    "aiSpread": 2.0,
+    "playerSpread": 2.0,
+    "autoAimRange": 8000.0,
+    "aimAssistRange": 8000.0,
+    "aimPadding": 0.0,
+    "enemyCrosshairRange": 4000.0,
+    "horizViewJitter": 0.5,
+    "vertViewJitter": 0.5
+   },
+   "gunKickAds": {
+    "adsGunKickReducedKickBullets": 0,
+    "adsGunKickReducedKickPercent": 0.0,
+    "fAdsGunKickPitchMin": 0.0,
+    "fAdsGunKickPitchMax": 0.0,
+    "fAdsGunKickYawMin": 0.0,
+    "fAdsGunKickYawMax": 0.0,
+    "fAdsGunKickAccel": 0.0,
+    "fAdsGunKickSpeedMax": 0.0,
+    "fAdsGunKickSpeedDecay": 0.0,
+    "fAdsGunKickStaticDecay": 0.0
+   },
+   "gunKickHip": {
+    "hipGunKickReducedKickBullets": 0,
+    "hipGunKickReducedKickPercent": 0.0,
+    "fHipGunKickPitchMin": 0.0,
+    "fHipGunKickPitchMax": 0.0,
+    "fHipGunKickYawMin": 0.0,
+    "fHipGunKickYawMax": 0.0,
+    "fHipGunKickAccel": 0.0,
+    "fHipGunKickSpeedMax": 0.0,
+    "fHipGunKickSpeedDecay": 0.0,
+    "fHipGunKickStaticDecay": 0.0
+   },
+   "viewKick": {
+    "fAdsViewKickPitchMin": 0.0,
+    "fAdsViewKickPitchMax": 0.0,
+    "fAdsViewKickYawMin": 0.0,
+    "fAdsViewKickYawMax": 0.0,
+    "fAdsViewScatterMin": 0.0,
+    "fAdsViewScatterMax": 0.0,
+    "fHipViewKickPitchMin": 0.0,
+    "fHipViewKickPitchMax": 0.0,
+    "fHipViewKickYawMin": 0.0,
+    "fHipViewKickYawMax": 0.0,
+    "fHipViewScatterMin": 0.0,
+    "fHipViewScatterMax": 0.0,
+    "fAdsViewKickCenterSpeed": 0.0,
+    "fHipViewKickCenterSpeed": 0.0
+   },
+   "sway": {
+    "swayMaxAngle": 30.0,
+    "swayLerpSpeed": 6.0,
+    "swayPitchScale": 0.10000000149011612,
+    "swayYawScale": 0.10000000149011612,
+    "swayHorizScale": 0.10000000149011612,
+    "swayVertScale": 0.10000000149011612,
+    "swayShellShockScale": 0.0,
+    "adsSwayMaxAngle": 0.0,
+    "adsSwayLerpSpeed": 0.0,
+    "adsSwayPitchScale": 0.0,
+    "adsSwayYawScale": 0.0,
+    "fAdsSwayHorizScale": 0.0,
+    "fAdsSwayVertScale": 0.0
+   },
+   "idleBob": {
+    "fAdsIdleAmount": 0.0,
+    "fHipIdleAmount": 0.0,
+    "adsIdleSpeed": 0.0,
+    "hipIdleSpeed": 0.0,
+    "fIdleCrouchFactor": 0.0,
+    "fIdleProneFactor": 0.0,
+    "fGunMaxPitch": 0.0,
+    "fGunMaxYaw": 0.0,
+    "fAdsBobFactor": 0.0,
+    "fAdsViewBobMult": 0.0,
+    "fDuckedSprintCycleScale": 0.0,
+    "fSprintCycleScale": 0.0,
+    "fDtpCycleScale": 0.0,
+    "fPosMoveRate": 0.0,
+    "fPosProneMoveRate": 0.0,
+    "fPosRotRate": 0.0,
+    "fPosProneRotRate": 0.0
+   },
+   "viewOffsets": {
+    "vStandMove": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vStandRot": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vDuckedOfs": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vDuckedMove": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vDuckedRot": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vProneOfs": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vProneMove": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vProneRot": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vStrafeMove": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vStrafeRot": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vSprintOfs": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vSprintRot": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vSprintBob": [
+     0.0,
+     0.0
+    ],
+    "vDuckedSprintOfs": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vDuckedSprintRot": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vDuckedSprintBob": [
+     0.0,
+     0.0
+    ],
+    "vLowReadyOfs": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vLowReadyRot": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vDtpOfs": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vDtpRot": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vDtpBob": [
+     0.0,
+     0.0
+    ],
+    "vMantleOfs": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vMantleRot": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vSlideOfs": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vSlideRot": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   },
+   "ads": {
+    "fAdsZoomFov1": 65.0,
+    "fAdsZoomFov2": 65.0,
+    "fAdsZoomFov3": 65.0,
+    "fAdsZoomInFrac": 0.5,
+    "fAdsZoomOutFrac": 0.10000000149011612,
+    "fAimAssistRangeAds": 8000.0,
+    "fOverlayAlphaScale": 1.0,
+    "adsMoveSpeedScale": 0.0,
+    "moveSpeedScale": 0.0,
+    "sprintDurationScale": 0.0,
+    "fAdsAimPitch": 0.0,
+    "fAdsCrosshairInFrac": 0.0,
+    "fAdsCrosshairOutFrac": 0.0,
+    "adsDofStart": 0.0,
+    "adsDofEnd": 0.0,
+    "hipDofStart": 0.0,
+    "hipDofEnd": 0.0,
+    "overlayWidth": 320.0,
+    "overlayHeight": 240.0
+   },
+   "projectile": {
+    "iProjectileSpeed": 0,
+    "iProjectileSpeedUp": 0,
+    "iProjectileSpeedRelativeUp": 0,
+    "iProjectileSpeedForward": 0,
+    "iProjectileActivateDist": 0,
+    "projLifetime": 30.0,
+    "timeToAccelerate": 0.0,
+    "projectileCurvature": 0.0,
+    "projIgnitionDelay": 0,
+    "vProjectileColor": [
+     0.75,
+     0.30000001192092896,
+     0.0
+    ],
+    "maxSteeringAccel": 3000.0,
+    "lowAmmoWarningThreshold": 0.0,
+    "stickiness": 0,
+    "rotateType": 0,
+    "parallelBounce": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "perpendicularBounce": [
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "projExplosion": "grenade",
+    "projectileModel": null
+   },
+   "tracer": {
+    "tracerFrequency": 1,
+    "tracerWidth": 0.0,
+    "tracerLength": 0.0
+   },
+   "overheat": {
+    "overheatWeapon": 1,
+    "overheatRate": 8.0,
+    "cooldownRate": 16.0,
+    "overheatEndVal": 25.0,
+    "coolWhileFiring": 0
+   },
+   "aiParams": {
+    "fightDist": 0.0,
+    "maxDist": 0.0,
+    "leftArc": 45.0,
+    "rightArc": 45.0,
+    "topArc": 20.0,
+    "bottomArc": 20.0,
+    "minTurnSpeed": [
+     1.0,
+     1.0
+    ],
+    "maxTurnSpeed": [
+     360.0,
+     360.0
+    ],
+    "pitchConvergenceTime": 0.30000001192092896,
+    "yawConvergenceTime": 1.5,
+    "suppressTime": 3.0,
+    "maxRange": 0.0,
+    "fAnimHorRotateInc": 15.0,
+    "fPlayerPositionDist": 46.0,
+    "aiVsAiAccuracyGraphName": "",
+    "aiVsPlayerAccuracyGraphName": "",
+    "aiVsAiAccuracyGraphKnots": null,
+    "aiVsPlayerAccuracyGraphKnots": null
+   },
+   "sounds": {
+    "fireSound": "wpn_m60e4_fire_npc",
+    "fireSoundPlayer": "wpn_m60e4_fire_plr",
+    "overheatSound": "hmg_overheat",
+    "overheatSoundPlayer": "hmg_overheat_plr"
+   },
+   "bounceSound": null,
+   "rumble": {
+    "fireRumble": "defaultweapon_fire",
+    "meleeImpactRumble": "",
+    "reloadRumble": ""
+   },
+   "fx": {
+    "viewFlashEffect": "<FX#414>",
+    "worldFlashEffect": "<FX#414>",
+    "viewShellEjectEffect": "<FX#416>",
+    "worldShellEjectEffect": "<FX#417>",
+    "viewLastShotEjectEffect": "<FX#418>",
+    "worldLastShotEjectEffect": "<FX#418>"
+   },
+   "models": {
+    "gunXModel": [],
+    "worldModel": [
+     "ref",
+     17129364,
+     4,
+     11826276
+    ],
+    "handXModel": null,
+    "worldClipModel": null,
+    "rocketModel": null,
+    "mountedModel": null,
+    "additionalMeleeModel": null
+   },
+   "materials": {
+    "hudIcon": "hud_icon_type92",
+    "reticleCenter": "reticle_center_cross_mg42"
+   },
+   "strings": {
+    "szOverlayName": "",
+    "szModeName": "",
+    "parentWeaponName": "",
+    "szSharedAmmoCapName": "",
+    "szSpawnedGrenadeWeaponName": "",
+    "szDualWieldWeaponName": "",
+    "szUseHintString": "PLATFORM_HOLD_TO_USE",
+    "dropHintString": "PLATFORM_HOLD_TO_DROP",
+    "szScript": "",
+    "standMountedWeapdef": "",
+    "crouchMountedWeapdef": "",
+    "proneMountedWeapdef": "",
+    "flameTableFirstPerson": "",
+    "flameTableThirdPerson": ""
+   },
+   "notetrackSoundMap": [],
+   "hideTags": [
+    [
+     "?",
+     30576
+    ],
+    [
+     "?",
+     28255
+    ],
+    [
+     "?",
+     27958
+    ],
+    [
+     "?",
+     12389
+    ],
+    [
+     "?",
+     13407
+    ],
+    [
+     "?",
+     26217
+    ],
+    [
+     "?",
+     29285
+    ],
+    [
+     "?",
+     24430
+    ],
+    [
+     "?",
+     28771
+    ],
+    "j_spineupper",
+    [
+     "?",
+     28782
+    ],
+    [
+     "?",
+     24429
+    ],
+    [
+     "?",
+     13872
+    ],
+    [
+     "?",
+     25908
+    ],
+    [
+     "?",
+     24422
+    ],
+    [
+     "?",
+     26994
+    ],
+    [
+     "?",
+     25951
+    ],
+    [
+     "?",
+     28780
+    ],
+    [
+     "?",
+     29184
+    ],
+    [
+     "?",
+     26733
+    ],
+    [
+     "?",
+     26463
+    ],
+    [
+     "?",
+     28534
+    ],
+    [
+     "?",
+     25970
+    ],
+    [
+     "?",
+     26725
+    ]
+   ],
+   "xanims": {},
+   "ikLeftHand": {
+    "ikLeftHandOffset": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "ikLeftHandRotation": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "ikLeftHandProneOffset": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "ikLeftHandProneRotation": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "ikLeftHandUiViewerOffset": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "ikLeftHandUiViewerRotation": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   }
+  }
+ },
+ {
+  "index": 426,
+  "report": {
+   "index": 426,
+   "pos": 17667557,
+   "end": 17671242,
+   "how": "found base=0xbb1335 (2 votes)",
+   "next_type": "XMODEL",
+   "next_name": "zombie_vending_revive",
+   "next_hdr": "name ref",
+   "ok": true,
+   "virtual_base": 12260149,
+   "base_confidence": "exact",
+   "unresolved_inside": [],
+   "unresolved_unwalked": 0,
+   "unresolved_other": 0,
+   "weapDef": "inline",
+   "stub": false
+  },
+  "summary": {
+   "name": "dog_bite_zm",
+   "displayName": "",
+   "altWeapon": "",
+   "ammo": "",
+   "clip": "",
+   "weapType": "grenade",
+   "weapClass": "grenade",
+   "fireType": "fullauto",
+   "inventoryType": "item",
+   "penetrateType": "none",
+   "impactType": "grenade_explode",
+   "flags": {
+    "bRifleBullet": false,
+    "armorPiercing": false,
+    "bBoltAction": false,
+    "aimDownSight": false,
+    "bDualWield": false,
+    "sharedAmmo": false,
+    "unlimitedAmmo": false,
+    "bClipOnly": true,
+    "bNoPartialReload": false,
+    "bSegmentedReload": false,
+    "bRechamberWhileAds": false,
+    "bReloadWhileAds": false,
+    "doGibbing": false
+   },
+   "ammoClip": {
+    "iClipSize": 1,
+    "iStartAmmo": 1,
+    "iMaxAmmo": 1,
+    "shotCount": 0,
+    "iReloadAmmoAdd": 0,
+    "iReloadStartAdd": 0,
+    "iDropAmmoMin": 0,
+    "iDropAmmoMax": 0
+   },
+   "timesVariant": {
+    "iReloadTime": 2000,
+    "iReloadEmptyTime": 0,
+    "iReloadQuickTime": 0,
+    "iReloadQuickEmptyTime": 0,
+    "iAdsTransInTime": 0,
+    "iAdsTransOutTime": 0,
+    "iAltRaiseTime": 1200
+   },
+   "timesWeapDef": {
+    "iFireDelay": 160,
+    "iMeleeDelay": 0,
+    "meleeChargeDelay": 0,
+    "iDetonateDelay": 230,
+    "iSpinUpTime": 0,
+    "iSpinDownTime": 0,
+    "spinRate": 0.0,
+    "iFireTime": 800,
+    "iLastFireTime": 0,
+    "iRechamberTime": 0,
+    "iRechamberBoltTime": 0,
+    "iHoldFireTime": 200,
+    "iDetonateTime": 830,
+    "iMeleeTime": 0,
+    "meleeChargeTime": 0,
+    "iReloadTimeRight": 0,
+    "iReloadTimeLeft": 0,
+    "reloadShowRocketTime": 0,
+    "iReloadEmptyTimeLeft": 0,
+    "iReloadAddTime": 0,
+    "iReloadEmptyAddTime": 0,
+    "iReloadQuickAddTime": 0,
+    "iReloadQuickEmptyAddTime": 0,
+    "iReloadStartTime": 0,
+    "iReloadStartAddTime": 0,
+    "iReloadEndTime": 0,
+    "iDropTime": 900,
+    "iRaiseTime": 1200,
+    "iAltDropTime": 900,
+    "quickDropTime": 400,
+    "quickRaiseTime": 500,
+    "iFirstRaiseTime": 1200,
+    "iEmptyRaiseTime": 1200,
+    "iEmptyDropTime": 900,
+    "sprintInTime": 300,
+    "sprintLoopTime": 600,
+    "sprintOutTime": 300,
+    "fuseTime": 3500,
+    "aiFuseTime": 4000,
+    "iJamFireTime": 0,
+    "iPositionReloadTransTime": 0
+   },
+   "damage": {
+    "damage": 0,
+    "minDamage": 0,
+    "playerDamage": 0,
+    "minPlayerDamage": 0,
+    "iMeleeDamage": 0,
+    "iDamageType": 0,
+    "damageDuration": 0.0,
+    "damageInterval": 0.0,
+    "fMaxDamageRange": 999999.0,
+    "fMinDamageRange": 999999.125,
+    "iExplosionRadius": 256,
+    "iExplosionRadiusMin": 0,
+    "iExplosionInnerDamage": 200,
+    "iExplosionOuterDamage": 50,
+    "damageConeAngle": 180.0,
+    "meleeChargeRange": 0.0
+   },
+   "locationDamageMultipliers": {
+    "none": 1.0,
+    "helmet": 1.0,
+    "head": 1.0,
+    "neck": 1.0,
+    "torso_upper": 1.0,
+    "torso_lower": 1.0,
+    "right_arm_upper": 1.0,
+    "left_arm_upper": 1.0,
+    "right_arm_lower": 1.0,
+    "left_arm_lower": 1.0,
+    "right_hand": 1.0,
+    "left_hand": 1.0,
+    "right_leg_upper": 1.0,
+    "left_leg_upper": 1.0,
+    "right_leg_lower": 1.0,
+    "left_leg_lower": 1.0,
+    "right_foot": 1.0,
+    "left_foot": 1.0,
+    "gun": 0.0
+   },
+   "spread": {
+    "fHipSpreadStandMin": 0.0,
+    "fHipSpreadDuckedMin": 0.0,
+    "fHipSpreadProneMin": 0.0,
+    "hipSpreadStandMax": 0.0,
+    "hipSpreadDuckedMax": 0.0,
+    "hipSpreadProneMax": 0.0,
+    "fHipSpreadDecayRate": 0.0,
+    "fHipSpreadFireAdd": 0.0,
+    "fHipSpreadTurnAdd": 0.0,
+    "fHipSpreadMoveAdd": 0.0,
+    "fHipSpreadDuckedDecay": 0.0,
+    "fHipSpreadProneDecay": 0.0,
+    "fAdsSpread": 0.0,
+    "adsViewErrorMin": 0.0,
+    "adsViewErrorMax": 0.0,
+    "accuracy": 0.0,
+    "aiSpread": 0.0,
+    "playerSpread": 0.0,
+    "autoAimRange": 0.0,
+    "aimAssistRange": 0.0,
+    "aimPadding": 0.0,
+    "enemyCrosshairRange": 1600.0,
+    "horizViewJitter": 0.0,
+    "vertViewJitter": 0.0
+   },
+   "gunKickAds": {
+    "adsGunKickReducedKickBullets": 0,
+    "adsGunKickReducedKickPercent": 0.0,
+    "fAdsGunKickPitchMin": 0.0,
+    "fAdsGunKickPitchMax": 0.0,
+    "fAdsGunKickYawMin": 0.0,
+    "fAdsGunKickYawMax": 0.0,
+    "fAdsGunKickAccel": 0.0,
+    "fAdsGunKickSpeedMax": 0.0,
+    "fAdsGunKickSpeedDecay": 0.0,
+    "fAdsGunKickStaticDecay": 0.0
+   },
+   "gunKickHip": {
+    "hipGunKickReducedKickBullets": 0,
+    "hipGunKickReducedKickPercent": 0.0,
+    "fHipGunKickPitchMin": 0.0,
+    "fHipGunKickPitchMax": 0.0,
+    "fHipGunKickYawMin": 0.0,
+    "fHipGunKickYawMax": 0.0,
+    "fHipGunKickAccel": 0.0,
+    "fHipGunKickSpeedMax": 0.0,
+    "fHipGunKickSpeedDecay": 0.0,
+    "fHipGunKickStaticDecay": 0.0
+   },
+   "viewKick": {
+    "fAdsViewKickPitchMin": 0.0,
+    "fAdsViewKickPitchMax": 0.0,
+    "fAdsViewKickYawMin": 0.0,
+    "fAdsViewKickYawMax": 0.0,
+    "fAdsViewScatterMin": 0.0,
+    "fAdsViewScatterMax": 0.0,
+    "fHipViewKickPitchMin": 0.0,
+    "fHipViewKickPitchMax": 0.0,
+    "fHipViewKickYawMin": 0.0,
+    "fHipViewKickYawMax": 0.0,
+    "fHipViewScatterMin": 0.0,
+    "fHipViewScatterMax": 0.0,
+    "fAdsViewKickCenterSpeed": 0.0,
+    "fHipViewKickCenterSpeed": 0.0
+   },
+   "sway": {
+    "swayMaxAngle": 30.0,
+    "swayLerpSpeed": 6.0,
+    "swayPitchScale": 0.10000000149011612,
+    "swayYawScale": 0.10000000149011612,
+    "swayHorizScale": 0.10000000149011612,
+    "swayVertScale": 0.10000000149011612,
+    "swayShellShockScale": 5.0,
+    "adsSwayMaxAngle": 0.0,
+    "adsSwayLerpSpeed": 0.0,
+    "adsSwayPitchScale": 0.0,
+    "adsSwayYawScale": 0.0,
+    "fAdsSwayHorizScale": 0.0,
+    "fAdsSwayVertScale": 0.0
+   },
+   "idleBob": {
+    "fAdsIdleAmount": 0.0,
+    "fHipIdleAmount": 80.0,
+    "adsIdleSpeed": 0.0,
+    "hipIdleSpeed": 0.0,
+    "fIdleCrouchFactor": 0.5,
+    "fIdleProneFactor": 0.15000000596046448,
+    "fGunMaxPitch": 0.0,
+    "fGunMaxYaw": 0.0,
+    "fAdsBobFactor": 0.0,
+    "fAdsViewBobMult": 0.0,
+    "fDuckedSprintCycleScale": 0.0,
+    "fSprintCycleScale": 0.8999999761581421,
+    "fDtpCycleScale": 1.0,
+    "fPosMoveRate": 4.0,
+    "fPosProneMoveRate": 10.0,
+    "fPosRotRate": 5.0,
+    "fPosProneRotRate": 10.0
+   },
+   "viewOffsets": {
+    "vStandMove": [
+     -1.0,
+     0.0,
+     -1.5
+    ],
+    "vStandRot": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vDuckedOfs": [
+     -2.0,
+     1.0,
+     -0.20000000298023224
+    ],
+    "vDuckedMove": [
+     0.0,
+     1.0,
+     -1.5
+    ],
+    "vDuckedRot": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vProneOfs": [
+     -3.0,
+     2.0,
+     0.800000011920929
+    ],
+    "vProneMove": [
+     0.0,
+     1.0,
+     -1.5
+    ],
+    "vProneRot": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vStrafeMove": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vStrafeRot": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vSprintOfs": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vSprintRot": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vSprintBob": [
+     6.0,
+     8.0
+    ],
+    "vDuckedSprintOfs": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vDuckedSprintRot": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vDuckedSprintBob": [
+     0.0,
+     0.0
+    ],
+    "vLowReadyOfs": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vLowReadyRot": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vDtpOfs": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vDtpRot": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vDtpBob": [
+     1.0,
+     1.0
+    ],
+    "vMantleOfs": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vMantleRot": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vSlideOfs": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vSlideRot": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   },
+   "ads": {
+    "fAdsZoomFov1": 0.0,
+    "fAdsZoomFov2": 0.0,
+    "fAdsZoomFov3": 0.0,
+    "fAdsZoomInFrac": 0.0,
+    "fAdsZoomOutFrac": 0.0,
+    "fAimAssistRangeAds": 0.0,
+    "fOverlayAlphaScale": 0.0,
+    "adsMoveSpeedScale": 0.0,
+    "moveSpeedScale": 1.0,
+    "sprintDurationScale": 1.0,
+    "fAdsAimPitch": 0.0,
+    "fAdsCrosshairInFrac": 0.0,
+    "fAdsCrosshairOutFrac": 0.0,
+    "adsDofStart": 0.0,
+    "adsDofEnd": 0.0,
+    "hipDofStart": 0.0,
+    "hipDofEnd": 0.0,
+    "overlayWidth": 0.0,
+    "overlayHeight": 0.0
+   },
+   "projectile": {
+    "iProjectileSpeed": 600,
+    "iProjectileSpeedUp": 0,
+    "iProjectileSpeedRelativeUp": 0,
+    "iProjectileSpeedForward": 0,
+    "iProjectileActivateDist": 0,
+    "projLifetime": 0.0,
+    "timeToAccelerate": 0.0,
+    "projectileCurvature": 0.0,
+    "projIgnitionDelay": 0,
+    "vProjectileColor": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "maxSteeringAccel": 0.0,
+    "lowAmmoWarningThreshold": 0.33000001311302185,
+    "stickiness": 1,
+    "rotateType": 0,
+    "parallelBounce": [
+     0.5,
+     0.6000000238418579,
+     0.6000000238418579,
+     0.6000000238418579,
+     0.20000000298023224,
+     0.6000000238418579,
+     0.44999998807907104,
+     0.20000000298023224,
+     0.05000000074505806,
+     0.4000000059604645,
+     0.3499999940395355,
+     0.5,
+     0.6000000238418579,
+     0.6000000238418579,
+     0.20000000298023224,
+     0.20000000298023224,
+     0.5,
+     0.6000000238418579,
+     0.30000001192092896,
+     0.20000000298023224,
+     0.20000000298023224,
+     0.6000000238418579,
+     0.6000000238418579,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.0,
+     0.0
+    ],
+    "perpendicularBounce": [
+     0.25,
+     0.25,
+     0.25,
+     0.25,
+     0.20000000298023224,
+     0.25,
+     0.22499999403953552,
+     0.20000000298023224,
+     0.05000000074505806,
+     0.20000000298023224,
+     0.15000000596046448,
+     0.25,
+     0.30000001192092896,
+     0.25,
+     0.10000000149011612,
+     0.20000000298023224,
+     0.25,
+     0.25,
+     0.10000000149011612,
+     0.10000000149011612,
+     0.20000000298023224,
+     0.25,
+     0.25,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.0,
+     0.0
+    ],
+    "projExplosion": "grenade",
+    "projectileModel": null
+   },
+   "tracer": {
+    "tracerFrequency": 0,
+    "tracerWidth": 0.0,
+    "tracerLength": 0.0
+   },
+   "overheat": {
+    "overheatWeapon": 0,
+    "overheatRate": 0.0,
+    "cooldownRate": 0.0,
+    "overheatEndVal": 0.0,
+    "coolWhileFiring": 0
+   },
+   "aiParams": {
+    "fightDist": 0.0,
+    "maxDist": 0.0,
+    "leftArc": 0.0,
+    "rightArc": 0.0,
+    "topArc": 0.0,
+    "bottomArc": 0.0,
+    "minTurnSpeed": [
+     0.0,
+     0.0
+    ],
+    "maxTurnSpeed": [
+     0.0,
+     0.0
+    ],
+    "pitchConvergenceTime": 0.0,
+    "yawConvergenceTime": 0.0,
+    "suppressTime": 0.0,
+    "maxRange": 0.0,
+    "fAnimHorRotateInc": 0.0,
+    "fPlayerPositionDist": 0.0,
+    "aiVsAiAccuracyGraphName": "",
+    "aiVsPlayerAccuracyGraphName": "",
+    "aiVsAiAccuracyGraphKnots": null,
+    "aiVsPlayerAccuracyGraphKnots": null
+   },
+   "sounds": {
+    "projExplosionSound": "detpack_explo_main"
+   },
+   "bounceSound": null,
+   "rumble": {
+    "fireRumble": "",
+    "meleeImpactRumble": "",
+    "reloadRumble": ""
+   },
+   "fx": {},
+   "models": {
+    "gunXModel": [
+     "<XMODEL#424>"
+    ],
+    "worldModel": [
+     "ref",
+     17129364,
+     4,
+     11826276
+    ],
+    "handXModel": ",viewmodel_hands_no_model",
+    "worldClipModel": null,
+    "rocketModel": null,
+    "mountedModel": null,
+    "additionalMeleeModel": null
+   },
+   "materials": {
+    "hudIcon": "compass_objpoint_dogs",
+    "killIcon": [
+     "ref",
+     4,
+     12262384
+    ],
+    "ammoCounterIcon": [
+     "ref",
+     4,
+     12262384
+    ],
+    "reticleCenter": ",reticle_center_cross",
+    "dpadIcon": [
+     "ref",
+     4,
+     12262384
+    ]
+   },
+   "strings": {
+    "szOverlayName": "",
+    "szModeName": "",
+    "parentWeaponName": "",
+    "szSharedAmmoCapName": "",
+    "szSpawnedGrenadeWeaponName": "",
+    "szDualWieldWeaponName": "",
+    "szUseHintString": "",
+    "dropHintString": "",
+    "szScript": "",
+    "standMountedWeapdef": "",
+    "crouchMountedWeapdef": "",
+    "proneMountedWeapdef": "",
+    "flameTableFirstPerson": "",
+    "flameTableThirdPerson": ""
+   },
+   "notetrackSoundMap": [],
+   "hideTags": [
+    [
+     "?",
+     30576
+    ],
+    [
+     "?",
+     28255
+    ],
+    [
+     "?",
+     27958
+    ],
+    [
+     "?",
+     12389
+    ],
+    [
+     "?",
+     13407
+    ],
+    [
+     "?",
+     26217
+    ],
+    [
+     "?",
+     29285
+    ],
+    [
+     "?",
+     24430
+    ],
+    [
+     "?",
+     28771
+    ],
+    "j_spineupper",
+    [
+     "?",
+     28782
+    ],
+    [
+     "?",
+     24429
+    ],
+    [
+     "?",
+     13872
+    ],
+    [
+     "?",
+     25908
+    ],
+    [
+     "?",
+     24422
+    ],
+    [
+     "?",
+     26994
+    ],
+    [
+     "?",
+     25951
+    ],
+    [
+     "?",
+     28780
+    ],
+    [
+     "?",
+     29184
+    ],
+    [
+     "?",
+     26733
+    ],
+    [
+     "?",
+     26463
+    ],
+    [
+     "?",
+     28534
+    ],
+    [
+     "?",
+     25970
+    ],
+    [
+     "?",
+     26725
+    ]
+   ],
+   "xanims": {
+    "IDLE": "\u00ff\u00ff\u00ff\u00ff\u0080\u009d?\u00e9\u0080\u009d@=\u0080\u009d@="
+   },
+   "ikLeftHand": {
+    "ikLeftHandOffset": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "ikLeftHandRotation": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "ikLeftHandProneOffset": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "ikLeftHandProneRotation": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "ikLeftHandUiViewerOffset": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "ikLeftHandUiViewerRotation": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   }
+  }
+ },
+ {
+  "index": 740,
+  "report": {
+   "index": 740,
+   "pos": 72657325,
+   "end": 72661257,
+   "how": "found base=0x2ae5ff7 (6 votes)",
+   "next_type": "FX",
+   "next_name": "weapon/muzzleflashes/fx_thundergun_view_ug",
+   "next_hdr": 60,
+   "ok": true,
+   "virtual_base": 44982263,
+   "base_confidence": "exact",
+   "unresolved_inside": [],
+   "unresolved_unwalked": 31,
+   "unresolved_other": 0,
+   "weapDef": "inline",
+   "stub": false
+  },
+  "summary": {
+   "name": "thundergun_zm",
+   "displayName": "WEAPON_THUNDERGUN",
+   "altWeapon": "",
+   "ammo": "",
+   "clip": "",
+   "weapType": "projectile",
+   "weapClass": "rifle",
+   "fireType": "singleshot",
+   "inventoryType": "primary",
+   "penetrateType": "none",
+   "impactType": "none",
+   "flags": {
+    "bRifleBullet": false,
+    "armorPiercing": false,
+    "bBoltAction": false,
+    "aimDownSight": false,
+    "bDualWield": false,
+    "sharedAmmo": false,
+    "unlimitedAmmo": false,
+    "bClipOnly": false,
+    "bNoPartialReload": false,
+    "bSegmentedReload": false,
+    "bRechamberWhileAds": false,
+    "bReloadWhileAds": false,
+    "doGibbing": false
+   },
+   "ammoClip": {
+    "iClipSize": 2,
+    "iStartAmmo": 12,
+    "iMaxAmmo": 12,
+    "shotCount": 0,
+    "iReloadAmmoAdd": 0,
+    "iReloadStartAdd": 0,
+    "iDropAmmoMin": 12,
+    "iDropAmmoMax": 24
+   },
+   "timesVariant": {
+    "iReloadTime": 2100,
+    "iReloadEmptyTime": 2000,
+    "iReloadQuickTime": 0,
+    "iReloadQuickEmptyTime": 0,
+    "iAdsTransInTime": 400,
+    "iAdsTransOutTime": 450,
+    "iAltRaiseTime": 660
+   },
+   "timesWeapDef": {
+    "iFireDelay": 0,
+    "iMeleeDelay": 250,
+    "meleeChargeDelay": 0,
+    "iDetonateDelay": 0,
+    "iSpinUpTime": 0,
+    "iSpinDownTime": 0,
+    "spinRate": 0.0,
+    "iFireTime": 600,
+    "iLastFireTime": 950,
+    "iRechamberTime": 100,
+    "iRechamberBoltTime": 0,
+    "iHoldFireTime": 0,
+    "iDetonateTime": 0,
+    "iMeleeTime": 700,
+    "meleeChargeTime": 0,
+    "iReloadTimeRight": 0,
+    "iReloadTimeLeft": 0,
+    "reloadShowRocketTime": 0,
+    "iReloadEmptyTimeLeft": 0,
+    "iReloadAddTime": 0,
+    "iReloadEmptyAddTime": 0,
+    "iReloadQuickAddTime": 0,
+    "iReloadQuickEmptyAddTime": 0,
+    "iReloadStartTime": 0,
+    "iReloadStartAddTime": 0,
+    "iReloadEndTime": 0,
+    "iDropTime": 830,
+    "iRaiseTime": 1100,
+    "iAltDropTime": 0,
+    "quickDropTime": 250,
+    "quickRaiseTime": 760,
+    "iFirstRaiseTime": 1500,
+    "iEmptyRaiseTime": 400,
+    "iEmptyDropTime": 500,
+    "sprintInTime": 300,
+    "sprintLoopTime": 700,
+    "sprintOutTime": 300,
+    "fuseTime": 0,
+    "aiFuseTime": 0,
+    "iJamFireTime": 0,
+    "iPositionReloadTransTime": 300
+   },
+   "damage": {
+    "damage": 0,
+    "minDamage": 0,
+    "playerDamage": 30,
+    "minPlayerDamage": 0,
+    "iMeleeDamage": 25,
+    "iDamageType": 0,
+    "damageDuration": 0.0,
+    "damageInterval": 0.0,
+    "fMaxDamageRange": 999999.0,
+    "fMinDamageRange": 999999.125,
+    "iExplosionRadius": 0,
+    "iExplosionRadiusMin": 0,
+    "iExplosionInnerDamage": 0,
+    "iExplosionOuterDamage": 0,
+    "damageConeAngle": 180.0,
+    "meleeChargeRange": 0.0
+   },
+   "locationDamageMultipliers": {
+    "none": 1.0,
+    "helmet": 4.0,
+    "head": 4.0,
+    "neck": 5.0,
+    "torso_upper": 1.0,
+    "torso_lower": 0.8999999761581421,
+    "right_arm_upper": 0.800000011920929,
+    "left_arm_upper": 0.800000011920929,
+    "right_arm_lower": 0.6000000238418579,
+    "left_arm_lower": 0.6000000238418579,
+    "right_hand": 0.4000000059604645,
+    "left_hand": 0.4000000059604645,
+    "right_leg_upper": 0.800000011920929,
+    "left_leg_upper": 0.800000011920929,
+    "right_leg_lower": 0.6000000238418579,
+    "left_leg_lower": 0.6000000238418579,
+    "right_foot": 0.4000000059604645,
+    "left_foot": 0.4000000059604645,
+    "gun": 0.0
+   },
+   "spread": {
+    "fHipSpreadStandMin": 2.0,
+    "fHipSpreadDuckedMin": 1.0,
+    "fHipSpreadProneMin": 1.0,
+    "hipSpreadStandMax": 4.0,
+    "hipSpreadDuckedMax": 3.0,
+    "hipSpreadProneMax": 2.0,
+    "fHipSpreadDecayRate": 2.25,
+    "fHipSpreadFireAdd": 1.0,
+    "fHipSpreadTurnAdd": 0.25,
+    "fHipSpreadMoveAdd": 0.5,
+    "fHipSpreadDuckedDecay": 1.25,
+    "fHipSpreadProneDecay": 1.649999976158142,
+    "fAdsSpread": 0.0,
+    "adsViewErrorMin": 0.0,
+    "adsViewErrorMax": 0.0,
+    "accuracy": 0.0,
+    "aiSpread": 0.0,
+    "playerSpread": 0.0,
+    "autoAimRange": 500.0,
+    "aimAssistRange": 1500.0,
+    "aimPadding": 0.0,
+    "enemyCrosshairRange": 320.0,
+    "horizViewJitter": 0.0,
+    "vertViewJitter": 0.0
+   },
+   "gunKickAds": {
+    "adsGunKickReducedKickBullets": 0,
+    "adsGunKickReducedKickPercent": 0.0,
+    "fAdsGunKickPitchMin": -35.0,
+    "fAdsGunKickPitchMax": -40.0,
+    "fAdsGunKickYawMin": 0.0,
+    "fAdsGunKickYawMax": 0.0,
+    "fAdsGunKickAccel": 825.0,
+    "fAdsGunKickSpeedMax": 2000.0,
+    "fAdsGunKickSpeedDecay": 25.0,
+    "fAdsGunKickStaticDecay": 100.0
+   },
+   "gunKickHip": {
+    "hipGunKickReducedKickBullets": 0,
+    "hipGunKickReducedKickPercent": 0.0,
+    "fHipGunKickPitchMin": -30.0,
+    "fHipGunKickPitchMax": -35.0,
+    "fHipGunKickYawMin": -2.0,
+    "fHipGunKickYawMax": 18.0,
+    "fHipGunKickAccel": 1000.0,
+    "fHipGunKickSpeedMax": 1200.0,
+    "fHipGunKickSpeedDecay": 100.0,
+    "fHipGunKickStaticDecay": 2.0
+   },
+   "viewKick": {
+    "fAdsViewKickPitchMin": 40.0,
+    "fAdsViewKickPitchMax": 55.0,
+    "fAdsViewKickYawMin": 25.0,
+    "fAdsViewKickYawMax": -25.0,
+    "fAdsViewScatterMin": 0.0,
+    "fAdsViewScatterMax": 0.0,
+    "fHipViewKickPitchMin": 100.0,
+    "fHipViewKickPitchMax": 110.0,
+    "fHipViewKickYawMin": 30.0,
+    "fHipViewKickYawMax": -60.0,
+    "fHipViewScatterMin": 0.0,
+    "fHipViewScatterMax": 0.0,
+    "fAdsViewKickCenterSpeed": 1300.0,
+    "fHipViewKickCenterSpeed": 1200.0
+   },
+   "sway": {
+    "swayMaxAngle": 10.0,
+    "swayLerpSpeed": 5.0,
+    "swayPitchScale": 0.10000000149011612,
+    "swayYawScale": 0.10000000149011612,
+    "swayHorizScale": 0.05000000074505806,
+    "swayVertScale": 0.10000000149011612,
+    "swayShellShockScale": 5.0,
+    "adsSwayMaxAngle": 8.0,
+    "adsSwayLerpSpeed": 6.0,
+    "adsSwayPitchScale": 0.10000000149011612,
+    "adsSwayYawScale": 0.10000000149011612,
+    "fAdsSwayHorizScale": 0.03999999910593033,
+    "fAdsSwayVertScale": 0.11999999731779099
+   },
+   "idleBob": {
+    "fAdsIdleAmount": 2.0,
+    "fHipIdleAmount": 30.0,
+    "adsIdleSpeed": 0.800000011920929,
+    "hipIdleSpeed": 1.0,
+    "fIdleCrouchFactor": 0.800000011920929,
+    "fIdleProneFactor": 0.4000000059604645,
+    "fGunMaxPitch": 2.0,
+    "fGunMaxYaw": 8.0,
+    "fAdsBobFactor": 0.5,
+    "fAdsViewBobMult": 0.25,
+    "fDuckedSprintCycleScale": 0.0,
+    "fSprintCycleScale": 0.699999988079071,
+    "fDtpCycleScale": 1.0,
+    "fPosMoveRate": 6.0,
+    "fPosProneMoveRate": 25.0,
+    "fPosRotRate": 8.0,
+    "fPosProneRotRate": 30.0
+   },
+   "viewOffsets": {
+    "vStandMove": [
+     0.0,
+     0.699999988079071,
+     -1.0
+    ],
+    "vStandRot": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vDuckedOfs": [
+     -0.10000000149011612,
+     1.0,
+     -0.20000000298023224
+    ],
+    "vDuckedMove": [
+     0.0,
+     0.5,
+     -1.0
+    ],
+    "vDuckedRot": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vProneOfs": [
+     -0.5,
+     2.0,
+     0.800000011920929
+    ],
+    "vProneMove": [
+     -100.0,
+     -75.0,
+     -105.0
+    ],
+    "vProneRot": [
+     0.0,
+     220.0,
+     -300.0
+    ],
+    "vStrafeMove": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vStrafeRot": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vSprintOfs": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vSprintRot": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vSprintBob": [
+     0.0,
+     0.0
+    ],
+    "vDuckedSprintOfs": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vDuckedSprintRot": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vDuckedSprintBob": [
+     0.0,
+     0.0
+    ],
+    "vLowReadyOfs": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vLowReadyRot": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vDtpOfs": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vDtpRot": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vDtpBob": [
+     0.0,
+     0.0
+    ],
+    "vMantleOfs": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vMantleRot": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vSlideOfs": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vSlideRot": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   },
+   "ads": {
+    "fAdsZoomFov1": 65.0,
+    "fAdsZoomFov2": 65.0,
+    "fAdsZoomFov3": 50.0,
+    "fAdsZoomInFrac": 0.75,
+    "fAdsZoomOutFrac": 0.699999988079071,
+    "fAimAssistRangeAds": 1500.0,
+    "fOverlayAlphaScale": 1.0,
+    "adsMoveSpeedScale": 1.0,
+    "moveSpeedScale": 1.0,
+    "sprintDurationScale": 1.0,
+    "fAdsAimPitch": 0.0,
+    "fAdsCrosshairInFrac": 0.09000000357627869,
+    "fAdsCrosshairOutFrac": 0.699999988079071,
+    "adsDofStart": 0.0,
+    "adsDofEnd": 11.0,
+    "hipDofStart": 0.0,
+    "hipDofEnd": 0.0,
+    "overlayWidth": 220.0,
+    "overlayHeight": 220.0
+   },
+   "projectile": {
+    "iProjectileSpeed": 2000,
+    "iProjectileSpeedUp": 0,
+    "iProjectileSpeedRelativeUp": 0,
+    "iProjectileSpeedForward": 0,
+    "iProjectileActivateDist": 0,
+    "projLifetime": 0.5,
+    "timeToAccelerate": 0.0,
+    "projectileCurvature": 0.0,
+    "projIgnitionDelay": 0,
+    "vProjectileColor": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "maxSteeringAccel": 3000.0,
+    "lowAmmoWarningThreshold": 0.5,
+    "stickiness": 0,
+    "rotateType": 0,
+    "parallelBounce": [
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.0,
+     0.0
+    ],
+    "perpendicularBounce": [
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.0,
+     0.0
+    ],
+    "projExplosion": "none",
+    "projectileModel": ",tag_flash"
+   },
+   "tracer": {
+    "tracerFrequency": 0,
+    "tracerWidth": 0.0,
+    "tracerLength": 0.0
+   },
+   "overheat": {
+    "overheatWeapon": 0,
+    "overheatRate": 0.0,
+    "cooldownRate": 0.0,
+    "overheatEndVal": 0.0,
+    "coolWhileFiring": 0
+   },
+   "aiParams": {
+    "fightDist": 720.0,
+    "maxDist": 680.0,
+    "leftArc": 0.0,
+    "rightArc": 0.0,
+    "topArc": 0.0,
+    "bottomArc": 0.0,
+    "minTurnSpeed": [
+     0.0,
+     0.0
+    ],
+    "maxTurnSpeed": [
+     0.0,
+     0.0
+    ],
+    "pitchConvergenceTime": 0.0,
+    "yawConvergenceTime": 0.0,
+    "suppressTime": 0.0,
+    "maxRange": 0.0,
+    "fAnimHorRotateInc": 0.0,
+    "fPlayerPositionDist": 0.0,
+    "aiVsAiAccuracyGraphName": "",
+    "aiVsPlayerAccuracyGraphName": "",
+    "aiVsAiAccuracyGraphKnots": null,
+    "aiVsPlayerAccuracyGraphKnots": null
+   },
+   "sounds": {
+    "pickupSound": "wpn_weap_pickup_npc",
+    "pickupSoundPlayer": "wpn_weap_pickup_plr",
+    "ammoPickupSound": "wpn_ammo_pickup_npc",
+    "ammoPickupSoundPlayer": "wpn_ammo_pickup_plr",
+    "projectileSound": "wpn_thundergun_proj_loop",
+    "fireSound": "wpn_thundergun_fire_npc",
+    "fireSoundPlayer": "wpn_thundergun_fire_plr",
+    "fireLastSound": "wpn_thundergun_fire_npc_last",
+    "fireLastSoundPlayer": "wpn_thundergun_fire_plr_last",
+    "raiseSound": "weap_raise",
+    "raiseSoundPlayer": "tesla_foley",
+    "firstRaiseSound": "weap_raise",
+    "putawaySound": "weap_putaway",
+    "putawaySoundPlayer": "tesla_foley",
+    "projExplosionSound": "wpn_thundergun_proj_impact"
+   },
+   "bounceSound": null,
+   "rumble": {
+    "fireRumble": "dtp_rumble",
+    "meleeImpactRumble": "",
+    "reloadRumble": ""
+   },
+   "fx": {
+    "viewFlashEffect": "<FX#712>",
+    "worldFlashEffect": "<FX#713>"
+   },
+   "models": {
+    "gunXModel": [
+     "<XMODEL#710>"
+    ],
+    "worldModel": [
+     "<XMODEL#714>"
+    ],
+    "handXModel": "<XMODEL#711>",
+    "worldClipModel": null,
+    "rocketModel": null,
+    "mountedModel": null,
+    "additionalMeleeModel": null
+   },
+   "materials": {
+    "hudIcon": "hud_thundergun",
+    "killIcon": "hud_thundergun",
+    "reticleCenter": "hud_flamethrower_reticle"
+   },
+   "strings": {
+    "szOverlayName": "",
+    "szModeName": "",
+    "parentWeaponName": "thundergun",
+    "szSharedAmmoCapName": "",
+    "szSpawnedGrenadeWeaponName": "",
+    "szDualWieldWeaponName": "",
+    "szUseHintString": "",
+    "dropHintString": "",
+    "szScript": "",
+    "standMountedWeapdef": "",
+    "crouchMountedWeapdef": "",
+    "proneMountedWeapdef": "",
+    "flameTableFirstPerson": "",
+    "flameTableThirdPerson": ""
+   },
+   "notetrackSoundMap": [],
+   "hideTags": [
+    [
+     "?",
+     30576
+    ],
+    [
+     "?",
+     28255
+    ],
+    [
+     "?",
+     27958
+    ],
+    [
+     "?",
+     12389
+    ],
+    [
+     "?",
+     13407
+    ],
+    [
+     "?",
+     26217
+    ],
+    [
+     "?",
+     29285
+    ],
+    [
+     "?",
+     24430
+    ],
+    [
+     "?",
+     28771
+    ],
+    "j_spineupper",
+    [
+     "?",
+     28782
+    ],
+    [
+     "?",
+     24429
+    ],
+    [
+     "?",
+     13872
+    ],
+    [
+     "?",
+     25908
+    ],
+    [
+     "?",
+     24422
+    ],
+    [
+     "?",
+     26994
+    ],
+    [
+     "?",
+     25951
+    ],
+    [
+     "?",
+     28780
+    ],
+    [
+     "?",
+     29184
+    ],
+    [
+     "?",
+     26733
+    ],
+    [
+     "?",
+     26463
+    ],
+    [
+     "?",
+     28534
+    ],
+    [
+     "?",
+     25970
+    ],
+    [
+     "?",
+     26725
+    ]
+   ],
+   "xanims": {},
+   "ikLeftHand": {
+    "ikLeftHandOffset": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "ikLeftHandRotation": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "ikLeftHandProneOffset": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "ikLeftHandProneRotation": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "ikLeftHandUiViewerOffset": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "ikLeftHandUiViewerRotation": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   }
+  }
+ },
+ {
+  "index": 743,
+  "report": {
+   "index": 743,
+   "pos": 72679720,
+   "end": 72682054,
+   "how": "found (no internal refs: VIRTUAL base unknown)",
+   "next_type": "XANIMPARTS",
+   "next_name": "ai_zombie_thundergun_hit",
+   "next_hdr": 104,
+   "ok": true,
+   "virtual_base": 44985248,
+   "base_confidence": "unknown",
+   "unresolved_inside": [],
+   "unresolved_unwalked": 31,
+   "unresolved_other": 0,
+   "weapDef": "inline",
+   "stub": false
+  },
+  "summary": {
+   "name": "thundergun_upgraded_zm",
+   "displayName": "ZOMBIE_THUNDERGUN_UPGRADED",
+   "altWeapon": "",
+   "ammo": "",
+   "clip": "",
+   "weapType": "projectile",
+   "weapClass": "rifle",
+   "fireType": "singleshot",
+   "inventoryType": "primary",
+   "penetrateType": "none",
+   "impactType": "none",
+   "flags": {
+    "bRifleBullet": false,
+    "armorPiercing": false,
+    "bBoltAction": false,
+    "aimDownSight": false,
+    "bDualWield": false,
+    "sharedAmmo": false,
+    "unlimitedAmmo": false,
+    "bClipOnly": false,
+    "bNoPartialReload": false,
+    "bSegmentedReload": false,
+    "bRechamberWhileAds": false,
+    "bReloadWhileAds": false,
+    "doGibbing": false
+   },
+   "ammoClip": {
+    "iClipSize": 4,
+    "iStartAmmo": 24,
+    "iMaxAmmo": 24,
+    "shotCount": 0,
+    "iReloadAmmoAdd": 0,
+    "iReloadStartAdd": 0,
+    "iDropAmmoMin": 12,
+    "iDropAmmoMax": 24
+   },
+   "timesVariant": {
+    "iReloadTime": 2100,
+    "iReloadEmptyTime": 2000,
+    "iReloadQuickTime": 0,
+    "iReloadQuickEmptyTime": 0,
+    "iAdsTransInTime": 400,
+    "iAdsTransOutTime": 450,
+    "iAltRaiseTime": 660
+   },
+   "timesWeapDef": {
+    "iFireDelay": 0,
+    "iMeleeDelay": 250,
+    "meleeChargeDelay": 0,
+    "iDetonateDelay": 0,
+    "iSpinUpTime": 0,
+    "iSpinDownTime": 0,
+    "spinRate": 0.0,
+    "iFireTime": 600,
+    "iLastFireTime": 950,
+    "iRechamberTime": 100,
+    "iRechamberBoltTime": 0,
+    "iHoldFireTime": 0,
+    "iDetonateTime": 0,
+    "iMeleeTime": 700,
+    "meleeChargeTime": 0,
+    "iReloadTimeRight": 0,
+    "iReloadTimeLeft": 0,
+    "reloadShowRocketTime": 0,
+    "iReloadEmptyTimeLeft": 0,
+    "iReloadAddTime": 0,
+    "iReloadEmptyAddTime": 0,
+    "iReloadQuickAddTime": 0,
+    "iReloadQuickEmptyAddTime": 0,
+    "iReloadStartTime": 0,
+    "iReloadStartAddTime": 0,
+    "iReloadEndTime": 0,
+    "iDropTime": 830,
+    "iRaiseTime": 1100,
+    "iAltDropTime": 0,
+    "quickDropTime": 250,
+    "quickRaiseTime": 760,
+    "iFirstRaiseTime": 1500,
+    "iEmptyRaiseTime": 400,
+    "iEmptyDropTime": 500,
+    "sprintInTime": 300,
+    "sprintLoopTime": 700,
+    "sprintOutTime": 300,
+    "fuseTime": 0,
+    "aiFuseTime": 0,
+    "iJamFireTime": 0,
+    "iPositionReloadTransTime": 300
+   },
+   "damage": {
+    "damage": 0,
+    "minDamage": 0,
+    "playerDamage": 30,
+    "minPlayerDamage": 0,
+    "iMeleeDamage": 25,
+    "iDamageType": 0,
+    "damageDuration": 0.0,
+    "damageInterval": 0.0,
+    "fMaxDamageRange": 999999.0,
+    "fMinDamageRange": 999999.125,
+    "iExplosionRadius": 0,
+    "iExplosionRadiusMin": 0,
+    "iExplosionInnerDamage": 0,
+    "iExplosionOuterDamage": 0,
+    "damageConeAngle": 180.0,
+    "meleeChargeRange": 0.0
+   },
+   "locationDamageMultipliers": {
+    "none": 1.0,
+    "helmet": 4.0,
+    "head": 4.0,
+    "neck": 5.0,
+    "torso_upper": 1.0,
+    "torso_lower": 0.8999999761581421,
+    "right_arm_upper": 0.800000011920929,
+    "left_arm_upper": 0.800000011920929,
+    "right_arm_lower": 0.6000000238418579,
+    "left_arm_lower": 0.6000000238418579,
+    "right_hand": 0.4000000059604645,
+    "left_hand": 0.4000000059604645,
+    "right_leg_upper": 0.800000011920929,
+    "left_leg_upper": 0.800000011920929,
+    "right_leg_lower": 0.6000000238418579,
+    "left_leg_lower": 0.6000000238418579,
+    "right_foot": 0.4000000059604645,
+    "left_foot": 0.4000000059604645,
+    "gun": 0.0
+   },
+   "spread": {
+    "fHipSpreadStandMin": 2.0,
+    "fHipSpreadDuckedMin": 1.0,
+    "fHipSpreadProneMin": 1.0,
+    "hipSpreadStandMax": 4.0,
+    "hipSpreadDuckedMax": 3.0,
+    "hipSpreadProneMax": 2.0,
+    "fHipSpreadDecayRate": 2.25,
+    "fHipSpreadFireAdd": 1.0,
+    "fHipSpreadTurnAdd": 0.25,
+    "fHipSpreadMoveAdd": 0.5,
+    "fHipSpreadDuckedDecay": 1.25,
+    "fHipSpreadProneDecay": 1.649999976158142,
+    "fAdsSpread": 0.0,
+    "adsViewErrorMin": 0.0,
+    "adsViewErrorMax": 0.0,
+    "accuracy": 0.0,
+    "aiSpread": 0.0,
+    "playerSpread": 0.0,
+    "autoAimRange": 500.0,
+    "aimAssistRange": 1500.0,
+    "aimPadding": 0.0,
+    "enemyCrosshairRange": 320.0,
+    "horizViewJitter": 0.0,
+    "vertViewJitter": 0.0
+   },
+   "gunKickAds": {
+    "adsGunKickReducedKickBullets": 0,
+    "adsGunKickReducedKickPercent": 0.0,
+    "fAdsGunKickPitchMin": -35.0,
+    "fAdsGunKickPitchMax": -40.0,
+    "fAdsGunKickYawMin": 0.0,
+    "fAdsGunKickYawMax": 0.0,
+    "fAdsGunKickAccel": 825.0,
+    "fAdsGunKickSpeedMax": 2000.0,
+    "fAdsGunKickSpeedDecay": 25.0,
+    "fAdsGunKickStaticDecay": 100.0
+   },
+   "gunKickHip": {
+    "hipGunKickReducedKickBullets": 0,
+    "hipGunKickReducedKickPercent": 0.0,
+    "fHipGunKickPitchMin": -30.0,
+    "fHipGunKickPitchMax": -35.0,
+    "fHipGunKickYawMin": -2.0,
+    "fHipGunKickYawMax": 18.0,
+    "fHipGunKickAccel": 1000.0,
+    "fHipGunKickSpeedMax": 1200.0,
+    "fHipGunKickSpeedDecay": 100.0,
+    "fHipGunKickStaticDecay": 2.0
+   },
+   "viewKick": {
+    "fAdsViewKickPitchMin": 40.0,
+    "fAdsViewKickPitchMax": 55.0,
+    "fAdsViewKickYawMin": 25.0,
+    "fAdsViewKickYawMax": -25.0,
+    "fAdsViewScatterMin": 0.0,
+    "fAdsViewScatterMax": 0.0,
+    "fHipViewKickPitchMin": 100.0,
+    "fHipViewKickPitchMax": 110.0,
+    "fHipViewKickYawMin": 30.0,
+    "fHipViewKickYawMax": -60.0,
+    "fHipViewScatterMin": 0.0,
+    "fHipViewScatterMax": 0.0,
+    "fAdsViewKickCenterSpeed": 1300.0,
+    "fHipViewKickCenterSpeed": 1200.0
+   },
+   "sway": {
+    "swayMaxAngle": 10.0,
+    "swayLerpSpeed": 5.0,
+    "swayPitchScale": 0.10000000149011612,
+    "swayYawScale": 0.10000000149011612,
+    "swayHorizScale": 0.05000000074505806,
+    "swayVertScale": 0.10000000149011612,
+    "swayShellShockScale": 5.0,
+    "adsSwayMaxAngle": 8.0,
+    "adsSwayLerpSpeed": 6.0,
+    "adsSwayPitchScale": 0.10000000149011612,
+    "adsSwayYawScale": 0.10000000149011612,
+    "fAdsSwayHorizScale": 0.03999999910593033,
+    "fAdsSwayVertScale": 0.11999999731779099
+   },
+   "idleBob": {
+    "fAdsIdleAmount": 2.0,
+    "fHipIdleAmount": 30.0,
+    "adsIdleSpeed": 0.800000011920929,
+    "hipIdleSpeed": 1.0,
+    "fIdleCrouchFactor": 0.800000011920929,
+    "fIdleProneFactor": 0.4000000059604645,
+    "fGunMaxPitch": 2.0,
+    "fGunMaxYaw": 8.0,
+    "fAdsBobFactor": 0.5,
+    "fAdsViewBobMult": 0.25,
+    "fDuckedSprintCycleScale": 0.0,
+    "fSprintCycleScale": 0.699999988079071,
+    "fDtpCycleScale": 1.0,
+    "fPosMoveRate": 6.0,
+    "fPosProneMoveRate": 25.0,
+    "fPosRotRate": 8.0,
+    "fPosProneRotRate": 30.0
+   },
+   "viewOffsets": {
+    "vStandMove": [
+     0.0,
+     0.699999988079071,
+     -1.0
+    ],
+    "vStandRot": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vDuckedOfs": [
+     -0.10000000149011612,
+     1.0,
+     -0.20000000298023224
+    ],
+    "vDuckedMove": [
+     0.0,
+     0.5,
+     -1.0
+    ],
+    "vDuckedRot": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vProneOfs": [
+     -0.5,
+     2.0,
+     0.800000011920929
+    ],
+    "vProneMove": [
+     -100.0,
+     -75.0,
+     -105.0
+    ],
+    "vProneRot": [
+     0.0,
+     220.0,
+     -300.0
+    ],
+    "vStrafeMove": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vStrafeRot": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vSprintOfs": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vSprintRot": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vSprintBob": [
+     0.0,
+     0.0
+    ],
+    "vDuckedSprintOfs": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vDuckedSprintRot": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vDuckedSprintBob": [
+     0.0,
+     0.0
+    ],
+    "vLowReadyOfs": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vLowReadyRot": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vDtpOfs": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vDtpRot": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vDtpBob": [
+     0.0,
+     0.0
+    ],
+    "vMantleOfs": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vMantleRot": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vSlideOfs": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vSlideRot": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   },
+   "ads": {
+    "fAdsZoomFov1": 65.0,
+    "fAdsZoomFov2": 65.0,
+    "fAdsZoomFov3": 50.0,
+    "fAdsZoomInFrac": 0.75,
+    "fAdsZoomOutFrac": 0.699999988079071,
+    "fAimAssistRangeAds": 1500.0,
+    "fOverlayAlphaScale": 1.0,
+    "adsMoveSpeedScale": 1.0,
+    "moveSpeedScale": 1.0,
+    "sprintDurationScale": 1.0,
+    "fAdsAimPitch": 0.0,
+    "fAdsCrosshairInFrac": 0.09000000357627869,
+    "fAdsCrosshairOutFrac": 0.699999988079071,
+    "adsDofStart": 0.0,
+    "adsDofEnd": 11.0,
+    "hipDofStart": 0.0,
+    "hipDofEnd": 0.0,
+    "overlayWidth": 220.0,
+    "overlayHeight": 220.0
+   },
+   "projectile": {
+    "iProjectileSpeed": 2000,
+    "iProjectileSpeedUp": 0,
+    "iProjectileSpeedRelativeUp": 0,
+    "iProjectileSpeedForward": 0,
+    "iProjectileActivateDist": 0,
+    "projLifetime": 0.5,
+    "timeToAccelerate": 0.0,
+    "projectileCurvature": 0.0,
+    "projIgnitionDelay": 0,
+    "vProjectileColor": [
+     1.0,
+     1.0,
+     1.0
+    ],
+    "maxSteeringAccel": 3000.0,
+    "lowAmmoWarningThreshold": 0.33000001311302185,
+    "stickiness": 0,
+    "rotateType": 0,
+    "parallelBounce": [
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.0,
+     0.0
+    ],
+    "perpendicularBounce": [
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.0,
+     0.0
+    ],
+    "projExplosion": "none",
+    "projectileModel": ",tag_flash"
+   },
+   "tracer": {
+    "tracerFrequency": 0,
+    "tracerWidth": 0.0,
+    "tracerLength": 0.0
+   },
+   "overheat": {
+    "overheatWeapon": 0,
+    "overheatRate": 0.0,
+    "cooldownRate": 0.0,
+    "overheatEndVal": 0.0,
+    "coolWhileFiring": 0
+   },
+   "aiParams": {
+    "fightDist": 720.0,
+    "maxDist": 680.0,
+    "leftArc": 0.0,
+    "rightArc": 0.0,
+    "topArc": 0.0,
+    "bottomArc": 0.0,
+    "minTurnSpeed": [
+     0.0,
+     0.0
+    ],
+    "maxTurnSpeed": [
+     0.0,
+     0.0
+    ],
+    "pitchConvergenceTime": 0.0,
+    "yawConvergenceTime": 0.0,
+    "suppressTime": 0.0,
+    "maxRange": 0.0,
+    "fAnimHorRotateInc": 0.0,
+    "fPlayerPositionDist": 0.0,
+    "aiVsAiAccuracyGraphName": "",
+    "aiVsPlayerAccuracyGraphName": "",
+    "aiVsAiAccuracyGraphKnots": null,
+    "aiVsPlayerAccuracyGraphKnots": null
+   },
+   "sounds": {
+    "pickupSound": "wpn_weap_pickup_npc",
+    "pickupSoundPlayer": "wpn_weap_pickup_plr",
+    "ammoPickupSound": "wpn_ammo_pickup_npc",
+    "ammoPickupSoundPlayer": "wpn_ammo_pickup_plr",
+    "projectileSound": "wpn_thundergun_proj_loop",
+    "fireSound": "wpn_thundergun_fire_npc",
+    "fireSoundPlayer": "wpn_thundergun_fire_plr",
+    "fireLastSound": "wpn_thundergun_fire_npc_last",
+    "fireLastSoundPlayer": "wpn_thundergun_fire_plr_last",
+    "raiseSound": "weap_raise",
+    "raiseSoundPlayer": "tesla_foley",
+    "firstRaiseSound": "weap_raise",
+    "putawaySound": "weap_putaway",
+    "putawaySoundPlayer": "tesla_foley",
+    "projExplosionSound": "wpn_thundergun_proj_impact"
+   },
+   "bounceSound": null,
+   "rumble": {
+    "fireRumble": "dtp_rumble",
+    "meleeImpactRumble": "",
+    "reloadRumble": ""
+   },
+   "fx": {
+    "viewFlashEffect": "<FX#741>",
+    "worldFlashEffect": "<FX#742>"
+   },
+   "models": {
+    "gunXModel": [
+     "ref",
+     72659623,
+     4,
+     44984336
+    ],
+    "worldModel": [
+     "ref",
+     72660150,
+     4,
+     44984624
+    ],
+    "handXModel": "<XMODEL#711>",
+    "worldClipModel": null,
+    "rocketModel": null,
+    "mountedModel": null,
+    "additionalMeleeModel": null
+   },
+   "materials": {
+    "hudIcon": "hud_thundergun",
+    "killIcon": "hud_thundergun",
+    "reticleCenter": "hud_flamethrower_reticle"
+   },
+   "strings": {
+    "szOverlayName": "",
+    "szModeName": "",
+    "parentWeaponName": "thundergun",
+    "szSharedAmmoCapName": "",
+    "szSpawnedGrenadeWeaponName": "",
+    "szDualWieldWeaponName": "",
+    "szUseHintString": "",
+    "dropHintString": "",
+    "szScript": "",
+    "standMountedWeapdef": "",
+    "crouchMountedWeapdef": "",
+    "proneMountedWeapdef": "",
+    "flameTableFirstPerson": "",
+    "flameTableThirdPerson": ""
+   },
+   "notetrackSoundMap": [],
+   "hideTags": [
+    [
+     "?",
+     30576
+    ],
+    [
+     "?",
+     28255
+    ],
+    [
+     "?",
+     27958
+    ],
+    [
+     "?",
+     12389
+    ],
+    [
+     "?",
+     13407
+    ],
+    [
+     "?",
+     26217
+    ],
+    [
+     "?",
+     29285
+    ],
+    [
+     "?",
+     24430
+    ],
+    [
+     "?",
+     28771
+    ],
+    "j_spineupper",
+    [
+     "?",
+     28782
+    ],
+    [
+     "?",
+     24429
+    ],
+    [
+     "?",
+     13872
+    ],
+    [
+     "?",
+     25908
+    ],
+    [
+     "?",
+     24422
+    ],
+    [
+     "?",
+     26994
+    ],
+    [
+     "?",
+     25951
+    ],
+    [
+     "?",
+     28780
+    ],
+    [
+     "?",
+     29184
+    ],
+    [
+     "?",
+     26733
+    ],
+    [
+     "?",
+     26463
+    ],
+    [
+     "?",
+     28534
+    ],
+    [
+     "?",
+     25970
+    ],
+    [
+     "?",
+     26725
+    ]
+   ],
+   "xanims": {},
+   "ikLeftHand": {
+    "ikLeftHandOffset": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "ikLeftHandRotation": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "ikLeftHandProneOffset": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "ikLeftHandProneRotation": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "ikLeftHandUiViewerOffset": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "ikLeftHandUiViewerRotation": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   }
+  }
+ },
+ {
+  "index": 797,
+  "report": {
+   "index": 797,
+   "pos": 73704961,
+   "end": 73708579,
+   "how": "found base=0x2bab987 (2 votes)",
+   "next_type": "WEAPON",
+   "next_name": "crossbow_explosive_upgraded_zm",
+   "next_hdr": 228,
+   "ok": true,
+   "virtual_base": 45791623,
+   "base_confidence": "exact",
+   "unresolved_inside": [],
+   "unresolved_unwalked": 32,
+   "unresolved_other": 0,
+   "weapDef": "inline",
+   "stub": false
+  },
+  "summary": {
+   "name": "crossbow_explosive_zm",
+   "displayName": "WEAPON_CROSSBOW_EXPLOSIVE",
+   "altWeapon": "",
+   "ammo": "",
+   "clip": "",
+   "weapType": "projectile",
+   "weapClass": "rifle",
+   "fireType": "singleshot",
+   "inventoryType": "primary",
+   "penetrateType": "none",
+   "impactType": "bolt",
+   "flags": {
+    "bRifleBullet": false,
+    "armorPiercing": false,
+    "bBoltAction": false,
+    "aimDownSight": true,
+    "bDualWield": false,
+    "sharedAmmo": false,
+    "unlimitedAmmo": false,
+    "bClipOnly": false,
+    "bNoPartialReload": false,
+    "bSegmentedReload": false,
+    "bRechamberWhileAds": true,
+    "bReloadWhileAds": false,
+    "doGibbing": false
+   },
+   "ammoClip": {
+    "iClipSize": 1,
+    "iStartAmmo": 12,
+    "iMaxAmmo": 12,
+    "shotCount": 0,
+    "iReloadAmmoAdd": 0,
+    "iReloadStartAdd": 0,
+    "iDropAmmoMin": 1,
+    "iDropAmmoMax": 6
+   },
+   "timesVariant": {
+    "iReloadTime": 2750,
+    "iReloadEmptyTime": 2000,
+    "iReloadQuickTime": 0,
+    "iReloadQuickEmptyTime": 0,
+    "iAdsTransInTime": 250,
+    "iAdsTransOutTime": 250,
+    "iAltRaiseTime": 0
+   },
+   "timesWeapDef": {
+    "iFireDelay": 0,
+    "iMeleeDelay": 250,
+    "meleeChargeDelay": 0,
+    "iDetonateDelay": 0,
+    "iSpinUpTime": 0,
+    "iSpinDownTime": 0,
+    "spinRate": 0.0,
+    "iFireTime": 320,
+    "iLastFireTime": 0,
+    "iRechamberTime": 100,
+    "iRechamberBoltTime": 0,
+    "iHoldFireTime": 0,
+    "iDetonateTime": 0,
+    "iMeleeTime": 700,
+    "meleeChargeTime": 0,
+    "iReloadTimeRight": 0,
+    "iReloadTimeLeft": 0,
+    "reloadShowRocketTime": 0,
+    "iReloadEmptyTimeLeft": 0,
+    "iReloadAddTime": 2450,
+    "iReloadEmptyAddTime": 0,
+    "iReloadQuickAddTime": 0,
+    "iReloadQuickEmptyAddTime": 0,
+    "iReloadStartTime": 0,
+    "iReloadStartAddTime": 0,
+    "iReloadEndTime": 0,
+    "iDropTime": 750,
+    "iRaiseTime": 900,
+    "iAltDropTime": 0,
+    "quickDropTime": 300,
+    "quickRaiseTime": 800,
+    "iFirstRaiseTime": 900,
+    "iEmptyRaiseTime": 900,
+    "iEmptyDropTime": 450,
+    "sprintInTime": 300,
+    "sprintLoopTime": 750,
+    "sprintOutTime": 300,
+    "fuseTime": 0,
+    "aiFuseTime": 0,
+    "iJamFireTime": 0,
+    "iPositionReloadTransTime": 600
+   },
+   "damage": {
+    "damage": 750,
+    "minDamage": 0,
+    "playerDamage": 30,
+    "minPlayerDamage": 0,
+    "iMeleeDamage": 25,
+    "iDamageType": 0,
+    "damageDuration": 0.0,
+    "damageInterval": 0.0,
+    "fMaxDamageRange": 999999.0,
+    "fMinDamageRange": 999999.125,
+    "iExplosionRadius": 1,
+    "iExplosionRadiusMin": 0,
+    "iExplosionInnerDamage": 150,
+    "iExplosionOuterDamage": 100,
+    "damageConeAngle": 180.0,
+    "meleeChargeRange": 0.0
+   },
+   "locationDamageMultipliers": [
+    "unresolved",
+    4,
+    12264076
+   ],
+   "spread": {
+    "fHipSpreadStandMin": 2.0,
+    "fHipSpreadDuckedMin": 1.5,
+    "fHipSpreadProneMin": 1.0,
+    "hipSpreadStandMax": 4.0,
+    "hipSpreadDuckedMax": 3.0,
+    "hipSpreadProneMax": 2.0,
+    "fHipSpreadDecayRate": 4.0,
+    "fHipSpreadFireAdd": 1.0,
+    "fHipSpreadTurnAdd": 0.0,
+    "fHipSpreadMoveAdd": 4.5,
+    "fHipSpreadDuckedDecay": 1.0,
+    "fHipSpreadProneDecay": 1.0,
+    "fAdsSpread": 0.0,
+    "adsViewErrorMin": 0.0,
+    "adsViewErrorMax": 0.0,
+    "accuracy": 0.0,
+    "aiSpread": 0.0,
+    "playerSpread": 0.0,
+    "autoAimRange": 1800.0,
+    "aimAssistRange": 3200.0,
+    "aimPadding": 0.0,
+    "enemyCrosshairRange": 600.0,
+    "horizViewJitter": 0.0,
+    "vertViewJitter": 0.0
+   },
+   "gunKickAds": {
+    "adsGunKickReducedKickBullets": 0,
+    "adsGunKickReducedKickPercent": 0.0,
+    "fAdsGunKickPitchMin": 0.0,
+    "fAdsGunKickPitchMax": 0.0,
+    "fAdsGunKickYawMin": 0.0,
+    "fAdsGunKickYawMax": 0.0,
+    "fAdsGunKickAccel": 0.0,
+    "fAdsGunKickSpeedMax": 2000.0,
+    "fAdsGunKickSpeedDecay": 25.0,
+    "fAdsGunKickStaticDecay": 50.0
+   },
+   "gunKickHip": {
+    "hipGunKickReducedKickBullets": 0,
+    "hipGunKickReducedKickPercent": 0.0,
+    "fHipGunKickPitchMin": -30.0,
+    "fHipGunKickPitchMax": -35.0,
+    "fHipGunKickYawMin": -2.0,
+    "fHipGunKickYawMax": 18.0,
+    "fHipGunKickAccel": 1000.0,
+    "fHipGunKickSpeedMax": 1200.0,
+    "fHipGunKickSpeedDecay": 100.0,
+    "fHipGunKickStaticDecay": 2.0
+   },
+   "viewKick": {
+    "fAdsViewKickPitchMin": 60.0,
+    "fAdsViewKickPitchMax": 80.0,
+    "fAdsViewKickYawMin": -40.0,
+    "fAdsViewKickYawMax": -50.0,
+    "fAdsViewScatterMin": 0.0,
+    "fAdsViewScatterMax": 0.0,
+    "fHipViewKickPitchMin": 60.0,
+    "fHipViewKickPitchMax": 80.0,
+    "fHipViewKickYawMin": -40.0,
+    "fHipViewKickYawMax": -50.0,
+    "fHipViewScatterMin": 0.0,
+    "fHipViewScatterMax": 0.0,
+    "fAdsViewKickCenterSpeed": 1500.0,
+    "fHipViewKickCenterSpeed": 1500.0
+   },
+   "sway": {
+    "swayMaxAngle": 4.0,
+    "swayLerpSpeed": 4.0,
+    "swayPitchScale": -1.0,
+    "swayYawScale": -1.0,
+    "swayHorizScale": 0.1599999964237213,
+    "swayVertScale": 0.3499999940395355,
+    "swayShellShockScale": 5.0,
+    "adsSwayMaxAngle": 2.0,
+    "adsSwayLerpSpeed": 4.0,
+    "adsSwayPitchScale": 0.05999999865889549,
+    "adsSwayYawScale": 0.04500000178813934,
+    "fAdsSwayHorizScale": 0.12999999523162842,
+    "fAdsSwayVertScale": 0.11999999731779099
+   },
+   "idleBob": {
+    "fAdsIdleAmount": 2.0,
+    "fHipIdleAmount": 15.0,
+    "adsIdleSpeed": 0.800000011920929,
+    "hipIdleSpeed": 5.0,
+    "fIdleCrouchFactor": 0.800000011920929,
+    "fIdleProneFactor": 0.6000000238418579,
+    "fGunMaxPitch": 2.0,
+    "fGunMaxYaw": 8.0,
+    "fAdsBobFactor": 0.699999988079071,
+    "fAdsViewBobMult": 0.20000000298023224,
+    "fDuckedSprintCycleScale": 0.0,
+    "fSprintCycleScale": 0.800000011920929,
+    "fDtpCycleScale": 1.0,
+    "fPosMoveRate": 6.0,
+    "fPosProneMoveRate": 25.0,
+    "fPosRotRate": 6.0,
+    "fPosProneRotRate": 30.0
+   },
+   "viewOffsets": {
+    "vStandMove": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vStandRot": [
+     2.0,
+     0.0,
+     -2.0
+    ],
+    "vDuckedOfs": [
+     -1.0,
+     0.800000011920929,
+     -1.0
+    ],
+    "vDuckedMove": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vDuckedRot": [
+     2.0,
+     0.0,
+     -2.0
+    ],
+    "vProneOfs": [
+     -2.0,
+     0.0,
+     0.0
+    ],
+    "vProneMove": [
+     -160.0,
+     3.0,
+     -120.0
+    ],
+    "vProneRot": [
+     0.0,
+     300.0,
+     -300.0
+    ],
+    "vStrafeMove": [
+     0.0,
+     0.5,
+     0.0
+    ],
+    "vStrafeRot": [
+     0.0,
+     0.0,
+     3.0
+    ],
+    "vSprintOfs": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vSprintRot": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vSprintBob": [
+     0.0,
+     0.0
+    ],
+    "vDuckedSprintOfs": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vDuckedSprintRot": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vDuckedSprintBob": [
+     0.0,
+     0.0
+    ],
+    "vLowReadyOfs": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vLowReadyRot": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vDtpOfs": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vDtpRot": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vDtpBob": [
+     0.0,
+     0.0
+    ],
+    "vMantleOfs": [
+     0.0,
+     -3.0,
+     -1.0
+    ],
+    "vMantleRot": [
+     -10.0,
+     5.0,
+     0.0
+    ],
+    "vSlideOfs": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vSlideRot": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   },
+   "ads": {
+    "fAdsZoomFov1": 55.0,
+    "fAdsZoomFov2": 55.0,
+    "fAdsZoomFov3": 55.0,
+    "fAdsZoomInFrac": 0.5,
+    "fAdsZoomOutFrac": 0.5,
+    "fAimAssistRangeAds": 3200.0,
+    "fOverlayAlphaScale": 1.0,
+    "adsMoveSpeedScale": 1.0,
+    "moveSpeedScale": 1.0,
+    "sprintDurationScale": 1.0,
+    "fAdsAimPitch": 0.0,
+    "fAdsCrosshairInFrac": 1.0,
+    "fAdsCrosshairOutFrac": 0.20000000298023224,
+    "adsDofStart": 2.0,
+    "adsDofEnd": 5.0,
+    "hipDofStart": 0.0,
+    "hipDofEnd": 0.0,
+    "overlayWidth": 480.0,
+    "overlayHeight": 480.0
+   },
+   "projectile": {
+    "iProjectileSpeed": 4180,
+    "iProjectileSpeedUp": 90,
+    "iProjectileSpeedRelativeUp": 0,
+    "iProjectileSpeedForward": 0,
+    "iProjectileActivateDist": 0,
+    "projLifetime": 30.0,
+    "timeToAccelerate": 0.0,
+    "projectileCurvature": 0.0,
+    "projIgnitionDelay": 0,
+    "vProjectileColor": [
+     0.75,
+     0.30000001192092896,
+     0.0
+    ],
+    "maxSteeringAccel": 3000.0,
+    "lowAmmoWarningThreshold": 0.25,
+    "stickiness": 1,
+    "rotateType": 0,
+    "parallelBounce": [
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.0,
+     0.0
+    ],
+    "perpendicularBounce": [
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.0,
+     0.0
+    ],
+    "projExplosion": "bolt",
+    "projectileModel": "<XMODEL#770>"
+   },
+   "tracer": {
+    "tracerFrequency": 0,
+    "tracerWidth": 0.0,
+    "tracerLength": 0.0
+   },
+   "overheat": {
+    "overheatWeapon": 0,
+    "overheatRate": 0.0,
+    "cooldownRate": 0.0,
+    "overheatEndVal": 0.0,
+    "coolWhileFiring": 0
+   },
+   "aiParams": {
+    "fightDist": 720.0,
+    "maxDist": 250.0,
+    "leftArc": 0.0,
+    "rightArc": 0.0,
+    "topArc": 0.0,
+    "bottomArc": 0.0,
+    "minTurnSpeed": [
+     0.0,
+     0.0
+    ],
+    "maxTurnSpeed": [
+     0.0,
+     0.0
+    ],
+    "pitchConvergenceTime": 0.0,
+    "yawConvergenceTime": 0.0,
+    "suppressTime": 0.0,
+    "maxRange": 0.0,
+    "fAnimHorRotateInc": 0.0,
+    "fPlayerPositionDist": 0.0,
+    "aiVsAiAccuracyGraphName": "",
+    "aiVsPlayerAccuracyGraphName": "",
+    "aiVsAiAccuracyGraphKnots": null,
+    "aiVsPlayerAccuracyGraphKnots": null
+   },
+   "sounds": {
+    "pickupSound": "wpn_weap_pickup_npc",
+    "pickupSoundPlayer": "wpn_weap_pickup_plr",
+    "ammoPickupSound": "wpn_ammo_pickup_npc",
+    "ammoPickupSoundPlayer": "wpn_ammo_pickup_plr",
+    "projectileSound": "wpn_crossbow_whoosh_dist",
+    "fireSound": "wpn_crossbow_fire_npc",
+    "fireSoundPlayer": "wpn_crossbow_fire_plr",
+    "emptyFireSound": "wpn_crossbow_dryfire_npc",
+    "emptyFireSoundPlayer": "wpn_crossbow_dryfire_plr",
+    "raiseSound": "wpn_crossbow_raise_npc",
+    "raiseSoundPlayer": "wpn_crossbow_raise_plr",
+    "firstRaiseSound": "wpn_crossbow_1straise_npc",
+    "firstRaiseSoundPlayer": "wpn_crossbow_1straise_plr"
+   },
+   "bounceSound": null,
+   "rumble": {
+    "fireRumble": "pistol_fire",
+    "meleeImpactRumble": "",
+    "reloadRumble": ""
+   },
+   "fx": {
+    "viewFlashEffect": "<FX#767>",
+    "worldFlashEffect": "<FX#767>",
+    "projTrailEffect": "<FX#771>"
+   },
+   "models": {
+    "gunXModel": [
+     "<XMODEL#766>"
+    ],
+    "worldModel": [
+     "<XMODEL#768>",
+     "<XMODEL#769>"
+    ],
+    "handXModel": ",viewhands_usmc",
+    "worldClipModel": null,
+    "rocketModel": null,
+    "mountedModel": null,
+    "additionalMeleeModel": null
+   },
+   "materials": {
+    "hudIcon": "hud_icon_crossbow",
+    "killIcon": "hud_obit_exploding_arrow",
+    "ammoCounterIcon": "hud_icon_crossbow",
+    "reticleSide": ",reticle_side_small"
+   },
+   "strings": {
+    "szOverlayName": "",
+    "szModeName": "",
+    "parentWeaponName": "crossbow_explosive",
+    "szSharedAmmoCapName": "",
+    "szSpawnedGrenadeWeaponName": "explosive_bolt_zm",
+    "szDualWieldWeaponName": "",
+    "szUseHintString": "",
+    "dropHintString": "",
+    "szScript": "",
+    "standMountedWeapdef": "",
+    "crouchMountedWeapdef": "",
+    "proneMountedWeapdef": "",
+    "flameTableFirstPerson": "",
+    "flameTableThirdPerson": ""
+   },
+   "notetrackSoundMap": [],
+   "hideTags": [
+    "tag_clip",
+    "tag_scope_colt"
+   ],
+   "xanims": {
+    "CAMERA_MANTLE": "t5_viewmodel_camera_mantle"
+   },
+   "ikLeftHand": {
+    "ikLeftHandOffset": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "ikLeftHandRotation": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "ikLeftHandProneOffset": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "ikLeftHandProneRotation": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "ikLeftHandUiViewerOffset": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "ikLeftHandUiViewerRotation": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   }
+  }
+ },
+ {
+  "index": 798,
+  "report": {
+   "index": 798,
+   "pos": 73708579,
+   "end": 73711008,
+   "how": "chained",
+   "next_type": "XMODEL",
+   "next_name": "viewmodel_mp_sticky_grenade",
+   "next_hdr": 248,
+   "ok": true,
+   "virtual_base": 45794544,
+   "base_confidence": "exact",
+   "unresolved_inside": [],
+   "unresolved_unwalked": 32,
+   "unresolved_other": 0,
+   "weapDef": "inline",
+   "stub": false
+  },
+  "summary": {
+   "name": "crossbow_explosive_upgraded_zm",
+   "displayName": "ZOMBIE_CROSSBOW_EXPLOSIVE_UPGRADED",
+   "altWeapon": "",
+   "ammo": "",
+   "clip": "",
+   "weapType": "projectile",
+   "weapClass": "rifle",
+   "fireType": "singleshot",
+   "inventoryType": "primary",
+   "penetrateType": "none",
+   "impactType": "bolt",
+   "flags": {
+    "bRifleBullet": false,
+    "armorPiercing": false,
+    "bBoltAction": false,
+    "aimDownSight": true,
+    "bDualWield": false,
+    "sharedAmmo": false,
+    "unlimitedAmmo": false,
+    "bClipOnly": false,
+    "bNoPartialReload": false,
+    "bSegmentedReload": false,
+    "bRechamberWhileAds": true,
+    "bReloadWhileAds": false,
+    "doGibbing": false
+   },
+   "ammoClip": {
+    "iClipSize": 1,
+    "iStartAmmo": 12,
+    "iMaxAmmo": 12,
+    "shotCount": 0,
+    "iReloadAmmoAdd": 0,
+    "iReloadStartAdd": 0,
+    "iDropAmmoMin": 1,
+    "iDropAmmoMax": 6
+   },
+   "timesVariant": {
+    "iReloadTime": 2750,
+    "iReloadEmptyTime": 2000,
+    "iReloadQuickTime": 0,
+    "iReloadQuickEmptyTime": 0,
+    "iAdsTransInTime": 250,
+    "iAdsTransOutTime": 250,
+    "iAltRaiseTime": 0
+   },
+   "timesWeapDef": {
+    "iFireDelay": 0,
+    "iMeleeDelay": 250,
+    "meleeChargeDelay": 0,
+    "iDetonateDelay": 0,
+    "iSpinUpTime": 0,
+    "iSpinDownTime": 0,
+    "spinRate": 0.0,
+    "iFireTime": 320,
+    "iLastFireTime": 0,
+    "iRechamberTime": 100,
+    "iRechamberBoltTime": 0,
+    "iHoldFireTime": 0,
+    "iDetonateTime": 0,
+    "iMeleeTime": 700,
+    "meleeChargeTime": 0,
+    "iReloadTimeRight": 0,
+    "iReloadTimeLeft": 0,
+    "reloadShowRocketTime": 0,
+    "iReloadEmptyTimeLeft": 0,
+    "iReloadAddTime": 2450,
+    "iReloadEmptyAddTime": 0,
+    "iReloadQuickAddTime": 0,
+    "iReloadQuickEmptyAddTime": 0,
+    "iReloadStartTime": 0,
+    "iReloadStartAddTime": 0,
+    "iReloadEndTime": 0,
+    "iDropTime": 750,
+    "iRaiseTime": 900,
+    "iAltDropTime": 0,
+    "quickDropTime": 300,
+    "quickRaiseTime": 800,
+    "iFirstRaiseTime": 900,
+    "iEmptyRaiseTime": 900,
+    "iEmptyDropTime": 450,
+    "sprintInTime": 300,
+    "sprintLoopTime": 750,
+    "sprintOutTime": 300,
+    "fuseTime": 0,
+    "aiFuseTime": 0,
+    "iJamFireTime": 0,
+    "iPositionReloadTransTime": 600
+   },
+   "damage": {
+    "damage": 750,
+    "minDamage": 0,
+    "playerDamage": 30,
+    "minPlayerDamage": 0,
+    "iMeleeDamage": 25,
+    "iDamageType": 0,
+    "damageDuration": 0.0,
+    "damageInterval": 0.0,
+    "fMaxDamageRange": 999999.0,
+    "fMinDamageRange": 999999.125,
+    "iExplosionRadius": 1,
+    "iExplosionRadiusMin": 0,
+    "iExplosionInnerDamage": 150,
+    "iExplosionOuterDamage": 100,
+    "damageConeAngle": 180.0,
+    "meleeChargeRange": 0.0
+   },
+   "locationDamageMultipliers": [
+    "unresolved",
+    4,
+    12264076
+   ],
+   "spread": {
+    "fHipSpreadStandMin": 2.0,
+    "fHipSpreadDuckedMin": 1.5,
+    "fHipSpreadProneMin": 1.0,
+    "hipSpreadStandMax": 4.0,
+    "hipSpreadDuckedMax": 3.0,
+    "hipSpreadProneMax": 2.0,
+    "fHipSpreadDecayRate": 4.0,
+    "fHipSpreadFireAdd": 1.0,
+    "fHipSpreadTurnAdd": 0.0,
+    "fHipSpreadMoveAdd": 4.5,
+    "fHipSpreadDuckedDecay": 1.0,
+    "fHipSpreadProneDecay": 1.0,
+    "fAdsSpread": 0.0,
+    "adsViewErrorMin": 0.0,
+    "adsViewErrorMax": 0.0,
+    "accuracy": 0.0,
+    "aiSpread": 0.0,
+    "playerSpread": 0.0,
+    "autoAimRange": 1800.0,
+    "aimAssistRange": 3200.0,
+    "aimPadding": 0.0,
+    "enemyCrosshairRange": 600.0,
+    "horizViewJitter": 0.0,
+    "vertViewJitter": 0.0
+   },
+   "gunKickAds": {
+    "adsGunKickReducedKickBullets": 0,
+    "adsGunKickReducedKickPercent": 0.0,
+    "fAdsGunKickPitchMin": 0.0,
+    "fAdsGunKickPitchMax": 0.0,
+    "fAdsGunKickYawMin": 0.0,
+    "fAdsGunKickYawMax": 0.0,
+    "fAdsGunKickAccel": 0.0,
+    "fAdsGunKickSpeedMax": 2000.0,
+    "fAdsGunKickSpeedDecay": 25.0,
+    "fAdsGunKickStaticDecay": 50.0
+   },
+   "gunKickHip": {
+    "hipGunKickReducedKickBullets": 0,
+    "hipGunKickReducedKickPercent": 0.0,
+    "fHipGunKickPitchMin": -30.0,
+    "fHipGunKickPitchMax": -35.0,
+    "fHipGunKickYawMin": -2.0,
+    "fHipGunKickYawMax": 18.0,
+    "fHipGunKickAccel": 1000.0,
+    "fHipGunKickSpeedMax": 1200.0,
+    "fHipGunKickSpeedDecay": 100.0,
+    "fHipGunKickStaticDecay": 2.0
+   },
+   "viewKick": {
+    "fAdsViewKickPitchMin": 60.0,
+    "fAdsViewKickPitchMax": 80.0,
+    "fAdsViewKickYawMin": -40.0,
+    "fAdsViewKickYawMax": -50.0,
+    "fAdsViewScatterMin": 0.0,
+    "fAdsViewScatterMax": 0.0,
+    "fHipViewKickPitchMin": 60.0,
+    "fHipViewKickPitchMax": 80.0,
+    "fHipViewKickYawMin": -40.0,
+    "fHipViewKickYawMax": -50.0,
+    "fHipViewScatterMin": 0.0,
+    "fHipViewScatterMax": 0.0,
+    "fAdsViewKickCenterSpeed": 1500.0,
+    "fHipViewKickCenterSpeed": 1500.0
+   },
+   "sway": {
+    "swayMaxAngle": 4.0,
+    "swayLerpSpeed": 4.0,
+    "swayPitchScale": -1.0,
+    "swayYawScale": -1.0,
+    "swayHorizScale": 0.1599999964237213,
+    "swayVertScale": 0.3499999940395355,
+    "swayShellShockScale": 5.0,
+    "adsSwayMaxAngle": 2.0,
+    "adsSwayLerpSpeed": 4.0,
+    "adsSwayPitchScale": 0.05999999865889549,
+    "adsSwayYawScale": 0.04500000178813934,
+    "fAdsSwayHorizScale": 0.12999999523162842,
+    "fAdsSwayVertScale": 0.11999999731779099
+   },
+   "idleBob": {
+    "fAdsIdleAmount": 2.0,
+    "fHipIdleAmount": 15.0,
+    "adsIdleSpeed": 0.800000011920929,
+    "hipIdleSpeed": 5.0,
+    "fIdleCrouchFactor": 0.800000011920929,
+    "fIdleProneFactor": 0.6000000238418579,
+    "fGunMaxPitch": 2.0,
+    "fGunMaxYaw": 8.0,
+    "fAdsBobFactor": 0.699999988079071,
+    "fAdsViewBobMult": 0.20000000298023224,
+    "fDuckedSprintCycleScale": 0.0,
+    "fSprintCycleScale": 0.800000011920929,
+    "fDtpCycleScale": 1.0,
+    "fPosMoveRate": 6.0,
+    "fPosProneMoveRate": 25.0,
+    "fPosRotRate": 6.0,
+    "fPosProneRotRate": 30.0
+   },
+   "viewOffsets": {
+    "vStandMove": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vStandRot": [
+     2.0,
+     0.0,
+     -2.0
+    ],
+    "vDuckedOfs": [
+     -1.0,
+     0.800000011920929,
+     -1.0
+    ],
+    "vDuckedMove": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vDuckedRot": [
+     2.0,
+     0.0,
+     -2.0
+    ],
+    "vProneOfs": [
+     -2.0,
+     0.0,
+     0.0
+    ],
+    "vProneMove": [
+     -160.0,
+     3.0,
+     -120.0
+    ],
+    "vProneRot": [
+     0.0,
+     300.0,
+     -300.0
+    ],
+    "vStrafeMove": [
+     0.0,
+     0.5,
+     0.0
+    ],
+    "vStrafeRot": [
+     0.0,
+     0.0,
+     3.0
+    ],
+    "vSprintOfs": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vSprintRot": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vSprintBob": [
+     0.0,
+     0.0
+    ],
+    "vDuckedSprintOfs": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vDuckedSprintRot": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vDuckedSprintBob": [
+     0.0,
+     0.0
+    ],
+    "vLowReadyOfs": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vLowReadyRot": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vDtpOfs": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vDtpRot": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vDtpBob": [
+     0.0,
+     0.0
+    ],
+    "vMantleOfs": [
+     0.0,
+     -3.0,
+     -1.0
+    ],
+    "vMantleRot": [
+     -10.0,
+     5.0,
+     0.0
+    ],
+    "vSlideOfs": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vSlideRot": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   },
+   "ads": {
+    "fAdsZoomFov1": 55.0,
+    "fAdsZoomFov2": 55.0,
+    "fAdsZoomFov3": 55.0,
+    "fAdsZoomInFrac": 0.5,
+    "fAdsZoomOutFrac": 0.5,
+    "fAimAssistRangeAds": 3200.0,
+    "fOverlayAlphaScale": 1.0,
+    "adsMoveSpeedScale": 1.0,
+    "moveSpeedScale": 1.0,
+    "sprintDurationScale": 1.0,
+    "fAdsAimPitch": 0.0,
+    "fAdsCrosshairInFrac": 1.0,
+    "fAdsCrosshairOutFrac": 0.20000000298023224,
+    "adsDofStart": 2.0,
+    "adsDofEnd": 5.0,
+    "hipDofStart": 0.0,
+    "hipDofEnd": 0.0,
+    "overlayWidth": 480.0,
+    "overlayHeight": 480.0
+   },
+   "projectile": {
+    "iProjectileSpeed": 4180,
+    "iProjectileSpeedUp": 90,
+    "iProjectileSpeedRelativeUp": 0,
+    "iProjectileSpeedForward": 0,
+    "iProjectileActivateDist": 0,
+    "projLifetime": 30.0,
+    "timeToAccelerate": 0.0,
+    "projectileCurvature": 0.0,
+    "projIgnitionDelay": 0,
+    "vProjectileColor": [
+     0.75,
+     0.30000001192092896,
+     0.0
+    ],
+    "maxSteeringAccel": 3000.0,
+    "lowAmmoWarningThreshold": 0.25,
+    "stickiness": 1,
+    "rotateType": 0,
+    "parallelBounce": [
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.0,
+     0.0
+    ],
+    "perpendicularBounce": [
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.0,
+     0.0
+    ],
+    "projExplosion": "bolt",
+    "projectileModel": "<XMODEL#770>"
+   },
+   "tracer": {
+    "tracerFrequency": 0,
+    "tracerWidth": 0.0,
+    "tracerLength": 0.0
+   },
+   "overheat": {
+    "overheatWeapon": 0,
+    "overheatRate": 0.0,
+    "cooldownRate": 0.0,
+    "overheatEndVal": 0.0,
+    "coolWhileFiring": 0
+   },
+   "aiParams": {
+    "fightDist": 720.0,
+    "maxDist": 250.0,
+    "leftArc": 0.0,
+    "rightArc": 0.0,
+    "topArc": 0.0,
+    "bottomArc": 0.0,
+    "minTurnSpeed": [
+     0.0,
+     0.0
+    ],
+    "maxTurnSpeed": [
+     0.0,
+     0.0
+    ],
+    "pitchConvergenceTime": 0.0,
+    "yawConvergenceTime": 0.0,
+    "suppressTime": 0.0,
+    "maxRange": 0.0,
+    "fAnimHorRotateInc": 0.0,
+    "fPlayerPositionDist": 0.0,
+    "aiVsAiAccuracyGraphName": "",
+    "aiVsPlayerAccuracyGraphName": "",
+    "aiVsAiAccuracyGraphKnots": null,
+    "aiVsPlayerAccuracyGraphKnots": null
+   },
+   "sounds": {
+    "pickupSound": "wpn_weap_pickup_npc",
+    "pickupSoundPlayer": "wpn_weap_pickup_plr",
+    "ammoPickupSound": "wpn_ammo_pickup_npc",
+    "ammoPickupSoundPlayer": "wpn_ammo_pickup_plr",
+    "projectileSound": "wpn_crossbow_whoosh_dist",
+    "fireSound": "wpn_crossbow_fire_npc_pap",
+    "fireSoundPlayer": "wpn_crossbow_fire_plr_pap",
+    "emptyFireSound": "wpn_crossbow_dryfire_npc",
+    "emptyFireSoundPlayer": "wpn_crossbow_dryfire_plr",
+    "raiseSound": "wpn_crossbow_raise_npc",
+    "raiseSoundPlayer": "wpn_crossbow_raise_plr",
+    "firstRaiseSound": "wpn_crossbow_1straise_npc",
+    "firstRaiseSoundPlayer": "wpn_crossbow_1straise_plr"
+   },
+   "bounceSound": null,
+   "rumble": {
+    "fireRumble": "pistol_fire",
+    "meleeImpactRumble": "",
+    "reloadRumble": ""
+   },
+   "fx": {
+    "viewFlashEffect": "<FX#767>",
+    "worldFlashEffect": "<FX#767>",
+    "projTrailEffect": "<FX#771>"
+   },
+   "models": {
+    "gunXModel": [
+     "ref",
+     73707267,
+     4,
+     45793704
+    ],
+    "worldModel": [
+     "ref",
+     73707567,
+     4,
+     45794004
+    ],
+    "handXModel": ",viewhands_usmc",
+    "worldClipModel": null,
+    "rocketModel": null,
+    "mountedModel": null,
+    "additionalMeleeModel": null
+   },
+   "materials": {
+    "hudIcon": "hud_icon_crossbow",
+    "killIcon": "hud_obit_exploding_arrow",
+    "ammoCounterIcon": "hud_icon_crossbow",
+    "reticleSide": ",reticle_side_small"
+   },
+   "strings": {
+    "szOverlayName": "",
+    "szModeName": "",
+    "parentWeaponName": "crossbow_explosive",
+    "szSharedAmmoCapName": "",
+    "szSpawnedGrenadeWeaponName": "explosive_bolt_upgraded_zm",
+    "szDualWieldWeaponName": "",
+    "szUseHintString": "",
+    "dropHintString": "",
+    "szScript": "",
+    "standMountedWeapdef": "",
+    "crouchMountedWeapdef": "",
+    "proneMountedWeapdef": "",
+    "flameTableFirstPerson": "",
+    "flameTableThirdPerson": ""
+   },
+   "notetrackSoundMap": [],
+   "hideTags": [
+    "tag_clip",
+    "tag_scope_colt"
+   ],
+   "xanims": {
+    "CAMERA_MANTLE": "t5_viewmodel_camera_mantle"
+   },
+   "ikLeftHand": {
+    "ikLeftHandOffset": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "ikLeftHandRotation": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "ikLeftHandProneOffset": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "ikLeftHandProneRotation": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "ikLeftHandUiViewerOffset": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "ikLeftHandUiViewerRotation": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   }
+  }
+ },
+ {
+  "index": 805,
+  "report": {
+   "index": 805,
+   "pos": 73754977,
+   "end": 73757997,
+   "how": "found base=0x2bb1e4c (1 votes)",
+   "next_type": "WEAPON",
+   "next_name": "explosive_bolt_upgraded_zm",
+   "next_hdr": 228,
+   "ok": true,
+   "virtual_base": 45817420,
+   "base_confidence": "heuristic",
+   "unresolved_inside": [
+    45829478,
+    45824594
+   ],
+   "unresolved_unwalked": 11,
+   "unresolved_other": 0,
+   "weapDef": "inline",
+   "stub": false
+  },
+  "summary": {
+   "name": "explosive_bolt_zm",
+   "displayName": "WEAPON_STICKY_GRENADE",
+   "altWeapon": "",
+   "ammo": "",
+   "clip": "",
+   "weapType": "grenade",
+   "weapClass": "grenade",
+   "fireType": "fullauto",
+   "inventoryType": "offhand",
+   "penetrateType": "none",
+   "impactType": "grenade_explode",
+   "flags": {
+    "bRifleBullet": false,
+    "armorPiercing": false,
+    "bBoltAction": false,
+    "aimDownSight": false,
+    "bDualWield": false,
+    "sharedAmmo": false,
+    "unlimitedAmmo": false,
+    "bClipOnly": true,
+    "bNoPartialReload": false,
+    "bSegmentedReload": false,
+    "bRechamberWhileAds": false,
+    "bReloadWhileAds": false,
+    "doGibbing": false
+   },
+   "ammoClip": {
+    "iClipSize": 2,
+    "iStartAmmo": 1,
+    "iMaxAmmo": 2,
+    "shotCount": 0,
+    "iReloadAmmoAdd": 0,
+    "iReloadStartAdd": 0,
+    "iDropAmmoMin": 1,
+    "iDropAmmoMax": 1
+   },
+   "timesVariant": {
+    "iReloadTime": 2000,
+    "iReloadEmptyTime": 0,
+    "iReloadQuickTime": 0,
+    "iReloadQuickEmptyTime": 0,
+    "iAdsTransInTime": 0,
+    "iAdsTransOutTime": 0,
+    "iAltRaiseTime": 600
+   },
+   "timesWeapDef": {
+    "iFireDelay": 10,
+    "iMeleeDelay": 0,
+    "meleeChargeDelay": 0,
+    "iDetonateDelay": 100,
+    "iSpinUpTime": 0,
+    "iSpinDownTime": 0,
+    "spinRate": 0.0,
+    "iFireTime": 144,
+    "iLastFireTime": 0,
+    "iRechamberTime": 0,
+    "iRechamberBoltTime": 0,
+    "iHoldFireTime": 250,
+    "iDetonateTime": 100,
+    "iMeleeTime": 0,
+    "meleeChargeTime": 0,
+    "iReloadTimeRight": 0,
+    "iReloadTimeLeft": 0,
+    "reloadShowRocketTime": 0,
+    "iReloadEmptyTimeLeft": 0,
+    "iReloadAddTime": 0,
+    "iReloadEmptyAddTime": 0,
+    "iReloadQuickAddTime": 0,
+    "iReloadQuickEmptyAddTime": 0,
+    "iReloadStartTime": 0,
+    "iReloadStartAddTime": 0,
+    "iReloadEndTime": 0,
+    "iDropTime": 0,
+    "iRaiseTime": 0,
+    "iAltDropTime": 0,
+    "quickDropTime": 500,
+    "quickRaiseTime": 500,
+    "iFirstRaiseTime": 500,
+    "iEmptyRaiseTime": 500,
+    "iEmptyDropTime": 500,
+    "sprintInTime": 500,
+    "sprintLoopTime": 500,
+    "sprintOutTime": 500,
+    "fuseTime": 1500,
+    "aiFuseTime": 5000,
+    "iJamFireTime": 0,
+    "iPositionReloadTransTime": 0
+   },
+   "damage": {
+    "damage": 30,
+    "minDamage": 0,
+    "playerDamage": 0,
+    "minPlayerDamage": 0,
+    "iMeleeDamage": 0,
+    "iDamageType": 0,
+    "damageDuration": 0.0,
+    "damageInterval": 0.0,
+    "fMaxDamageRange": 999999.0,
+    "fMinDamageRange": 999999.125,
+    "iExplosionRadius": 256,
+    "iExplosionRadiusMin": 0,
+    "iExplosionInnerDamage": 400,
+    "iExplosionOuterDamage": 75,
+    "damageConeAngle": 180.0,
+    "meleeChargeRange": 0.0
+   },
+   "locationDamageMultipliers": [
+    "unresolved",
+    4,
+    12264076
+   ],
+   "spread": {
+    "fHipSpreadStandMin": 0.0,
+    "fHipSpreadDuckedMin": 0.0,
+    "fHipSpreadProneMin": 0.0,
+    "hipSpreadStandMax": 0.0,
+    "hipSpreadDuckedMax": 0.0,
+    "hipSpreadProneMax": 0.0,
+    "fHipSpreadDecayRate": 0.0,
+    "fHipSpreadFireAdd": 0.0,
+    "fHipSpreadTurnAdd": 0.0,
+    "fHipSpreadMoveAdd": 0.0,
+    "fHipSpreadDuckedDecay": 0.0,
+    "fHipSpreadProneDecay": 0.0,
+    "fAdsSpread": 0.0,
+    "adsViewErrorMin": 0.0,
+    "adsViewErrorMax": 0.0,
+    "accuracy": 0.0,
+    "aiSpread": 0.0,
+    "playerSpread": 0.0,
+    "autoAimRange": 0.0,
+    "aimAssistRange": 0.0,
+    "aimPadding": 0.0,
+    "enemyCrosshairRange": 600.0,
+    "horizViewJitter": 0.0,
+    "vertViewJitter": 0.0
+   },
+   "gunKickAds": {
+    "adsGunKickReducedKickBullets": 0,
+    "adsGunKickReducedKickPercent": 0.0,
+    "fAdsGunKickPitchMin": 0.0,
+    "fAdsGunKickPitchMax": 0.0,
+    "fAdsGunKickYawMin": 0.0,
+    "fAdsGunKickYawMax": 0.0,
+    "fAdsGunKickAccel": 0.0,
+    "fAdsGunKickSpeedMax": 0.0,
+    "fAdsGunKickSpeedDecay": 0.0,
+    "fAdsGunKickStaticDecay": 0.0
+   },
+   "gunKickHip": {
+    "hipGunKickReducedKickBullets": 0,
+    "hipGunKickReducedKickPercent": 0.0,
+    "fHipGunKickPitchMin": 0.0,
+    "fHipGunKickPitchMax": 0.0,
+    "fHipGunKickYawMin": 0.0,
+    "fHipGunKickYawMax": 0.0,
+    "fHipGunKickAccel": 0.0,
+    "fHipGunKickSpeedMax": 0.0,
+    "fHipGunKickSpeedDecay": 0.0,
+    "fHipGunKickStaticDecay": 0.0
+   },
+   "viewKick": {
+    "fAdsViewKickPitchMin": 0.0,
+    "fAdsViewKickPitchMax": 0.0,
+    "fAdsViewKickYawMin": 0.0,
+    "fAdsViewKickYawMax": 0.0,
+    "fAdsViewScatterMin": 0.0,
+    "fAdsViewScatterMax": 0.0,
+    "fHipViewKickPitchMin": 0.0,
+    "fHipViewKickPitchMax": 0.0,
+    "fHipViewKickYawMin": 0.0,
+    "fHipViewKickYawMax": 0.0,
+    "fHipViewScatterMin": 0.0,
+    "fHipViewScatterMax": 0.0,
+    "fAdsViewKickCenterSpeed": 0.0,
+    "fHipViewKickCenterSpeed": 0.0
+   },
+   "sway": {
+    "swayMaxAngle": 30.0,
+    "swayLerpSpeed": 6.0,
+    "swayPitchScale": 0.10000000149011612,
+    "swayYawScale": 0.10000000149011612,
+    "swayHorizScale": 0.10000000149011612,
+    "swayVertScale": 0.10000000149011612,
+    "swayShellShockScale": 5.0,
+    "adsSwayMaxAngle": 0.0,
+    "adsSwayLerpSpeed": 0.0,
+    "adsSwayPitchScale": 0.0,
+    "adsSwayYawScale": 0.0,
+    "fAdsSwayHorizScale": 0.0,
+    "fAdsSwayVertScale": 0.0
+   },
+   "idleBob": {
+    "fAdsIdleAmount": 0.0,
+    "fHipIdleAmount": 80.0,
+    "adsIdleSpeed": 0.0,
+    "hipIdleSpeed": 0.0,
+    "fIdleCrouchFactor": 0.5,
+    "fIdleProneFactor": 0.15000000596046448,
+    "fGunMaxPitch": 0.0,
+    "fGunMaxYaw": 0.0,
+    "fAdsBobFactor": 0.0,
+    "fAdsViewBobMult": 0.0,
+    "fDuckedSprintCycleScale": 0.0,
+    "fSprintCycleScale": 0.8999999761581421,
+    "fDtpCycleScale": 1.0,
+    "fPosMoveRate": 4.0,
+    "fPosProneMoveRate": 10.0,
+    "fPosRotRate": 5.0,
+    "fPosProneRotRate": 10.0
+   },
+   "viewOffsets": {
+    "vStandMove": [
+     0.0,
+     1.0,
+     -1.5
+    ],
+    "vStandRot": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vDuckedOfs": [
+     -2.0,
+     2.0,
+     -0.20000000298023224
+    ],
+    "vDuckedMove": [
+     0.0,
+     1.0,
+     -1.5
+    ],
+    "vDuckedRot": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vProneOfs": [
+     -6.0,
+     3.5,
+     0.800000011920929
+    ],
+    "vProneMove": [
+     0.0,
+     1.0,
+     -1.5
+    ],
+    "vProneRot": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vStrafeMove": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vStrafeRot": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vSprintOfs": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vSprintRot": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vSprintBob": [
+     6.0,
+     8.0
+    ],
+    "vDuckedSprintOfs": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vDuckedSprintRot": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vDuckedSprintBob": [
+     0.0,
+     0.0
+    ],
+    "vLowReadyOfs": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vLowReadyRot": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vDtpOfs": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vDtpRot": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vDtpBob": [
+     1.0,
+     1.0
+    ],
+    "vMantleOfs": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vMantleRot": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vSlideOfs": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vSlideRot": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   },
+   "ads": {
+    "fAdsZoomFov1": 0.0,
+    "fAdsZoomFov2": 0.0,
+    "fAdsZoomFov3": 0.0,
+    "fAdsZoomInFrac": 0.0,
+    "fAdsZoomOutFrac": 0.0,
+    "fAimAssistRangeAds": 0.0,
+    "fOverlayAlphaScale": 0.0,
+    "adsMoveSpeedScale": 0.0,
+    "moveSpeedScale": 1.0,
+    "sprintDurationScale": 1.0,
+    "fAdsAimPitch": 0.0,
+    "fAdsCrosshairInFrac": 0.0,
+    "fAdsCrosshairOutFrac": 0.0,
+    "adsDofStart": 0.0,
+    "adsDofEnd": 0.0,
+    "hipDofStart": 0.0,
+    "hipDofEnd": 0.0,
+    "overlayWidth": 0.0,
+    "overlayHeight": 0.0
+   },
+   "projectile": {
+    "iProjectileSpeed": 900,
+    "iProjectileSpeedUp": 0,
+    "iProjectileSpeedRelativeUp": 120,
+    "iProjectileSpeedForward": 0,
+    "iProjectileActivateDist": 0,
+    "projLifetime": 0.0,
+    "timeToAccelerate": 0.0,
+    "projectileCurvature": 0.0,
+    "projIgnitionDelay": 0,
+    "vProjectileColor": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "maxSteeringAccel": 0.0,
+    "lowAmmoWarningThreshold": 0.33000001311302185,
+    "stickiness": 1,
+    "rotateType": 0,
+    "parallelBounce": [
+     "unresolved",
+     4,
+     12263828
+    ],
+    "perpendicularBounce": [
+     "unresolved",
+     4,
+     12263952
+    ],
+    "projExplosion": "grenade",
+    "projectileModel": "<XMODEL#770>"
+   },
+   "tracer": {
+    "tracerFrequency": 0,
+    "tracerWidth": 0.0,
+    "tracerLength": 0.0
+   },
+   "overheat": {
+    "overheatWeapon": 0,
+    "overheatRate": 0.0,
+    "cooldownRate": 0.0,
+    "overheatEndVal": 0.0,
+    "coolWhileFiring": 0
+   },
+   "aiParams": {
+    "fightDist": 0.0,
+    "maxDist": 0.0,
+    "leftArc": 0.0,
+    "rightArc": 0.0,
+    "topArc": 0.0,
+    "bottomArc": 0.0,
+    "minTurnSpeed": [
+     0.0,
+     0.0
+    ],
+    "maxTurnSpeed": [
+     0.0,
+     0.0
+    ],
+    "pitchConvergenceTime": 0.0,
+    "yawConvergenceTime": 0.0,
+    "suppressTime": 0.0,
+    "maxRange": 0.0,
+    "fAnimHorRotateInc": 0.0,
+    "fPlayerPositionDist": 0.0,
+    "aiVsAiAccuracyGraphName": "",
+    "aiVsPlayerAccuracyGraphName": "",
+    "aiVsAiAccuracyGraphKnots": null,
+    "aiVsPlayerAccuracyGraphKnots": null
+   },
+   "sounds": {
+    "projExplosionSound": "wpn_grenade_explode"
+   },
+   "bounceSound": null,
+   "rumble": {
+    "fireRumble": "",
+    "meleeImpactRumble": "",
+    "reloadRumble": ""
+   },
+   "fx": {},
+   "models": {
+    "gunXModel": [
+     "<XMODEL#799>"
+    ],
+    "worldModel": [
+     "<XMODEL#800>"
+    ],
+    "handXModel": [
+     "ref",
+     4,
+     12261592
+    ],
+    "worldClipModel": null,
+    "rocketModel": null,
+    "mountedModel": null,
+    "additionalMeleeModel": null
+   },
+   "materials": {
+    "hudIcon": "hud_icon_crossbow",
+    "killIcon": "hud_obit_exploding_arrow",
+    "indicatorIcon": "hud_indicator_arrow",
+    "reticleCenter": [
+     "ref",
+     4,
+     12262000
+    ]
+   },
+   "strings": {
+    "szOverlayName": "",
+    "szModeName": "",
+    "parentWeaponName": "crossbow_explosive",
+    "szSharedAmmoCapName": "WEAPON_EXPLOSIVE_BOLT",
+    "szSpawnedGrenadeWeaponName": "",
+    "szDualWieldWeaponName": "",
+    "szUseHintString": "",
+    "dropHintString": "",
+    "szScript": "",
+    "standMountedWeapdef": "",
+    "crouchMountedWeapdef": "",
+    "proneMountedWeapdef": "",
+    "flameTableFirstPerson": "",
+    "flameTableThirdPerson": ""
+   },
+   "notetrackSoundMap": [],
+   "hideTags": [
+    [
+     "?",
+     30576
+    ],
+    [
+     "?",
+     28255
+    ],
+    [
+     "?",
+     27958
+    ],
+    [
+     "?",
+     12389
+    ],
+    [
+     "?",
+     13407
+    ],
+    [
+     "?",
+     26217
+    ],
+    [
+     "?",
+     29285
+    ],
+    [
+     "?",
+     24430
+    ],
+    [
+     "?",
+     28771
+    ],
+    "j_spineupper",
+    [
+     "?",
+     28782
+    ],
+    [
+     "?",
+     24429
+    ],
+    [
+     "?",
+     13872
+    ],
+    [
+     "?",
+     25908
+    ],
+    [
+     "?",
+     24422
+    ],
+    [
+     "?",
+     26994
+    ],
+    [
+     "?",
+     25951
+    ],
+    [
+     "?",
+     28780
+    ],
+    [
+     "?",
+     29184
+    ],
+    [
+     "?",
+     26733
+    ],
+    [
+     "?",
+     26463
+    ],
+    [
+     "?",
+     28534
+    ],
+    [
+     "?",
+     25970
+    ],
+    [
+     "?",
+     26725
+    ]
+   ],
+   "xanims": {
+    "HOLD_FIRE": "\u0080\u009d?\u00e9\u0080\u009d?\u00e9\u0080\u009d?\u00e9\u0080\u009d?\u00e9\u0080\u009d?\u00e9\u0080\u009d?\u00e9\u0080\u009d?\u00e9\u0082\u00bb\u0017\u008d\u0080\u009d?\u00e9\u0082\u00bb\u0017\u008d\u0082\u00bb:S\u0082\u00bb\u0017\u008d\u0080\u009d?\u00e9\u0080\u009d?\u00e9\u0080\u009d?\u00e9\u0080\u009d?\u00e9\u0080\u009d?\u00e9\u0080\u009d?\u00e9\u0080\u009d?\u00e9\u0080\u009d?\u00e9\u0080\u009d?\u00e9\u0080\u009d?\u00e9\u0080\u009d?\u00e9\u0080\u009d?\u00e9\u0080\u009d?\u00e9\u0080\u009d?\u00e9\u0080\u009d?\u00e9\u0080\u009d?\u00e9\u0080\u009d?\u00e9\u0080\u009d?\u00e9\u0080\u009d?\u00e9\u0080\u009d?\u00e9\u0080\u009d?\u00e9\u0080\u009d?\u00e9\u0080\u009d?\u00e9\u0080\u009d?\u00e9\u0080\u009d?\u00e9\u0080\u009d?\u00e9\u0080\u009d?\u00e9\u0080\u009d?\u00e9\u0080\u009d?\u00e9\u0080\u009d?\u00e9\u0080\u009d?\u00e9\u0080\u009d?\u00e9\u0080\u009d?\u00e9\u0080\u009d?\u00e9\u0080\u009d?\u00e9\u0080\u009d?\u00e9\u0080\u009d?\u00e9\u0080\u009d?\u00e9\u0080\u009d?\u00e9\u0080\u009d?\u00e9\u0082\u00bb\u0017\u008d\u0080\u009d?\u00e9\u0080\u009d?\u00e9\u0080\u009d?\u00e9\u0080\u009d?\u00e9\u0082\u00ba\u00cdM"
+   },
+   "ikLeftHand": {
+    "ikLeftHandOffset": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "ikLeftHandRotation": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "ikLeftHandProneOffset": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "ikLeftHandProneRotation": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "ikLeftHandUiViewerOffset": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "ikLeftHandUiViewerRotation": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   }
+  }
+ },
+ {
+  "index": 806,
+  "report": {
+   "index": 806,
+   "pos": 73757997,
+   "end": 73760281,
+   "how": "chained",
+   "next_type": "FX",
+   "next_name": "weapon/crossbow/fx_trail_crossbow_blink_grn_os",
+   "next_hdr": "name ref",
+   "ok": true,
+   "virtual_base": 45819976,
+   "base_confidence": "exact",
+   "unresolved_inside": [
+    45829328,
+    45829392,
+    45829456,
+    45828080,
+    45829520,
+    45829540,
+    45829564
+   ],
+   "unresolved_unwalked": 3,
+   "unresolved_other": 0,
+   "weapDef": "inline",
+   "stub": false
+  },
+  "summary": {
+   "name": "explosive_bolt_upgraded_zm",
+   "displayName": null,
+   "altWeapon": "",
+   "ammo": "",
+   "clip": "",
+   "weapType": "grenade",
+   "weapClass": "grenade",
+   "fireType": "fullauto",
+   "inventoryType": "offhand",
+   "penetrateType": "none",
+   "impactType": "grenade_explode",
+   "flags": {
+    "bRifleBullet": false,
+    "armorPiercing": false,
+    "bBoltAction": false,
+    "aimDownSight": false,
+    "bDualWield": false,
+    "sharedAmmo": false,
+    "unlimitedAmmo": false,
+    "bClipOnly": true,
+    "bNoPartialReload": false,
+    "bSegmentedReload": false,
+    "bRechamberWhileAds": false,
+    "bReloadWhileAds": false,
+    "doGibbing": false
+   },
+   "ammoClip": {
+    "iClipSize": 2,
+    "iStartAmmo": 1,
+    "iMaxAmmo": 2,
+    "shotCount": 0,
+    "iReloadAmmoAdd": 0,
+    "iReloadStartAdd": 0,
+    "iDropAmmoMin": 1,
+    "iDropAmmoMax": 1
+   },
+   "timesVariant": {
+    "iReloadTime": 2000,
+    "iReloadEmptyTime": 0,
+    "iReloadQuickTime": 0,
+    "iReloadQuickEmptyTime": 0,
+    "iAdsTransInTime": 0,
+    "iAdsTransOutTime": 0,
+    "iAltRaiseTime": 600
+   },
+   "timesWeapDef": {
+    "iFireDelay": 10,
+    "iMeleeDelay": 0,
+    "meleeChargeDelay": 0,
+    "iDetonateDelay": 100,
+    "iSpinUpTime": 0,
+    "iSpinDownTime": 0,
+    "spinRate": 0.0,
+    "iFireTime": 144,
+    "iLastFireTime": 0,
+    "iRechamberTime": 0,
+    "iRechamberBoltTime": 0,
+    "iHoldFireTime": 250,
+    "iDetonateTime": 100,
+    "iMeleeTime": 0,
+    "meleeChargeTime": 0,
+    "iReloadTimeRight": 0,
+    "iReloadTimeLeft": 0,
+    "reloadShowRocketTime": 0,
+    "iReloadEmptyTimeLeft": 0,
+    "iReloadAddTime": 0,
+    "iReloadEmptyAddTime": 0,
+    "iReloadQuickAddTime": 0,
+    "iReloadQuickEmptyAddTime": 0,
+    "iReloadStartTime": 0,
+    "iReloadStartAddTime": 0,
+    "iReloadEndTime": 0,
+    "iDropTime": 0,
+    "iRaiseTime": 0,
+    "iAltDropTime": 0,
+    "quickDropTime": 500,
+    "quickRaiseTime": 500,
+    "iFirstRaiseTime": 500,
+    "iEmptyRaiseTime": 500,
+    "iEmptyDropTime": 500,
+    "sprintInTime": 500,
+    "sprintLoopTime": 500,
+    "sprintOutTime": 500,
+    "fuseTime": 4000,
+    "aiFuseTime": 5000,
+    "iJamFireTime": 0,
+    "iPositionReloadTransTime": 0
+   },
+   "damage": {
+    "damage": 0,
+    "minDamage": 0,
+    "playerDamage": 0,
+    "minPlayerDamage": 0,
+    "iMeleeDamage": 0,
+    "iDamageType": 0,
+    "damageDuration": 0.0,
+    "damageInterval": 0.0,
+    "fMaxDamageRange": 999999.0,
+    "fMinDamageRange": 999999.125,
+    "iExplosionRadius": 200,
+    "iExplosionRadiusMin": 0,
+    "iExplosionInnerDamage": 2500,
+    "iExplosionOuterDamage": 225,
+    "damageConeAngle": 180.0,
+    "meleeChargeRange": 0.0
+   },
+   "locationDamageMultipliers": [
+    "unresolved",
+    4,
+    12264076
+   ],
+   "spread": {
+    "fHipSpreadStandMin": 0.0,
+    "fHipSpreadDuckedMin": 0.0,
+    "fHipSpreadProneMin": 0.0,
+    "hipSpreadStandMax": 0.0,
+    "hipSpreadDuckedMax": 0.0,
+    "hipSpreadProneMax": 0.0,
+    "fHipSpreadDecayRate": 0.0,
+    "fHipSpreadFireAdd": 0.0,
+    "fHipSpreadTurnAdd": 0.0,
+    "fHipSpreadMoveAdd": 0.0,
+    "fHipSpreadDuckedDecay": 0.0,
+    "fHipSpreadProneDecay": 0.0,
+    "fAdsSpread": 0.0,
+    "adsViewErrorMin": 0.0,
+    "adsViewErrorMax": 0.0,
+    "accuracy": 0.0,
+    "aiSpread": 0.0,
+    "playerSpread": 0.0,
+    "autoAimRange": 0.0,
+    "aimAssistRange": 0.0,
+    "aimPadding": 0.0,
+    "enemyCrosshairRange": 600.0,
+    "horizViewJitter": 0.0,
+    "vertViewJitter": 0.0
+   },
+   "gunKickAds": {
+    "adsGunKickReducedKickBullets": 0,
+    "adsGunKickReducedKickPercent": 0.0,
+    "fAdsGunKickPitchMin": 0.0,
+    "fAdsGunKickPitchMax": 0.0,
+    "fAdsGunKickYawMin": 0.0,
+    "fAdsGunKickYawMax": 0.0,
+    "fAdsGunKickAccel": 0.0,
+    "fAdsGunKickSpeedMax": 0.0,
+    "fAdsGunKickSpeedDecay": 0.0,
+    "fAdsGunKickStaticDecay": 0.0
+   },
+   "gunKickHip": {
+    "hipGunKickReducedKickBullets": 0,
+    "hipGunKickReducedKickPercent": 0.0,
+    "fHipGunKickPitchMin": 0.0,
+    "fHipGunKickPitchMax": 0.0,
+    "fHipGunKickYawMin": 0.0,
+    "fHipGunKickYawMax": 0.0,
+    "fHipGunKickAccel": 0.0,
+    "fHipGunKickSpeedMax": 0.0,
+    "fHipGunKickSpeedDecay": 0.0,
+    "fHipGunKickStaticDecay": 0.0
+   },
+   "viewKick": {
+    "fAdsViewKickPitchMin": 0.0,
+    "fAdsViewKickPitchMax": 0.0,
+    "fAdsViewKickYawMin": 0.0,
+    "fAdsViewKickYawMax": 0.0,
+    "fAdsViewScatterMin": 0.0,
+    "fAdsViewScatterMax": 0.0,
+    "fHipViewKickPitchMin": 0.0,
+    "fHipViewKickPitchMax": 0.0,
+    "fHipViewKickYawMin": 0.0,
+    "fHipViewKickYawMax": 0.0,
+    "fHipViewScatterMin": 0.0,
+    "fHipViewScatterMax": 0.0,
+    "fAdsViewKickCenterSpeed": 0.0,
+    "fHipViewKickCenterSpeed": 0.0
+   },
+   "sway": {
+    "swayMaxAngle": 30.0,
+    "swayLerpSpeed": 6.0,
+    "swayPitchScale": 0.10000000149011612,
+    "swayYawScale": 0.10000000149011612,
+    "swayHorizScale": 0.10000000149011612,
+    "swayVertScale": 0.10000000149011612,
+    "swayShellShockScale": 5.0,
+    "adsSwayMaxAngle": 0.0,
+    "adsSwayLerpSpeed": 0.0,
+    "adsSwayPitchScale": 0.0,
+    "adsSwayYawScale": 0.0,
+    "fAdsSwayHorizScale": 0.0,
+    "fAdsSwayVertScale": 0.0
+   },
+   "idleBob": {
+    "fAdsIdleAmount": 0.0,
+    "fHipIdleAmount": 80.0,
+    "adsIdleSpeed": 0.0,
+    "hipIdleSpeed": 0.0,
+    "fIdleCrouchFactor": 0.5,
+    "fIdleProneFactor": 0.15000000596046448,
+    "fGunMaxPitch": 0.0,
+    "fGunMaxYaw": 0.0,
+    "fAdsBobFactor": 0.0,
+    "fAdsViewBobMult": 0.0,
+    "fDuckedSprintCycleScale": 0.0,
+    "fSprintCycleScale": 0.8999999761581421,
+    "fDtpCycleScale": 1.0,
+    "fPosMoveRate": 4.0,
+    "fPosProneMoveRate": 10.0,
+    "fPosRotRate": 5.0,
+    "fPosProneRotRate": 10.0
+   },
+   "viewOffsets": {
+    "vStandMove": [
+     0.0,
+     1.0,
+     -1.5
+    ],
+    "vStandRot": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vDuckedOfs": [
+     -2.0,
+     2.0,
+     -0.20000000298023224
+    ],
+    "vDuckedMove": [
+     0.0,
+     1.0,
+     -1.5
+    ],
+    "vDuckedRot": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vProneOfs": [
+     -6.0,
+     3.5,
+     0.800000011920929
+    ],
+    "vProneMove": [
+     0.0,
+     1.0,
+     -1.5
+    ],
+    "vProneRot": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vStrafeMove": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vStrafeRot": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vSprintOfs": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vSprintRot": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vSprintBob": [
+     6.0,
+     8.0
+    ],
+    "vDuckedSprintOfs": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vDuckedSprintRot": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vDuckedSprintBob": [
+     0.0,
+     0.0
+    ],
+    "vLowReadyOfs": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vLowReadyRot": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vDtpOfs": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vDtpRot": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vDtpBob": [
+     1.0,
+     1.0
+    ],
+    "vMantleOfs": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vMantleRot": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vSlideOfs": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vSlideRot": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   },
+   "ads": {
+    "fAdsZoomFov1": 0.0,
+    "fAdsZoomFov2": 0.0,
+    "fAdsZoomFov3": 0.0,
+    "fAdsZoomInFrac": 0.0,
+    "fAdsZoomOutFrac": 0.0,
+    "fAimAssistRangeAds": 0.0,
+    "fOverlayAlphaScale": 0.0,
+    "adsMoveSpeedScale": 0.0,
+    "moveSpeedScale": 1.0,
+    "sprintDurationScale": 1.0,
+    "fAdsAimPitch": 0.0,
+    "fAdsCrosshairInFrac": 0.0,
+    "fAdsCrosshairOutFrac": 0.0,
+    "adsDofStart": 0.0,
+    "adsDofEnd": 0.0,
+    "hipDofStart": 0.0,
+    "hipDofEnd": 0.0,
+    "overlayWidth": 0.0,
+    "overlayHeight": 0.0
+   },
+   "projectile": {
+    "iProjectileSpeed": 900,
+    "iProjectileSpeedUp": 0,
+    "iProjectileSpeedRelativeUp": 120,
+    "iProjectileSpeedForward": 0,
+    "iProjectileActivateDist": 0,
+    "projLifetime": 0.0,
+    "timeToAccelerate": 0.0,
+    "projectileCurvature": 0.0,
+    "projIgnitionDelay": 0,
+    "vProjectileColor": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "maxSteeringAccel": 0.0,
+    "lowAmmoWarningThreshold": 0.33000001311302185,
+    "stickiness": 1,
+    "rotateType": 0,
+    "parallelBounce": [
+     "unresolved",
+     4,
+     12263828
+    ],
+    "perpendicularBounce": [
+     "unresolved",
+     4,
+     12263952
+    ],
+    "projExplosion": "grenade",
+    "projectileModel": "<XMODEL#770>"
+   },
+   "tracer": {
+    "tracerFrequency": 0,
+    "tracerWidth": 0.0,
+    "tracerLength": 0.0
+   },
+   "overheat": {
+    "overheatWeapon": 0,
+    "overheatRate": 0.0,
+    "cooldownRate": 0.0,
+    "overheatEndVal": 0.0,
+    "coolWhileFiring": 0
+   },
+   "aiParams": {
+    "fightDist": 0.0,
+    "maxDist": 0.0,
+    "leftArc": 0.0,
+    "rightArc": 0.0,
+    "topArc": 0.0,
+    "bottomArc": 0.0,
+    "minTurnSpeed": [
+     0.0,
+     0.0
+    ],
+    "maxTurnSpeed": [
+     0.0,
+     0.0
+    ],
+    "pitchConvergenceTime": 0.0,
+    "yawConvergenceTime": 0.0,
+    "suppressTime": 0.0,
+    "maxRange": 0.0,
+    "fAnimHorRotateInc": 0.0,
+    "fPlayerPositionDist": 0.0,
+    "aiVsAiAccuracyGraphName": "",
+    "aiVsPlayerAccuracyGraphName": "",
+    "aiVsAiAccuracyGraphKnots": null,
+    "aiVsPlayerAccuracyGraphKnots": null
+   },
+   "sounds": {},
+   "bounceSound": null,
+   "rumble": {
+    "fireRumble": "",
+    "meleeImpactRumble": "",
+    "reloadRumble": ""
+   },
+   "fx": {},
+   "models": {
+    "gunXModel": [
+     "ref",
+     null,
+     4,
+     45829328
+    ],
+    "worldModel": [
+     "ref",
+     null,
+     4,
+     45829392
+    ],
+    "handXModel": [
+     "ref",
+     4,
+     12261592
+    ],
+    "worldClipModel": null,
+    "rocketModel": null,
+    "mountedModel": null,
+    "additionalMeleeModel": null
+   },
+   "materials": {
+    "hudIcon": "hud_icon_crossbow",
+    "killIcon": "hud_obit_exploding_arrow",
+    "indicatorIcon": [
+     "ref",
+     4,
+     45828080
+    ],
+    "reticleCenter": [
+     "ref",
+     4,
+     12262000
+    ]
+   },
+   "strings": {
+    "szOverlayName": "",
+    "szModeName": "",
+    "parentWeaponName": "crossbow_explosive",
+    "szSharedAmmoCapName": null,
+    "szSpawnedGrenadeWeaponName": "",
+    "szDualWieldWeaponName": "",
+    "szUseHintString": "",
+    "dropHintString": "",
+    "szScript": "",
+    "standMountedWeapdef": "",
+    "crouchMountedWeapdef": "",
+    "proneMountedWeapdef": "",
+    "flameTableFirstPerson": "",
+    "flameTableThirdPerson": ""
+   },
+   "notetrackSoundMap": [],
+   "hideTags": [
+    [
+     "?",
+     30576
+    ],
+    [
+     "?",
+     28255
+    ],
+    [
+     "?",
+     27958
+    ],
+    [
+     "?",
+     12389
+    ],
+    [
+     "?",
+     13407
+    ],
+    [
+     "?",
+     26217
+    ],
+    [
+     "?",
+     29285
+    ],
+    [
+     "?",
+     24430
+    ],
+    [
+     "?",
+     28771
+    ],
+    "j_spineupper",
+    [
+     "?",
+     28782
+    ],
+    [
+     "?",
+     24429
+    ],
+    [
+     "?",
+     13872
+    ],
+    [
+     "?",
+     25908
+    ],
+    [
+     "?",
+     24422
+    ],
+    [
+     "?",
+     26994
+    ],
+    [
+     "?",
+     25951
+    ],
+    [
+     "?",
+     28780
+    ],
+    [
+     "?",
+     29184
+    ],
+    [
+     "?",
+     26733
+    ],
+    [
+     "?",
+     26463
+    ],
+    [
+     "?",
+     28534
+    ],
+    [
+     "?",
+     25970
+    ],
+    [
+     "?",
+     26725
+    ]
+   ],
+   "xanims": [
+    "unresolved",
+    4,
+    45829564
+   ],
+   "ikLeftHand": {
+    "ikLeftHandOffset": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "ikLeftHandRotation": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "ikLeftHandProneOffset": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "ikLeftHandProneRotation": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "ikLeftHandUiViewerOffset": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "ikLeftHandUiViewerRotation": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   }
+  }
+ },
+ {
+  "index": 831,
+  "report": {
+   "index": 831,
+   "pos": 73973536,
+   "end": 73977450,
+   "how": "found base=0x2bdc07e (4 votes)",
+   "next_type": "WEAPON",
+   "next_name": "knife_ballistic_upgraded_zm",
+   "next_hdr": 228,
+   "ok": true,
+   "virtual_base": 45990014,
+   "base_confidence": "exact",
+   "unresolved_inside": [],
+   "unresolved_unwalked": 27,
+   "unresolved_other": 0,
+   "weapDef": "inline",
+   "stub": false
+  },
+  "summary": {
+   "name": "knife_ballistic_zm",
+   "displayName": "WEAPON_KNIFE_BALLISTIC",
+   "altWeapon": "",
+   "ammo": "",
+   "clip": "",
+   "weapType": "projectile",
+   "weapClass": "pistol",
+   "fireType": "singleshot",
+   "inventoryType": "primary",
+   "penetrateType": "none",
+   "impactType": "bolt",
+   "flags": {
+    "bRifleBullet": false,
+    "armorPiercing": false,
+    "bBoltAction": false,
+    "aimDownSight": false,
+    "bDualWield": false,
+    "sharedAmmo": false,
+    "unlimitedAmmo": false,
+    "bClipOnly": false,
+    "bNoPartialReload": false,
+    "bSegmentedReload": false,
+    "bRechamberWhileAds": false,
+    "bReloadWhileAds": false,
+    "doGibbing": false
+   },
+   "ammoClip": {
+    "iClipSize": 1,
+    "iStartAmmo": 4,
+    "iMaxAmmo": 4,
+    "shotCount": 0,
+    "iReloadAmmoAdd": 0,
+    "iReloadStartAdd": 0,
+    "iDropAmmoMin": 1,
+    "iDropAmmoMax": 1
+   },
+   "timesVariant": {
+    "iReloadTime": 1500,
+    "iReloadEmptyTime": 1500,
+    "iReloadQuickTime": 0,
+    "iReloadQuickEmptyTime": 0,
+    "iAdsTransInTime": 250,
+    "iAdsTransOutTime": 250,
+    "iAltRaiseTime": 0
+   },
+   "timesWeapDef": {
+    "iFireDelay": 0,
+    "iMeleeDelay": 50,
+    "meleeChargeDelay": 100,
+    "iDetonateDelay": 0,
+    "iSpinUpTime": 0,
+    "iSpinDownTime": 0,
+    "spinRate": 0.0,
+    "iFireTime": 700,
+    "iLastFireTime": 0,
+    "iRechamberTime": 100,
+    "iRechamberBoltTime": 0,
+    "iHoldFireTime": 0,
+    "iDetonateTime": 0,
+    "iMeleeTime": 500,
+    "meleeChargeTime": 1000,
+    "iReloadTimeRight": 0,
+    "iReloadTimeLeft": 0,
+    "reloadShowRocketTime": 0,
+    "iReloadEmptyTimeLeft": 0,
+    "iReloadAddTime": 400,
+    "iReloadEmptyAddTime": 0,
+    "iReloadQuickAddTime": 0,
+    "iReloadQuickEmptyAddTime": 0,
+    "iReloadStartTime": 0,
+    "iReloadStartAddTime": 0,
+    "iReloadEndTime": 0,
+    "iDropTime": 350,
+    "iRaiseTime": 350,
+    "iAltDropTime": 0,
+    "quickDropTime": 250,
+    "quickRaiseTime": 250,
+    "iFirstRaiseTime": 1000,
+    "iEmptyRaiseTime": 250,
+    "iEmptyDropTime": 250,
+    "sprintInTime": 300,
+    "sprintLoopTime": 600,
+    "sprintOutTime": 300,
+    "fuseTime": 0,
+    "aiFuseTime": 0,
+    "iJamFireTime": 0,
+    "iPositionReloadTransTime": 600
+   },
+   "damage": {
+    "damage": 500,
+    "minDamage": 0,
+    "playerDamage": 135,
+    "minPlayerDamage": 0,
+    "iMeleeDamage": 500,
+    "iDamageType": 0,
+    "damageDuration": 0.0,
+    "damageInterval": 0.0,
+    "fMaxDamageRange": 999999.0,
+    "fMinDamageRange": 999999.125,
+    "iExplosionRadius": 0,
+    "iExplosionRadiusMin": 0,
+    "iExplosionInnerDamage": 0,
+    "iExplosionOuterDamage": 0,
+    "damageConeAngle": 180.0,
+    "meleeChargeRange": 128.0
+   },
+   "locationDamageMultipliers": {
+    "none": 1.0,
+    "helmet": 1.5,
+    "head": 1.5,
+    "neck": 1.5,
+    "torso_upper": 1.0,
+    "torso_lower": 1.0,
+    "right_arm_upper": 1.0,
+    "left_arm_upper": 1.0,
+    "right_arm_lower": 1.0,
+    "left_arm_lower": 1.0,
+    "right_hand": 1.0,
+    "left_hand": 1.0,
+    "right_leg_upper": 1.0,
+    "left_leg_upper": 1.0,
+    "right_leg_lower": 1.0,
+    "left_leg_lower": 1.0,
+    "right_foot": 1.0,
+    "left_foot": 1.0,
+    "gun": 0.0
+   },
+   "spread": {
+    "fHipSpreadStandMin": 0.0,
+    "fHipSpreadDuckedMin": 0.0,
+    "fHipSpreadProneMin": 0.0,
+    "hipSpreadStandMax": 0.0,
+    "hipSpreadDuckedMax": 0.0,
+    "hipSpreadProneMax": 0.0,
+    "fHipSpreadDecayRate": 0.0,
+    "fHipSpreadFireAdd": 0.0,
+    "fHipSpreadTurnAdd": 0.0,
+    "fHipSpreadMoveAdd": 0.0,
+    "fHipSpreadDuckedDecay": 0.0,
+    "fHipSpreadProneDecay": 0.0,
+    "fAdsSpread": 0.0,
+    "adsViewErrorMin": 0.0,
+    "adsViewErrorMax": 0.0,
+    "accuracy": 0.0,
+    "aiSpread": 0.0,
+    "playerSpread": 0.0,
+    "autoAimRange": 500.0,
+    "aimAssistRange": 3200.0,
+    "aimPadding": 0.0,
+    "enemyCrosshairRange": 600.0,
+    "horizViewJitter": 0.0,
+    "vertViewJitter": 0.0
+   },
+   "gunKickAds": {
+    "adsGunKickReducedKickBullets": 0,
+    "adsGunKickReducedKickPercent": 0.0,
+    "fAdsGunKickPitchMin": 0.0,
+    "fAdsGunKickPitchMax": 0.0,
+    "fAdsGunKickYawMin": 0.0,
+    "fAdsGunKickYawMax": 0.0,
+    "fAdsGunKickAccel": 0.0,
+    "fAdsGunKickSpeedMax": 2000.0,
+    "fAdsGunKickSpeedDecay": 25.0,
+    "fAdsGunKickStaticDecay": 50.0
+   },
+   "gunKickHip": {
+    "hipGunKickReducedKickBullets": 0,
+    "hipGunKickReducedKickPercent": 0.0,
+    "fHipGunKickPitchMin": -30.0,
+    "fHipGunKickPitchMax": -35.0,
+    "fHipGunKickYawMin": -2.0,
+    "fHipGunKickYawMax": 18.0,
+    "fHipGunKickAccel": 1000.0,
+    "fHipGunKickSpeedMax": 1200.0,
+    "fHipGunKickSpeedDecay": 100.0,
+    "fHipGunKickStaticDecay": 2.0
+   },
+   "viewKick": {
+    "fAdsViewKickPitchMin": 60.0,
+    "fAdsViewKickPitchMax": 80.0,
+    "fAdsViewKickYawMin": -40.0,
+    "fAdsViewKickYawMax": -50.0,
+    "fAdsViewScatterMin": 0.0,
+    "fAdsViewScatterMax": 0.0,
+    "fHipViewKickPitchMin": 60.0,
+    "fHipViewKickPitchMax": 80.0,
+    "fHipViewKickYawMin": -40.0,
+    "fHipViewKickYawMax": -50.0,
+    "fHipViewScatterMin": 0.0,
+    "fHipViewScatterMax": 0.0,
+    "fAdsViewKickCenterSpeed": 1500.0,
+    "fHipViewKickCenterSpeed": 1500.0
+   },
+   "sway": {
+    "swayMaxAngle": 5.0,
+    "swayLerpSpeed": 5.0,
+    "swayPitchScale": 2.0,
+    "swayYawScale": 0.25,
+    "swayHorizScale": 0.1599999964237213,
+    "swayVertScale": 0.3499999940395355,
+    "swayShellShockScale": 5.0,
+    "adsSwayMaxAngle": 6.0,
+    "adsSwayLerpSpeed": 7.0,
+    "adsSwayPitchScale": 0.05999999865889549,
+    "adsSwayYawScale": 0.04500000178813934,
+    "fAdsSwayHorizScale": 0.12999999523162842,
+    "fAdsSwayVertScale": 0.11999999731779099
+   },
+   "idleBob": {
+    "fAdsIdleAmount": 28.0,
+    "fHipIdleAmount": 30.0,
+    "adsIdleSpeed": 1.0,
+    "hipIdleSpeed": 1.0,
+    "fIdleCrouchFactor": 0.800000011920929,
+    "fIdleProneFactor": 0.6000000238418579,
+    "fGunMaxPitch": 2.0,
+    "fGunMaxYaw": 8.0,
+    "fAdsBobFactor": 0.5,
+    "fAdsViewBobMult": 0.25,
+    "fDuckedSprintCycleScale": 0.0,
+    "fSprintCycleScale": 0.800000011920929,
+    "fDtpCycleScale": 1.0,
+    "fPosMoveRate": 6.0,
+    "fPosProneMoveRate": 25.0,
+    "fPosRotRate": 6.0,
+    "fPosProneRotRate": 30.0
+   },
+   "viewOffsets": {
+    "vStandMove": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vStandRot": [
+     2.0,
+     0.0,
+     -2.0
+    ],
+    "vDuckedOfs": [
+     -1.0,
+     0.800000011920929,
+     -1.0
+    ],
+    "vDuckedMove": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vDuckedRot": [
+     2.0,
+     0.0,
+     -2.0
+    ],
+    "vProneOfs": [
+     -2.0,
+     0.800000011920929,
+     0.0
+    ],
+    "vProneMove": [
+     -160.0,
+     3.0,
+     -120.0
+    ],
+    "vProneRot": [
+     0.0,
+     300.0,
+     -300.0
+    ],
+    "vStrafeMove": [
+     0.0,
+     -0.25,
+     0.0
+    ],
+    "vStrafeRot": [
+     0.0,
+     0.0,
+     1.5
+    ],
+    "vSprintOfs": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vSprintRot": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vSprintBob": [
+     0.0,
+     0.0
+    ],
+    "vDuckedSprintOfs": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vDuckedSprintRot": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vDuckedSprintBob": [
+     0.0,
+     0.0
+    ],
+    "vLowReadyOfs": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vLowReadyRot": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vDtpOfs": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vDtpRot": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vDtpBob": [
+     0.0,
+     0.0
+    ],
+    "vMantleOfs": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vMantleRot": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vSlideOfs": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vSlideRot": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   },
+   "ads": {
+    "fAdsZoomFov1": 55.0,
+    "fAdsZoomFov2": 55.0,
+    "fAdsZoomFov3": 55.0,
+    "fAdsZoomInFrac": 0.5,
+    "fAdsZoomOutFrac": 0.5,
+    "fAimAssistRangeAds": 3200.0,
+    "fOverlayAlphaScale": 1.0,
+    "adsMoveSpeedScale": 1.100000023841858,
+    "moveSpeedScale": 1.100000023841858,
+    "sprintDurationScale": 1.100000023841858,
+    "fAdsAimPitch": 0.0,
+    "fAdsCrosshairInFrac": 1.0,
+    "fAdsCrosshairOutFrac": 0.20000000298023224,
+    "adsDofStart": 0.0,
+    "adsDofEnd": 3.0,
+    "hipDofStart": 0.0,
+    "hipDofEnd": 0.0,
+    "overlayWidth": 220.0,
+    "overlayHeight": 220.0
+   },
+   "projectile": {
+    "iProjectileSpeed": 2180,
+    "iProjectileSpeedUp": 90,
+    "iProjectileSpeedRelativeUp": 0,
+    "iProjectileSpeedForward": 0,
+    "iProjectileActivateDist": 0,
+    "projLifetime": 30.0,
+    "timeToAccelerate": 0.0,
+    "projectileCurvature": 0.0,
+    "projIgnitionDelay": 0,
+    "vProjectileColor": [
+     0.75,
+     0.30000001192092896,
+     0.0
+    ],
+    "maxSteeringAccel": 3000.0,
+    "lowAmmoWarningThreshold": 0.25,
+    "stickiness": 1,
+    "rotateType": 0,
+    "parallelBounce": [
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.0,
+     0.0
+    ],
+    "perpendicularBounce": [
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.0,
+     0.0
+    ],
+    "projExplosion": "none",
+    "projectileModel": "<XMODEL#811>"
+   },
+   "tracer": {
+    "tracerFrequency": 0,
+    "tracerWidth": 0.0,
+    "tracerLength": 0.0
+   },
+   "overheat": {
+    "overheatWeapon": 0,
+    "overheatRate": 0.0,
+    "cooldownRate": 0.0,
+    "overheatEndVal": 0.0,
+    "coolWhileFiring": 0
+   },
+   "aiParams": {
+    "fightDist": 720.0,
+    "maxDist": 250.0,
+    "leftArc": 0.0,
+    "rightArc": 0.0,
+    "topArc": 0.0,
+    "bottomArc": 0.0,
+    "minTurnSpeed": [
+     0.0,
+     0.0
+    ],
+    "maxTurnSpeed": [
+     0.0,
+     0.0
+    ],
+    "pitchConvergenceTime": 0.0,
+    "yawConvergenceTime": 0.0,
+    "suppressTime": 0.0,
+    "maxRange": 0.0,
+    "fAnimHorRotateInc": 0.0,
+    "fPlayerPositionDist": 0.0,
+    "aiVsAiAccuracyGraphName": "",
+    "aiVsPlayerAccuracyGraphName": "",
+    "aiVsAiAccuracyGraphKnots": null,
+    "aiVsPlayerAccuracyGraphKnots": null
+   },
+   "sounds": {
+    "pickupSound": "wpn_bknife_pickup_npc",
+    "pickupSoundPlayer": "wpn_bknife_pickup_plr",
+    "fireSound": "wpn_bal_knife_fire_npc",
+    "fireSoundPlayer": "wpn_bal_knife_fire_plr",
+    "emptyFireSound": "wpn_crossbow_dryfire_npc",
+    "emptyFireSoundPlayer": "wpn_crossbow_dryfire_plr",
+    "meleeSwipeSound": "wpn_melee_whoosh_npc",
+    "meleeSwipeSoundPlayer": "wpn_melee_whoosh_plr",
+    "meleeHitSound": "wpn_melee_knife_hit_body",
+    "meleeMissSound": "wpn_melee_hit_other",
+    "raiseSound": "wpn_357_raise_npc",
+    "raiseSoundPlayer": "wpn_357_raise_plr",
+    "firstRaiseSound": "wpn_357_1straise_npc",
+    "firstRaiseSoundPlayer": "wpn_357_1straise_plr"
+   },
+   "bounceSound": null,
+   "rumble": {
+    "fireRumble": "pistol_fire",
+    "meleeImpactRumble": "",
+    "reloadRumble": ""
+   },
+   "fx": {
+    "viewFlashEffect": "<FX#767>",
+    "worldFlashEffect": "<FX#767>",
+    "projTrailEffect": "<FX#813>"
+   },
+   "models": {
+    "gunXModel": [
+     "<XMODEL#809>"
+    ],
+    "worldModel": [
+     "<XMODEL#810>"
+    ],
+    "handXModel": ",viewhands_usmc",
+    "worldClipModel": null,
+    "rocketModel": "<XMODEL#811>",
+    "mountedModel": null,
+    "additionalMeleeModel": "<XMODEL#812>"
+   },
+   "materials": {
+    "hudIcon": "hud_ballistic_knife",
+    "killIcon": "hud_obit_ballistic_knife",
+    "ammoCounterIcon": "hud_ballistic_knife",
+    "reticleCenter": "knife_ballistic_reticle"
+   },
+   "strings": {
+    "szOverlayName": "",
+    "szModeName": "",
+    "parentWeaponName": "knife_ballistic",
+    "szSharedAmmoCapName": "",
+    "szSpawnedGrenadeWeaponName": "",
+    "szDualWieldWeaponName": "",
+    "szUseHintString": "",
+    "dropHintString": "",
+    "szScript": "",
+    "standMountedWeapdef": "",
+    "crouchMountedWeapdef": "",
+    "proneMountedWeapdef": "",
+    "flameTableFirstPerson": "",
+    "flameTableThirdPerson": ""
+   },
+   "notetrackSoundMap": [],
+   "hideTags": [
+    [
+     "?",
+     30576
+    ],
+    [
+     "?",
+     28255
+    ],
+    [
+     "?",
+     27958
+    ],
+    [
+     "?",
+     12389
+    ],
+    [
+     "?",
+     13407
+    ],
+    [
+     "?",
+     26217
+    ],
+    [
+     "?",
+     29285
+    ],
+    [
+     "?",
+     24430
+    ],
+    [
+     "?",
+     28771
+    ],
+    "j_spineupper",
+    [
+     "?",
+     28782
+    ],
+    [
+     "?",
+     24429
+    ],
+    [
+     "?",
+     13872
+    ],
+    [
+     "?",
+     25908
+    ],
+    [
+     "?",
+     24422
+    ],
+    [
+     "?",
+     26994
+    ],
+    [
+     "?",
+     25951
+    ],
+    [
+     "?",
+     28780
+    ],
+    [
+     "?",
+     29184
+    ],
+    [
+     "?",
+     26733
+    ],
+    [
+     "?",
+     26463
+    ],
+    [
+     "?",
+     28534
+    ],
+    [
+     "?",
+     25970
+    ],
+    [
+     "?",
+     26725
+    ]
+   ],
+   "xanims": {
+    "CAMERA_MANTLE": "t5_viewmodel_camera_mantle"
+   },
+   "ikLeftHand": {
+    "ikLeftHandOffset": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "ikLeftHandRotation": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "ikLeftHandProneOffset": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "ikLeftHandProneRotation": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "ikLeftHandUiViewerOffset": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "ikLeftHandUiViewerRotation": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   }
+  }
+ },
+ {
+  "index": 832,
+  "report": {
+   "index": 832,
+   "pos": 73977450,
+   "end": 73979924,
+   "how": "chained",
+   "next_type": "XMODEL",
+   "next_name": "viewmodel_ballistic_knife_w_bowie",
+   "next_hdr": 248,
+   "ok": true,
+   "virtual_base": 45992988,
+   "base_confidence": "exact",
+   "unresolved_inside": [],
+   "unresolved_unwalked": 27,
+   "unresolved_other": 0,
+   "weapDef": "inline",
+   "stub": false
+  },
+  "summary": {
+   "name": "knife_ballistic_upgraded_zm",
+   "displayName": "ZOMBIE_KNIFE_BALLISTIC_UPGRADED",
+   "altWeapon": "",
+   "ammo": "",
+   "clip": "",
+   "weapType": "projectile",
+   "weapClass": "pistol",
+   "fireType": "singleshot",
+   "inventoryType": "primary",
+   "penetrateType": "none",
+   "impactType": "bolt",
+   "flags": {
+    "bRifleBullet": false,
+    "armorPiercing": false,
+    "bBoltAction": false,
+    "aimDownSight": false,
+    "bDualWield": false,
+    "sharedAmmo": false,
+    "unlimitedAmmo": false,
+    "bClipOnly": false,
+    "bNoPartialReload": false,
+    "bSegmentedReload": false,
+    "bRechamberWhileAds": false,
+    "bReloadWhileAds": false,
+    "doGibbing": false
+   },
+   "ammoClip": {
+    "iClipSize": 1,
+    "iStartAmmo": 9,
+    "iMaxAmmo": 9,
+    "shotCount": 0,
+    "iReloadAmmoAdd": 0,
+    "iReloadStartAdd": 0,
+    "iDropAmmoMin": 1,
+    "iDropAmmoMax": 1
+   },
+   "timesVariant": {
+    "iReloadTime": 750,
+    "iReloadEmptyTime": 750,
+    "iReloadQuickTime": 0,
+    "iReloadQuickEmptyTime": 0,
+    "iAdsTransInTime": 250,
+    "iAdsTransOutTime": 250,
+    "iAltRaiseTime": 0
+   },
+   "timesWeapDef": {
+    "iFireDelay": 0,
+    "iMeleeDelay": 50,
+    "meleeChargeDelay": 100,
+    "iDetonateDelay": 0,
+    "iSpinUpTime": 0,
+    "iSpinDownTime": 0,
+    "spinRate": 0.0,
+    "iFireTime": 700,
+    "iLastFireTime": 0,
+    "iRechamberTime": 100,
+    "iRechamberBoltTime": 0,
+    "iHoldFireTime": 0,
+    "iDetonateTime": 0,
+    "iMeleeTime": 500,
+    "meleeChargeTime": 1000,
+    "iReloadTimeRight": 0,
+    "iReloadTimeLeft": 0,
+    "reloadShowRocketTime": 0,
+    "iReloadEmptyTimeLeft": 0,
+    "iReloadAddTime": 400,
+    "iReloadEmptyAddTime": 0,
+    "iReloadQuickAddTime": 0,
+    "iReloadQuickEmptyAddTime": 0,
+    "iReloadStartTime": 0,
+    "iReloadStartAddTime": 0,
+    "iReloadEndTime": 0,
+    "iDropTime": 350,
+    "iRaiseTime": 350,
+    "iAltDropTime": 0,
+    "quickDropTime": 250,
+    "quickRaiseTime": 250,
+    "iFirstRaiseTime": 1000,
+    "iEmptyRaiseTime": 250,
+    "iEmptyDropTime": 250,
+    "sprintInTime": 300,
+    "sprintLoopTime": 600,
+    "sprintOutTime": 300,
+    "fuseTime": 0,
+    "aiFuseTime": 0,
+    "iJamFireTime": 0,
+    "iPositionReloadTransTime": 600
+   },
+   "damage": {
+    "damage": 1000,
+    "minDamage": 0,
+    "playerDamage": 135,
+    "minPlayerDamage": 0,
+    "iMeleeDamage": 1000,
+    "iDamageType": 0,
+    "damageDuration": 0.0,
+    "damageInterval": 0.0,
+    "fMaxDamageRange": 999999.0,
+    "fMinDamageRange": 999999.125,
+    "iExplosionRadius": 0,
+    "iExplosionRadiusMin": 0,
+    "iExplosionInnerDamage": 0,
+    "iExplosionOuterDamage": 0,
+    "damageConeAngle": 180.0,
+    "meleeChargeRange": 128.0
+   },
+   "locationDamageMultipliers": {
+    "none": 1.25,
+    "helmet": 3.0,
+    "head": 3.0,
+    "neck": 3.0,
+    "torso_upper": 1.5,
+    "torso_lower": 1.5,
+    "right_arm_upper": 1.25,
+    "left_arm_upper": 1.25,
+    "right_arm_lower": 1.25,
+    "left_arm_lower": 1.25,
+    "right_hand": 1.25,
+    "left_hand": 1.25,
+    "right_leg_upper": 1.25,
+    "left_leg_upper": 1.25,
+    "right_leg_lower": 1.25,
+    "left_leg_lower": 1.25,
+    "right_foot": 1.25,
+    "left_foot": 1.25,
+    "gun": 0.0
+   },
+   "spread": {
+    "fHipSpreadStandMin": 0.0,
+    "fHipSpreadDuckedMin": 0.0,
+    "fHipSpreadProneMin": 0.0,
+    "hipSpreadStandMax": 0.0,
+    "hipSpreadDuckedMax": 0.0,
+    "hipSpreadProneMax": 0.0,
+    "fHipSpreadDecayRate": 0.0,
+    "fHipSpreadFireAdd": 0.0,
+    "fHipSpreadTurnAdd": 0.0,
+    "fHipSpreadMoveAdd": 0.0,
+    "fHipSpreadDuckedDecay": 0.0,
+    "fHipSpreadProneDecay": 0.0,
+    "fAdsSpread": 0.0,
+    "adsViewErrorMin": 0.0,
+    "adsViewErrorMax": 0.0,
+    "accuracy": 0.0,
+    "aiSpread": 0.0,
+    "playerSpread": 0.0,
+    "autoAimRange": 500.0,
+    "aimAssistRange": 3200.0,
+    "aimPadding": 0.0,
+    "enemyCrosshairRange": 600.0,
+    "horizViewJitter": 0.0,
+    "vertViewJitter": 0.0
+   },
+   "gunKickAds": {
+    "adsGunKickReducedKickBullets": 0,
+    "adsGunKickReducedKickPercent": 0.0,
+    "fAdsGunKickPitchMin": 0.0,
+    "fAdsGunKickPitchMax": 0.0,
+    "fAdsGunKickYawMin": 0.0,
+    "fAdsGunKickYawMax": 0.0,
+    "fAdsGunKickAccel": 0.0,
+    "fAdsGunKickSpeedMax": 2000.0,
+    "fAdsGunKickSpeedDecay": 25.0,
+    "fAdsGunKickStaticDecay": 50.0
+   },
+   "gunKickHip": {
+    "hipGunKickReducedKickBullets": 0,
+    "hipGunKickReducedKickPercent": 0.0,
+    "fHipGunKickPitchMin": -30.0,
+    "fHipGunKickPitchMax": -35.0,
+    "fHipGunKickYawMin": -2.0,
+    "fHipGunKickYawMax": 18.0,
+    "fHipGunKickAccel": 1000.0,
+    "fHipGunKickSpeedMax": 1200.0,
+    "fHipGunKickSpeedDecay": 100.0,
+    "fHipGunKickStaticDecay": 2.0
+   },
+   "viewKick": {
+    "fAdsViewKickPitchMin": 60.0,
+    "fAdsViewKickPitchMax": 80.0,
+    "fAdsViewKickYawMin": -40.0,
+    "fAdsViewKickYawMax": -50.0,
+    "fAdsViewScatterMin": 0.0,
+    "fAdsViewScatterMax": 0.0,
+    "fHipViewKickPitchMin": 60.0,
+    "fHipViewKickPitchMax": 80.0,
+    "fHipViewKickYawMin": -40.0,
+    "fHipViewKickYawMax": -50.0,
+    "fHipViewScatterMin": 0.0,
+    "fHipViewScatterMax": 0.0,
+    "fAdsViewKickCenterSpeed": 1500.0,
+    "fHipViewKickCenterSpeed": 1500.0
+   },
+   "sway": {
+    "swayMaxAngle": 5.0,
+    "swayLerpSpeed": 5.0,
+    "swayPitchScale": 2.0,
+    "swayYawScale": 0.25,
+    "swayHorizScale": 0.1599999964237213,
+    "swayVertScale": 0.3499999940395355,
+    "swayShellShockScale": 5.0,
+    "adsSwayMaxAngle": 6.0,
+    "adsSwayLerpSpeed": 7.0,
+    "adsSwayPitchScale": 0.05999999865889549,
+    "adsSwayYawScale": 0.04500000178813934,
+    "fAdsSwayHorizScale": 0.12999999523162842,
+    "fAdsSwayVertScale": 0.11999999731779099
+   },
+   "idleBob": {
+    "fAdsIdleAmount": 28.0,
+    "fHipIdleAmount": 30.0,
+    "adsIdleSpeed": 1.0,
+    "hipIdleSpeed": 1.0,
+    "fIdleCrouchFactor": 0.800000011920929,
+    "fIdleProneFactor": 0.6000000238418579,
+    "fGunMaxPitch": 2.0,
+    "fGunMaxYaw": 8.0,
+    "fAdsBobFactor": 0.5,
+    "fAdsViewBobMult": 0.25,
+    "fDuckedSprintCycleScale": 0.0,
+    "fSprintCycleScale": 0.800000011920929,
+    "fDtpCycleScale": 1.0,
+    "fPosMoveRate": 6.0,
+    "fPosProneMoveRate": 25.0,
+    "fPosRotRate": 6.0,
+    "fPosProneRotRate": 30.0
+   },
+   "viewOffsets": {
+    "vStandMove": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vStandRot": [
+     2.0,
+     0.0,
+     -2.0
+    ],
+    "vDuckedOfs": [
+     -1.0,
+     0.800000011920929,
+     -1.0
+    ],
+    "vDuckedMove": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vDuckedRot": [
+     2.0,
+     0.0,
+     -2.0
+    ],
+    "vProneOfs": [
+     -2.0,
+     0.800000011920929,
+     0.0
+    ],
+    "vProneMove": [
+     -160.0,
+     3.0,
+     -120.0
+    ],
+    "vProneRot": [
+     0.0,
+     300.0,
+     -300.0
+    ],
+    "vStrafeMove": [
+     0.0,
+     -0.25,
+     0.0
+    ],
+    "vStrafeRot": [
+     0.0,
+     0.0,
+     1.5
+    ],
+    "vSprintOfs": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vSprintRot": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vSprintBob": [
+     0.0,
+     0.0
+    ],
+    "vDuckedSprintOfs": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vDuckedSprintRot": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vDuckedSprintBob": [
+     0.0,
+     0.0
+    ],
+    "vLowReadyOfs": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vLowReadyRot": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vDtpOfs": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vDtpRot": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vDtpBob": [
+     0.0,
+     0.0
+    ],
+    "vMantleOfs": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vMantleRot": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vSlideOfs": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vSlideRot": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   },
+   "ads": {
+    "fAdsZoomFov1": 55.0,
+    "fAdsZoomFov2": 55.0,
+    "fAdsZoomFov3": 55.0,
+    "fAdsZoomInFrac": 0.5,
+    "fAdsZoomOutFrac": 0.5,
+    "fAimAssistRangeAds": 3200.0,
+    "fOverlayAlphaScale": 1.0,
+    "adsMoveSpeedScale": 1.100000023841858,
+    "moveSpeedScale": 1.100000023841858,
+    "sprintDurationScale": 1.100000023841858,
+    "fAdsAimPitch": 0.0,
+    "fAdsCrosshairInFrac": 1.0,
+    "fAdsCrosshairOutFrac": 0.20000000298023224,
+    "adsDofStart": 0.0,
+    "adsDofEnd": 3.0,
+    "hipDofStart": 0.0,
+    "hipDofEnd": 0.0,
+    "overlayWidth": 220.0,
+    "overlayHeight": 220.0
+   },
+   "projectile": {
+    "iProjectileSpeed": 2180,
+    "iProjectileSpeedUp": 90,
+    "iProjectileSpeedRelativeUp": 0,
+    "iProjectileSpeedForward": 0,
+    "iProjectileActivateDist": 0,
+    "projLifetime": 30.0,
+    "timeToAccelerate": 0.0,
+    "projectileCurvature": 0.0,
+    "projIgnitionDelay": 0,
+    "vProjectileColor": [
+     0.75,
+     0.30000001192092896,
+     0.0
+    ],
+    "maxSteeringAccel": 3000.0,
+    "lowAmmoWarningThreshold": 0.25,
+    "stickiness": 1,
+    "rotateType": 0,
+    "parallelBounce": [
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.0,
+     0.0
+    ],
+    "perpendicularBounce": [
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.0,
+     0.0
+    ],
+    "projExplosion": "none",
+    "projectileModel": "<XMODEL#811>"
+   },
+   "tracer": {
+    "tracerFrequency": 0,
+    "tracerWidth": 0.0,
+    "tracerLength": 0.0
+   },
+   "overheat": {
+    "overheatWeapon": 0,
+    "overheatRate": 0.0,
+    "cooldownRate": 0.0,
+    "overheatEndVal": 0.0,
+    "coolWhileFiring": 0
+   },
+   "aiParams": {
+    "fightDist": 720.0,
+    "maxDist": 250.0,
+    "leftArc": 0.0,
+    "rightArc": 0.0,
+    "topArc": 0.0,
+    "bottomArc": 0.0,
+    "minTurnSpeed": [
+     0.0,
+     0.0
+    ],
+    "maxTurnSpeed": [
+     0.0,
+     0.0
+    ],
+    "pitchConvergenceTime": 0.0,
+    "yawConvergenceTime": 0.0,
+    "suppressTime": 0.0,
+    "maxRange": 0.0,
+    "fAnimHorRotateInc": 0.0,
+    "fPlayerPositionDist": 0.0,
+    "aiVsAiAccuracyGraphName": "",
+    "aiVsPlayerAccuracyGraphName": "",
+    "aiVsAiAccuracyGraphKnots": null,
+    "aiVsPlayerAccuracyGraphKnots": null
+   },
+   "sounds": {
+    "pickupSound": "wpn_bknife_pickup_npc",
+    "pickupSoundPlayer": "wpn_bknife_pickup_plr",
+    "fireSound": "wpn_bal_knife_fire_npc_pap",
+    "fireSoundPlayer": "wpn_bal_knife_fire_plr_pap",
+    "emptyFireSound": "wpn_crossbow_dryfire_npc",
+    "emptyFireSoundPlayer": "wpn_crossbow_dryfire_plr",
+    "meleeSwipeSound": "wpn_melee_whoosh_npc",
+    "meleeSwipeSoundPlayer": "wpn_melee_whoosh_plr",
+    "meleeHitSound": "wpn_melee_knife_hit_body",
+    "meleeMissSound": "wpn_melee_hit_other",
+    "raiseSound": "wpn_357_raise_npc",
+    "raiseSoundPlayer": "wpn_357_raise_plr",
+    "firstRaiseSound": "wpn_357_1straise_npc",
+    "firstRaiseSoundPlayer": "wpn_357_1straise_plr"
+   },
+   "bounceSound": null,
+   "rumble": {
+    "fireRumble": "pistol_fire",
+    "meleeImpactRumble": "",
+    "reloadRumble": ""
+   },
+   "fx": {
+    "viewFlashEffect": "<FX#767>",
+    "worldFlashEffect": "<FX#767>",
+    "projTrailEffect": "<FX#813>"
+   },
+   "models": {
+    "gunXModel": [
+     "ref",
+     73975839,
+     4,
+     45992092
+    ],
+    "worldModel": [
+     "ref",
+     73976458,
+     4,
+     45992472
+    ],
+    "handXModel": ",viewhands_usmc",
+    "worldClipModel": null,
+    "rocketModel": "<XMODEL#811>",
+    "mountedModel": null,
+    "additionalMeleeModel": "<XMODEL#812>"
+   },
+   "materials": {
+    "hudIcon": "hud_ballistic_knife",
+    "killIcon": "hud_obit_ballistic_knife",
+    "ammoCounterIcon": "hud_ballistic_knife",
+    "reticleCenter": "knife_ballistic_reticle"
+   },
+   "strings": {
+    "szOverlayName": "",
+    "szModeName": "",
+    "parentWeaponName": "knife_ballistic",
+    "szSharedAmmoCapName": "",
+    "szSpawnedGrenadeWeaponName": "",
+    "szDualWieldWeaponName": "",
+    "szUseHintString": "",
+    "dropHintString": "",
+    "szScript": "",
+    "standMountedWeapdef": "",
+    "crouchMountedWeapdef": "",
+    "proneMountedWeapdef": "",
+    "flameTableFirstPerson": "",
+    "flameTableThirdPerson": ""
+   },
+   "notetrackSoundMap": [],
+   "hideTags": [
+    [
+     "?",
+     30576
+    ],
+    [
+     "?",
+     28255
+    ],
+    [
+     "?",
+     27958
+    ],
+    [
+     "?",
+     12389
+    ],
+    [
+     "?",
+     13407
+    ],
+    [
+     "?",
+     26217
+    ],
+    [
+     "?",
+     29285
+    ],
+    [
+     "?",
+     24430
+    ],
+    [
+     "?",
+     28771
+    ],
+    "j_spineupper",
+    [
+     "?",
+     28782
+    ],
+    [
+     "?",
+     24429
+    ],
+    [
+     "?",
+     13872
+    ],
+    [
+     "?",
+     25908
+    ],
+    [
+     "?",
+     24422
+    ],
+    [
+     "?",
+     26994
+    ],
+    [
+     "?",
+     25951
+    ],
+    [
+     "?",
+     28780
+    ],
+    [
+     "?",
+     29184
+    ],
+    [
+     "?",
+     26733
+    ],
+    [
+     "?",
+     26463
+    ],
+    [
+     "?",
+     28534
+    ],
+    [
+     "?",
+     25970
+    ],
+    [
+     "?",
+     26725
+    ]
+   ],
+   "xanims": {
+    "CAMERA_MANTLE": "t5_viewmodel_camera_mantle"
+   },
+   "ikLeftHand": {
+    "ikLeftHandOffset": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "ikLeftHandRotation": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "ikLeftHandProneOffset": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "ikLeftHandProneRotation": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "ikLeftHandUiViewerOffset": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "ikLeftHandUiViewerRotation": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   }
+  }
+ },
+ {
+  "index": 835,
+  "report": {
+   "index": 835,
+   "pos": 74040919,
+   "end": 74043323,
+   "how": "found base=0x2be5e20 (1 votes)",
+   "next_type": "WEAPON",
+   "next_name": "knife_ballistic_bowie_upgraded_zm",
+   "next_hdr": 228,
+   "ok": true,
+   "virtual_base": 46030368,
+   "base_confidence": "heuristic",
+   "unresolved_inside": [],
+   "unresolved_unwalked": 27,
+   "unresolved_other": 0,
+   "weapDef": "inline",
+   "stub": false
+  },
+  "summary": {
+   "name": "knife_ballistic_bowie_zm",
+   "displayName": "WEAPON_KNIFE_BALLISTIC",
+   "altWeapon": "",
+   "ammo": "",
+   "clip": "",
+   "weapType": "projectile",
+   "weapClass": "pistol",
+   "fireType": "singleshot",
+   "inventoryType": "primary",
+   "penetrateType": "none",
+   "impactType": "bolt",
+   "flags": {
+    "bRifleBullet": false,
+    "armorPiercing": false,
+    "bBoltAction": false,
+    "aimDownSight": false,
+    "bDualWield": false,
+    "sharedAmmo": false,
+    "unlimitedAmmo": false,
+    "bClipOnly": false,
+    "bNoPartialReload": false,
+    "bSegmentedReload": false,
+    "bRechamberWhileAds": false,
+    "bReloadWhileAds": false,
+    "doGibbing": false
+   },
+   "ammoClip": {
+    "iClipSize": 1,
+    "iStartAmmo": 4,
+    "iMaxAmmo": 4,
+    "shotCount": 0,
+    "iReloadAmmoAdd": 0,
+    "iReloadStartAdd": 0,
+    "iDropAmmoMin": 1,
+    "iDropAmmoMax": 1
+   },
+   "timesVariant": {
+    "iReloadTime": 1500,
+    "iReloadEmptyTime": 1500,
+    "iReloadQuickTime": 0,
+    "iReloadQuickEmptyTime": 0,
+    "iAdsTransInTime": 250,
+    "iAdsTransOutTime": 250,
+    "iAltRaiseTime": 0
+   },
+   "timesWeapDef": {
+    "iFireDelay": 0,
+    "iMeleeDelay": 50,
+    "meleeChargeDelay": 100,
+    "iDetonateDelay": 0,
+    "iSpinUpTime": 0,
+    "iSpinDownTime": 0,
+    "spinRate": 0.0,
+    "iFireTime": 700,
+    "iLastFireTime": 0,
+    "iRechamberTime": 100,
+    "iRechamberBoltTime": 0,
+    "iHoldFireTime": 0,
+    "iDetonateTime": 0,
+    "iMeleeTime": 500,
+    "meleeChargeTime": 1000,
+    "iReloadTimeRight": 0,
+    "iReloadTimeLeft": 0,
+    "reloadShowRocketTime": 0,
+    "iReloadEmptyTimeLeft": 0,
+    "iReloadAddTime": 400,
+    "iReloadEmptyAddTime": 0,
+    "iReloadQuickAddTime": 0,
+    "iReloadQuickEmptyAddTime": 0,
+    "iReloadStartTime": 0,
+    "iReloadStartAddTime": 0,
+    "iReloadEndTime": 0,
+    "iDropTime": 350,
+    "iRaiseTime": 350,
+    "iAltDropTime": 0,
+    "quickDropTime": 250,
+    "quickRaiseTime": 250,
+    "iFirstRaiseTime": 1000,
+    "iEmptyRaiseTime": 250,
+    "iEmptyDropTime": 250,
+    "sprintInTime": 300,
+    "sprintLoopTime": 600,
+    "sprintOutTime": 300,
+    "fuseTime": 0,
+    "aiFuseTime": 0,
+    "iJamFireTime": 0,
+    "iPositionReloadTransTime": 600
+   },
+   "damage": {
+    "damage": 500,
+    "minDamage": 0,
+    "playerDamage": 135,
+    "minPlayerDamage": 0,
+    "iMeleeDamage": 1000,
+    "iDamageType": 0,
+    "damageDuration": 0.0,
+    "damageInterval": 0.0,
+    "fMaxDamageRange": 999999.0,
+    "fMinDamageRange": 999999.125,
+    "iExplosionRadius": 0,
+    "iExplosionRadiusMin": 0,
+    "iExplosionInnerDamage": 0,
+    "iExplosionOuterDamage": 0,
+    "damageConeAngle": 180.0,
+    "meleeChargeRange": 128.0
+   },
+   "locationDamageMultipliers": {
+    "none": 1.0,
+    "helmet": 1.5,
+    "head": 1.5,
+    "neck": 1.5,
+    "torso_upper": 1.0,
+    "torso_lower": 1.0,
+    "right_arm_upper": 1.0,
+    "left_arm_upper": 1.0,
+    "right_arm_lower": 1.0,
+    "left_arm_lower": 1.0,
+    "right_hand": 1.0,
+    "left_hand": 1.0,
+    "right_leg_upper": 1.0,
+    "left_leg_upper": 1.0,
+    "right_leg_lower": 1.0,
+    "left_leg_lower": 1.0,
+    "right_foot": 1.0,
+    "left_foot": 1.0,
+    "gun": 0.0
+   },
+   "spread": {
+    "fHipSpreadStandMin": 0.0,
+    "fHipSpreadDuckedMin": 0.0,
+    "fHipSpreadProneMin": 0.0,
+    "hipSpreadStandMax": 0.0,
+    "hipSpreadDuckedMax": 0.0,
+    "hipSpreadProneMax": 0.0,
+    "fHipSpreadDecayRate": 0.0,
+    "fHipSpreadFireAdd": 0.0,
+    "fHipSpreadTurnAdd": 0.0,
+    "fHipSpreadMoveAdd": 0.0,
+    "fHipSpreadDuckedDecay": 0.0,
+    "fHipSpreadProneDecay": 0.0,
+    "fAdsSpread": 0.0,
+    "adsViewErrorMin": 0.0,
+    "adsViewErrorMax": 0.0,
+    "accuracy": 0.0,
+    "aiSpread": 0.0,
+    "playerSpread": 0.0,
+    "autoAimRange": 500.0,
+    "aimAssistRange": 3200.0,
+    "aimPadding": 0.0,
+    "enemyCrosshairRange": 600.0,
+    "horizViewJitter": 0.0,
+    "vertViewJitter": 0.0
+   },
+   "gunKickAds": {
+    "adsGunKickReducedKickBullets": 0,
+    "adsGunKickReducedKickPercent": 0.0,
+    "fAdsGunKickPitchMin": 0.0,
+    "fAdsGunKickPitchMax": 0.0,
+    "fAdsGunKickYawMin": 0.0,
+    "fAdsGunKickYawMax": 0.0,
+    "fAdsGunKickAccel": 0.0,
+    "fAdsGunKickSpeedMax": 2000.0,
+    "fAdsGunKickSpeedDecay": 25.0,
+    "fAdsGunKickStaticDecay": 50.0
+   },
+   "gunKickHip": {
+    "hipGunKickReducedKickBullets": 0,
+    "hipGunKickReducedKickPercent": 0.0,
+    "fHipGunKickPitchMin": -30.0,
+    "fHipGunKickPitchMax": -35.0,
+    "fHipGunKickYawMin": -2.0,
+    "fHipGunKickYawMax": 18.0,
+    "fHipGunKickAccel": 1000.0,
+    "fHipGunKickSpeedMax": 1200.0,
+    "fHipGunKickSpeedDecay": 100.0,
+    "fHipGunKickStaticDecay": 2.0
+   },
+   "viewKick": {
+    "fAdsViewKickPitchMin": 60.0,
+    "fAdsViewKickPitchMax": 80.0,
+    "fAdsViewKickYawMin": -40.0,
+    "fAdsViewKickYawMax": -50.0,
+    "fAdsViewScatterMin": 0.0,
+    "fAdsViewScatterMax": 0.0,
+    "fHipViewKickPitchMin": 60.0,
+    "fHipViewKickPitchMax": 80.0,
+    "fHipViewKickYawMin": -40.0,
+    "fHipViewKickYawMax": -50.0,
+    "fHipViewScatterMin": 0.0,
+    "fHipViewScatterMax": 0.0,
+    "fAdsViewKickCenterSpeed": 1500.0,
+    "fHipViewKickCenterSpeed": 1500.0
+   },
+   "sway": {
+    "swayMaxAngle": 5.0,
+    "swayLerpSpeed": 5.0,
+    "swayPitchScale": 2.0,
+    "swayYawScale": 0.25,
+    "swayHorizScale": 0.1599999964237213,
+    "swayVertScale": 0.3499999940395355,
+    "swayShellShockScale": 5.0,
+    "adsSwayMaxAngle": 6.0,
+    "adsSwayLerpSpeed": 7.0,
+    "adsSwayPitchScale": 0.05999999865889549,
+    "adsSwayYawScale": 0.04500000178813934,
+    "fAdsSwayHorizScale": 0.12999999523162842,
+    "fAdsSwayVertScale": 0.11999999731779099
+   },
+   "idleBob": {
+    "fAdsIdleAmount": 28.0,
+    "fHipIdleAmount": 30.0,
+    "adsIdleSpeed": 1.0,
+    "hipIdleSpeed": 1.0,
+    "fIdleCrouchFactor": 0.800000011920929,
+    "fIdleProneFactor": 0.6000000238418579,
+    "fGunMaxPitch": 2.0,
+    "fGunMaxYaw": 8.0,
+    "fAdsBobFactor": 0.5,
+    "fAdsViewBobMult": 0.25,
+    "fDuckedSprintCycleScale": 0.0,
+    "fSprintCycleScale": 0.800000011920929,
+    "fDtpCycleScale": 1.0,
+    "fPosMoveRate": 6.0,
+    "fPosProneMoveRate": 25.0,
+    "fPosRotRate": 6.0,
+    "fPosProneRotRate": 30.0
+   },
+   "viewOffsets": {
+    "vStandMove": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vStandRot": [
+     2.0,
+     0.0,
+     -2.0
+    ],
+    "vDuckedOfs": [
+     -1.0,
+     0.800000011920929,
+     -1.0
+    ],
+    "vDuckedMove": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vDuckedRot": [
+     2.0,
+     0.0,
+     -2.0
+    ],
+    "vProneOfs": [
+     -2.0,
+     0.800000011920929,
+     0.0
+    ],
+    "vProneMove": [
+     -160.0,
+     3.0,
+     -120.0
+    ],
+    "vProneRot": [
+     0.0,
+     300.0,
+     -300.0
+    ],
+    "vStrafeMove": [
+     0.0,
+     -0.25,
+     0.0
+    ],
+    "vStrafeRot": [
+     0.0,
+     0.0,
+     1.5
+    ],
+    "vSprintOfs": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vSprintRot": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vSprintBob": [
+     0.0,
+     0.0
+    ],
+    "vDuckedSprintOfs": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vDuckedSprintRot": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vDuckedSprintBob": [
+     0.0,
+     0.0
+    ],
+    "vLowReadyOfs": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vLowReadyRot": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vDtpOfs": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vDtpRot": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vDtpBob": [
+     0.0,
+     0.0
+    ],
+    "vMantleOfs": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vMantleRot": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vSlideOfs": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vSlideRot": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   },
+   "ads": {
+    "fAdsZoomFov1": 55.0,
+    "fAdsZoomFov2": 55.0,
+    "fAdsZoomFov3": 55.0,
+    "fAdsZoomInFrac": 0.5,
+    "fAdsZoomOutFrac": 0.5,
+    "fAimAssistRangeAds": 3200.0,
+    "fOverlayAlphaScale": 1.0,
+    "adsMoveSpeedScale": 1.100000023841858,
+    "moveSpeedScale": 1.100000023841858,
+    "sprintDurationScale": 1.100000023841858,
+    "fAdsAimPitch": 0.0,
+    "fAdsCrosshairInFrac": 1.0,
+    "fAdsCrosshairOutFrac": 0.20000000298023224,
+    "adsDofStart": 0.0,
+    "adsDofEnd": 3.0,
+    "hipDofStart": 0.0,
+    "hipDofEnd": 0.0,
+    "overlayWidth": 220.0,
+    "overlayHeight": 220.0
+   },
+   "projectile": {
+    "iProjectileSpeed": 2180,
+    "iProjectileSpeedUp": 90,
+    "iProjectileSpeedRelativeUp": 0,
+    "iProjectileSpeedForward": 0,
+    "iProjectileActivateDist": 0,
+    "projLifetime": 30.0,
+    "timeToAccelerate": 0.0,
+    "projectileCurvature": 0.0,
+    "projIgnitionDelay": 0,
+    "vProjectileColor": [
+     0.75,
+     0.30000001192092896,
+     0.0
+    ],
+    "maxSteeringAccel": 3000.0,
+    "lowAmmoWarningThreshold": 0.25,
+    "stickiness": 1,
+    "rotateType": 0,
+    "parallelBounce": [
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.0,
+     0.0
+    ],
+    "perpendicularBounce": [
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.0,
+     0.0
+    ],
+    "projExplosion": "none",
+    "projectileModel": "<XMODEL#811>"
+   },
+   "tracer": {
+    "tracerFrequency": 0,
+    "tracerWidth": 0.0,
+    "tracerLength": 0.0
+   },
+   "overheat": {
+    "overheatWeapon": 0,
+    "overheatRate": 0.0,
+    "cooldownRate": 0.0,
+    "overheatEndVal": 0.0,
+    "coolWhileFiring": 0
+   },
+   "aiParams": {
+    "fightDist": 720.0,
+    "maxDist": 250.0,
+    "leftArc": 0.0,
+    "rightArc": 0.0,
+    "topArc": 0.0,
+    "bottomArc": 0.0,
+    "minTurnSpeed": [
+     0.0,
+     0.0
+    ],
+    "maxTurnSpeed": [
+     0.0,
+     0.0
+    ],
+    "pitchConvergenceTime": 0.0,
+    "yawConvergenceTime": 0.0,
+    "suppressTime": 0.0,
+    "maxRange": 0.0,
+    "fAnimHorRotateInc": 0.0,
+    "fPlayerPositionDist": 0.0,
+    "aiVsAiAccuracyGraphName": "",
+    "aiVsPlayerAccuracyGraphName": "",
+    "aiVsAiAccuracyGraphKnots": null,
+    "aiVsPlayerAccuracyGraphKnots": null
+   },
+   "sounds": {
+    "pickupSound": "wpn_bknife_pickup_npc",
+    "pickupSoundPlayer": "wpn_bknife_pickup_plr",
+    "fireSound": "wpn_bal_knife_fire_npc",
+    "fireSoundPlayer": "wpn_bal_knife_fire_plr",
+    "emptyFireSound": "wpn_crossbow_dryfire_npc",
+    "emptyFireSoundPlayer": "wpn_crossbow_dryfire_plr",
+    "meleeSwipeSound": "zmb_bowie_swing",
+    "meleeSwipeSoundPlayer": "zmb_bowie_swing",
+    "meleeHitSound": "zmb_bowie_stab",
+    "meleeMissSound": "wpn_melee_hit_other",
+    "raiseSound": "wpn_357_raise_npc",
+    "raiseSoundPlayer": "wpn_357_raise_plr",
+    "firstRaiseSound": "wpn_357_1straise_npc",
+    "firstRaiseSoundPlayer": "wpn_357_1straise_plr"
+   },
+   "bounceSound": null,
+   "rumble": {
+    "fireRumble": "pistol_fire",
+    "meleeImpactRumble": "",
+    "reloadRumble": ""
+   },
+   "fx": {
+    "viewFlashEffect": "<FX#767>",
+    "worldFlashEffect": "<FX#767>",
+    "projTrailEffect": "<FX#813>"
+   },
+   "models": {
+    "gunXModel": [
+     "<XMODEL#833>"
+    ],
+    "worldModel": [
+     "ref",
+     73976458,
+     4,
+     45992472
+    ],
+    "handXModel": ",viewhands_usmc",
+    "worldClipModel": null,
+    "rocketModel": "<XMODEL#811>",
+    "mountedModel": null,
+    "additionalMeleeModel": "<XMODEL#834>"
+   },
+   "materials": {
+    "hudIcon": "hud_ballistic_knife",
+    "killIcon": "hud_obit_ballistic_knife",
+    "ammoCounterIcon": "hud_ballistic_knife",
+    "reticleCenter": "knife_ballistic_reticle"
+   },
+   "strings": {
+    "szOverlayName": "",
+    "szModeName": "",
+    "parentWeaponName": "knife_ballistic",
+    "szSharedAmmoCapName": "",
+    "szSpawnedGrenadeWeaponName": "",
+    "szDualWieldWeaponName": "",
+    "szUseHintString": "",
+    "dropHintString": "",
+    "szScript": "",
+    "standMountedWeapdef": "",
+    "crouchMountedWeapdef": "",
+    "proneMountedWeapdef": "",
+    "flameTableFirstPerson": "",
+    "flameTableThirdPerson": ""
+   },
+   "notetrackSoundMap": [],
+   "hideTags": [
+    [
+     "?",
+     30576
+    ],
+    [
+     "?",
+     28255
+    ],
+    [
+     "?",
+     27958
+    ],
+    [
+     "?",
+     12389
+    ],
+    [
+     "?",
+     13407
+    ],
+    [
+     "?",
+     26217
+    ],
+    [
+     "?",
+     29285
+    ],
+    [
+     "?",
+     24430
+    ],
+    [
+     "?",
+     28771
+    ],
+    "j_spineupper",
+    [
+     "?",
+     28782
+    ],
+    [
+     "?",
+     24429
+    ],
+    [
+     "?",
+     13872
+    ],
+    [
+     "?",
+     25908
+    ],
+    [
+     "?",
+     24422
+    ],
+    [
+     "?",
+     26994
+    ],
+    [
+     "?",
+     25951
+    ],
+    [
+     "?",
+     28780
+    ],
+    [
+     "?",
+     29184
+    ],
+    [
+     "?",
+     26733
+    ],
+    [
+     "?",
+     26463
+    ],
+    [
+     "?",
+     28534
+    ],
+    [
+     "?",
+     25970
+    ],
+    [
+     "?",
+     26725
+    ]
+   ],
+   "xanims": {
+    "CAMERA_MANTLE": "t5_viewmodel_camera_mantle"
+   },
+   "ikLeftHand": {
+    "ikLeftHandOffset": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "ikLeftHandRotation": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "ikLeftHandProneOffset": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "ikLeftHandProneRotation": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "ikLeftHandUiViewerOffset": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "ikLeftHandUiViewerRotation": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   }
+  }
+ },
+ {
+  "index": 836,
+  "report": {
+   "index": 836,
+   "pos": 74043323,
+   "end": 74045641,
+   "how": "chained",
+   "next_type": "XMODEL",
+   "next_name": "t5_weapon_ballistic_knife_blade_retrieve",
+   "next_hdr": "name ref",
+   "ok": true,
+   "virtual_base": 46032547,
+   "base_confidence": "exact",
+   "unresolved_inside": [],
+   "unresolved_unwalked": 27,
+   "unresolved_other": 0,
+   "weapDef": "inline",
+   "stub": false
+  },
+  "summary": {
+   "name": "knife_ballistic_bowie_upgraded_zm",
+   "displayName": "ZOMBIE_KNIFE_BALLISTIC_UPGRADED",
+   "altWeapon": "",
+   "ammo": "",
+   "clip": "",
+   "weapType": "projectile",
+   "weapClass": "pistol",
+   "fireType": "singleshot",
+   "inventoryType": "primary",
+   "penetrateType": "none",
+   "impactType": "bolt",
+   "flags": {
+    "bRifleBullet": false,
+    "armorPiercing": false,
+    "bBoltAction": false,
+    "aimDownSight": false,
+    "bDualWield": false,
+    "sharedAmmo": false,
+    "unlimitedAmmo": false,
+    "bClipOnly": false,
+    "bNoPartialReload": false,
+    "bSegmentedReload": false,
+    "bRechamberWhileAds": false,
+    "bReloadWhileAds": false,
+    "doGibbing": false
+   },
+   "ammoClip": {
+    "iClipSize": 1,
+    "iStartAmmo": 9,
+    "iMaxAmmo": 9,
+    "shotCount": 0,
+    "iReloadAmmoAdd": 0,
+    "iReloadStartAdd": 0,
+    "iDropAmmoMin": 1,
+    "iDropAmmoMax": 1
+   },
+   "timesVariant": {
+    "iReloadTime": 750,
+    "iReloadEmptyTime": 750,
+    "iReloadQuickTime": 0,
+    "iReloadQuickEmptyTime": 0,
+    "iAdsTransInTime": 250,
+    "iAdsTransOutTime": 250,
+    "iAltRaiseTime": 0
+   },
+   "timesWeapDef": {
+    "iFireDelay": 0,
+    "iMeleeDelay": 50,
+    "meleeChargeDelay": 100,
+    "iDetonateDelay": 0,
+    "iSpinUpTime": 0,
+    "iSpinDownTime": 0,
+    "spinRate": 0.0,
+    "iFireTime": 700,
+    "iLastFireTime": 0,
+    "iRechamberTime": 100,
+    "iRechamberBoltTime": 0,
+    "iHoldFireTime": 0,
+    "iDetonateTime": 0,
+    "iMeleeTime": 500,
+    "meleeChargeTime": 1000,
+    "iReloadTimeRight": 0,
+    "iReloadTimeLeft": 0,
+    "reloadShowRocketTime": 0,
+    "iReloadEmptyTimeLeft": 0,
+    "iReloadAddTime": 400,
+    "iReloadEmptyAddTime": 0,
+    "iReloadQuickAddTime": 0,
+    "iReloadQuickEmptyAddTime": 0,
+    "iReloadStartTime": 0,
+    "iReloadStartAddTime": 0,
+    "iReloadEndTime": 0,
+    "iDropTime": 350,
+    "iRaiseTime": 350,
+    "iAltDropTime": 0,
+    "quickDropTime": 250,
+    "quickRaiseTime": 250,
+    "iFirstRaiseTime": 1000,
+    "iEmptyRaiseTime": 250,
+    "iEmptyDropTime": 250,
+    "sprintInTime": 300,
+    "sprintLoopTime": 600,
+    "sprintOutTime": 300,
+    "fuseTime": 0,
+    "aiFuseTime": 0,
+    "iJamFireTime": 0,
+    "iPositionReloadTransTime": 600
+   },
+   "damage": {
+    "damage": 1000,
+    "minDamage": 0,
+    "playerDamage": 135,
+    "minPlayerDamage": 0,
+    "iMeleeDamage": 1500,
+    "iDamageType": 0,
+    "damageDuration": 0.0,
+    "damageInterval": 0.0,
+    "fMaxDamageRange": 999999.0,
+    "fMinDamageRange": 999999.125,
+    "iExplosionRadius": 0,
+    "iExplosionRadiusMin": 0,
+    "iExplosionInnerDamage": 0,
+    "iExplosionOuterDamage": 0,
+    "damageConeAngle": 180.0,
+    "meleeChargeRange": 128.0
+   },
+   "locationDamageMultipliers": {
+    "none": 1.25,
+    "helmet": 3.0,
+    "head": 3.0,
+    "neck": 3.0,
+    "torso_upper": 1.5,
+    "torso_lower": 1.5,
+    "right_arm_upper": 1.25,
+    "left_arm_upper": 1.25,
+    "right_arm_lower": 1.25,
+    "left_arm_lower": 1.25,
+    "right_hand": 1.25,
+    "left_hand": 1.25,
+    "right_leg_upper": 1.25,
+    "left_leg_upper": 1.25,
+    "right_leg_lower": 1.25,
+    "left_leg_lower": 1.25,
+    "right_foot": 1.25,
+    "left_foot": 1.25,
+    "gun": 0.0
+   },
+   "spread": {
+    "fHipSpreadStandMin": 0.0,
+    "fHipSpreadDuckedMin": 0.0,
+    "fHipSpreadProneMin": 0.0,
+    "hipSpreadStandMax": 0.0,
+    "hipSpreadDuckedMax": 0.0,
+    "hipSpreadProneMax": 0.0,
+    "fHipSpreadDecayRate": 0.0,
+    "fHipSpreadFireAdd": 0.0,
+    "fHipSpreadTurnAdd": 0.0,
+    "fHipSpreadMoveAdd": 0.0,
+    "fHipSpreadDuckedDecay": 0.0,
+    "fHipSpreadProneDecay": 0.0,
+    "fAdsSpread": 0.0,
+    "adsViewErrorMin": 0.0,
+    "adsViewErrorMax": 0.0,
+    "accuracy": 0.0,
+    "aiSpread": 0.0,
+    "playerSpread": 0.0,
+    "autoAimRange": 500.0,
+    "aimAssistRange": 3200.0,
+    "aimPadding": 0.0,
+    "enemyCrosshairRange": 600.0,
+    "horizViewJitter": 0.0,
+    "vertViewJitter": 0.0
+   },
+   "gunKickAds": {
+    "adsGunKickReducedKickBullets": 0,
+    "adsGunKickReducedKickPercent": 0.0,
+    "fAdsGunKickPitchMin": 0.0,
+    "fAdsGunKickPitchMax": 0.0,
+    "fAdsGunKickYawMin": 0.0,
+    "fAdsGunKickYawMax": 0.0,
+    "fAdsGunKickAccel": 0.0,
+    "fAdsGunKickSpeedMax": 2000.0,
+    "fAdsGunKickSpeedDecay": 25.0,
+    "fAdsGunKickStaticDecay": 50.0
+   },
+   "gunKickHip": {
+    "hipGunKickReducedKickBullets": 0,
+    "hipGunKickReducedKickPercent": 0.0,
+    "fHipGunKickPitchMin": -30.0,
+    "fHipGunKickPitchMax": -35.0,
+    "fHipGunKickYawMin": -2.0,
+    "fHipGunKickYawMax": 18.0,
+    "fHipGunKickAccel": 1000.0,
+    "fHipGunKickSpeedMax": 1200.0,
+    "fHipGunKickSpeedDecay": 100.0,
+    "fHipGunKickStaticDecay": 2.0
+   },
+   "viewKick": {
+    "fAdsViewKickPitchMin": 60.0,
+    "fAdsViewKickPitchMax": 80.0,
+    "fAdsViewKickYawMin": -40.0,
+    "fAdsViewKickYawMax": -50.0,
+    "fAdsViewScatterMin": 0.0,
+    "fAdsViewScatterMax": 0.0,
+    "fHipViewKickPitchMin": 60.0,
+    "fHipViewKickPitchMax": 80.0,
+    "fHipViewKickYawMin": -40.0,
+    "fHipViewKickYawMax": -50.0,
+    "fHipViewScatterMin": 0.0,
+    "fHipViewScatterMax": 0.0,
+    "fAdsViewKickCenterSpeed": 1500.0,
+    "fHipViewKickCenterSpeed": 1500.0
+   },
+   "sway": {
+    "swayMaxAngle": 5.0,
+    "swayLerpSpeed": 5.0,
+    "swayPitchScale": 2.0,
+    "swayYawScale": 0.25,
+    "swayHorizScale": 0.1599999964237213,
+    "swayVertScale": 0.3499999940395355,
+    "swayShellShockScale": 5.0,
+    "adsSwayMaxAngle": 6.0,
+    "adsSwayLerpSpeed": 7.0,
+    "adsSwayPitchScale": 0.05999999865889549,
+    "adsSwayYawScale": 0.04500000178813934,
+    "fAdsSwayHorizScale": 0.12999999523162842,
+    "fAdsSwayVertScale": 0.11999999731779099
+   },
+   "idleBob": {
+    "fAdsIdleAmount": 28.0,
+    "fHipIdleAmount": 30.0,
+    "adsIdleSpeed": 1.0,
+    "hipIdleSpeed": 1.0,
+    "fIdleCrouchFactor": 0.800000011920929,
+    "fIdleProneFactor": 0.6000000238418579,
+    "fGunMaxPitch": 2.0,
+    "fGunMaxYaw": 8.0,
+    "fAdsBobFactor": 0.5,
+    "fAdsViewBobMult": 0.25,
+    "fDuckedSprintCycleScale": 0.0,
+    "fSprintCycleScale": 0.800000011920929,
+    "fDtpCycleScale": 1.0,
+    "fPosMoveRate": 6.0,
+    "fPosProneMoveRate": 25.0,
+    "fPosRotRate": 6.0,
+    "fPosProneRotRate": 30.0
+   },
+   "viewOffsets": {
+    "vStandMove": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vStandRot": [
+     2.0,
+     0.0,
+     -2.0
+    ],
+    "vDuckedOfs": [
+     -1.0,
+     0.800000011920929,
+     -1.0
+    ],
+    "vDuckedMove": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vDuckedRot": [
+     2.0,
+     0.0,
+     -2.0
+    ],
+    "vProneOfs": [
+     -2.0,
+     0.800000011920929,
+     0.0
+    ],
+    "vProneMove": [
+     -160.0,
+     3.0,
+     -120.0
+    ],
+    "vProneRot": [
+     0.0,
+     300.0,
+     -300.0
+    ],
+    "vStrafeMove": [
+     0.0,
+     -0.25,
+     0.0
+    ],
+    "vStrafeRot": [
+     0.0,
+     0.0,
+     1.5
+    ],
+    "vSprintOfs": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vSprintRot": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vSprintBob": [
+     0.0,
+     0.0
+    ],
+    "vDuckedSprintOfs": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vDuckedSprintRot": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vDuckedSprintBob": [
+     0.0,
+     0.0
+    ],
+    "vLowReadyOfs": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vLowReadyRot": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vDtpOfs": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vDtpRot": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vDtpBob": [
+     0.0,
+     0.0
+    ],
+    "vMantleOfs": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vMantleRot": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vSlideOfs": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "vSlideRot": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   },
+   "ads": {
+    "fAdsZoomFov1": 55.0,
+    "fAdsZoomFov2": 55.0,
+    "fAdsZoomFov3": 55.0,
+    "fAdsZoomInFrac": 0.5,
+    "fAdsZoomOutFrac": 0.5,
+    "fAimAssistRangeAds": 3200.0,
+    "fOverlayAlphaScale": 1.0,
+    "adsMoveSpeedScale": 1.100000023841858,
+    "moveSpeedScale": 1.100000023841858,
+    "sprintDurationScale": 1.100000023841858,
+    "fAdsAimPitch": 0.0,
+    "fAdsCrosshairInFrac": 1.0,
+    "fAdsCrosshairOutFrac": 0.20000000298023224,
+    "adsDofStart": 0.0,
+    "adsDofEnd": 3.0,
+    "hipDofStart": 0.0,
+    "hipDofEnd": 0.0,
+    "overlayWidth": 220.0,
+    "overlayHeight": 220.0
+   },
+   "projectile": {
+    "iProjectileSpeed": 2180,
+    "iProjectileSpeedUp": 90,
+    "iProjectileSpeedRelativeUp": 0,
+    "iProjectileSpeedForward": 0,
+    "iProjectileActivateDist": 0,
+    "projLifetime": 30.0,
+    "timeToAccelerate": 0.0,
+    "projectileCurvature": 0.0,
+    "projIgnitionDelay": 0,
+    "vProjectileColor": [
+     0.75,
+     0.30000001192092896,
+     0.0
+    ],
+    "maxSteeringAccel": 3000.0,
+    "lowAmmoWarningThreshold": 0.25,
+    "stickiness": 1,
+    "rotateType": 0,
+    "parallelBounce": [
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.0,
+     0.0
+    ],
+    "perpendicularBounce": [
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.5,
+     0.0,
+     0.0
+    ],
+    "projExplosion": "none",
+    "projectileModel": "<XMODEL#811>"
+   },
+   "tracer": {
+    "tracerFrequency": 0,
+    "tracerWidth": 0.0,
+    "tracerLength": 0.0
+   },
+   "overheat": {
+    "overheatWeapon": 0,
+    "overheatRate": 0.0,
+    "cooldownRate": 0.0,
+    "overheatEndVal": 0.0,
+    "coolWhileFiring": 0
+   },
+   "aiParams": {
+    "fightDist": 720.0,
+    "maxDist": 250.0,
+    "leftArc": 0.0,
+    "rightArc": 0.0,
+    "topArc": 0.0,
+    "bottomArc": 0.0,
+    "minTurnSpeed": [
+     0.0,
+     0.0
+    ],
+    "maxTurnSpeed": [
+     0.0,
+     0.0
+    ],
+    "pitchConvergenceTime": 0.0,
+    "yawConvergenceTime": 0.0,
+    "suppressTime": 0.0,
+    "maxRange": 0.0,
+    "fAnimHorRotateInc": 0.0,
+    "fPlayerPositionDist": 0.0,
+    "aiVsAiAccuracyGraphName": "",
+    "aiVsPlayerAccuracyGraphName": "",
+    "aiVsAiAccuracyGraphKnots": null,
+    "aiVsPlayerAccuracyGraphKnots": null
+   },
+   "sounds": {
+    "pickupSound": "wpn_bknife_pickup_npc",
+    "pickupSoundPlayer": "wpn_bknife_pickup_plr",
+    "fireSound": "wpn_bal_knife_fire_npc_pap",
+    "fireSoundPlayer": "wpn_bal_knife_fire_plr_pap",
+    "emptyFireSound": "wpn_crossbow_dryfire_npc",
+    "emptyFireSoundPlayer": "wpn_crossbow_dryfire_plr",
+    "meleeSwipeSound": "zmb_bowie_swing",
+    "meleeSwipeSoundPlayer": "zmb_bowie_swing",
+    "meleeHitSound": "zmb_bowie_stab",
+    "meleeMissSound": "wpn_melee_hit_other",
+    "raiseSound": "wpn_357_raise_npc",
+    "raiseSoundPlayer": "wpn_357_raise_plr",
+    "firstRaiseSound": "wpn_357_1straise_npc",
+    "firstRaiseSoundPlayer": "wpn_357_1straise_plr"
+   },
+   "bounceSound": null,
+   "rumble": {
+    "fireRumble": "pistol_fire",
+    "meleeImpactRumble": "",
+    "reloadRumble": ""
+   },
+   "fx": {
+    "viewFlashEffect": "<FX#767>",
+    "worldFlashEffect": "<FX#767>",
+    "projTrailEffect": "<FX#813>"
+   },
+   "models": {
+    "gunXModel": [
+     "ref",
+     74043228,
+     4,
+     46032452
+    ],
+    "worldModel": [
+     "ref",
+     73976458,
+     4,
+     45992472
+    ],
+    "handXModel": ",viewhands_usmc",
+    "worldClipModel": null,
+    "rocketModel": "<XMODEL#811>",
+    "mountedModel": null,
+    "additionalMeleeModel": "<XMODEL#834>"
+   },
+   "materials": {
+    "hudIcon": "hud_ballistic_knife",
+    "killIcon": "hud_obit_ballistic_knife",
+    "ammoCounterIcon": "hud_ballistic_knife",
+    "reticleCenter": "knife_ballistic_reticle"
+   },
+   "strings": {
+    "szOverlayName": "",
+    "szModeName": "",
+    "parentWeaponName": "knife_ballistic",
+    "szSharedAmmoCapName": "",
+    "szSpawnedGrenadeWeaponName": "",
+    "szDualWieldWeaponName": "",
+    "szUseHintString": "",
+    "dropHintString": "",
+    "szScript": "",
+    "standMountedWeapdef": "",
+    "crouchMountedWeapdef": "",
+    "proneMountedWeapdef": "",
+    "flameTableFirstPerson": "",
+    "flameTableThirdPerson": ""
+   },
+   "notetrackSoundMap": [],
+   "hideTags": [
+    [
+     "?",
+     30576
+    ],
+    [
+     "?",
+     28255
+    ],
+    [
+     "?",
+     27958
+    ],
+    [
+     "?",
+     12389
+    ],
+    [
+     "?",
+     13407
+    ],
+    [
+     "?",
+     26217
+    ],
+    [
+     "?",
+     29285
+    ],
+    [
+     "?",
+     24430
+    ],
+    [
+     "?",
+     28771
+    ],
+    "j_spineupper",
+    [
+     "?",
+     28782
+    ],
+    [
+     "?",
+     24429
+    ],
+    [
+     "?",
+     13872
+    ],
+    [
+     "?",
+     25908
+    ],
+    [
+     "?",
+     24422
+    ],
+    [
+     "?",
+     26994
+    ],
+    [
+     "?",
+     25951
+    ],
+    [
+     "?",
+     28780
+    ],
+    [
+     "?",
+     29184
+    ],
+    [
+     "?",
+     26733
+    ],
+    [
+     "?",
+     26463
+    ],
+    [
+     "?",
+     28534
+    ],
+    [
+     "?",
+     25970
+    ],
+    [
+     "?",
+     26725
+    ]
+   ],
+   "xanims": {
+    "CAMERA_MANTLE": "t5_viewmodel_camera_mantle"
+   },
+   "ikLeftHand": {
+    "ikLeftHandOffset": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "ikLeftHandRotation": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "ikLeftHandProneOffset": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "ikLeftHandProneRotation": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "ikLeftHandUiViewerOffset": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "ikLeftHandUiViewerRotation": [
+     0.0,
+     0.0,
+     0.0
+    ]
+   }
+  }
+ }
+]

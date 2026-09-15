@@ -1,0 +1,462 @@
+{
+ "name": "maps/zombietron.d3dbsp",
+ "primaryLightCount": 4,
+ "lightTypes": {
+  "none": 1,
+  "dir": 1,
+  "spot": 2
+ },
+ "lightDefs": [
+  {
+   "name": "white_light",
+   "samplerState": 114,
+   "lmapLookupStart": 0,
+   "image": {
+    "name": "whitesquare",
+    "format": 134,
+    "w": 8,
+    "h": 8,
+    "mipmap": 4,
+    "streamed": true
+   }
+  }
+ ],
+ "path": {
+  "nodeCount": 663,
+  "nodesLoaded": 791,
+  "chainNodeCount": 0,
+  "visBytes": 54864,
+  "nodeTreeCount": 491,
+  "links": 4568,
+  "nodeTypes": {
+   "1": 661,
+   "17": 1,
+   "18": 1
+  }
+ },
+ "clipmap": {
+  "planeCount": 4675,
+  "numStaticModels": 1094,
+  "numMaterials": 589,
+  "numBrushSides": 5422,
+  "numNodes": 6107,
+  "numLeafs": 6461,
+  "leafbrushNodesCount": 12213,
+  "numLeafBrushes": 19675,
+  "vertCount": 21973,
+  "numBrushVerts": 59502,
+  "nuinds": 42502,
+  "triCount": 33406,
+  "borderCount": 2466,
+  "partitionCount": 5789,
+  "aabbTreeCount": 17550,
+  "numSubModels": 353,
+  "numBrushes": 7244,
+  "numClusters": 1,
+  "clusterBytes": 400,
+  "dynEntCount": [
+   437,
+   20,
+   181,
+   20
+  ],
+  "num_constraints": 37,
+  "max_ropes": 65
+ },
+ "mapEnts": {
+  "numEntityChars": 142300,
+  "entities": 1358
+ },
+ "destructibles": [
+  {
+   "name": "dest_glo_dest_glo_crate01",
+   "numPieces": 1,
+   "pieces": [
+    {
+     "health": 500,
+     "damageSound": "dst_dest_glo_dest_glo_crate01_d0",
+     "stages": [
+      {
+       "showBone": "tag_dest_glo_crate01_d0",
+       "breakHealth": 0.5,
+       "breakSound": "dst_wood_crate",
+       "breakNotify": "delete_collision"
+      },
+      {
+       "showBone": "tag_dest_glo_crate01_d1",
+       "breakHealth": -0.009999999776482582,
+       "breakSound": null,
+       "breakNotify": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "name": "dest_glo_dest_glo_crate01_short",
+   "numPieces": 1,
+   "pieces": [
+    {
+     "health": 500,
+     "damageSound": "dst_dest_glo_dest_glo_crate01_short_d0",
+     "stages": [
+      {
+       "showBone": "dest_glo_crate01_short_d0",
+       "breakHealth": 0.5,
+       "breakSound": null,
+       "breakNotify": null
+      },
+      {
+       "showBone": "dest_glo_crate01_short_d1",
+       "breakHealth": -0.009999999776482582,
+       "breakSound": null,
+       "breakNotify": null
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "primaryLights": [
+  {
+   "type": 0,
+   "typeName": "none",
+   "canUseShadowMap": 0,
+   "exponent": 0,
+   "priority": 0,
+   "cullDist": 0,
+   "color": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "dir": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "radius": 0.0,
+   "cosHalfFovOuter": 0.0,
+   "cosHalfFovInner": 0.0,
+   "cosHalfFovExpanded": 0.0,
+   "rotationLimit": 0.0,
+   "translationLimit": 0.0,
+   "mipDistance": 0.0,
+   "diffuseColor": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "specularColor": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "attenuation": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "falloff": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "angle": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "aAbB": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cookieControl0": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cookieControl1": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cookieControl2": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "defName": null
+  },
+  {
+   "type": 1,
+   "typeName": "dir",
+   "canUseShadowMap": 0,
+   "exponent": 0,
+   "priority": 0,
+   "cullDist": 0,
+   "color": [
+    7.999999523162842,
+    7.999999523162842,
+    7.999999523162842
+   ],
+   "dir": [
+    0.4999999701976776,
+    0.4999999701976776,
+    0.7071067690849304
+   ],
+   "origin": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "radius": 0.0,
+   "cosHalfFovOuter": 0.0,
+   "cosHalfFovInner": 0.0,
+   "cosHalfFovExpanded": 0.0,
+   "rotationLimit": 0.0,
+   "translationLimit": 0.0,
+   "mipDistance": 0.0,
+   "diffuseColor": [
+    7.999999523162842,
+    7.999999523162842,
+    7.999999523162842,
+    0.0
+   ],
+   "specularColor": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "attenuation": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "falloff": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "angle": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "aAbB": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cookieControl0": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cookieControl1": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cookieControl2": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "defName": null
+  },
+  {
+   "type": 2,
+   "typeName": "spot",
+   "canUseShadowMap": 1,
+   "exponent": 0,
+   "priority": 0,
+   "cullDist": 1000,
+   "color": [
+    4.9112548828125,
+    4.779865264892578,
+    2.823561191558838
+   ],
+   "dir": [
+    0.009473994374275208,
+    0.8986760377883911,
+    0.43851059675216675
+   ],
+   "origin": [
+    -231.0,
+    -143.0,
+    108.0
+   ],
+   "radius": 400.0,
+   "cosHalfFovOuter": 0.7071067690849304,
+   "cosHalfFovInner": 0.7803300619125366,
+   "cosHalfFovExpanded": 0.7071067690849304,
+   "rotationLimit": 1.0,
+   "translationLimit": 0.0,
+   "mipDistance": 400.0,
+   "diffuseColor": [
+    4.9112548828125,
+    4.779865264892578,
+    2.823561191558838,
+    0.0
+   ],
+   "specularColor": [
+    4.9112548828125,
+    4.779865264892578,
+    2.823561191558838,
+    0.0
+   ],
+   "attenuation": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "falloff": [
+    0.0,
+    400.0,
+    0.0,
+    0.0
+   ],
+   "angle": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "aAbB": [
+    0.75,
+    1.0,
+    0.75,
+    1.0
+   ],
+   "cookieControl0": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "cookieControl1": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cookieControl2": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "defName": "white_light"
+  },
+  {
+   "type": 2,
+   "typeName": "spot",
+   "canUseShadowMap": 1,
+   "exponent": 0,
+   "priority": 0,
+   "cullDist": 1000,
+   "color": [
+    7.487532615661621,
+    11.576244354248047,
+    6.106568336486816
+   ],
+   "dir": [
+    0.04932636395096779,
+    -0.9372009038925171,
+    0.3452845513820648
+   ],
+   "origin": [
+    224.0,
+    -4728.0,
+    144.0
+   ],
+   "radius": 400.0,
+   "cosHalfFovOuter": 0.7071067690849304,
+   "cosHalfFovInner": 0.7803300619125366,
+   "cosHalfFovExpanded": 0.7071067690849304,
+   "rotationLimit": 1.0,
+   "translationLimit": 0.0,
+   "mipDistance": 400.0,
+   "diffuseColor": [
+    7.487532615661621,
+    11.576244354248047,
+    6.106568336486816,
+    0.0
+   ],
+   "specularColor": [
+    7.487532615661621,
+    11.576244354248047,
+    6.106568336486816,
+    0.0
+   ],
+   "attenuation": [
+    1.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "falloff": [
+    0.0,
+    400.0,
+    0.0,
+    0.0
+   ],
+   "angle": [
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "aAbB": [
+    0.75,
+    1.0,
+    0.75,
+    1.0
+   ],
+   "cookieControl0": [
+    0.0,
+    0.0,
+    1.0,
+    1.0
+   ],
+   "cookieControl1": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "cookieControl2": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "defName": "white_light"
+  }
+ ]
+}

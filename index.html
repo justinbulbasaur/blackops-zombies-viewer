@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Black Ops Zombies — map viewer</title>
+<style>
+  html, body { margin: 0; height: 100%; background: #111; color: #ddd; font: 13px/1.4 system-ui, sans-serif; }
+  #ui { position: fixed; top: 10px; left: 10px; background: rgba(0,0,0,.65); padding: 10px 12px; border-radius: 6px; max-width: 320px; }
+  #ui select, #ui button { font: inherit; margin: 2px 0; }
+  #status { margin-top: 6px; white-space: pre-wrap; color: #9ad; }
+  #help { color: #888; margin-top: 6px; }
+  canvas { display: block; }
+</style>
+<script type="importmap">
+{ "imports": {
+  "three": "https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js",
+  "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.170.0/examples/jsm/"
+} }
+</script>
+</head>
+<body>
+<div id="ui">
+  <div><b>Map</b> <select id="map"></select> <button id="load">Load</button></div>
+  <div><label><input type="checkbox" id="smodels" checked> static models</label>
+       <label><input type="checkbox" id="wire"> wireframe</label></div>
+  <div id="status">pick a map</div>
+  <div id="help">WASD/arrows move · drag to look · Q/E down/up · shift = fast</div>
+  <div id="links"></div>
+</div>
+<script type="module">
+import * as THREE from 'three';
+import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
+import { MeshoptDecoder } from 'three/addons/libs/meshopt_decoder.module.js';
+import { KTX2Loader } from 'three/addons/loaders/KTX2Loader.js';
+
+const status = document.getElementById('status');
+const sel = document.getElementById('map');
+let manifest = { maps: [] };
+try { manifest = await (await fetch('maps/manifest.json')).json(); } catch (e) { status.textContent = 'maps/manifest.json missing'; }
+for (const m of manifest.maps) { const o = document.createElement('option'); o.value = m.name; o.textContent = `${m.name} (${m.stats?.surfaces ?? '?'} surfaces, ${m.stats?.smodels ?? '?'} models)`; sel.appendChild(o); }
+
+document.getElementById('links').innerHTML = manifest.maps.map(m =>
+  `<div><b>${m.name}</b>: <a href="data/${m.name}_world.json">lights/world</a> · <a href="data/${m.name}_mapents.txt">entities</a> · <a href="data/weapons_${m.name}.json">weapons</a> · <a href="data/${m.name}_textures.json">textures</a> · <a href="videos/${m.name}_load.mp4">load video</a></div>`).join('') +
+  '<div><a href="videos/zombie_load.mp4">zombies intro</a> · <a href="videos/zombietron_outro.mp4">Dead Ops outro</a></div>';
+document.getElementById('links').style.cssText = 'margin-top:8px;color:#888;font-size:12px';
+document.querySelectorAll('#links a').forEach(a => a.style.color = '#9ad');
+
+const renderer = new THREE.WebGLRenderer({ antialias: true });
+renderer.setPixelRatio(Math.min(devicePixelRatio, 2));
+renderer.setSize(innerWidth, innerHeight);
+renderer.outputColorSpace = THREE.SRGBColorSpace;
+document.body.appendChild(renderer.domElement);
+const scene = new THREE.Scene();
+scene.background = new THREE.Color(0x1a1d22);
+scene.add(new THREE.HemisphereLight(0xffffff, 0x444466, 1.2));
+const sun = new THREE.DirectionalLight(0xffffff, 1.0); sun.position.set(50, 100, 30); scene.add(sun);
+const camera = new THREE.PerspectiveCamera(70, innerWidth / innerHeight, 0.05, 2000);
+camera.position.set(0, 2, 5);
+addEventListener('resize', () => { camera.aspect = innerWidth / innerHeight; camera.updateProjectionMatrix(); renderer.setSize(innerWidth, innerHeight); });
+
+// simple fly controls
+const keys = {}; let yaw = 0, pitch = 0, dragging = false;
+addEventListener('keydown', e => keys[e.code] = true); addEventListener('keyup', e => keys[e.code] = false);
+renderer.domElement.addEventListener('mousedown', () => dragging = true);
+addEventListener('mouseup', () => dragging = false);
+addEventListener('mousemove', e => { if (!dragging) return; yaw -= e.movementX * 0.003; pitch = Math.max(-1.5, Math.min(1.5, pitch - e.movementY * 0.003)); });
+const clock = new THREE.Clock();
+function step() {
+  const dt = clock.getDelta(); const speed = (keys.ShiftLeft || keys.ShiftRight ? 40 : 8) * dt;
+  camera.rotation.set(pitch, yaw, 0, 'YXZ');
+  const f = new THREE.Vector3(0, 0, -1).applyEuler(camera.rotation), r = new THREE.Vector3(1, 0, 0).applyEuler(camera.rotation);
+  if (keys.KeyW || keys.ArrowUp) camera.position.addScaledVector(f, speed);
+  if (keys.KeyS || keys.ArrowDown) camera.position.addScaledVector(f, -speed);
+  if (keys.KeyD || keys.ArrowRight) camera.position.addScaledVector(r, speed);
+  if (keys.KeyA || keys.ArrowLeft) camera.position.addScaledVector(r, -speed);
+  if (keys.KeyE) camera.position.y += speed; if (keys.KeyQ) camera.position.y -= speed;
+  renderer.render(scene, camera); requestAnimationFrame(step);
+}
+step();
+
+const loader = new GLTFLoader();
+loader.setMeshoptDecoder(MeshoptDecoder);
+const ktx2 = new KTX2Loader().setTranscoderPath('https://cdn.jsdelivr.net/npm/three@0.170.0/examples/jsm/libs/basis/').detectSupport(renderer);
+loader.setKTX2Loader(ktx2);
+let current = null;
+document.getElementById('load').onclick = async () => {
+  if (current) { scene.remove(current); current = null; }
+  const entry = manifest.maps.find(m => m.name === sel.value);
+  const files = (entry.parts || [entry.glb]).map(f => 'maps/' + f); status.textContent = 'loading ' + entry.name + ' …';
+  try {
+    // fetch every part (large GLBs are split to stay under static-host file limits), join, parse
+    const chunks = []; let got = 0;
+    for (const url of files) {
+      const res = await fetch(url); if (!res.ok) throw new Error(`${url}: HTTP ${res.status}`);
+      const total = +res.headers.get('Content-Length') || 0; const reader = res.body.getReader(); const buf = [];
+      for (;;) { const { done, value } = await reader.read(); if (done) break; buf.push(value); got += value.length;
+        status.textContent = `loading ${entry.name}: ${(got / 1048576).toFixed(1)} MB` + (total && files.length === 1 ? ` / ${(total / 1048576).toFixed(1)} MB` : ''); }
+      chunks.push(...buf);
+    }
+    const joined = new Uint8Array(got); let off = 0; for (const c of chunks) { joined.set(c, off); off += c.length; }
+    const gltf = await new Promise((ok, err) => loader.parse(joined.buffer, 'maps/', ok, err));
+    current = gltf.scene; scene.add(current);
+    let tris = 0; current.traverse(o => { if (o.isMesh) { tris += (o.geometry.index ? o.geometry.index.count : o.geometry.attributes.position.count) / 3; o.material.side = THREE.DoubleSide; } });
+    const box = new THREE.Box3().setFromObject(current); const c = box.getCenter(new THREE.Vector3());
+    camera.position.copy(c).add(new THREE.Vector3(0, 3, 0)); yaw = 0; pitch = 0;
+    status.textContent = `loaded: ${Math.round(tris).toLocaleString()} triangles\nbounds ${box.min.toArray().map(v => v.toFixed(0))} … ${box.max.toArray().map(v => v.toFixed(0))} m`;
+    applyToggles();
+  } catch (e) { status.textContent = 'failed: ' + e.message; console.error(e); }
+};
+function applyToggles() {
+  if (!current) return;
+  const showS = document.getElementById('smodels').checked, wire = document.getElementById('wire').checked;
+  current.traverse(o => { if (o.name.startsWith('smodel:')) o.visible = showS; if (o.isMesh) o.material.wireframe = wire; });
+}
+document.getElementById('smodels').onchange = applyToggles; document.getElementById('wire').onchange = applyToggles;
+</script>
+</body>
+</html>
