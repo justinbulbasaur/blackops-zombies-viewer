@@ -34,11 +34,7 @@
      "mul": 7,
      "add": 12
     }
-   },
-   "parts": [
-    "zombie_pentagon.opt.glb.part0",
-    "zombie_pentagon.opt.glb.part1"
-   ]
+   }
   },
   {
    "name": "zombie_theater",
@@ -55,7 +51,7 @@
     "unique_models": 236,
     "materials": 1086,
     "textures": 404,
-    "bytes": 35589692,
+    "bytes": 35589696,
     "mins": [
      -8192.0,
      -11232.0,
@@ -74,11 +70,7 @@
      "mul": 13,
      "add": 14
     }
-   },
-   "parts": [
-    "zombie_theater.opt.glb.part0",
-    "zombie_theater.opt.glb.part1"
-   ]
+   }
   },
   {
    "name": "zombietron",
@@ -95,7 +87,7 @@
     "unique_models": 305,
     "materials": 694,
     "textures": 504,
-    "bytes": 22878548,
+    "bytes": 22878576,
     "mins": [
      -18784.0,
      -17816.0,
