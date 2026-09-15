@@ -121,6 +121,7 @@ document.getElementById('load').onclick = async () => {
       if (m.aoMap && o.name.startsWith('world')) {           // baked lightmap carried in the occlusion slot (uv1)
         m.lightMap = m.aoMap; m.lightMap.colorSpace = THREE.SRGBColorSpace; m.lightMapIntensity = LM_INTENSITY; m.aoMap = null; lit++;
       }
+      if (/extracam/i.test(m.name)) { o.material = new THREE.MeshBasicMaterial({ map: m.map, color: m.color, side: THREE.DoubleSide, name: m.name }); return; }   // projection screens: lit
       if (o.geometry.attributes.color && o.name.startsWith('world')) {   // baked per-vertex lighting: draw unlit
         const b = new THREE.MeshBasicMaterial({ map: m.map, color: m.color, vertexColors: true, side: THREE.DoubleSide, transparent: m.transparent, opacity: m.opacity, alphaTest: m.alphaTest, depthWrite: m.depthWrite, name: m.name });
         if (m.transparent) { b.polygonOffset = true; b.polygonOffsetFactor = -2; b.polygonOffsetUnits = -2; }
