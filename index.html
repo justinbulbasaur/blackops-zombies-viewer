@@ -84,6 +84,9 @@ loader.setMeshoptDecoder(MeshoptDecoder);
 const ktx2 = new KTX2Loader().setTranscoderPath('https://cdn.jsdelivr.net/npm/three@0.170.0/examples/jsm/libs/basis/').detectSupport(renderer);
 loader.setKTX2Loader(ktx2);
 let current = null;
+const qs = new URLSearchParams(location.search);
+window.__setCam = (x, y, z, yawDeg, pitchDeg, fov) => { camera.position.set(x, y, z); yaw = yawDeg * Math.PI / 180; pitch = pitchDeg * Math.PI / 180; if (fov) { camera.fov = fov; camera.updateProjectionMatrix(); } };
+window.__ready = false;
 document.getElementById('load').onclick = async () => {
   if (current) { scene.remove(current); current = null; }
   const entry = manifest.maps.find(m => m.name === sel.value);
@@ -104,6 +107,8 @@ document.getElementById('load').onclick = async () => {
     let tris = 0; current.traverse(o => { if (o.isMesh) { tris += (o.geometry.index ? o.geometry.index.count : o.geometry.attributes.position.count) / 3; o.material.side = THREE.DoubleSide; } });
     const box = new THREE.Box3().setFromObject(current); const c = box.getCenter(new THREE.Vector3());
     camera.position.copy(c).add(new THREE.Vector3(0, 3, 0)); yaw = 0; pitch = 0;
+    if (qs.get('pos')) { const [x, y, z] = qs.get('pos').split(',').map(Number); window.__setCam(x, y, z, +(qs.get('yaw') || 0), +(qs.get('pitch') || 0), +(qs.get('fov') || 0)); }
+    window.__ready = true;
     status.textContent = `loaded: ${Math.round(tris).toLocaleString()} triangles\nbounds ${box.min.toArray().map(v => v.toFixed(0))} … ${box.max.toArray().map(v => v.toFixed(0))} m`;
     applyToggles();
   } catch (e) { status.textContent = 'failed: ' + e.message; console.error(e); }
@@ -114,6 +119,8 @@ function applyToggles() {
   current.traverse(o => { if (o.name.startsWith('smodel:')) o.visible = showS; if (o.isMesh) o.material.wireframe = wire; });
 }
 document.getElementById('smodels').onchange = applyToggles; document.getElementById('wire').onchange = applyToggles;
+if (qs.get('ui') === '0') document.getElementById('ui').style.display = 'none';
+if (qs.get('map')) { sel.value = qs.get('map'); document.getElementById('load').onclick(); }
 </script>
 </body>
 </html>

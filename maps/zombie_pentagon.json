@@ -9,9 +9,9 @@
   "smodel_unresolved": 1,
   "smodel_nomesh": 4,
   "unique_models": 360,
-  "materials": 863,
-  "textures": 422,
-  "bytes": 27198796,
+  "materials": 868,
+  "textures": 536,
+  "bytes": 27237408,
   "mins": [
    -129624.0,
    -130384.0,
@@ -21,9 +21,18 @@
    128456.0,
    129760.0,
    75104.0
-  ]
+  ],
+  "xmodel_material_unresolved": 0,
+  "textured_materials": 856,
+  "missing_color_maps": 11
  },
  "materials": [
+  "*0n_105n(wc/pent_art_wall_creampaint02:wc/glo_dec_blood_splat_horizonal03)",
+  "*0n_105n_17(wc/pent_art_wall_creampaint02:wc/glo_dec_blood_splat_horizonal03:wc/ao_decal_ramp)",
+  "*0n_143n(wc/pent_art_wall_creampaint02:wc/glo_dec_blood_drips_small_blend)",
+  "*0n_143n_215n(wc/pent_art_wall_creampaint02:wc/glo_dec_blood_drips_small_blend:wc/glo_dec_blood_spill_small)",
+  "*0n_17(wc/pent_art_wall_creampaint02:wc/ao_decal_ramp)",
+  "*0n_215n(wc/pent_art_wall_creampaint02:wc/glo_dec_blood_spill_small)",
   "*0n_219n(wc/pent_art_wall_creampaint02:wc/glo_dec_blood_splat_drip_run_medium)",
   "*0n_85n(wc/pent_art_wall_creampaint02:wc/glo_dec_blood_hand_print_blend)",
   "*0n_85n_105n(wc/pent_art_wall_creampaint02:wc/glo_dec_blood_hand_print_blend:wc/glo_dec_blood_splat_horizonal03)",
@@ -295,7 +304,6 @@
   "*9n_64(wc/jun_art_wood_paneling_wall01_base:wc/decal_rust_leak)",
   ",mc/global_black",
   ",mc/mtl_t5_weapon_ak74u",
-  "_default",
   "mc/com_black2",
   "mc/dec_nova6_logo",
   "mc/eb_art_ceiling_metal01",
