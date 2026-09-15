@@ -15,7 +15,7 @@
     "unique_models": 360,
     "materials": 864,
     "textures": 541,
-    "bytes": 30844284,
+    "bytes": 30844148,
     "mins": [
      -129624.0,
      -130384.0,
@@ -50,8 +50,8 @@
     "baked_vertices": 461423,
     "unique_models": 236,
     "materials": 1086,
-    "textures": 404,
-    "bytes": 35589696,
+    "textures": 405,
+    "bytes": 35589404,
     "mins": [
      -8192.0,
      -11232.0,
@@ -63,8 +63,8 @@
      5344.0
     ],
     "xmodel_material_unresolved": 0,
-    "textured_materials": 1083,
-    "missing_color_maps": 3,
+    "textured_materials": 1084,
+    "missing_color_maps": 2,
     "stub_materials_from_common": 6,
     "blend_converted": {
      "mul": 13,
@@ -87,7 +87,7 @@
     "unique_models": 305,
     "materials": 694,
     "textures": 504,
-    "bytes": 22878576,
+    "bytes": 22878440,
     "mins": [
      -18784.0,
      -17816.0,

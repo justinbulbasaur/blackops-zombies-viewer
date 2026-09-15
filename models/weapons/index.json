@@ -1,0 +1,892 @@
+{
+ "models": [
+  {
+   "name": "p_glo_briefcase_bomb_battery",
+   "zone": "zombie_pentagon",
+   "kind": "projectile / prop",
+   "bones": 1,
+   "surfaces": 1,
+   "textured": "1/1"
+  },
+  {
+   "name": "p_glo_briefcase_bomb_canister_a",
+   "zone": "zombie_pentagon",
+   "kind": "projectile / prop",
+   "bones": 1,
+   "surfaces": 1,
+   "textured": "1/1"
+  },
+  {
+   "name": "p_glo_briefcase_bomb_hose_a",
+   "zone": "zombie_pentagon",
+   "kind": "projectile / prop",
+   "bones": 1,
+   "surfaces": 1,
+   "textured": "1/1"
+  },
+  {
+   "name": "p_glo_briefcase_bomb_hose_b",
+   "zone": "zombie_pentagon",
+   "kind": "projectile / prop",
+   "bones": 1,
+   "surfaces": 1,
+   "textured": "1/1"
+  },
+  {
+   "name": "p_glo_briefcase_bomb_valve",
+   "zone": "zombie_pentagon",
+   "kind": "projectile / prop",
+   "bones": 1,
+   "surfaces": 1,
+   "textured": "1/1"
+  },
+  {
+   "name": "p_glo_briefcase_bomb_wire_a",
+   "zone": "zombie_pentagon",
+   "kind": "projectile / prop",
+   "bones": 1,
+   "surfaces": 1,
+   "textured": "1/1"
+  },
+  {
+   "name": "p_glo_briefcase_bomb_wire_b",
+   "zone": "zombie_pentagon",
+   "kind": "projectile / prop",
+   "bones": 1,
+   "surfaces": 1,
+   "textured": "1/1"
+  },
+  {
+   "name": "p_int_surgical_knife",
+   "zone": "zombie_theater",
+   "kind": "projectile / prop",
+   "bones": 1,
+   "surfaces": 1,
+   "textured": "1/1"
+  },
+  {
+   "name": "projectile_at4",
+   "zone": "common_zombie",
+   "kind": "projectile / prop",
+   "bones": 2,
+   "surfaces": 1,
+   "textured": "1/1"
+  },
+  {
+   "name": "projectile_m203grenade",
+   "zone": "common_zombie",
+   "kind": "projectile / prop",
+   "bones": 2,
+   "surfaces": 1,
+   "textured": "1/1"
+  },
+  {
+   "name": "projectile_m67fraggrenade",
+   "zone": "common_zombie",
+   "kind": "projectile / prop",
+   "bones": 1,
+   "surfaces": 1,
+   "textured": "1/1"
+  },
+  {
+   "name": "t5_weapon_law_stow",
+   "zone": "common_zombie",
+   "kind": "projectile / prop",
+   "bones": 1,
+   "surfaces": 1,
+   "textured": "1/1"
+  },
+  {
+   "name": "zombie_bomb",
+   "zone": "common_zombie",
+   "kind": "projectile / prop",
+   "bones": 1,
+   "surfaces": 1,
+   "textured": "1/1"
+  },
+  {
+   "name": "zombie_monkey_bomber",
+   "zone": "zombie_theater",
+   "kind": "projectile / prop",
+   "bones": 1,
+   "surfaces": 7,
+   "textured": "7/7"
+  },
+  {
+   "name": "t5_weapon_1911_lh_viewmodel",
+   "zone": "common_zombie",
+   "kind": "view model",
+   "bones": 6,
+   "surfaces": 4,
+   "textured": "1/1"
+  },
+  {
+   "name": "t5_weapon_1911_rh_viewmodel",
+   "zone": "common_zombie",
+   "kind": "view model",
+   "bones": 6,
+   "surfaces": 4,
+   "textured": "1/1"
+  },
+  {
+   "name": "t5_weapon_1911_viewmodel",
+   "zone": "common_zombie",
+   "kind": "view model",
+   "bones": 10,
+   "surfaces": 9,
+   "textured": "2/2"
+  },
+  {
+   "name": "t5_weapon_ak47_viewmodel",
+   "zone": "zombie_theater",
+   "kind": "view model",
+   "bones": 27,
+   "surfaces": 39,
+   "textured": "24/24"
+  },
+  {
+   "name": "t5_weapon_ak74u_viewmodel",
+   "zone": "common_zombie",
+   "kind": "view model",
+   "bones": 21,
+   "surfaces": 28,
+   "textured": "16/16"
+  },
+  {
+   "name": "t5_weapon_aug_viewmodel",
+   "zone": "common_zombie",
+   "kind": "view model",
+   "bones": 32,
+   "surfaces": 41,
+   "textured": "23/23"
+  },
+  {
+   "name": "t5_weapon_beretta682_viewmodel",
+   "zone": "common_zombie",
+   "kind": "view model",
+   "bones": 11,
+   "surfaces": 11,
+   "textured": "2/2"
+  },
+  {
+   "name": "t5_weapon_coltpython_viewmodel",
+   "zone": "common_zombie",
+   "kind": "view model",
+   "bones": 16,
+   "surfaces": 19,
+   "textured": "6/6"
+  },
+  {
+   "name": "t5_weapon_commando_viewmodel",
+   "zone": "common_zombie",
+   "kind": "view model",
+   "bones": 29,
+   "surfaces": 45,
+   "textured": "24/24"
+  },
+  {
+   "name": "t5_weapon_cz75_dw_lh_viewmodel",
+   "zone": "common_zombie",
+   "kind": "view model",
+   "bones": 10,
+   "surfaces": 7,
+   "textured": "1/1"
+  },
+  {
+   "name": "t5_weapon_cz75_dw_rh_viewmodel",
+   "zone": "common_zombie",
+   "kind": "view model",
+   "bones": 10,
+   "surfaces": 7,
+   "textured": "1/1"
+  },
+  {
+   "name": "t5_weapon_dragunov_viewmodel",
+   "zone": "common_zombie",
+   "kind": "view model",
+   "bones": 15,
+   "surfaces": 25,
+   "textured": "15/15"
+  },
+  {
+   "name": "t5_weapon_ex41_viewmodel",
+   "zone": "common_zombie",
+   "kind": "view model",
+   "bones": 10,
+   "surfaces": 6,
+   "textured": "1/1"
+  },
+  {
+   "name": "t5_weapon_fal_viewmodel",
+   "zone": "common_zombie",
+   "kind": "view model",
+   "bones": 31,
+   "surfaces": 42,
+   "textured": "20/20"
+  },
+  {
+   "name": "t5_weapon_famas_viewmodel",
+   "zone": "common_zombie",
+   "kind": "view model",
+   "bones": 27,
+   "surfaces": 38,
+   "textured": "21/21"
+  },
+  {
+   "name": "t5_weapon_g11_viewmodel",
+   "zone": "common_zombie",
+   "kind": "view model",
+   "bones": 10,
+   "surfaces": 17,
+   "textured": "10/10"
+  },
+  {
+   "name": "t5_weapon_galil_viewmodel",
+   "zone": "common_zombie",
+   "kind": "view model",
+   "bones": 32,
+   "surfaces": 44,
+   "textured": "20/20"
+  },
+  {
+   "name": "t5_weapon_hk21_viewmodel",
+   "zone": "common_zombie",
+   "kind": "view model",
+   "bones": 19,
+   "surfaces": 29,
+   "textured": "15/15"
+  },
+  {
+   "name": "t5_weapon_hs10_dw_lh_viewmodel",
+   "zone": "common_zombie",
+   "kind": "view model",
+   "bones": 11,
+   "surfaces": 12,
+   "textured": "2/2"
+  },
+  {
+   "name": "t5_weapon_hs10_dw_rh_viewmodel",
+   "zone": "common_zombie",
+   "kind": "view model",
+   "bones": 11,
+   "surfaces": 12,
+   "textured": "2/2"
+  },
+  {
+   "name": "t5_weapon_hs10_viewmodel",
+   "zone": "common_zombie",
+   "kind": "view model",
+   "bones": 11,
+   "surfaces": 12,
+   "textured": "2/2"
+  },
+  {
+   "name": "t5_weapon_ithaca_viewmodel",
+   "zone": "common_zombie",
+   "kind": "view model",
+   "bones": 13,
+   "surfaces": 15,
+   "textured": "4/4"
+  },
+  {
+   "name": "t5_weapon_l96a1_viewmodel",
+   "zone": "common_zombie",
+   "kind": "view model",
+   "bones": 16,
+   "surfaces": 26,
+   "textured": "12/12"
+  },
+  {
+   "name": "t5_weapon_law_viewmodel",
+   "zone": "common_zombie",
+   "kind": "view model",
+   "bones": 11,
+   "surfaces": 9,
+   "textured": "1/1"
+  },
+  {
+   "name": "t5_weapon_m14_viewmodel",
+   "zone": "common_zombie",
+   "kind": "view model",
+   "bones": 39,
+   "surfaces": 41,
+   "textured": "21/21"
+  },
+  {
+   "name": "t5_weapon_mp5_viewmodel",
+   "zone": "common_zombie",
+   "kind": "view model",
+   "bones": 14,
+   "surfaces": 22,
+   "textured": "12/12"
+  },
+  {
+   "name": "t5_weapon_mpl_viewmodel",
+   "zone": "common_zombie",
+   "kind": "view model",
+   "bones": 18,
+   "surfaces": 27,
+   "textured": "13/13"
+  },
+  {
+   "name": "t5_weapon_nova_gas_viewmodel",
+   "zone": "zombie_pentagon",
+   "kind": "view model",
+   "bones": 3,
+   "surfaces": 1,
+   "textured": "1/1"
+  },
+  {
+   "name": "t5_weapon_pm63_dw_lh_viewmodel",
+   "zone": "common_zombie",
+   "kind": "view model",
+   "bones": 10,
+   "surfaces": 5,
+   "textured": "1/1"
+  },
+  {
+   "name": "t5_weapon_pm63_dw_rh_viewmodel",
+   "zone": "common_zombie",
+   "kind": "view model",
+   "bones": 10,
+   "surfaces": 5,
+   "textured": "1/1"
+  },
+  {
+   "name": "t5_weapon_pm63_viewmodel",
+   "zone": "common_zombie",
+   "kind": "view model",
+   "bones": 11,
+   "surfaces": 11,
+   "textured": "1/1"
+  },
+  {
+   "name": "t5_weapon_rpk_viewmodel",
+   "zone": "common_zombie",
+   "kind": "view model",
+   "bones": 17,
+   "surfaces": 28,
+   "textured": "16/16"
+  },
+  {
+   "name": "t5_weapon_spas_viewmodel",
+   "zone": "common_zombie",
+   "kind": "view model",
+   "bones": 12,
+   "surfaces": 13,
+   "textured": "3/3"
+  },
+  {
+   "name": "t5_weapon_viewmodel_cz75",
+   "zone": "common_zombie",
+   "kind": "view model",
+   "bones": 14,
+   "surfaces": 12,
+   "textured": "2/2"
+  },
+  {
+   "name": "t5_weapon_viewmodel_m16a1",
+   "zone": "common_zombie",
+   "kind": "view model",
+   "bones": 28,
+   "surfaces": 39,
+   "textured": "21/21"
+  },
+  {
+   "name": "viewmodel_claymore",
+   "zone": "common_zombie",
+   "kind": "view model",
+   "bones": 5,
+   "surfaces": 2,
+   "textured": "1/1"
+  },
+  {
+   "name": "viewmodel_default",
+   "zone": "common_zombie",
+   "kind": "view model",
+   "bones": 3,
+   "surfaces": 1,
+   "textured": "1/1"
+  },
+  {
+   "name": "viewmodel_knife",
+   "zone": "common_zombie",
+   "kind": "view model",
+   "bones": 2,
+   "surfaces": 1,
+   "textured": "1/1"
+  },
+  {
+   "name": "viewmodel_knife_bowie",
+   "zone": "common_zombie",
+   "kind": "view model",
+   "bones": 1,
+   "surfaces": 1,
+   "textured": "1/1"
+  },
+  {
+   "name": "viewmodel_m67",
+   "zone": "common_zombie",
+   "kind": "view model",
+   "bones": 3,
+   "surfaces": 2,
+   "textured": "1/1"
+  },
+  {
+   "name": "viewmodel_mp_mp40",
+   "zone": "common_zombie",
+   "kind": "view model",
+   "bones": 9,
+   "surfaces": 8,
+   "textured": "6/6"
+  },
+  {
+   "name": "viewmodel_satchel_charge",
+   "zone": "zombie_theater",
+   "kind": "view model",
+   "bones": 3,
+   "surfaces": 4,
+   "textured": "3/3"
+  },
+  {
+   "name": "viewmodel_usa_morphine",
+   "zone": "common_zombie",
+   "kind": "view model",
+   "bones": 6,
+   "surfaces": 3,
+   "textured": "3/3"
+  },
+  {
+   "name": "viewmodel_usa_no_model",
+   "zone": "common_zombie",
+   "kind": "view model",
+   "bones": 7,
+   "surfaces": 1,
+   "textured": "1/1"
+  },
+  {
+   "name": "viewmodel_usa_pow_arms",
+   "zone": "common_zombie",
+   "kind": "view model",
+   "bones": 72,
+   "surfaces": 4,
+   "textured": "2/2"
+  },
+  {
+   "name": "viewmodel_usa_ray_gun",
+   "zone": "common_zombie",
+   "kind": "view model",
+   "bones": 11,
+   "surfaces": 8,
+   "textured": "3/3"
+  },
+  {
+   "name": "viewmodel_zombie_cymbal_monkey",
+   "zone": "common_zombie",
+   "kind": "view model",
+   "bones": 14,
+   "surfaces": 13,
+   "textured": "4/4"
+  },
+  {
+   "name": "viewmodel_zombie_raygun_up",
+   "zone": "common_zombie",
+   "kind": "view model",
+   "bones": 11,
+   "surfaces": 11,
+   "textured": "5/5"
+  },
+  {
+   "name": "t5_weapon_1911_lh_world",
+   "zone": "common_zombie",
+   "kind": "world model",
+   "bones": 3,
+   "surfaces": 1,
+   "textured": "1/1"
+  },
+  {
+   "name": "t5_weapon_1911_rh_world",
+   "zone": "common_zombie",
+   "kind": "world model",
+   "bones": 3,
+   "surfaces": 1,
+   "textured": "1/1"
+  },
+  {
+   "name": "t5_weapon_1911_world",
+   "zone": "common_zombie",
+   "kind": "world model",
+   "bones": 7,
+   "surfaces": 6,
+   "textured": "2/2"
+  },
+  {
+   "name": "t5_weapon_ak47_world",
+   "zone": "zombie_theater",
+   "kind": "world model",
+   "bones": 15,
+   "surfaces": 23,
+   "textured": "19/19"
+  },
+  {
+   "name": "t5_weapon_ak74u_dw_rh_world",
+   "zone": "zombie_pentagon",
+   "kind": "world model",
+   "bones": 3,
+   "surfaces": 1,
+   "textured": "1/1"
+  },
+  {
+   "name": "t5_weapon_ak74u_world",
+   "zone": "common_zombie",
+   "kind": "world model",
+   "bones": 14,
+   "surfaces": 18,
+   "textured": "14/14"
+  },
+  {
+   "name": "t5_weapon_aug_world",
+   "zone": "common_zombie",
+   "kind": "world model",
+   "bones": 20,
+   "surfaces": 28,
+   "textured": "16/16"
+  },
+  {
+   "name": "t5_weapon_beretta682_world",
+   "zone": "common_zombie",
+   "kind": "world model",
+   "bones": 2,
+   "surfaces": 4,
+   "textured": "2/2"
+  },
+  {
+   "name": "t5_weapon_carry_minigun_world",
+   "zone": "zombie_pentagon",
+   "kind": "world model",
+   "bones": 6,
+   "surfaces": 4,
+   "textured": "2/2"
+  },
+  {
+   "name": "t5_weapon_coltpython_world",
+   "zone": "common_zombie",
+   "kind": "world model",
+   "bones": 6,
+   "surfaces": 5,
+   "textured": "3/3"
+  },
+  {
+   "name": "t5_weapon_commando_world",
+   "zone": "common_zombie",
+   "kind": "world model",
+   "bones": 17,
+   "surfaces": 23,
+   "textured": "18/18"
+  },
+  {
+   "name": "t5_weapon_cz75_dw_lh_world",
+   "zone": "common_zombie",
+   "kind": "world model",
+   "bones": 4,
+   "surfaces": 2,
+   "textured": "1/1"
+  },
+  {
+   "name": "t5_weapon_cz75_dw_rh_world",
+   "zone": "common_zombie",
+   "kind": "world model",
+   "bones": 4,
+   "surfaces": 2,
+   "textured": "1/1"
+  },
+  {
+   "name": "t5_weapon_cz75_world",
+   "zone": "common_zombie",
+   "kind": "world model",
+   "bones": 9,
+   "surfaces": 8,
+   "textured": "3/3"
+  },
+  {
+   "name": "t5_weapon_dragunov_world",
+   "zone": "common_zombie",
+   "kind": "world model",
+   "bones": 12,
+   "surfaces": 17,
+   "textured": "12/12"
+  },
+  {
+   "name": "t5_weapon_ex41_world",
+   "zone": "common_zombie",
+   "kind": "world model",
+   "bones": 3,
+   "surfaces": 1,
+   "textured": "1/1"
+  },
+  {
+   "name": "t5_weapon_fal_world",
+   "zone": "common_zombie",
+   "kind": "world model",
+   "bones": 17,
+   "surfaces": 24,
+   "textured": "15/16"
+  },
+  {
+   "name": "t5_weapon_famas_world",
+   "zone": "common_zombie",
+   "kind": "world model",
+   "bones": 16,
+   "surfaces": 22,
+   "textured": "16/16"
+  },
+  {
+   "name": "t5_weapon_freeze_gun_v2_world",
+   "zone": "zombie_pentagon",
+   "kind": "world model",
+   "bones": 2,
+   "surfaces": 2,
+   "textured": "2/2"
+  },
+  {
+   "name": "t5_weapon_g11_world_mp",
+   "zone": "common_zombie",
+   "kind": "world model",
+   "bones": 7,
+   "surfaces": 11,
+   "textured": "6/6"
+  },
+  {
+   "name": "t5_weapon_galil_world",
+   "zone": "common_zombie",
+   "kind": "world model",
+   "bones": 18,
+   "surfaces": 24,
+   "textured": "16/16"
+  },
+  {
+   "name": "t5_weapon_hk21_world",
+   "zone": "common_zombie",
+   "kind": "world model",
+   "bones": 10,
+   "surfaces": 15,
+   "textured": "11/11"
+  },
+  {
+   "name": "t5_weapon_hs10_dw_lh_world",
+   "zone": "common_zombie",
+   "kind": "world model",
+   "bones": 4,
+   "surfaces": 6,
+   "textured": "2/2"
+  },
+  {
+   "name": "t5_weapon_hs10_dw_rh_world",
+   "zone": "common_zombie",
+   "kind": "world model",
+   "bones": 4,
+   "surfaces": 5,
+   "textured": "2/2"
+  },
+  {
+   "name": "t5_weapon_hs10_world",
+   "zone": "common_zombie",
+   "kind": "world model",
+   "bones": 4,
+   "surfaces": 6,
+   "textured": "2/2"
+  },
+  {
+   "name": "t5_weapon_ithaca_world",
+   "zone": "common_zombie",
+   "kind": "world model",
+   "bones": 6,
+   "surfaces": 7,
+   "textured": "3/3"
+  },
+  {
+   "name": "t5_weapon_l96a1_world",
+   "zone": "common_zombie",
+   "kind": "world model",
+   "bones": 10,
+   "surfaces": 16,
+   "textured": "12/12"
+  },
+  {
+   "name": "t5_weapon_law_world",
+   "zone": "common_zombie",
+   "kind": "world model",
+   "bones": 3,
+   "surfaces": 2,
+   "textured": "1/1"
+  },
+  {
+   "name": "t5_weapon_m14_world",
+   "zone": "common_zombie",
+   "kind": "world model",
+   "bones": 17,
+   "surfaces": 22,
+   "textured": "16/16"
+  },
+  {
+   "name": "t5_weapon_m16a1_world",
+   "zone": "common_zombie",
+   "kind": "world model",
+   "bones": 18,
+   "surfaces": 24,
+   "textured": "15/15"
+  },
+  {
+   "name": "t5_weapon_m16a1_world_clean",
+   "zone": "zombie_pentagon",
+   "kind": "world model",
+   "bones": 3,
+   "surfaces": 1,
+   "textured": "1/1"
+  },
+  {
+   "name": "t5_weapon_mp5_world",
+   "zone": "common_zombie",
+   "kind": "world model",
+   "bones": 10,
+   "surfaces": 17,
+   "textured": "9/9"
+  },
+  {
+   "name": "t5_weapon_mpl_world",
+   "zone": "common_zombie",
+   "kind": "world model",
+   "bones": 12,
+   "surfaces": 17,
+   "textured": "10/10"
+  },
+  {
+   "name": "t5_weapon_pm63_dw_lh_world",
+   "zone": "common_zombie",
+   "kind": "world model",
+   "bones": 3,
+   "surfaces": 3,
+   "textured": "1/1"
+  },
+  {
+   "name": "t5_weapon_pm63_dw_rh_world",
+   "zone": "common_zombie",
+   "kind": "world model",
+   "bones": 3,
+   "surfaces": 3,
+   "textured": "1/1"
+  },
+  {
+   "name": "t5_weapon_pm63_world",
+   "zone": "common_zombie",
+   "kind": "world model",
+   "bones": 8,
+   "surfaces": 8,
+   "textured": "1/1"
+  },
+  {
+   "name": "t5_weapon_rpk_world",
+   "zone": "common_zombie",
+   "kind": "world model",
+   "bones": 11,
+   "surfaces": 18,
+   "textured": "12/12"
+  },
+  {
+   "name": "t5_weapon_spas_world",
+   "zone": "common_zombie",
+   "kind": "world model",
+   "bones": 4,
+   "surfaces": 5,
+   "textured": "3/3"
+  },
+  {
+   "name": "t5_weapon_spectre_world",
+   "zone": "common_zombie",
+   "kind": "world model",
+   "bones": 12,
+   "surfaces": 16,
+   "textured": "8/8"
+  },
+  {
+   "name": "t5_weapon_thundergun_world",
+   "zone": "zombie_pentagon",
+   "kind": "world model",
+   "bones": 2,
+   "surfaces": 3,
+   "textured": "3/3"
+  },
+  {
+   "name": "weapon_claymore",
+   "zone": "common_zombie",
+   "kind": "world model",
+   "bones": 2,
+   "surfaces": 1,
+   "textured": "1/1"
+  },
+  {
+   "name": "weapon_claymore_no_legs",
+   "zone": "common_zombie",
+   "kind": "world model",
+   "bones": 2,
+   "surfaces": 1,
+   "textured": "1/1"
+  },
+  {
+   "name": "weapon_ger_mp40_smg",
+   "zone": "zombie_theater",
+   "kind": "world model",
+   "bones": 3,
+   "surfaces": 1,
+   "textured": "1/1"
+  },
+  {
+   "name": "weapon_m67_grenade",
+   "zone": "common_zombie",
+   "kind": "world model",
+   "bones": 1,
+   "surfaces": 1,
+   "textured": "1/1"
+  },
+  {
+   "name": "weapon_mp_mp40_smg",
+   "zone": "common_zombie",
+   "kind": "world model",
+   "bones": 3,
+   "surfaces": 1,
+   "textured": "1/1"
+  },
+  {
+   "name": "weapon_parabolic_knife",
+   "zone": "common_zombie",
+   "kind": "world model",
+   "bones": 1,
+   "surfaces": 1,
+   "textured": "1/1"
+  },
+  {
+   "name": "weapon_usa_ray_gun",
+   "zone": "common_zombie",
+   "kind": "world model",
+   "bones": 3,
+   "surfaces": 1,
+   "textured": "1/1"
+  },
+  {
+   "name": "weapon_zombie_monkey_bomb",
+   "zone": "common_zombie",
+   "kind": "world model",
+   "bones": 16,
+   "surfaces": 13,
+   "textured": "4/4"
+  },
+  {
+   "name": "world_knife_bowie",
+   "zone": "common_zombie",
+   "kind": "world model",
+   "bones": 2,
+   "surfaces": 1,
+   "textured": "1/1"
+  }
+ ]
+}
