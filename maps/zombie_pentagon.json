@@ -12,8 +12,8 @@
   "baked_vertices": 286313,
   "unique_models": 360,
   "materials": 865,
-  "textures": 541,
-  "bytes": 30943868,
+  "textures": 542,
+  "bytes": 30949240,
   "mins": [
    -129624.0,
    -130384.0,
@@ -25,8 +25,9 @@
    75104.0
   ],
   "xmodel_material_unresolved": 0,
-  "textured_materials": 861,
+  "textured_materials": 862,
   "missing_color_maps": 3,
+  "stub_materials_from_common": 1,
   "blend_converted": {
    "mul": 7,
    "add": 12

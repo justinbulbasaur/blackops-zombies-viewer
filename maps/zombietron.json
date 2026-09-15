@@ -13,7 +13,7 @@
   "unique_models": 305,
   "materials": 694,
   "textures": 508,
-  "bytes": 22879520,
+  "bytes": 22878984,
   "mins": [
    -18784.0,
    -17816.0,
@@ -27,6 +27,7 @@
   "xmodel_material_unresolved": 0,
   "textured_materials": 693,
   "missing_color_maps": 1,
+  "stub_materials_from_common": 0,
   "blend_converted": {
    "mul": 21,
    "add": 1

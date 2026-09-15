@@ -14,8 +14,8 @@
     "baked_vertices": 286313,
     "unique_models": 360,
     "materials": 865,
-    "textures": 541,
-    "bytes": 30943868,
+    "textures": 542,
+    "bytes": 30949240,
     "mins": [
      -129624.0,
      -130384.0,
@@ -27,8 +27,9 @@
      75104.0
     ],
     "xmodel_material_unresolved": 0,
-    "textured_materials": 861,
+    "textured_materials": 862,
     "missing_color_maps": 3,
+    "stub_materials_from_common": 1,
     "blend_converted": {
      "mul": 7,
      "add": 12
@@ -53,8 +54,8 @@
     "baked_vertices": 461423,
     "unique_models": 236,
     "materials": 1086,
-    "textures": 404,
-    "bytes": 35586984,
+    "textures": 408,
+    "bytes": 35589724,
     "mins": [
      -8192.0,
      -11232.0,
@@ -66,8 +67,9 @@
      5344.0
     ],
     "xmodel_material_unresolved": 0,
-    "textured_materials": 1078,
-    "missing_color_maps": 1,
+    "textured_materials": 1083,
+    "missing_color_maps": 2,
+    "stub_materials_from_common": 6,
     "blend_converted": {
      "mul": 13,
      "add": 14
@@ -93,7 +95,7 @@
     "unique_models": 305,
     "materials": 694,
     "textures": 508,
-    "bytes": 22879520,
+    "bytes": 22878984,
     "mins": [
      -18784.0,
      -17816.0,
@@ -107,6 +109,7 @@
     "xmodel_material_unresolved": 0,
     "textured_materials": 693,
     "missing_color_maps": 1,
+    "stub_materials_from_common": 0,
     "blend_converted": {
      "mul": 21,
      "add": 1
