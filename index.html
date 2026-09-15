@@ -42,7 +42,8 @@ for (const m of manifest.maps) { const o = document.createElement('option'); o.v
 
 document.getElementById('links').innerHTML = manifest.maps.map(m =>
   `<div><b>${m.name}</b>: <a href="data/${m.name}_world.json">lights/world</a> · <a href="data/${m.name}_mapents.txt">entities</a> · <a href="data/weapons_${m.name}.json">weapons</a> · <a href="data/${m.name}_textures.json">textures</a> · <a href="videos/${m.name}_load.mp4">load video</a></div>`).join('') +
-  '<div><a href="videos/zombie_load.mp4">zombies intro</a> · <a href="videos/zombietron_outro.mp4">Dead Ops outro</a></div>';
+  '<div><a href="videos/zombie_load.mp4">zombies intro</a> · <a href="videos/zombietron_outro.mp4">Dead Ops outro</a></div>' +
+  '<div><b>models</b>: <a href="model.html?glb=models/t5_weapon_thundergun_world.glb">Thundergun</a> · <a href="model.html?glb=models/weapon_usa_ray_gun.glb">Ray Gun</a> · <a href="screenshots/">screenshots</a></div>';
 document.getElementById('links').style.cssText = 'margin-top:8px;color:#888;font-size:12px';
 document.querySelectorAll('#links a').forEach(a => a.style.color = '#9ad');
 

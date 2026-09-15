@@ -11,8 +11,8 @@
   "surface_nodraw": 858,
   "unique_models": 236,
   "materials": 1089,
-  "textures": 395,
-  "bytes": 29665308,
+  "textures": 404,
+  "bytes": 29667148,
   "mins": [
    -8192.0,
    -11232.0,
@@ -24,8 +24,8 @@
    5344.0
   ],
   "xmodel_material_unresolved": 0,
-  "textured_materials": 1076,
-  "missing_color_maps": 7,
+  "textured_materials": 1078,
+  "missing_color_maps": 4,
   "blend_converted": {
    "mul": 13,
    "add": 14

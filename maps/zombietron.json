@@ -10,8 +10,8 @@
   "smodel_nomesh": 0,
   "unique_models": 305,
   "materials": 696,
-  "textures": 503,
-  "bytes": 20752236,
+  "textures": 508,
+  "bytes": 20753768,
   "mins": [
    -18784.0,
    -17816.0,
@@ -23,8 +23,8 @@
    7152.0
   ],
   "xmodel_material_unresolved": 0,
-  "textured_materials": 691,
-  "missing_color_maps": 5,
+  "textured_materials": 693,
+  "missing_color_maps": 2,
   "blend_converted": {
    "mul": 21,
    "add": 1

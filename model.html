@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Black Ops Zombies — model viewer</title>
+<style>
+  html, body { margin: 0; height: 100%; background: #1a1d22; color: #ddd; font: 13px/1.4 system-ui, sans-serif; }
+  #ui { position: fixed; top: 10px; left: 10px; background: rgba(0,0,0,.65); padding: 8px 12px; border-radius: 6px; }
+  canvas { display: block; }
+</style>
+<script type="importmap">
+{ "imports": { "three": "https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js", "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.170.0/examples/jsm/" } }
+</script>
+</head>
+<body>
+<div id="ui"><span id="status">loading…</span> · drag to orbit · wheel to zoom</div>
+<script type="module">
+import * as THREE from 'three';
+import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
+import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+import { MeshoptDecoder } from 'three/addons/libs/meshopt_decoder.module.js';
+const qs = new URLSearchParams(location.search);
+const status = document.getElementById('status');
+if (qs.get('ui') === '0') document.getElementById('ui').style.display = 'none';
+const renderer = new THREE.WebGLRenderer({ antialias: true, preserveDrawingBuffer: true });
+renderer.setPixelRatio(Math.min(devicePixelRatio, 2)); renderer.setSize(innerWidth, innerHeight);
+renderer.outputColorSpace = THREE.SRGBColorSpace; document.body.appendChild(renderer.domElement);
+const scene = new THREE.Scene(); scene.background = new THREE.Color(qs.get('bg') ? '#' + qs.get('bg') : 0x1a1d22);
+scene.add(new THREE.HemisphereLight(0xffffff, 0x445566, 1.3));
+const key = new THREE.DirectionalLight(0xffffff, 1.6); key.position.set(3, 5, 4); scene.add(key);
+const fill = new THREE.DirectionalLight(0xffffff, 0.6); fill.position.set(-4, 2, -3); scene.add(fill);
+const camera = new THREE.PerspectiveCamera(40, innerWidth / innerHeight, 0.01, 100);
+const controls = new OrbitControls(camera, renderer.domElement); controls.enableDamping = true;
+addEventListener('resize', () => { camera.aspect = innerWidth / innerHeight; camera.updateProjectionMatrix(); renderer.setSize(innerWidth, innerHeight); });
+window.__ready = false; let obj = null, radius = 1, center = new THREE.Vector3();
+window.__setView = (yawDeg, pitchDeg, dist) => {   // orbit camera around the model's centre
+  const y = yawDeg * Math.PI / 180, p = pitchDeg * Math.PI / 180, d = (dist || 2.6) * radius;
+  camera.position.set(center.x + d * Math.cos(p) * Math.sin(y), center.y + d * Math.sin(p), center.z + d * Math.cos(p) * Math.cos(y));
+  controls.target.copy(center); controls.update();
+};
+const loader = new GLTFLoader(); loader.setMeshoptDecoder(MeshoptDecoder);
+const url = qs.get('glb') || 'models/t5_weapon_thundergun_world.glb';
+loader.load(url, gltf => {
+  obj = gltf.scene; scene.add(obj);
+  obj.traverse(o => { if (o.isMesh) o.material.side = THREE.DoubleSide; });
+  const box = new THREE.Box3().setFromObject(obj); box.getCenter(center); radius = box.getSize(new THREE.Vector3()).length() / 2 || 1;
+  window.__setView(+(qs.get('yaw') || 35), +(qs.get('pitch') || 20), +(qs.get('dist') || 2.6));
+  let tris = 0; obj.traverse(o => { if (o.isMesh) tris += (o.geometry.index ? o.geometry.index.count : o.geometry.attributes.position.count) / 3; });
+  status.textContent = `${url.split('/').pop()} — ${Math.round(tris).toLocaleString()} triangles, ${(radius * 2).toFixed(2)} m across`;
+  window.__ready = true;
+}, undefined, e => { status.textContent = 'failed: ' + e.message; });
+(function step() { controls.update(); renderer.render(scene, camera); requestAnimationFrame(step); })();
+</script>
+</body>
+</html>
