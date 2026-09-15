@@ -54,7 +54,9 @@ renderer.outputColorSpace = THREE.SRGBColorSpace;
 document.body.appendChild(renderer.domElement);
 const scene = new THREE.Scene();
 scene.background = new THREE.Color(0x1a1d22);
-scene.add(new THREE.HemisphereLight(0xffffff, 0x444466, 1.2));
+const hemi = new THREE.HemisphereLight(0xffffff, 0x444466, 1.2); scene.add(hemi);
+const LM_INTENSITY = +(new URLSearchParams(location.search).get('lm') || 1.6);
+const PROP_GAIN = +(new URLSearchParams(location.search).get('pg') || 1.0);
 const sun = new THREE.DirectionalLight(0xffffff, 1.0); sun.position.set(50, 100, 30); scene.add(sun);
 const camera = new THREE.PerspectiveCamera(70, innerWidth / innerHeight, 0.05, 2000);
 camera.position.set(0, 2, 5);
@@ -110,12 +112,34 @@ document.getElementById('load').onclick = async () => {
     const joined = new Uint8Array(got); let off = 0; for (const c of chunks) { joined.set(c, off); off += c.length; }
     const gltf = await new Promise((ok, err) => loader.parse(joined.buffer, 'maps/', ok, err));
     current = gltf.scene; scene.add(current);
-    let tris = 0; current.traverse(o => { if (o.isMesh) { tris += (o.geometry.index ? o.geometry.index.count : o.geometry.attributes.position.count) / 3; o.material.side = THREE.DoubleSide; } });
+    let tris = 0, lit = 0;
+    current.traverse(o => {
+      if (!o.isMesh) return;
+      tris += (o.geometry.index ? o.geometry.index.count : o.geometry.attributes.position.count) / 3;
+      const m = o.material; m.side = THREE.DoubleSide;
+      if (m.aoMap && o.name.startsWith('world')) {           // baked lightmap carried in the occlusion slot (uv1)
+        m.lightMap = m.aoMap; m.lightMap.colorSpace = THREE.SRGBColorSpace; m.lightMapIntensity = LM_INTENSITY; m.aoMap = null; lit++;
+      }
+      if (o.geometry.attributes.color && o.name.startsWith('world')) {   // baked per-vertex lighting: draw unlit
+        const b = new THREE.MeshBasicMaterial({ map: m.map, color: m.color, vertexColors: true, side: THREE.DoubleSide, transparent: m.transparent, opacity: m.opacity, alphaTest: m.alphaTest, depthWrite: m.depthWrite, name: m.name });
+        if (m.transparent) { b.polygonOffset = true; b.polygonOffsetFactor = -2; b.polygonOffsetUnits = -2; }
+        o.material = b; lit++; return;
+      }
+      if (m.transparent) { m.polygonOffset = true; m.polygonOffsetFactor = -2; m.polygonOffsetUnits = -2; m.depthWrite = false; }
+      if (/skybox|sky_/i.test(m.name) || /skybox/i.test(o.name)) { const b = new THREE.MeshBasicMaterial({ map: m.map, side: THREE.DoubleSide, fog: false }); o.material = b; return; }
+      const light = (o.userData && o.userData.light) || (o.parent && o.parent.userData && o.parent.userData.light);
+      if (light && o.name.startsWith('smodel')) {                   // baked ambient tint at the prop's position -> unlit
+        const b = new THREE.MeshBasicMaterial({ map: m.map, side: THREE.DoubleSide, transparent: m.transparent, opacity: m.opacity, alphaTest: m.alphaTest, depthWrite: m.depthWrite, name: m.name });
+        b.color.copy(m.color).multiply(new THREE.Color(light[0], light[1], light[2])).multiplyScalar(PROP_GAIN); o.material = b; return;
+      }
+      m.needsUpdate = true;
+    });
+    hemi.intensity = lit ? 0.7 : 1.2; sun.intensity = lit ? 0.5 : 1.0;   // props are still dynamically lit
     const box = new THREE.Box3().setFromObject(current); const c = box.getCenter(new THREE.Vector3());
     camera.position.copy(c).add(new THREE.Vector3(0, 3, 0)); yaw = 0; pitch = 0;
     if (qs.get('pos')) { const [x, y, z] = qs.get('pos').split(',').map(Number); window.__setCam(x, y, z, +(qs.get('yaw') || 0), +(qs.get('pitch') || 0), +(qs.get('fov') || 0)); }
     window.__ready = true;
-    status.textContent = `loaded: ${Math.round(tris).toLocaleString()} triangles\nbounds ${box.min.toArray().map(v => v.toFixed(0))} … ${box.max.toArray().map(v => v.toFixed(0))} m`;
+    status.textContent = `loaded: ${Math.round(tris).toLocaleString()} triangles, ${lit} lightmapped meshes\nbounds ${box.min.toArray().map(v => v.toFixed(0))} … ${box.max.toArray().map(v => v.toFixed(0))} m`;
     applyToggles();
   } catch (e) { status.textContent = 'failed: ' + e.message; console.error(e); }
 };
