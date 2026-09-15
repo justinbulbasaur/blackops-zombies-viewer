@@ -14,7 +14,7 @@
     "unique_models": 360,
     "materials": 867,
     "textures": 541,
-    "bytes": 27178584,
+    "bytes": 27174304,
     "mins": [
      -129624.0,
      -130384.0,
@@ -52,7 +52,7 @@
     "unique_models": 236,
     "materials": 1089,
     "textures": 404,
-    "bytes": 29667148,
+    "bytes": 29665148,
     "mins": [
      -8192.0,
      -11232.0,
@@ -85,7 +85,7 @@
     "unique_models": 305,
     "materials": 696,
     "textures": 508,
-    "bytes": 20753768,
+    "bytes": 20750788,
     "mins": [
      -18784.0,
      -17816.0,
